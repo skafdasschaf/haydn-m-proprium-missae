@@ -1,0 +1,412 @@
+\documentclass[parskip=full]{scrreprt}
+
+\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
+\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
+
+\RedeclareSectionCommand[afterskip=1pt plus 1pt]{section}
+\setkomafont{section}{\rmfamily\mdseries\Large}
+
+
+\setkomafont{pageheadfoot}{\normalsize}
+\setkomafont{minisec}{\rmfamily\normalsize\sbseries}
+\def\thesection{\arabic{section}}
+
+\def\pnumbox#1{#1\hspace*{8cm}}
+\def\gobble#1{}
+
+
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=5pt,
+  entryformat=\rmfamily,
+  entrynumberformat=\textcolor{oldred},
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox,
+  pagenumberformat=\rmfamily
+]{tocline}{chapter}
+
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=-\parskip,
+%  entrynumberformat=\textcolor{oldred},
+  entryformat=\ltseries,
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox,
+  pagenumberformat=\ltseries
+]{tocline}{section}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+
+\usepackage{fontspec}
+
+\setmainfont{Source Sans Pro}[
+  ItalicFont = Source Sans Pro Italic,
+  BoldFont = Source Sans Pro Bold,
+  BoldItalicFont = Source Sans Pro Bold Italic,
+  FontFace = {lt}{n}{Source Sans Pro Light},
+  FontFace = {lt}{it}{Source Sans Pro Light Italic},
+  FontFace = {sb}{n}{Source Sans Pro Semibold},
+  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
+  Numbers = Proportional,
+  Ligatures = Common
+]
+\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textlt}{\ltseries}
+\DeclareTextFontCommand{\textsb}{\sbseries}
+
+\newfontfamily\headingfont{Fredericka the Great}
+\newfontfamily\scorefont{TeX Gyre Schola}
+
+\usepackage[pass]{geometry}
+\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
+
+\usepackage{url}
+\urlstyle{same}
+
+\usepackage{microtype}
+\microtypesetup{verbose=silent}
+
+\usepackage{booktabs,array,longtable}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+\usepackage{graphicx}
+
+\usepackage{xcolor}
+\definecolor{oldred}{rgb}{.8313,0,0}
+
+\usepackage{pdfpages}
+\includepdfset{pages=-,pagecommand={\thispagestyle{scoreheadings}}}
+\newcommand\includescore[2]{%
+  \cleardoublepage%
+  \setcounter{chapter}{#1}%
+  \addtocounter{chapter}{-1}%
+  \includepdf%
+    [addtotoc={1,chapter,0,#2,score:#1}]%
+    {../tmp/#1_full_score.pdf}%
+}
+
+
+
+\usepackage{scrlayer-scrpage}
+\newpairofpagestyles[scrheadings]{scoreheadings}{%
+  \clearpairofpagestyles%
+  \ohead[]{\scorefont\fontsize{10}{10}\selectfont\thepage}%
+}
+
+
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\cfoot[\thepage]{\thepage}
+\pagenumbering{roman}
+
+\usepackage[shortlabels]{enumitem}
+\setlist[description]{%
+  style=nextline,%
+  leftmargin=2em,%
+  first=\ltseries,%
+  font=\normalfont%
+}
+\def\lyrefitem#1{\item[\lyref{#1}]}
+
+
+\makeatletter
+
+\def\@firstofthree#1#2#3{#1}
+\def\@secondofthree#1#2#3{#2}
+\def\@thirdofthree#1#2#3{#3}
+\def\@firstoffour#1#2#3#4{#1}
+\def\@secondoffour#1#2#3#4{#2}
+\def\@thirdoffour#1#2#3#4{#3}
+\def\@fourthoffour#1#2#3#4{#4}
+\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
+
+\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
+\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
+\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
+
+\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
+\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
+\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
+\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
+
+\def\lyref#1{%
+  \begingroup%
+  \makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
+  \lyreftitle{#1}\Dotfill\lyrefpage{#1}%
+  \endgroup%
+}
+\def\lyrefpart#1{%
+  \begingroup%
+  \makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
+  \makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
+  \hfill\sbseries\lyrefpage{#1}%
+  \endgroup%
+}
+\def\lyrefsection#1{%
+  \begingroup%
+  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
+  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
+  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
+  \endgroup%
+}
+\InputIfFileExists{../out/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
+
+
+\newcommand\fancytitlehead{
+  \headingfont%
+  \fontsize{80}{80}\selectfont\textcolor{black!80}{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}\\[15pt]%
+  \fontsize{60}{60}\selectfont\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.%
+}
+
+
+\def\firstname#1{\def\@firstname{#1}}
+\def\lastname#1{\def\@lastname{#1}}
+\def\shortname#1{\def\@shortname{#1}}
+\def\shorttitle#1{\def\@shorttitle{#1}}
+\def\namesuffix#1{\def\@namesuffix{#1}}
+\def\instrumentation#1{\def\@instrumentation{#1}}
+\def\parts#1{\def\@parts{#1}}
+
+\firstname{\relax}
+\lastname{\relax}
+\namesuffix{\relax}
+\instrumentation{\relax}
+\parts{\relax}
+
+
+\def\maketitle{%
+\begin{titlepage}%
+  \Large%
+  {\@titlehead}%
+  \vfill%
+  {\strut\@firstname}\\%
+  {\sbseries\color{oldred}\strut\@lastname}\\%
+  {\strut\@namesuffix}%
+  \vfill%
+  {\sbseries\@title}\\%
+  {\@subtitle}\\[\baselineskip]%
+  {\itshape\@instrumentation}%
+  \vfill%
+  {\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
+\end{titlepage}%
+}
+
+
+\newif\iffinal\finalfalse
+\directlua{
+  last_arg = arg[\string#arg]
+  if (last_arg == "FINAL") then
+    tex.print("\string\\finaltrue")
+  end
+}
+
+\makeatother
+
+
+
+\newcommand\crsection[2]{%
+  \setcounter{section}{#1}%
+  \addtocounter{section}{-1}%
+  \section{#2}%
+}
+
+\newcommand\crdata[3]{
+  \begin{tabular}{@{} >\ltseries l l}
+    Genre & #1 \\
+    Liturgical festival & #2 \\
+    Scoring & #3 \\
+  \end{tabular}
+}
+
+\newenvironment{crsources}%
+  {\minisec{Sources}\begin{enumerate}[(1)]}%
+  {\end{enumerate}}
+
+\newcommand\critem[4]{\item #1~·~#2\quad(#3)\\\textlt{\url{#4}}}
+
+\newenvironment{crremarks}{%
+  \minisec{Remarks}
+  \begin{longtable}{ll L{10cm}}
+  \toprule
+  \itshape Bar & \itshape Staff & \itshape Note \\
+  \midrule \endhead
+}{%
+   \bottomrule
+  \end{longtable}
+}
+
+
+
+
+\begin{document}
+\frenchspacing
+
+\titlehead{\fancytitlehead}
+\firstname{Johann Michael}
+\lastname{Haydn}
+\title{Proprium Missae}
+\subtitle{A comprehensive collection of short liturgical works}
+\iffinal\parts{Final}\else\parts{Draft}\fi
+\maketitle
+
+
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2021
+
+© 2021 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}.
+
+Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
+Front matter typeset with Source Sans Pro and Fredericka the Great.
+
+\textit{Work in progress, March 2021}
+
+\vspace*{2cm}
+
+\chapter*{Preface}
+
+The \textit{Proprium Missae} collects all known short liturgical works by Johann Michael Haydn, in particular those that are freely available in contemporary manuscripts.
+
+This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/haydn-m-proprium-missae}. Your help will be greatly appreciated.
+
+\bigskip
+\textit{Koppl, March 2021\\
+Wolfgang Esser-Skala}
+
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+
+
+
+\addchap{Critical report}
+
+In general, this edition closely follows the manuscripts. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.
+
+\minisec{Abbreviations}
+
+\begin{tabular}{@{} l l}
+  A    & alto \\
+  B    & bass \\
+  b    & basses \\
+  clno & clarion \\
+  cor  & horn \\
+  Ms   & manuscript \\
+  ob   & oboe \\
+  org  & organ \\
+  r    & rest \\
+  S    & soprano \\
+  T    & tenor \\
+  timp & timpani \\
+  vl   & violin \\
+  vla  & viola \\
+  vlc  & violoncello \\
+  vlne & violone \\
+\end{tabular}
+
+
+
+\crsection{215}{Lauda Sion}
+
+\crdata%
+  {Sequence}%
+  {Corpus Christi}%
+  {SATB (coro), 2 ob, 2 cor (G), 2 clno (C), timp (C–G), 2 vl, b, org}
+
+\begin{crsources}
+  \critem%
+    {A-Ed}%
+    {B 176}%
+    {600038129}%
+    {http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/976.html}
+\end{crsources}
+
+
+\begin{crremarks}
+  3   & vl 1  & grace note missing in Ms \\
+  5   & vl 1  & grace note missing in Ms \\
+  5   & T     & 3rd quarter in Ms: fis4 \\
+  10  & S     & 8th sixteenth in Ms: a′16 \\
+  12  & S     & grace note missing in Ms \\
+  30  & S     & 8th sixteenth in Ms: fis′16 \\
+  41  & T     & 6th eighth in Ms: g8 \\
+  42  & cor 2 & grace note missing in Ms \\
+  45  & S     & grace note missing in Ms \\
+  51  & S     & 1st half of bar in Ms: b′4–cis″4 \\
+  60  & S     & 8th sixteenth in Ms: e′16 \\
+  62  & B     & last eighth in Ms: B8 \\
+  64  & T     & last eighth in Ms: c′8 \\
+  70  & S     & 8th sixteenth in Ms: fis′16 \\
+  72  & S     & grace note missing in Ms \\
+  85  & B     & 3rd quarter in Ms: e4 \\
+  88  & T     & grace note missing in Ms \\
+  90  & vl 2  & 3rd quarter in Ms: g′8–r16–g′16 \\
+  92  & S     & 8th sixteenth in Ms: a′16 \\
+  \midrule
+  96  & T     & 1st quarter in Ms: b4 \\
+  98  & T     & 1st note in Ms: b4. \\
+  105 & T     & 5th eighth in Ms: c′8 \\
+  108 & S     & grace note missing in Ms \\
+  108 & cor 2 & 1st half of bar in Ms: g′4–r8 \\
+  109 & T     & 2nd eighth in Ms: d′8 \\
+  109 & B     & 2nd eighth in Ms: g8 \\
+  110 & vl 1  & 8th sixteenth in Ms: fis″16 \\
+  111 & A     & 2nd quarter in Ms: e′4 \\
+  114 & cor 2 & bar in Ms: c′2. \\
+  114 & A     & 1st quarter in Ms: f′4 \\
+  128 & S     & grace note missing in Ms \\
+  131 & B     & 5th eighth in Ms: g8 \\
+  140 & S     & 3rd quarter in Ms: e″4 \\
+  \midrule
+  157 & T     & 3rd quarter in Ms: fis8–fis8 \\
+  161 & A     & 7th eighth in Ms: g′8 \\
+  162 & S     & grace note missing in Ms \\
+  163 & T     & 4th eighth in Ms: b8 \\
+  168 & A     & grace note missing in Ms \\
+  172 & S     & 6th eighth in Ms: d″8 \\
+  175 & T     & 3rd quarter in Ms: e′8 \\
+  178 & org   & 5th eighth in Ms: g8 \\
+  179 & T     & 2nd/3rd quarter in Ms: d′8–b8–g4 \\
+  180 & T     & 4th quarter in Ms: g4 \\
+\end{crremarks}
+
+
+
+\crsection{654}{Sub tuum praesidium}
+
+\crdata%
+  {Gradual}%
+  {Mariae (B.V.)}%
+  {SATB (coro), 2 clno (C), timp (C–G), 2 vl, b, org}
+
+\begin{crsources}
+  \critem%
+    {D-Mbs}%
+    {Mus.ms. 423}%
+    {456009443}%
+    {http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00074861-7}
+  \critem%
+    {A-Ed}%
+    {L 17}%
+    {600038630}%
+    {http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/542.html}
+\end{crsources}
+
+\cleardoublepage
+
+\iffinal
+\pagestyle{scoreheadings}
+\pagenumbering{arabic}
+\newgeometry{twoside,top=15mm,bottom=5mm,outer=2cm,inner=1cm,headsep=0mm,headheight=10mm}
+
+\includescore{215}{Lauda Sion}
+\includescore{654}{Sub tuum praesidium}
+\fi
+
+\end{document}
