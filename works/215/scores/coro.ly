@@ -6,6 +6,8 @@
 \paper {
 	indent = 2\cm
 	top-margin = 1\cm
+	outer-margin = 1.5\cm
+	inner-margin = 1.5\cm
 	system-separator-markup = ##f
 	system-system-spacing =
     #'((basic-distance . 17)

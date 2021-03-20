@@ -1,0 +1,28 @@
+title: Sub tuum praesidium
+id: MH 654
+genre: Gradual
+festival: Mariae (B.V.)
+scoring: SATB (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 423
+    type: autograph manuscript
+    date: 1797-02-24
+    rism: 456009443
+    url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00074861-7
+  2:
+    siglum: A-Ed
+    shelfmark: L 17
+    type: manuscript copy
+    date: unknown
+    rism: 600038630
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/542.html
+critical_notes:
+parts:
+  ottoni: Clarino I, II in C\nTimpani in C–G
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
