@@ -119,6 +119,9 @@
 \usepackage[shortlabels]{enumitem}
 
 
+\usepackage{bibleref}
+
+
 \makeatletter
 
 \newcommand\fancytitlehead{%
@@ -200,11 +203,12 @@
        & Type      & #4 \\
        & Date      & #5 \\
        & RISM ID   & #6 \\
-       & URL       & #7 \\[1.5ex]
+       & URL       & \url{#7} \\[1.5ex]
 }
 
 \newenvironment{crremarks}{%
   \minisec{Remarks}
+  \ltseries%
   \begin{longtable}[l]{l l L{10cm}}
   \toprule
   \itshape Bar & \itshape Staff & \itshape Note \\
@@ -212,6 +216,14 @@
 }{%
   \bottomrule
   \end{longtable}%
+}
+
+\newenvironment{crlyrics}{%
+  \minisec{Lyrics}
+  \begin{addmargin}{1cm}%
+  \ltseries
+}{%
+  \end{addmargin}%
 }
 
 

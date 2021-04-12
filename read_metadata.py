@@ -38,6 +38,8 @@ details_template = """
 \\end{{crsources}}
 
 {critical_notes}
+
+{lyrics}
 """
 
 source_item_template = """
@@ -55,6 +57,12 @@ notes_template = """
 \\begin{{crremarks}}
   {critical_notes}
 \\end{{crremarks}}
+"""
+
+lyrics_template = """
+\\begin{{crlyrics}}
+  {lyrics}
+\\end{{crlyrics}}
 """
 
 full_score_template = """
@@ -141,11 +149,18 @@ for work in included_works:
                 pass
             source_items.append(source_item_template.format(id=id, **info))
 
-        if metadata["critical_notes"] is None:
+        if "critical_notes" not in metadata:
             metadata["critical_notes"] = ""
         else:
             metadata["critical_notes"] = notes_template.format(
                 critical_notes=metadata["critical_notes"]
+            )
+
+        if "lyrics" not in metadata:
+            metadata["lyrics"] = ""
+        else:
+            metadata["lyrics"] = lyrics_template.format(
+                lyrics=metadata["lyrics"]
             )
         macros_critnotes.append(
             details_template.format(
