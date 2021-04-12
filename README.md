@@ -88,14 +88,24 @@ parts:
   coro: Coro
   org: Organo
   b: Bassi
+lyrics:
+  Sub tuum praesidium confugimus, Sancta Dei Genetrix.\\
+  Nostras deprecationes ne despicias in necessitatibus nostris,\\
+  sed a periculis cunctis libera nos semper,\\
+  Virgo gloriosa et benedicta.\\
+  Domina nostra, mediatrix nostra, advocata nostra,\\
+  tuo filio nos reconcilia,\\
+  tuo filio nos commenda,\\
+  tuo filio nos repraesenta.
 ```
 
 * `sources` may comprise an arbitrary number of fields (here, `1` an d `2`).
-* `critical_notes` may be empty, but typically contains a literal block scalar, e.g.,
+* `critical_notes` may be missing, but typically contains a literal block scalar, e.g.,
   ```
   critical_notes: |
     3   & vl 1  & grace note missing in Ms \\
     5   & vl 1  & grace note missing in Ms \\
     5   & T     & 3rd quarter in Ms: fis4 \\
   ```
-* `parts` must contain a field for each part that should be included in the final collection of parts (`final/[id]_parts.pdf`). They key corresponds to the name of the respective LilyPond file in `works/[id]/scores/`. The value is currently unused.
+* `parts` must contain a field for each part that should be included in the final collection of parts (`final/[id]_parts.pdf`). The key corresponds to the name of the respective LilyPond file in `works/[id]/scores/`. The value is currently unused.
+* `lyrics` may be missing. Otherwise, it is recommended to add manual line breaks via `\\`. Consider adding a reference to a bible verse (e.g., `\bibleverse{ICor}(11:27)`).
