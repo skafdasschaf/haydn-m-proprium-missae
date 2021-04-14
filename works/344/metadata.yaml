@@ -1,0 +1,29 @@
+title: Hic est discipulus ille
+id: MH 344
+genre: Gradual
+festival: Joannis Apostoli et Evangelistae
+scoring: SATB (coro), 2 clno (B), 2 vl, b, org
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: B 209
+    type: manuscript copy
+    date: unknown
+    rism: 600038159
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/208.html
+critical_notes: |
+  50 & T      & 2nd half of bar in (1): f8–a8.–bes16–c′16–bes16 \\
+  50 & B      & 2nd half of bar in (1): d8–c8.–Bes′16–A16–Bes16 \\
+  59 & clno 1 & 4th eighth in (1): d″8 \\
+parts:
+  ottoni: Clarino I, II in B
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Hic est discipulus ille,\\
+  qui testimonium perhibet de his;\\
+  et scimus quia verum est testimonium eius.\\
+  (\bibleverse{John}(21:24))

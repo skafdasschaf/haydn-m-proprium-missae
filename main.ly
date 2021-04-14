@@ -25,6 +25,16 @@
 % \include "works/259/scores/b.ly"
 
 
+% 344 Hic est discipulus ille ---------------------------------------
+% \include "works/344/scores/full_score.ly"
+% \include "works/344/scores/ottoni.ly"
+% \include "works/344/scores/vl1.ly"
+% \include "works/344/scores/vl2.ly"
+% \include "works/344/scores/coro.ly"
+% \include "works/344/scores/org.ly"
+% \include "works/344/scores/b.ly"
+
+
 % 654 Sub tuum praesidium -------------------------------------------
 % \include "works/654/scores/full_score.ly"
 % \include "works/654/scores/ottoni.ly"
