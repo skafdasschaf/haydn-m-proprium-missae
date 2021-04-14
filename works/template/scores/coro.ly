@@ -10,14 +10,14 @@
   inner-margin = 1.5\cm
   system-separator-markup = ##f
   system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
+    #'((basic-distance . 16)
+       (minimum-distance . 16)
        (padding . -100)
        (stretchability . 0))
 
   top-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 
@@ -28,8 +28,8 @@
        (stretchability . 0))
 
   markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 
