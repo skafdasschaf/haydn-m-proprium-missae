@@ -1,0 +1,69 @@
+title: Tres sunt qui testimonium dant
+id: MH 183
+genre: Offertorium
+festival: Trinitatis
+scoring: SATB (solo), SATB (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: B 111
+    type: manuscript copy
+    date: unknown
+    rism: 600038071
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/807.html
+  2:
+    siglum: CZ-Pu
+    shelfmark: 59 rm 10
+    type: manuscript copy
+    date: 1775-1799
+    rism: 550503093
+    url: http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_RM_10____0LP5PHB-cs
+  3:
+    siglum: A-SPD
+    shelfmark: SP (H-18)
+    type: manuscript copy
+    date: 1800-1830
+    rism: 455042303
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
+  4:
+    siglum: D-Eu
+    shelfmark: Esl II 65
+    type: manuscript copy
+    date: 1869
+    rism: 450300076
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-65-2
+
+critical_notes: |
+  –  & –    & ob 1 only in (3); ob 2 missing, here reconstructed by the editor \\
+  3  & vl 1 & last eighth in (1): e″8 \\
+  21 & org  & 4th quarter: lower voice missing in (1) \\
+  27 & vl 1 & grace note missing in (1) \\
+  36 & ob 1 & grace note missing in (3) \\
+  40 & ob 1 & 2nd half of bar in (3): a″4–g″4 \\
+  42 & vl 2 & 1st eighth in (1): d′16.–a′32 \\
+  56 & ob 1 & 1st to 3rd quarter in (3): e″2–d″4 \\
+  59 & vl 1 & 2nd half of bar in (1): r8–f″8–r8–e″8 \\
+  70 & ob 1 & last eighth in (3): g″8 \\
+  71 & ob 1 & grace note missing in (3) \\
+  89 & ob 1 & last eighth in (3): g″8 \\
+  89 & vla  & 7th eighth in (1): a′8 \\
+  90 & ob 1 & grace note missing in (3) \\
+  90 & vl 2 & grace note missing in (1) \\
+  94 & B    & 1st quarter in (1): g4 \\
+  96 & ob 1 & 7th eighth in (3): f″8 \\
+  97 & ob 1 & 1st quarter in (3): f″4 \\
+parts:
+  ob1: Oboe I
+  ob2: Oboe II
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vl1: Violino I
+  vl2: Violino II
+  vla: Viola
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Tres sunt, qui testimonium dant in coelo:\\
+  Pater, Verbum et Spiritus Sanctus,\\
+  et hi tres unum sunt.\\
+  (\bibleverse{IJohn}(5:7))
