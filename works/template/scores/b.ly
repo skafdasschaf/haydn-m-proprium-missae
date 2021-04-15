@@ -53,7 +53,7 @@
     }
     \score {
       <<
-        \new Staff { \Organo }
+        \new Staff { \xxxOrgano }
       >>
     }
   }

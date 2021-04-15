@@ -53,8 +53,8 @@
     }
     \score {
       <<
-        \new Staff { \Organo }
-        \new FiguredBass { \BassFigures }
+        \new Staff { \xxxOrgano }
+        \new FiguredBass { \xxxBassFigures }
       >>
     }
   }

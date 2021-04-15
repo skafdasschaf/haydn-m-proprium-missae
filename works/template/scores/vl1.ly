@@ -4,57 +4,57 @@
 \include "../definitions_work.ly"
 
 \paper {
-	indent = 2\cm
-	top-margin = 1.5\cm
-	outer-margin = 1.5\cm
-	inner-margin = 1.5\cm
-	system-separator-markup = ##f
-	system-system-spacing =
+  indent = 2\cm
+  top-margin = 1.5\cm
+  outer-margin = 1.5\cm
+  inner-margin = 1.5\cm
+  system-separator-markup = ##f
+  system-system-spacing =
     #'((basic-distance . 18)
        (minimum-distance . 18)
        (padding . -100)
        (stretchability . 0))
 
-	top-system-spacing =
+  top-system-spacing =
     #'((basic-distance . 12)
        (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 
-	top-markup-spacing =
+  top-markup-spacing =
     #'((basic-distance . 0)
        (minimum-distance . 0)
        (padding . -100)
        (stretchability . 0))
 
-	markup-system-spacing =
+  markup-system-spacing =
     #'((basic-distance . 12)
        (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
 
-	systems-per-page = #9
+  systems-per-page = #9
 }
 
 #(set-global-staff-size 17.82)
 
 \layout {
-	\context {
-		\Staff
-		instrumentName = "Violino I"
-	}
+  \context {
+    \Staff
+    instrumentName = "Violino I"
+  }
 }
 
 \book {
-	\bookpart {
-		\header {
-			number = "1"
-			title = "F I R S T"
-		}
-		\score {
-			<<
-				\new Staff { \xxxViolinoI }
-			>>
-		}
-	}
+  \bookpart {
+    \header {
+      number = "1"
+      title = "F I R S T"
+    }
+    \score {
+      <<
+        \new Staff { \xxxViolinoI }
+      >>
+    }
+  }
 }
