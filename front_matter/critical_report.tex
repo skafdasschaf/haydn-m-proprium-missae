@@ -193,9 +193,14 @@
   \end{tabular}
 }
 
-\newenvironment{crsources}%
-  {\minisec{Sources}\begin{tabular}[t]{@{} p{1cm} @{} >{\ltseries\itshape} p{2cm} @{} >\ltseries l}}%
-  {\end{tabular}}
+\newenvironment{crsources}{%
+  \minisec{Sources}%
+  \begin{tabular}%
+    [t]%
+    {@{} p{1cm} @{} >{\ltseries\itshape} p{2cm} @{} >\ltseries p{12cm}}%
+}{%
+  \end{tabular}%
+}
 
 \newcommand\critem[7]{%
   (#1) & Library   & \textmd{#2}  \\
@@ -209,7 +214,7 @@
 \newenvironment{crremarks}{%
   \minisec{Remarks}
   \ltseries%
-  \begin{longtable}[l]{l l L{10cm}}
+  \begin{longtable}[l]{@{\hspace*{1mm}} p{9mm} @{} p{2cm} @{} L{10cm}}%{l l L{10cm}}
   \toprule
   \itshape Bar & \itshape Staff & \itshape Note \\
   \midrule \endhead
