@@ -1,0 +1,28 @@
+title: Posuisti Domine
+id: MH 248
+genre: Offertorium
+festival: De Martyribus
+scoring: SATB (coro), 2 vl, b, org
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: B 112
+    type: manuscript copy
+    date: unknown
+    rism:  600038072
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/808.html
+critical_notes: |
+  –  & vl 2 & labelled as vla in (1) \\
+  67 & T    & 5th eighth in Ms: d′8 \\
+  70 & vl 2 & 6th eighth in (1): f′16–f′16 \\
+parts:
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Posuisti, Domine, in capite eius\\
+  coronam de lapide pretioso.\\
+  Vitam petiit a te et tribuisti ei alleluja.\\
+  (\bibleverse{Ps}(20/21:4-5))

@@ -13,6 +13,7 @@
 % \include "works/183/scores/org.ly"
 % \include "works/183/scores/b.ly"
 
+
 % 215 Lauda Sion ----------------------------------------------------
 % \include "works/215/scores/full_score.ly"
 % \include "works/215/scores/ob1.ly"
@@ -24,6 +25,15 @@
 % \include "works/215/scores/coro.ly"
 % \include "works/215/scores/org.ly"
 % \include "works/215/scores/b.ly"
+
+
+% 248 Posuisti Domine -----------------------------------------------
+% \include "works/248/scores/full_score.ly"
+% \include "works/248/scores/vl1.ly"
+% \include "works/248/scores/vl2.ly"
+% \include "works/248/scores/coro.ly"
+% \include "works/248/scores/org.ly"
+% \include "works/248/scores/b.ly"
 
 
 % 259 Quicunque manducaverit ----------------------------------------
