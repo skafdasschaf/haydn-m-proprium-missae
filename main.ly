@@ -1,6 +1,15 @@
 \version "2.22.0"
 
 
+% 46 In omnem terram ------------------------------------------------
+% \include "works/46/scores/full_score.ly"
+% \include "works/46/scores/vl1.ly"
+% \include "works/46/scores/vl2.ly"
+% \include "works/46/scores/soli.ly"
+% \include "works/46/scores/org.ly"
+% \include "works/46/scores/b.ly"
+
+
 % 183 Tres sunt qui testimonium dant --------------------------------
 % \include "works/183/scores/full_score.ly"
 % \include "works/183/scores/ob1.ly"

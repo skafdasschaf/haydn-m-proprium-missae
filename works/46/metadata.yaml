@@ -1,0 +1,46 @@
+title: In omnem terram
+id: MH 46
+genre: Offertorium (Antiphon)
+festival: De Apostolis
+scoring: SA (solo), 2 vl, b, org
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: B 113
+    type: manuscript copy
+    date: unknown
+    rism: 600038073
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/809.html
+  2:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4133\#Beibd.3
+    type: manuscript copy
+    date: unknown
+    rism: 455022525
+    url: http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00051611-6
+  3:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-77)
+    type: manuscript copy
+    date: 1790–1810
+    rism: 455040180
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H77/
+critical_notes: |
+  –    & –   & lyrics in (3): “Salve Regina” etc. (ends after bar 73) \\
+  18   & A    & 1st half of bar in (1): c″4–bes′4 \\
+  19   & A    & 1st half of bar in (1): c″4–bes′4 \\
+  42   & S    & 2nd quarter in (1): c″8.–d″32–es″32 \\
+  91ff & org  & In the Alleluja, (1) only shows bass figures
+                in bars 92–94, 124–128, and 171–173.
+                The remaining bass figures were added by the editor. \\
+  102  & vl 1 & bar in (1) and (2): bes′4. \\
+parts:
+  vl1: Violino I
+  vl2: Violino II
+  soli: Soli
+  org: Organo
+  b: Bassi
+lyrics:
+  In omnem terram exivit sonus eorum,\\
+  et in fines orbis terrae verba eorum.\\
+  (\bibleverse{Ps}(19/18:5))
