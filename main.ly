@@ -56,6 +56,19 @@
 % \include "works/259/scores/b.ly"
 
 
+% 324 In adoratione nostra ------------------------------------------
+% \include "works/324/scores/full_score.ly"
+% \include "works/324/scores/ob1.ly"
+% \include "works/324/scores/ob2.ly"
+% \include "works/324/scores/cor12.ly"
+% \include "works/324/scores/vl1.ly"
+% \include "works/324/scores/vl2.ly"
+% \include "works/324/scores/vla.ly"
+% \include "works/324/scores/coro.ly"
+% \include "works/324/scores/org.ly"
+% \include "works/324/scores/b.ly"
+
+
 % 344 Hic est discipulus ille ---------------------------------------
 % \include "works/344/scores/full_score.ly"
 % \include "works/344/scores/ottoni.ly"
