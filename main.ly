@@ -79,6 +79,16 @@
 % \include "works/344/scores/b.ly"
 
 
+% 442 Universi qui te exspectant ------------------------------------
+% \include "works/442/scores/full_score.ly"
+% \include "works/442/scores/cor12.ly"
+% \include "works/442/scores/vl1.ly"
+% \include "works/442/scores/vl2.ly"
+% \include "works/442/scores/coro.ly"
+% \include "works/442/scores/org.ly"
+% \include "works/442/scores/b.ly"
+
+
 % 654 Sub tuum praesidium -------------------------------------------
 % \include "works/654/scores/full_score.ly"
 % \include "works/654/scores/ottoni.ly"
