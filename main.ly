@@ -99,6 +99,16 @@
 % \include "works/443/scores/b.ly"
 
 
+% 444 Qui sedes Domine ----------------------------------------------
+% \include "works/444/scores/full_score.ly"
+% \include "works/444/scores/ottoni.ly"
+% \include "works/444/scores/vl1.ly"
+% \include "works/444/scores/vl2.ly"
+% \include "works/444/scores/coro.ly"
+% \include "works/444/scores/org.ly"
+% \include "works/444/scores/b.ly"
+
+
 % 654 Sub tuum praesidium -------------------------------------------
 % \include "works/654/scores/full_score.ly"
 % \include "works/654/scores/ottoni.ly"
