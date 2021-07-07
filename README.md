@@ -16,7 +16,7 @@ Engraving files for LilyPond 2.22.0
 ## Get started
 
 * Run `python make.py final/full_score` to generate the publication-ready full score (`final/full_score.pdf`).
-* Run `python make.py final/[id]` to generate the publication-ready collection of parts for a work `[id]` (`final/[id]_parts.pdf`).
+* Run `python make.py final/[id]` to generate the publication-ready full score (`final/[id]_score.pdf`) and collection of parts for a single work `[id]` (`final/[id]_parts.pdf`).
 * Alternatively, the file `main.ly` allows you to work with a text editor (e.g., Atom): Change the included scores file in this script to generate files `main.pdf` (and possibly `main.midi`).
 
 

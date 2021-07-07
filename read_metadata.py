@@ -83,23 +83,33 @@ with open("config.yaml") as f:
 # Parse arguments ---------------------------------------------------------
 
 parser = argparse.ArgumentParser(add_help=False)
-parser.add_argument("-t", dest="type",
-                    choices=["draft", "full_score", "parts"], default="draft")
-parser.add_argument("-w", dest="work")
+parser.add_argument("-t",
+                    dest="type",
+                    choices=["draft", "full_score", "parts", "single_score"],
+                    default="draft")
+parser.add_argument("-w",
+                    dest="work")
 args = parser.parse_args()
 
 
 
 # Assemble macros ---------------------------------------------------------
 
-## (1) Conditionals
-if args.type == "parts":
+## (1) Overrides
+if args.type == "single_score":
+    macros_overrides = "\\newcommand\\crsection[2]{\\clearpage\\section*{Critical report}}"
+else:
+    macros_overrides = ""
+
+
+## (2) Conditionals
+if args.type == "parts" or args.type == "single_score":
     macros_conditionals = "\\PrintFrontMatterfalse\n"
 else:
     macros_conditionals = "\\PrintFrontMattertrue\n"
 
 
-## (2) Text snippets
+## (3) Text snippets
 if args.type == "draft":
     macros_text = text_template.format(
         title="Proprium Missae",
@@ -116,8 +126,8 @@ elif args.type == "full_score":
     )
 
 
-## (3) Layout
-if args.type == "full_score":
+## (4) Layout
+if args.type == "full_score" or args.type == "single_score":
     macros_layout = layout_template.format(
         pagestyle="fullscoreheadings",
         geometry="twoside,outer=2cm,inner=1cm"
@@ -131,66 +141,90 @@ else:
     macros_layout = "\\def\\setscorelayout{{}}"
 
 
-## (4+5) Critical notes, scores
+## (5) Critical notes and scores
+def get_metadata(work):
+    with open(os.path.join("works", work, "metadata.yaml")) as f:
+        metadata = yaml.load(f, Loader=yaml.SafeLoader)
+    return metadata
+
+def get_critnotes(metadata):
+    source_items = []
+    for id, info in metadata["sources"].items():
+        try:
+            info["date"] = info["date"].strftime("%d %B %Y")
+        except AttributeError:
+            pass
+        source_items.append(source_item_template.format(id=id, **info))
+
+    if "critical_notes" not in metadata:
+        metadata["critical_notes"] = ""
+    else:
+        metadata["critical_notes"] = notes_template.format(
+            critical_notes=metadata["critical_notes"]
+        )
+
+    if "lyrics" not in metadata:
+        metadata["lyrics"] = ""
+    else:
+        metadata["lyrics"] = lyrics_template.format(
+            lyrics=metadata["lyrics"]
+        )
+
+    return details_template.format(
+        source_items="\n".join(source_items),
+        **metadata
+    )
+
+
 macros_critnotes = ["\\def\\printcriticalnotes{%\n"]
 macros_scores = ["\\def\\printscores{%\n"]
 
-for work in included_works:
-    with open(os.path.join("works", work, "metadata.yaml")) as f:
-        metadata = yaml.load(f, Loader=yaml.SafeLoader)
-
-    # (4) critical notes
-    if args.type != "parts":
-        source_items = []
-        for id, info in metadata["sources"].items():
-            try:
-                info["date"] = info["date"].strftime("%d %B %Y")
-            except AttributeError:
-                pass
-            source_items.append(source_item_template.format(id=id, **info))
-
-        if "critical_notes" not in metadata:
-            metadata["critical_notes"] = ""
-        else:
-            metadata["critical_notes"] = notes_template.format(
-                critical_notes=metadata["critical_notes"]
-            )
-
-        if "lyrics" not in metadata:
-            metadata["lyrics"] = ""
-        else:
-            metadata["lyrics"] = lyrics_template.format(
-                lyrics=metadata["lyrics"]
-            )
-        macros_critnotes.append(
-            details_template.format(
-                source_items="\n".join(source_items),
-                **metadata
-            )
-        )
-
-    # (5) scores
-    if args.type == "full_score":
+if args.type == "parts":
+    metadata = get_metadata(args.work)
+    for lyfile, label in metadata["parts"].items():
         macros_scores.append(
-            full_score_template.format(
-                work=work,
-                id=metadata["id"],
-                title=metadata["title"],
-                label=metadata["id"].replace(" ", "_")
-            )
+            "\\includepart{{{}}}{{{}}}\n".format(args.work, lyfile)
         )
-    elif args.type == "parts":
-        if args.work == work:
-            for lyfile, label in metadata["parts"].items():
-                macros_scores.append(
-                    "\\includepart{{{}}}{{{}}}\n".format(work, lyfile)
+    macros_text = text_template.format(
+        title=metadata["title"],
+        subtitle=metadata["id"],
+        scoring=metadata["scoring"],
+        parts="Parts"
+    )
+
+elif args.type == "single_score":
+    metadata = get_metadata(args.work)
+    macros_critnotes.append(get_critnotes(metadata))
+    macros_scores.append(
+        full_score_template.format(
+            work=args.work,
+            id=metadata["id"],
+            title=metadata["title"],
+            label=metadata["id"].replace(" ", "_")
+        )
+    )
+    macros_text = text_template.format(
+        title=metadata["title"],
+        subtitle=metadata["id"],
+        scoring=metadata["scoring"],
+        parts="Full score"
+    )
+
+else:
+    for work in included_works:
+        metadata = get_metadata(work)
+        macros_critnotes.append(get_critnotes(metadata))
+
+        if args.type == "full_score":
+            macros_scores.append(
+                full_score_template.format(
+                    work=work,
+                    id=metadata["id"],
+                    title=metadata["title"],
+                    label=metadata["id"].replace(" ", "_")
                 )
-            macros_text = text_template.format(
-                title=metadata["title"],
-                subtitle=metadata["id"],
-                scoring=metadata["scoring"],
-                parts="Parts"
             )
+
 
 macros_critnotes.append("}\n")
 macros_scores.append("}\n")
@@ -200,6 +234,7 @@ macros_scores.append("}\n")
 # Save macros -------------------------------------------------------------
 
 with open("front_matter/critical_report.macros", "w") as f:
+    f.writelines(macros_overrides)
     f.writelines(macros_conditionals)
     f.writelines(macros_text)
     f.writelines(macros_layout)

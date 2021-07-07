@@ -27,24 +27,17 @@ archive:
 """
 
 make_info = """
-info:
-\t@color=`tput setaf 6; tput bold`; \\
-\treset=`tput sgr0`; \\
-\techo "Specify one of the following $${color}targets$${reset}," \\
-       "where [id] is the MH number of a work:\\n" \\
-       "* $${color}[id]/[score]$${reset} etc:" \\
-          "individual scores (e.g. org) (LilyPond output only)\\n" \\
-       "* $${color}[id]/scores$${reset}:" \\
-          "all individual scores (LilyPond output only)\\n" \\
-       "* $${color}final/[id]$${reset}:" \\
-          "collection of all parts for a work\\n" \\
-       "* $${color}final/full_score$${reset}:" \\
-          "collection of all full scores and the critical report\\n" \\
-       "* $${color}archive$${reset}: ZIP file with all sources\\n" \\
-       "* $${color}info$${reset}: prints this message"
-"""
+Specify one of the following {color}targets{reset}, \
+where [id] is the MH number of a work:
+* {color}[id]/[score]{reset}: individual scores (e.g. 46/org) (LilyPond output only)
+* {color}[id]/scores{reset}: all individual scores (LilyPond output only)
+* {color}final/[id]{reset}: collection of all parts for a work
+* {color}final/full_score{reset}: collection of all full scores and the critical report
+* {color}archive{reset}: ZIP file with all sources
+* {color}info{reset}: prints this message
+""".format(color="\033[94m", reset="\033[0m")
 
-rule_one_score = """
+rule_single_score = """
 {work}/{score}: tmp/{work}_{score}.pdf
 tmp/{work}_{score}.pdf: works/{work}/scores/{score}.ly \
                         works/{work}/notes/*.ly \
@@ -59,7 +52,7 @@ rule_all_scores = """
 {work}/scores: {deps}
 """
 
-rule_final_full_score = """
+rule_full_score_final = """
 .PHONY: final/full_score
 final/full_score: final/full_score.pdf
 final/full_score.pdf: front_matter/critical_report.tex \
@@ -77,21 +70,36 @@ final/full_score.pdf: front_matter/critical_report.tex \
           front_matter/critical_report.tex
 """
 
-rule_final_parts = """
+rule_single_work_final = """
 .PHONY: final/{work}
-final/{work}: final/parts_{work}.pdf
-final/parts_{work}.pdf: front_matter/critical_report.tex \
+final/{work}: final/{work}_parts.pdf final/{work}_score.pdf
+
+final/{work}_parts.pdf: front_matter/critical_report.tex \
                         works/{work}/metadata.yaml \
                         {all_parts}
 \tpython read_metadata.py -t parts -w {work}
 \tlatexmk -cd \
           -lualatex \
           -outdir=../final \
-          -jobname=parts_{work} \
+          -jobname={work}_parts \
           front_matter/critical_report.tex
 \tlatexmk -c \
           -outdir=final \
-          -jobname=parts_{work} \
+          -jobname={work}_parts \
+          front_matter/critical_report.tex
+
+final/{work}_score.pdf: front_matter/critical_report.tex \
+                        works/{work}/metadata.yaml \
+                        tmp/{work}_full_score.pdf
+\tpython read_metadata.py -t single_score -w {work}
+\tlatexmk -cd \
+          -lualatex \
+          -outdir=../final \
+          -jobname={work}_score \
+          front_matter/critical_report.tex
+\tlatexmk -c \
+          -outdir=final \
+          -jobname={work}_score \
           front_matter/critical_report.tex
 """
 
@@ -111,7 +119,7 @@ for work in included_works:
 
     # rule for a single score
     for score in scores:
-        makefile.append(rule_one_score.format(work=work, score=score))
+        makefile.append(rule_single_score.format(work=work, score=score))
 
     # rule for all scores
     deps = " ".join(["{}/{}".format(work, s) for s in scores])
@@ -120,7 +128,7 @@ for work in included_works:
     # rule for the final pdf containing all parts
     scores.remove("full_score")
     all_parts = " ".join(["tmp/{}_{}.pdf".format(work, s) for s in scores])
-    makefile.append(rule_final_parts.format(work=work, all_parts=all_parts))
+    makefile.append(rule_single_work_final.format(work=work, all_parts=all_parts))
 
 # rule for the final pdf containing all full scores
 all_full_scores = " ".join(["tmp/{}_full_score.pdf".format(w)
@@ -128,13 +136,13 @@ all_full_scores = " ".join(["tmp/{}_full_score.pdf".format(w)
 all_metadata = " ".join(["works/{}/metadata.yaml".format(w)
                         for w in included_works])
 makefile.append(
-    rule_final_full_score.format(
+    rule_full_score_final.format(
         all_full_scores=all_full_scores,
         all_metadata=all_metadata
     )
 )
 
-makefile += [make_archive, make_info]
+makefile.append(make_archive)
 
 
 
@@ -143,5 +151,8 @@ makefile += [make_archive, make_info]
 parser = argparse.ArgumentParser(add_help=False)
 _, make_args = parser.parse_known_args()
 
-makefile = "\n".join(makefile)
-subprocess.run(["make", "--file=-"] + make_args, input=makefile, text=True)
+if "info" in make_args:
+    print(make_info)
+else:
+    makefile = "\n".join(makefile)
+    subprocess.run(["make", "--file=-"] + make_args, input=makefile, text=True)
