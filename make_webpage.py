@@ -1,3 +1,10 @@
+#!/usr/bin/python
+
+from datetime import datetime
+import os
+import yaml
+
+webpage_template = """\
 ## Johann Michael Haydn: Proprium Missae
 
 ### Preface
@@ -9,19 +16,7 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 
 ### Available works
 
-|MH|Title|Score|Parts|
-|-|-|-|-|
-|46|In omnem terram|[score](../final/46_score.pdf)|[parts](../final/46_parts.pdf)|
-|183|Tres sunt qui testimonium dant|[score](../final/183_score.pdf)|[parts](../final/183_parts.pdf)|
-|215|Lauda Sion|[score](../final/215_score.pdf)|[parts](../final/215_parts.pdf)|
-|248|Posuisti Domine|[score](../final/248_score.pdf)|[parts](../final/248_parts.pdf)|
-|259|Quicunque manducaverit|[score](../final/259_score.pdf)|[parts](../final/259_parts.pdf)|
-|324|In adoratione nostra|[score](../final/324_score.pdf)|[parts](../final/324_parts.pdf)|
-|344|Hic est discipulus ille|[score](../final/344_score.pdf)|[parts](../final/344_parts.pdf)|
-|442|Universi qui te expectant|[score](../final/442_score.pdf)|[parts](../final/442_parts.pdf)|
-|443|Ex Sion species|[score](../final/443_score.pdf)|[parts](../final/443_parts.pdf)|
-|444|Qui sedes Domine|[score](../final/444_score.pdf)|[parts](../final/444_parts.pdf)|
-|654|Sub tuum praesidium|[score](../final/654_score.pdf)|[parts](../final/654_parts.pdf)|
+{work_links}
 
 
 ### Critical notes
@@ -53,4 +48,28 @@ In general, this edition closely follows the manuscripts. Any changes that were 
 
 This website is privately provided and maintained by Wolfgang Esser-Skala, Wolfgangseestraße 31g, 5023 Koppl.
 
-Last updated: 2021-07-07
+Last updated: {last_updated}
+"""
+
+link_template = "|{work}|{title}|[score](../final/{work}_score.pdf)|[parts](../final/{work}_parts.pdf)|"
+
+
+with open("config.yaml") as f:
+    included_works = yaml.load(f, Loader=yaml.BaseLoader)["include_works"]
+
+work_links = ["|MH|Title|Score|Parts|", "|-|-|-|-|"]
+
+for work in included_works:
+    with open(os.path.join("works", work, "metadata.yaml")) as f:
+        metadata = yaml.load(f, Loader=yaml.SafeLoader)
+    work_links.append(link_template.format(work=work, **metadata))
+
+work_links = "\n".join(work_links)
+
+with open("docs/index.md", "w") as f:
+    f.write(
+        webpage_template.format(
+            last_updated=datetime.now().strftime("%Y-%m-%d"),
+            work_links=work_links
+        )
+    )

@@ -58,6 +58,7 @@ final/full_score: final/full_score.pdf
 final/full_score.pdf: front_matter/critical_report.tex \
                       {all_metadata} \
                       {all_full_scores}
+\tpython make_webpage.py
 \tpython read_metadata.py -t full_score
 \tlatexmk -cd \
           -lualatex \
@@ -77,6 +78,7 @@ final/{work}: final/{work}_parts.pdf final/{work}_score.pdf
 final/{work}_parts.pdf: front_matter/critical_report.tex \
                         works/{work}/metadata.yaml \
                         {all_parts}
+\tpython make_webpage.py
 \tpython read_metadata.py -t parts -w {work}
 \tlatexmk -cd \
           -lualatex \

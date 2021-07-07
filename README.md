@@ -28,6 +28,7 @@ The root folder contains the following files:
 * `LICENSE.txt` – the license
 * `main.ly` – allows building scores from a text editor
 * `make.py` – Wrapper around GNU Make. Run `python make.py info` to list available build targets. (Note that this script forwards all options to Make; thus, all options of the latter program are valid.)
+* `make_webpage.py` – Create the GitHub Pages webpage.
 * `README.md` – this file
 * `read_metadata.py` – Python script that processes all metadata files and creates a file `front_matter/critical_report.macros`. If you compile the front matter manually (typically when adding a new work), you should first run this script in order to ensure that the front matter contains the critical remarks.
 
