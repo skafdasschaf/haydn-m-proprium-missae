@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Johann Michael Haydn: Proprium Missae
 
-You can use the [editor on GitHub](https://github.com/skafdasschaf/haydn-m-proprium-missae/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### Preface
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The *Proprium Missae* collects all known short liturgical works by Johann Michael Haydn, in particular those that are freely available in contemporary manuscripts.
 
-### Markdown
+This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to [wolfgang@esser-skala.at] or create an issue or pull request on the edition’s [GitHub page](https://github.com/skafdasschaf/haydn-m-proprium-missae). Your help will be greatly appreciated.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Available works
 
-# Header 1
-## Header 2
-### Header 3
+- In omnem terram (MH 46) [score](../final/46_score.pdf) | [parts](../final/46_score.pdf)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Critical notes
 
-**Bold** and _Italic_ and `Code` text
+In general, this edition closely follows the manuscripts. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks that precede each full score.
 
-[Link](url) and ![Image](src)
-```
+#### Abbreviations
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skafdasschaf/haydn-m-proprium-missae/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| abbreviation | meaning |
+|------|-------------|
+| A    | alto        |
+| B    | bass        |
+| b    | basses      |
+| clno | clarion     |
+| cor  | horn        |
+| Ms   | manuscript  |
+| ob   | oboe        |
+| org  | organ       |
+| r    | rest        |
+| S    | soprano     |
+| T    | tenor       |
+| timp | timpani     |
+| vl   | violin      |
+| vla  | viola       |
+| vlc  | violoncello |
+| vlne | violone     |
