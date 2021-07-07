@@ -51,7 +51,8 @@ This website is privately provided and maintained by Wolfgang Esser-Skala, Wolfg
 Last updated: {last_updated}
 """
 
-link_template = "|{work}|{title}|[score](../final/{work}_score.pdf)|[parts](../final/{work}_parts.pdf)|"
+FINAL_FOLDER = "https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final"
+link_template = "|{work}|{title}|[score]({folder}/{work}_score.pdf)|[parts]({folder}/{work}_parts.pdf)|"
 
 
 with open("config.yaml") as f:
@@ -62,7 +63,9 @@ work_links = ["|MH|Title|Score|Parts|", "|-|-|-|-|"]
 for work in included_works:
     with open(os.path.join("works", work, "metadata.yaml")) as f:
         metadata = yaml.load(f, Loader=yaml.SafeLoader)
-    work_links.append(link_template.format(work=work, **metadata))
+    work_links.append(
+        link_template.format(folder=FINAL_FOLDER, work=work, **metadata)
+    )
 
 work_links = "\n".join(work_links)
 

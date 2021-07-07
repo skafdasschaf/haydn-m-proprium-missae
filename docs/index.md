@@ -11,17 +11,17 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 
 |MH|Title|Score|Parts|
 |-|-|-|-|
-|46|In omnem terram|[score](../final/46_score.pdf)|[parts](../final/46_parts.pdf)|
-|183|Tres sunt qui testimonium dant|[score](../final/183_score.pdf)|[parts](../final/183_parts.pdf)|
-|215|Lauda Sion|[score](../final/215_score.pdf)|[parts](../final/215_parts.pdf)|
-|248|Posuisti Domine|[score](../final/248_score.pdf)|[parts](../final/248_parts.pdf)|
-|259|Quicunque manducaverit|[score](../final/259_score.pdf)|[parts](../final/259_parts.pdf)|
-|324|In adoratione nostra|[score](../final/324_score.pdf)|[parts](../final/324_parts.pdf)|
-|344|Hic est discipulus ille|[score](../final/344_score.pdf)|[parts](../final/344_parts.pdf)|
-|442|Universi qui te expectant|[score](../final/442_score.pdf)|[parts](../final/442_parts.pdf)|
-|443|Ex Sion species|[score](../final/443_score.pdf)|[parts](../final/443_parts.pdf)|
-|444|Qui sedes Domine|[score](../final/444_score.pdf)|[parts](../final/444_parts.pdf)|
-|654|Sub tuum praesidium|[score](../final/654_score.pdf)|[parts](../final/654_parts.pdf)|
+|46|In omnem terram|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/46_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/46_parts.pdf)|
+|183|Tres sunt qui testimonium dant|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/183_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/183_parts.pdf)|
+|215|Lauda Sion|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/215_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/215_parts.pdf)|
+|248|Posuisti Domine|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/248_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/248_parts.pdf)|
+|259|Quicunque manducaverit|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/259_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/259_parts.pdf)|
+|324|In adoratione nostra|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/324_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/324_parts.pdf)|
+|344|Hic est discipulus ille|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/344_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/344_parts.pdf)|
+|442|Universi qui te expectant|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/442_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/442_parts.pdf)|
+|443|Ex Sion species|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/443_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/443_parts.pdf)|
+|444|Qui sedes Domine|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/444_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/444_parts.pdf)|
+|654|Sub tuum praesidium|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/654_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/654_parts.pdf)|
 
 
 ### Critical notes
