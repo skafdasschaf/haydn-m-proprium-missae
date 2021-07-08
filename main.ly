@@ -109,6 +109,16 @@
 % \include "works/444/scores/b.ly"
 
 
+% 444 Prope est Dominus ---------------------------------------------
+% \include "works/445/scores/full_score.ly"
+% \include "works/445/scores/ottoni.ly"
+% \include "works/445/scores/vl1.ly"
+% \include "works/445/scores/vl2.ly"
+% \include "works/445/scores/coro.ly"
+% \include "works/445/scores/org.ly"
+% \include "works/445/scores/b.ly"
+
+
 % 654 Sub tuum praesidium -------------------------------------------
 % \include "works/654/scores/full_score.ly"
 % \include "works/654/scores/ottoni.ly"

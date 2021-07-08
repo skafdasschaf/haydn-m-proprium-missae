@@ -21,6 +21,7 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 |442|Universi qui te expectant|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/442_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/442_parts.pdf)|
 |443|Ex Sion species|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/443_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/443_parts.pdf)|
 |444|Qui sedes Domine|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/444_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/444_parts.pdf)|
+|445|Prope est Dominus|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/445_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/445_parts.pdf)|
 |654|Sub tuum praesidium|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/654_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/654_parts.pdf)|
 
 
@@ -53,4 +54,4 @@ In general, this edition closely follows the manuscripts. Any changes that were 
 
 This website is privately provided and maintained by Wolfgang Esser-Skala, Wolfgangseestraße 31g, 5023 Koppl.
 
-Last updated: 2021-07-07
+Last updated: 2021-07-08
