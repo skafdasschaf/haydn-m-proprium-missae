@@ -119,6 +119,16 @@
 % \include "works/445/scores/b.ly"
 
 
+% 495 Benedictus Dominus Deus Israel --------------------------------
+% \include "works/495/scores/full_score.ly"
+% \include "works/495/scores/cor12.ly"
+% \include "works/495/scores/vl1.ly"
+% \include "works/495/scores/vl2.ly"
+% \include "works/495/scores/coro.ly"
+% \include "works/495/scores/org.ly"
+% \include "works/495/scores/b.ly"
+
+
 % 654 Sub tuum praesidium -------------------------------------------
 % \include "works/654/scores/full_score.ly"
 % \include "works/654/scores/ottoni.ly"
