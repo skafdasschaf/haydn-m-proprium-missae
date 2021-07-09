@@ -1,0 +1,35 @@
+title: Misit dominus verbum suum
+id: MH 496
+genre: Gradual
+festival: Epiphania Domini, Dominica II.
+scoring: SATB (coro), 2 cor (A), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 345
+    type: autograph manuscript
+    date: 1788-12-10
+    rism: 456009364
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00043161-1
+  2:
+    siglum: A-Ed
+    shelfmark: B 120
+    type: manuscript copy
+    date: unknown
+    rism: 600038080
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/137.html
+critical_notes: |
+
+parts:
+  cor12: Corno I, II in A
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Misit Dominus verbum suum, et sanavit eos:\\
+  et eripuit eos de interitu eorum.\\
+  Confiteantur Domino misericordiae eius:\\
+  et mirabilia eius filiis hominum.\\
+  (\bibleverse{Ps}(107/106:20-21))

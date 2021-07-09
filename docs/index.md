@@ -23,6 +23,7 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 |444|Qui sedes Domine|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/444_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/444_parts.pdf)|
 |445|Prope est Dominus|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/445_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/445_parts.pdf)|
 |495|Benedictus Dominus Deus Israel|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/495_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/495_parts.pdf)|
+|496|Misit dominus verbum suum|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/496_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/496_parts.pdf)|
 |654|Sub tuum praesidium|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/654_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/654_parts.pdf)|
 
 
