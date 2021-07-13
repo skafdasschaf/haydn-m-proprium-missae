@@ -38,6 +38,7 @@ In general, this edition closely follows the manuscripts. Any changes that were 
 | S    | soprano     |
 | T    | tenor       |
 | timp | timpani     |
+| tr   | tromba      |
 | vl   | violin      |
 | vla  | viola       |
 | vlc  | violoncello |

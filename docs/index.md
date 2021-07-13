@@ -12,6 +12,7 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 |MH|Title|Score|Parts|
 |-|-|-|-|
 |46|In omnem terram|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/46_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/46_parts.pdf)|
+|145|Te Deum|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/145_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/145_parts.pdf)|
 |183|Tres sunt qui testimonium dant|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/183_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/183_parts.pdf)|
 |215|Lauda Sion|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/215_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/215_parts.pdf)|
 |248|Posuisti Domine|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/248_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/248_parts.pdf)|
@@ -46,6 +47,7 @@ In general, this edition closely follows the manuscripts. Any changes that were 
 | S    | soprano     |
 | T    | tenor       |
 | timp | timpani     |
+| tr   | tromba      |
 | vl   | violin      |
 | vla  | viola       |
 | vlc  | violoncello |
@@ -56,4 +58,4 @@ In general, this edition closely follows the manuscripts. Any changes that were 
 
 This website is privately provided and maintained by Wolfgang Esser-Skala, Wolfgangseestraße 31g, 5023 Koppl.
 
-Last updated: 2021-07-09
+Last updated: 2021-07-13

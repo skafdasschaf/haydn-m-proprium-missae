@@ -1,0 +1,21 @@
+title: Te Deum
+id: MH 145
+genre: Hymnus
+festival: –
+scoring: SATB (solo), SATB (coro), 2 clno (C), 2 tr (C), timp (C–G), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 455
+    type: autograph manuscript
+    date: 1770-10-09
+    rism: 456009474
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084986-1
+critical_notes: |
+parts:
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi

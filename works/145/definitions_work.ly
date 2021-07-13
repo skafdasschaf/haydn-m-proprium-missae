@@ -1,0 +1,23 @@
+\version "2.22.0"
+
+tempoCXLVa = \tempoMarkup "Allegro"
+  tempoCXLVab = \tempoMarkup "Adagio"
+  tempoCXLVac = \tempoMarkup "Larghetto"
+  tempoCXLVad = \tempoMarkup "Allegro"
+tempoCXLVb = \tempoMarkup "Moderato"
+tempoCXLVc = \tempoMarkup "Largo"
+tempoCXLVd = \tempoMarkup "Allegro mà non molto"
+
+
+\include "notes/clno1.ly"
+\include "notes/clno2.ly"
+\include "notes/tr1.ly"
+\include "notes/tr2.ly"
+\include "notes/timp.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
