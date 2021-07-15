@@ -18,6 +18,13 @@ sources:
     date: unknown
     rism: 600038630
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/542.html
+  3:
+    siglum: F-Pn
+    shelfmark: D-5591
+    type: manuscript copy
+    date: 1830–1840
+    rism: 840026225
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
 parts:
   ottoni: Clarino I, II in C\nTimpani in C–G
   vl1: Violino I

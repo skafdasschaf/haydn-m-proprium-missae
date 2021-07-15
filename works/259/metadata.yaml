@@ -18,6 +18,13 @@ sources:
     date: 1826 (A. Diabelli, Vienna)
     rism: 455039990
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H67/
+  3:
+    siglum: F-Pn
+    shelfmark: D-5669 (2)
+    type: manuscript copy
+    date: 1820–1840
+    rism: 840026339
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729500
 critical_notes: |
   –   & –       & cor 1, 2 only in (1); clno 1, 2 and timp only in (2) \\
   9   & vl 1    & 8th note in (1): f′32 \\
