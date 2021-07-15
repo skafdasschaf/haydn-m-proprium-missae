@@ -1,0 +1,35 @@
+title: Sciant gentes
+id: MH 447
+genre: Gradual
+festival: Sexagesima, Dominica in
+scoring: SATB (coro), 2 cor (G), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 349
+    type: autograph manuscript
+    date: 1787-09-14
+    rism: 456009368
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084962-9
+  2:
+    siglum: A-Ed
+    shelfmark: B 123
+    type: manuscript copy
+    date: unknown
+    rism: 600038082
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/139.html
+critical_notes: |
+  – & SATB & All caps spelling of “DEUS” (bars 3, 19, 26, and 27) and “DEus” (bars 6, 30, and 43) according to (1). \\
+parts:
+  cor12: Corno I, II in G
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Sciant gentes, quoniam nomen tibi DEUS:\\
+  tu solus Altissimus super omnem terram.\\
+  DEus meus, pone illos ut rotam\\
+  et sicut stipulam ante faciem venti.\\
+  (\bibleverse{Ps}(83/82:19,14))
