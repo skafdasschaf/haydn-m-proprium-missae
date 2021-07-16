@@ -1,0 +1,30 @@
+title: Adiutor in opportunitatibus
+id: MH 446
+genre: Gradual
+festival: Septuagesima, Dominica in
+scoring: SATB (coro), 2 cor (G), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 348
+    type: autograph manuscript
+    date: 1787-09-09
+    rism: 456009367
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084961-4
+critical_notes: |
+  – & – & According to (1), cor were added in 1796. \\
+parts:
+  cor12: Corno I, II in G
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Adiutor in opportunitatibus, in tribulatione,\\
+  sperent in te, qui noverunt te,\\
+  quoniam non derelinquis quaerentes te, Domine.\\
+  Quoniam non in finem oblivio erit pauperis,\\
+  patientia pauperum non peribit in aeternum:\\
+  Exsurge Domine, non praevaleat homo.\\
+  (\bibleverse{Ps}(9:10,11,19,20))
