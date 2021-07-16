@@ -1,48 +1,39 @@
-title: Quicunque manducaverit
-id: MH 259
-genre: Offertorium
-festival: De Venerabili Sacramento
-scoring: SATB (solo), SATB (coro), 2 cor (G), 2 clno (C), timp (C–G), 2 vl, b, org
+title: XXX
+id: MH xxx
+genre: Gradual
+festival: xxx
+scoring: SATB (coro), 2 cor (F), 2 vl, b, org
 sources:
   1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 335
+    type: autograph manuscript
+    date: 1787-08-26
+    rism: 456009354
+    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084928/images
+  2:
     siglum: A-Ed
-    shelfmark: B 110
+    shelfmark: B 115
     type: manuscript copy
     date: unknown
-    rism: 600038070
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/755.html
-  2:
+    rism: 600038076
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
+  3:
     siglum: D-NATk
-    shelfmark: NA/SP (H-67)
-    type: print
-    date: 1826 (A. Diabelli, Vienna)
-    rism: 455039990
-    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H67/
+    shelfmark: NA/SP (H-18)
+    type: manuscript copy
+    date: 1800-1830
+    rism: 455042303
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
 critical_notes: |
-  –   & –       & cor 1, 2 only in (1); clno 1, 2 and timp only in (2) \\
-  9   & vl 1    & 8th note in (1): f′32 \\
-  11  & vl 1    & 14th/15th sixteenth in (1): d″16–d″16 \\
-  11  & vl 2    & 5th sixteenth in (1): g′16 \\
-  27  & vl 1    & 1st quarter in (1): f′8–g′8 \\
-  44  & vl 1, 2 & grace note missing in (1) \\
-  100 & S       & 2nd quarter in (1): a′8.–a′16 \\
-  101 & timp    & 1st half of bar in (2): r2 \\
-  101 & vl 2    & grace note missing in (1) \\
-  102 & vl 2    & grace note missing in (1) \\
-  106 & A       & 1st half of bar in (1): d′8–e′16–fis′16–fis′4 \\
-  112 & vl 2    & 4th note in (1): d′16. \\
-  119 & –       & fermata only in (2) \\
-  119 & vl 1    & 2nd eighth in (1): g″8 \\
+  
 parts:
-  cor12: Corno I, II in G
-  ottoni: Clarino I, II in C\\Timpani in C–G
+  cor12: Corno I, II in F
   vl1: Violino I
   vl2: Violino II
   coro: Coro
   org: Organo
   b: Bassi
 lyrics:
-  Quicunque manducaverit panem hunc,\\
-  vel biberit calicem Domini indigne,\\
-  reus erit corporis et sanguinis Domini.\\
-  (\bibleverse{ICor}(11:27))
+  
+  (\bibleverse{Ps}(25/24:1-3))
