@@ -26,6 +26,7 @@ This edition has been compiled and checked with utmost diligence. Nevertheless, 
 |446|Adiutor in opportunitatibus|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/446_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/446_parts.pdf)|
 |447|Sciant gentes|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/447_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/447_parts.pdf)|
 |448|Tu es Deus|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/448_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/448_parts.pdf)|
+|451|Angelis suis Deus|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/451_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/451_parts.pdf)|
 |495|Benedictus Dominus Deus Israel|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/495_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/495_parts.pdf)|
 |496|Misit dominus verbum suum|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/496_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/496_parts.pdf)|
 |498|Dominus regnavit, exsultet terra|[score](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/498_score.pdf)|[parts](https://github.com/skafdasschaf/haydn-m-proprium-missae/raw/main/final/498_parts.pdf)|
@@ -62,4 +63,4 @@ In general, this edition closely follows the manuscripts. Any changes that were 
 
 This website is privately provided and maintained by Wolfgang Esser-Skala, Wolfgangseestraße 31g, 5023 Koppl.
 
-Last updated: 2021-08-09
+Last updated: 2021-08-23
