@@ -2,7 +2,7 @@ title: XXX
 id: MH xxx
 genre: Gradual
 festival: xxx
-scoring: SATB (coro), 2 cor (F), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
 sources:
   1:
     siglum: D-Mbs
@@ -26,7 +26,7 @@ sources:
     rism: 455042303
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
 critical_notes: |
-  
+
 parts:
   cor12: Corno I, II in F
   vl1: Violino I
@@ -35,5 +35,5 @@ parts:
   org: Organo
   b: Bassi
 lyrics:
-  
+
   (\bibleverse{Ps}(25/24:1-3))
