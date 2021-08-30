@@ -1,0 +1,34 @@
+title: Tribulationes cordis mei
+id: MH 453
+genre: Gradual
+festival: Quadragesima, Dominica II.
+scoring: S, A, T, B (coro), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 352
+    type: autograph manuscript
+    date: 1787-11-23
+    rism: 456009371
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084963-4
+  2:
+    siglum: A-Ed
+    shelfmark: B 126
+    type: manuscript copy
+    date: unknown
+    rism: 600038085
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/142.html
+critical_notes: |
+
+parts:
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Tribulationes cordis mei dilatatae sunt:\\
+  de necessitatibus meis eripe me, Domine.\\
+  Vide humilitatem meam et laborem meum:\\
+  et dimitte omnia peccata mea.\\
+  (\bibleverse{Ps}(25/24:17-18))
