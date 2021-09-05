@@ -1,0 +1,58 @@
+title: Cantate Domino laeta
+id: MH 142
+genre: Offertorium
+festival: Pro omni Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 vl, vla b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 12425
+    type: manuscript copy
+    date: 1850–1900
+    rism:
+    url: https://nbn-resolving.org/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00051608-8
+  2:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4328\#Beibd.1
+    type: manuscript copy
+    date: 1860–1870
+    rism: 455024081
+    url: https://nbn-resolving.org/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045839-9
+critical_notes: |
+  68  & org   & 2nd quarter in (1) and (2): r4 \\
+  80  & vla   & 1st quarter in (1) and (2): r4 \\
+  100 & vl 1  & 2nd eighth in (1) and (2): cis″8 \\
+  111 & vla   & 1st note in (1) and (2): d′8. \\
+  142 & S     & bar in (1) and (2): cis″2–d″2 \\
+      & A     & bar in (1) and (2): e′2–fis′2 \\
+parts:
+  ob1: Oboe I
+  ob2: Oboe II
+  cor12: Corno I, II in G
+  vl1: Violino I
+  vl2: Violino II
+  vla: Viola
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Cantate Domino laeta pueri cantica superba\\
+  qui dispersit hostiam agmina.\\
+  Laudate iuvenes virginesque in cymbalis sonantibusque\\
+  canite carmina cytharis.\\
+  Vos quoque senes, vos coniuges metra promitte.\\
+  Numinis in omnipotentis alto nomine.\\
+  Frustraminatur hostis, opprimere haud potest\\
+  nam fortitudo nostra Deus excelsus est,\\
+  laus nostra, virtus nostra Domine solus es,\\
+  nostrae salutis tu Deus es immota spes.\\
+  Saltare montes gestiunt velutarietes,\\
+  saliuntque colles velut oves, quia boras es.\\
+  Non Domine nobis tribue sed tibi gloriam,\\
+  immensam adoret terra misericordiam.\\
+  Memor erat Dominus auxilio fuit\\
+  et huius hostis ante conspectum vuit.\\
+  Adiutor et protector est sperantium,\\
+  custos, corona, praemium bellantium.\\
+  Post bella, clemens Domine, vas victoriam,\\
+  famulis perennem, redde denique gloriam.
