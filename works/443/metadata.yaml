@@ -29,5 +29,6 @@ parts:
   b: Bassi
 lyrics:
   Ex Sion species decoris eius Deus manifeste veniet.\\
-  Congregate illi sanctos eius qui ordinaverunt testamentum eius super sacrificia.\\
+  Congregate illi sanctos eius\\
+  qui ordinaverunt testamentum eius super sacrificia.\\
   (\bibleverse{Ps}(50/49:2,4))
