@@ -53,6 +53,8 @@ source_item_template = """
   {{{url}}}
 """
 
+rism_link_template = "\\href{{https://opac.rism.info/search?id={rism}}}{{{rism}}}"
+
 notes_template = """
 \\begin{{crremarks}}
   {critical_notes}
@@ -154,6 +156,10 @@ def get_critnotes(metadata):
             info["date"] = info["date"].strftime("%d %B %Y")
         except AttributeError:
             pass
+        if info["rism"] is None:
+            info["rism"] = "(none)"
+        else:
+            info["rism"] = rism_link_template.format(**info)
         source_items.append(source_item_template.format(id=id, **info))
 
     if "critical_notes" not in metadata:

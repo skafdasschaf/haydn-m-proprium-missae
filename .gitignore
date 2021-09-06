@@ -11,6 +11,7 @@ front_matter/critical_report.pdf
 *.fls
 *.log
 *.macros
+*.out
 *.ps
 *.ref
 *.toc
