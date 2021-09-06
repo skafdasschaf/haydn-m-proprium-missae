@@ -29,9 +29,10 @@ archive:
 make_info = """
 Specify one of the following {color}targets{reset}, \
 where [id] is the MH number of a work:
-* {color}[id]/[score]{reset}: individual scores (e.g. 46/org) (LilyPond output only)
-* {color}[id]/scores{reset}: all individual scores (LilyPond output only)
-* {color}final/[id]{reset}: collection of all parts for a work
+* {color}[id]/[score]{reset}: individual score for a work (e.g. 46/org) (LilyPond output only)
+* {color}[id]/scores{reset}: all scores for a work (e.g. 46/scores) (LilyPond output only)
+* {color}final/[id]{reset}: full score/all parts for a work (e.g. final/46)
+* {color}final/works{reset}: full scores/all parts for all works
 * {color}final/full_score{reset}: collection of all full scores and the critical report
 * {color}archive{reset}: ZIP file with all sources
 * {color}info{reset}: prints this message
@@ -105,6 +106,11 @@ final/{work}_score.pdf: front_matter/critical_report.tex \
           front_matter/critical_report.tex
 """
 
+rule_all_works_final = """
+.PHONY: final/works
+final/works: {all_works}
+"""
+
 
 
 # Generate makefile -------------------------------------------------------
@@ -131,6 +137,11 @@ for work in included_works:
     scores.remove("full_score")
     all_parts = " ".join(["tmp/{}_{}.pdf".format(work, s) for s in scores])
     makefile.append(rule_single_work_final.format(work=work, all_parts=all_parts))
+
+# rule for all final works
+all_works = " ".join(["final/{}".format(w)
+                      for w in included_works])
+makefile.append(rule_all_works_final.format(all_works=all_works))
 
 # rule for the final pdf containing all full scores
 all_full_scores = " ".join(["tmp/{}_full_score.pdf".format(w)
