@@ -66,4 +66,4 @@ In general, this edition closely follows the manuscripts. Any changes that were 
 
 This website is privately provided and maintained by Wolfgang Esser-Skala, Wolfgangseestraße 31g, 5023 Koppl.
 
-Last updated: 2021-09-03
+Last updated: 2021-09-06
