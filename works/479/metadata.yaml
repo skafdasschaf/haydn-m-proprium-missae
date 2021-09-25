@@ -1,0 +1,35 @@
+title: Exsurge Domine
+id: MH 479
+genre: Gradual
+festival: Quadragesima, Dominica III.
+scoring: S, A, T, B (coro), [2 vl], b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 353
+    type: autograph manuscript
+    date: 1788-02-20
+    rism: 456009372
+    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084964/images
+  2:
+    siglum: A-Ed
+    shelfmark: B 127
+    type: manuscript copy
+    date: unknown
+    rism: 600038086
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/143.html
+critical_notes: |
+  – & – & According to (1), vl are not obligatory. \\
+parts:
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Exsurge Domine,\\
+  non praevaleat homo:\\
+  iudicentur gentes in conspectu tuo.\\
+  In convertendo inimicum meum retrorsum\\
+  infirmabuntur et peribunt a facie tua.\\
+  (\bibleverse{Ps}(9:20,4))
