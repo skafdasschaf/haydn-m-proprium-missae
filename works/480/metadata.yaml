@@ -1,0 +1,39 @@
+title: Laetatus sum
+id: MH 480
+genre: Gradual
+festival: Quadragesima, Dominica IV.
+scoring: S, A, T, B (coro), 2 cl (B), 2 clno (B), 2 vl, b, org
+sources:
+  1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 354
+    type: autograph manuscript
+    date: 1788-02-26
+    rism: 456009373
+    url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00051605-2
+  2:
+    siglum: A-Ed
+    shelfmark: B 126
+    type: manuscript copy
+    date: unknown
+    rism: 600038087
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/144.html
+critical_notes: |
+  –  & –    & cl 1, 2 only in (2) \\
+  47 & cl 2 & bar in (2): c″2–e″4–e″4 \\
+  67 & cl 1 & bar in Ms: d″2–d″2 \\
+parts:
+  cl1: Clarinetto I in B
+  cl2: Clarinetto II in B
+  clno12: Clarino I, II in B
+  vl1: Violino I
+  vl2: Violino II
+  coro: Coro
+  org: Organo
+  b: Bassi
+lyrics:
+  Laetatus sum in his quae dicta sunt mihi\\
+  in domum Domini ibimus.\\
+  Fiat pax in virtute tua,\\
+  et abundantia in turribus tuis.\\
+  (\bibleverse{Ps}(122/121:1,7))
