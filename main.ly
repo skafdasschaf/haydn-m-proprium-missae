@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-% \include "works/xxx/scores/full_score.ly"
+\include "works/481/scores/full_score.ly"
 % \include "works/xxx/scores/ob1.ly"
 % \include "works/xxx/scores/ob2.ly"
 % \include "works/xxx/scores/cor12.ly"
