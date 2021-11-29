@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-xxxBassoNotes = {
+xxxBasso = {
   \relative c {
     \clef bass
 

@@ -1,14 +1,13 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "F I R S T"
-    }
+    \section "xxx" ""
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -26,13 +25,13 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             % \transpose c c
             \partCombine \xxxClarinoI \xxxClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
+          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
           % \transpose c c
           \xxxTimpani
         }
@@ -55,32 +54,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \xxxSopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \xxxSopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \xxxSoprano }
           }
           \new Lyrics \lyricsto Soprano \xxxSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \xxxAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \xxxAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \xxxAlto }
           }
           \new Lyrics \lyricsto Alto \xxxAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \xxxTenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \xxxTenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \xxxTenore }
           }
           \new Lyrics \lyricsto Tenore \xxxTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \xxxBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \xxxBasso }
           }
           \new Lyrics \lyricsto Basso \xxxBassoLyrics
         >>

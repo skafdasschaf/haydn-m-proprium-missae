@@ -4,24 +4,21 @@ genre: Gradual
 festival: xxx
 scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 335
-    type: autograph manuscript
     date: 1787-08-26
     rism: 456009354
     url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084928/images
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: B 115
-    type: manuscript copy
-    date: unknown
     rism: 600038076
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
-  3:
+  B2:
     siglum: D-NATk
     shelfmark: NA/SP (H-18)
-    type: manuscript copy
     date: 1800-1830
     rism: 455042303
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
@@ -29,11 +26,6 @@ critical_notes: |
 
 parts:
   cor12: Corno I, II in F
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
 lyrics:
 
   (\bibleverse{Ps}(25/24:1-3))
