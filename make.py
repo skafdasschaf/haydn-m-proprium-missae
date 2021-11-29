@@ -10,115 +10,92 @@ import yaml
 # Templates ---------------------------------------------------------------
 
 make_header = """
-project = HaydnM_Proprium_Missae
-zipname = $(project:%=%_source_files)
+.RECIPEPREFIX = >
 .DEFAULT_GOAL := info
-LILY_CMD = lilypond -ddelete-intermediate-files -dno-point-and-click
-"""
-
-make_archive = """
-archive:
-\tzip -r $(zipname).zip \
-  config.yaml LICENSE.txt README.md *.py *.ly \
-  works/* \
-  front_matter/byncsaeu.pdf \
-  front_matter/ees_logo.pdf \
-  front_matter/critical_report.tex
+LILYPOND = lilypond -ddelete-intermediate-files -dno-point-and-click --include=$(EES_TOOLS_PATH)/
 """
 
 make_info = """
 Specify one of the following {color}targets{reset}, \
-where [id] is the MH number of a work:
-* {color}[id]/[score]{reset}: individual score for a work (e.g. 46/org) (LilyPond output only)
+where [id] is the catalogue of works number of a work:
+* {color}[id]/[score]{reset}: individual scores for a work (e.g. 46/org) (LilyPond output only)
 * {color}[id]/scores{reset}: all scores for a work (e.g. 46/scores) (LilyPond output only)
-* {color}final/[id]{reset}: full score/all parts for a work (e.g. final/46)
-* {color}final/works{reset}: full scores/all parts for all works
-* {color}final/full_score{reset}: collection of all full scores and the critical report
-* {color}archive{reset}: ZIP file with all sources
+* {color}final/[id]/[score]{reset}: individual final scores for a work (e.g. final/46/org) (LilyPond output + front matter)
+* {color}final/[id]/scores{reset}: all final scores for a work (e.g. final/scores)
+* {color}final/works{reset}: all final scores for all works
 * {color}info{reset}: prints this message
 """.format(color="\033[94m", reset="\033[0m")
 
+# * {color}final/full_score{reset}: collection of all full scores and the critical report
+
 rule_single_score = """
-{work}/{score}: tmp/{work}_{score}.pdf
-tmp/{work}_{score}.pdf: works/{work}/scores/{score}.ly \
+{work}/{score}: tmp/{work}/{score}.pdf
+tmp/{work}/{score}.pdf: works/{work}/scores/{score}.ly \
                         works/{work}/notes/*.ly \
-                        definitions_main.ly \
-                        works/{work}/definitions_work.ly
-\tmkdir -p tmp
-\t$(LILY_CMD) -o tmp/{work}_{score} $<
+                        works/{work}/definitions.ly
+>mkdir -p tmp/{work}
+>$(LILYPOND) -dlog-file=$(basename $@).ly -o tmp/{work}/{score} '$(realpath $<)'
+>cat $(basename $@).ly.log
+
+final/{work}/{score}: final/{work}/{score}.pdf
+final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
+                          front_matter/critical_report.tex \
+                          works/{work}/metadata.yaml
+>python $(EES_TOOLS_PATH)/read_metadata.py edition \\
+>                                          -i works/{work}/metadata.yaml \\
+>                                          -t {score} \\
+>                                          -k genre festival critical_notes lyrics \\
+>                                          -s ../tmp/{work}
+>latexmk -cd \\
+>        -lualatex \\
+>        -outdir=../final/{work} \\
+>        -jobname={score} \\
+>        front_matter/critical_report.tex
+>cp final/{work}/{score}.log tmp/{work}/{score}.tex.log
+>latexmk -c \\
+>        -outdir=final/{work} \\
+>        -jobname={score} \\
+>        front_matter/critical_report.tex
 """
 
 rule_all_scores = """
 .PHONY: {work}/scores
 {work}/scores: {deps}
+
+.PHONY: final/{work}/scores
+final/{work}/scores: {deps_final}
 """
 
-rule_full_score_final = """
-.PHONY: final/full_score
-final/full_score: final/full_score.pdf
-final/full_score.pdf: front_matter/critical_report.tex \
-                      {all_metadata} \
-                      {all_full_scores}
-\tpython make_webpage.py
-\tpython read_metadata.py -t full_score
-\tlatexmk -cd \
-          -lualatex \
-          -outdir=../final \
-          -jobname=full_score \
-          front_matter/critical_report.tex
-\tlatexmk -c \
-          -outdir=final \
-          -jobname=full_score \
-          front_matter/critical_report.tex
-"""
-
-rule_single_work_final = """
-.PHONY: final/{work}
-final/{work}: final/{work}_parts.pdf final/{work}_score.pdf
-
-final/{work}_parts.pdf: front_matter/critical_report.tex \
-                        works/{work}/metadata.yaml \
-                        {all_parts}
-\tpython make_webpage.py
-\tpython read_metadata.py -t parts -w {work}
-\tlatexmk -cd \
-          -lualatex \
-          -outdir=../final \
-          -jobname={work}_parts \
-          front_matter/critical_report.tex
-\tlatexmk -c \
-          -outdir=final \
-          -jobname={work}_parts \
-          front_matter/critical_report.tex
-
-final/{work}_score.pdf: front_matter/critical_report.tex \
-                        works/{work}/metadata.yaml \
-                        tmp/{work}_full_score.pdf
-\tpython read_metadata.py -t single_score -w {work}
-\tlatexmk -cd \
-          -lualatex \
-          -outdir=../final \
-          -jobname={work}_score \
-          front_matter/critical_report.tex
-\tlatexmk -c \
-          -outdir=final \
-          -jobname={work}_score \
-          front_matter/critical_report.tex
-"""
-
-rule_all_works_final = """
+rule_all_final_works = """
 .PHONY: final/works
 final/works: {all_works}
 """
 
+# rule_full_score_final = """
+# .PHONY: final/full_score
+# final/full_score: final/full_score.pdf
+# final/full_score.pdf: front_matter/critical_report.tex \
+#                       {all_metadata} \
+#                       {all_full_scores}
+# >python make_webpage.py
+# >python read_metadata.py -t full_score
+# >latexmk -cd \
+#          -lualatex \
+#          -outdir=../final \
+#          -jobname=full_score \
+#          front_matter/critical_report.tex
+# >latexmk -c \
+#          -outdir=final \
+#          -jobname=full_score \
+#          front_matter/critical_report.tex
+# """
 
 
 # Generate makefile -------------------------------------------------------
 
 makefile = [make_header]
 
-with open("config.yaml") as f:
-    included_works = yaml.load(f, Loader=yaml.BaseLoader)["include_works"]
+included_works = os.listdir("works")
 
 for work in included_works:
     notes = os.listdir(os.path.join("works", work, "notes"))
@@ -131,31 +108,28 @@ for work in included_works:
 
     # rule for all scores
     deps = " ".join(["{}/{}".format(work, s) for s in scores])
-    makefile.append(rule_all_scores.format(work=work, deps=deps))
+    deps_final = " ".join(["final/{}/{}".format(work, s) for s in scores])
+    makefile.append(
+        rule_all_scores.format(work=work, deps=deps, deps_final=deps_final)
+    )
 
-    # rule for the final pdf containing all parts
-    scores.remove("full_score")
-    all_parts = " ".join(["tmp/{}_{}.pdf".format(work, s) for s in scores])
-    makefile.append(rule_single_work_final.format(work=work, all_parts=all_parts))
 
 # rule for all final works
-all_works = " ".join(["final/{}".format(w)
+all_works = " ".join(["final/{}/scores".format(w)
                       for w in included_works])
-makefile.append(rule_all_works_final.format(all_works=all_works))
+makefile.append(rule_all_final_works.format(all_works=all_works))
 
-# rule for the final pdf containing all full scores
-all_full_scores = " ".join(["tmp/{}_full_score.pdf".format(w)
-                            for w in included_works])
-all_metadata = " ".join(["works/{}/metadata.yaml".format(w)
-                        for w in included_works])
-makefile.append(
-    rule_full_score_final.format(
-        all_full_scores=all_full_scores,
-        all_metadata=all_metadata
-    )
-)
-
-makefile.append(make_archive)
+# # rule for the final pdf containing all full scores
+# all_full_scores = " ".join(["tmp/{}_full_score.pdf".format(w)
+#                             for w in included_works])
+# all_metadata = " ".join(["works/{}/metadata.yaml".format(w)
+#                         for w in included_works])
+# makefile.append(
+#     rule_full_score_final.format(
+#         all_full_scores=all_full_scores,
+#         all_metadata=all_metadata
+#     )
+# )
 
 
 
