@@ -17,9 +17,9 @@ sources:
     rism: 455024081
     url: https://nbn-resolving.org/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045839-9
 toe: |
-  68  & org   & 2nd \\quarterNote\Note\ in \B1 and \B2: \crotchetRest \\
-  80  & vla   & 1st \\quarterNote\Note\ in \B1 and \B2: \crotchetRest \\
-  100 & vl 1  & 2nd \\eighthNote\Note\ in \B1 and \B2: \sharp c″8 \\
+  68  & org   & 2nd \quarterNote\ in \B1 and \B2: \crotchetRest \\
+  80  & vla   & 1st \quarterNote\ in \B1 and \B2: \crotchetRest \\
+  100 & vl 1  & 2nd \eightNote\ in \B1 and \B2: \sharp c″8 \\
   111 & vla   & 1st note in \B1 and \B2: d′8. \\
   142 & S     & bar in \B1 and \B2: \sharp c″2–d″2 \\
       & A     & bar in \B1 and \B2: e′2–\sharp f′2 \\
