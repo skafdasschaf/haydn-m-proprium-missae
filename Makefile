@@ -1,0 +1,2 @@
+.DEFAULT:
+	@python make.py "$@"
