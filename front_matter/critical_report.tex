@@ -1,5 +1,7 @@
 \documentclass[changelog=false,tocdir=\tocdir,tocstyle=none]{ees}
 
+\usepackage{mfirstuc}
+
 \firstname{Johann Michael}
 \lastname{Haydn}
 \shortname{Haydn}
@@ -7,12 +9,12 @@
 
 \ifthenelse{\isundefined{\MetadataFestival}}{%
   \subtitle{%
-    \MetadataGenre\\%
+    \xmakefirstuc{\MetadataGenre}\\%
     \MetadataSubtitle%
   }%
 }{%
   \subtitle{%
-    \MetadataGenre~(\MetadataFestival)\\%
+    \xmakefirstuc{\MetadataGenre}~(\MetadataFestival)\\%
     \MetadataSubtitle%
   }%
 }%
