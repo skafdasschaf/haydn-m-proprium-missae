@@ -22,7 +22,7 @@ where [id] is the catalogue of works number of a work:
 * {color}[id]/scores{reset}: all scores for a work (e.g. 46/scores) (LilyPond output only)
 * {color}final/[id]/[score]{reset}: individual final scores for a work (e.g. final/46/org) (LilyPond output + front matter)
 * {color}final/[id]/scores{reset}: all final scores for a work (e.g. final/scores)
-* {color}final/works{reset}: all final scores for all works
+* {color}works{reset}: all final scores for all works
 * {color}info{reset}: prints this message
 """.format(color="\033[94m", reset="\033[0m")
 
@@ -44,11 +44,12 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >python $(EES_TOOLS_PATH)/read_metadata.py edition \\
 >                                          -i works/{work}/metadata.yaml \\
 >                                          -t {score} \\
->                                          -k genre festival critical_notes lyrics \\
+>                                          -k festival genre lyrics toe \\
 >                                          -s ../tmp/{work}
 >latexmk -cd \\
 >        -lualatex \\
 >        -outdir=../final/{work} \\
+>        -usepretex='\\def\\tocdir{{../tmp/{work}}}' \\
 >        -jobname={score} \\
 >        front_matter/critical_report.tex
 >cp final/{work}/{score}.log tmp/{work}/{score}.tex.log
@@ -67,8 +68,8 @@ final/{work}/scores: {deps_final}
 """
 
 rule_all_final_works = """
-.PHONY: final/works
-final/works: {all_works}
+.PHONY: works
+works: {all_works}
 """
 
 # rule_full_score_final = """

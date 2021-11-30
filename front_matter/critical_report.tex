@@ -1,37 +1,43 @@
-\documentclass[changelog=false]{ees}
+\documentclass[changelog=false,tocdir=\tocdir,tocstyle=none]{ees}
 
 \firstname{Johann Michael}
 \lastname{Haydn}
 \shortname{Haydn}
 \shorttitle{Proprium missæ}
 
-\makeatletter
-\@ifundefined{ees@metadata@festival}{%
+\ifthenelse{\isundefined{\MetadataFestival}}{%
   \subtitle{%
-    \insertmetadata{genre}\\%
+    \MetadataGenre\\%
     \MetadataSubtitle%
   }%
 }{%
   \subtitle{%
-    \insertmetadata{genre}~(\insertmetadata{festival})\\%
+    \MetadataGenre~(\MetadataFestival)\\%
     \MetadataSubtitle%
   }%
 }%
-\makeatother
 
 
 \begin{document}
 
 \eesTitlePage
 
-\makeatletter\let\ees@tocstyle\ees@tocstyle@none\makeatother
-\eesCriticalReport{\insertmetadata{critical_notes}}
-\makeatletter\let\ees@tocstyle\ees@tocstyle@default\makeatother
+\makeatletter%
+  \ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
+\makeatother%
+\eesCriticalReport{\csname MetadataToe\endcsname}
+\makeatletter%
+  \ees@toetrue%
+\makeatother
 
-\ifPrintFrontMatter
-\section{Lyrics}
-\insertmetadata{lyrics}
-\fi
+\ifthenelse{\isundefined{\MetadataLyrics}}{}{%
+  \ifPrintFrontMatter%
+    \section{Lyrics}%
+    \MetadataLyrics%
+  \fi%
+}
+
+\eesToc{}
 
 \eesScore
 
