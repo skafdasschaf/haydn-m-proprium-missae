@@ -1,6 +1,6 @@
 title: XXX
 id: MH xxx
-genre: Gradual
+genre: gradual
 festival: xxx
 scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
 sources:
@@ -22,7 +22,7 @@ sources:
     date: 1800-1830
     rism: 455042303
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
-critical_notes: |
+toe: |
 
 parts:
   cor12: Corno I, II in F
