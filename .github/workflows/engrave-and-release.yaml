@@ -1,0 +1,27 @@
+name: Release engraved scores
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  engrave_scores:
+    runs-on: ubuntu-latest
+    container: docker://ghcr.io/edition-esser-skala/ees-tools:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Engrave
+        run: make final/46/scores
+
+      - name: Publish via rsync
+        uses: burnett01/rsync-deployments@5.1
+        with:
+          switches: -avzr --delete
+          path: final/
+          remote_path: html/haydn-m-proprium-missae/
+          remote_host: ${{ secrets.DEPLOY_HOST }}
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY }}
