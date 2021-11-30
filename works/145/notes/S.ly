@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CXLVaSopranoIncipit = \markup {
-  "Soprano" \hspace #-19 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CXLVaSopranoNotes = {
+CXLVaSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVa
@@ -119,7 +108,7 @@ CXLVaSopranoLyrics = \lyricmode {
   ae. %54 finis
 }
 
-CXLVbSopranoNotes = {
+CXLVbSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \autoBeamOff \tempoCXLVa
@@ -298,7 +287,7 @@ CXLVbSopranoLyrics = \lyricmode {
   rus. %142 finis
 }
 
-CXLVcSopranoNotes = {
+CXLVcSoprano = {
   \relative c' {
     \clef treble
     \twotwotime \key c \dorian \time 2/2 \autoBeamOff \tempoCXLVc
@@ -349,7 +338,7 @@ CXLVcSopranoLyrics = \lyricmode {
   sti. %46 finis
 }
 
-CXLVdSopranoNotes = {
+CXLVdSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVd

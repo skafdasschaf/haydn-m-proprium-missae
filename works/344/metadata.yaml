@@ -1,27 +1,21 @@
 title: Hic est discipulus ille
 id: MH 344
-genre: Gradual
+genre: gradual
 festival: Joannis Apostoli et Evangelistae
-scoring: S, A, T, B (coro), 2 clno (B), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: B 209
-    type: manuscript copy
-    date: unknown
     rism: 600038159
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/208.html
-critical_notes: |
-  50 & T      & 2nd half of bar in (1): f8–a8.–bes16–c′16–bes16 \\
-  50 & B      & 2nd half of bar in (1): d8–c8.–Bes′16–A16–Bes16 \\
-  59 & clno 1 & 4th eighth in (1): d″8 \\
+    principal: true
+toe: |
+  50 & T      & 2nd \halfNote\ in \B1: f8–a8.–\flat b16–c′16–\flat b16 \\
+  50 & B      & 2nd \halfNote\ in \B1: d8–c8.–\flat B16–A16–\flat B16 \\
+  59 & clno 1 & 4th \eighthNote\ in \B1: d″8 \\
 parts:
-  ottoni: Clarino I, II in B
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+  ottoni: Clarino I, II in \flat B
 lyrics:
   Hic est discipulus ille,\\
   qui testimonium perhibet de his;\\

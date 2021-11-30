@@ -1,69 +1,61 @@
 title: Lauda Sion
 id: MH 215
-genre: Sequence
+genre: sequence
 festival: Corpus Christi
 scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 clno (C), timp (C–G), 2 vl, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: B 176
-    type: manuscript copy
-    date: unknown
     rism: 600038129
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/976.html
-critical_notes: |
-  3   & vl 1  & grace note missing in Ms \\
-  5   & vl 1  & grace note missing in Ms \\
-  5   & T     & 3rd quarter in Ms: fis4 \\
-  10  & S     & 8th sixteenth in Ms: a′16 \\
-  12  & S     & grace note missing in Ms \\
-  30  & S     & 8th sixteenth in Ms: fis′16 \\
-  41  & T     & 6th eighth in Ms: g8 \\
-  42  & cor 2 & grace note missing in Ms \\
-  45  & S     & grace note missing in Ms \\
-  51  & S     & 1st half of bar in Ms: b′4–cis″4 \\
-  60  & S     & 8th sixteenth in Ms: e′16 \\
-  62  & B     & last eighth in Ms: B8 \\
-  64  & T     & last eighth in Ms: c′8 \\
-  70  & S     & 8th sixteenth in Ms: fis′16 \\
-  72  & S     & grace note missing in Ms \\
-  85  & B     & 3rd quarter in Ms: e4 \\
-  88  & T     & grace note missing in Ms \\
-  90  & vl 2  & 3rd quarter in Ms: g′8–r16–g′16 \\
-  92  & S     & 8th sixteenth in Ms: a′16 \\
+    principal: true
+toe: |
+  3   & vl 1  & grace note missing in \B1 \\
+  5   & vl 1  & grace note missing in \B1 \\
+  5   & T     & 3rd \quarterNote\ in \B1: \sharp f4 \\
+  10  & S     & 8th \sixteenthNote\ in \B1: a′16 \\
+  12  & S     & grace note missing in \B1 \\
+  30  & S     & 8th \sixteenthNote\ in \B1: \sharp f′16 \\
+  41  & T     & 6th \eighthNote\ in \B1: g8 \\
+  42  & cor 2 & grace note missing in \B1 \\
+  45  & S     & grace note missing in \B1 \\
+  51  & S     & 1st \halfNote\ in \B1: b′4–\sharp c″4 \\
+  60  & S     & 8th \sixteenthNote\ in \B1: e′16 \\
+  62  & B     & last \eighthNote\ in \B1: B8 \\
+  64  & T     & last \eighthNote\ in \B1: c′8 \\
+  70  & S     & 8th \sixteenthNote\ in \B1: \sharp f′16 \\
+  72  & S     & grace note missing in \B1 \\
+  85  & B     & 3rd \quarterNote\ in \B1: e4 \\
+  88  & T     & grace note missing in \B1 \\
+  90  & vl 2  & 3rd \quarterNote\ in \B1: g′8–\semiquaverRest–g′16 \\
+  92  & S     & 8th \sixteenthNote\ in \B1: a′16 \\
   \midrule
-  96  & T     & 1st quarter in Ms: b4 \\
-  98  & T     & 1st note in Ms: b4. \\
-  105 & T     & 5th eighth in Ms: c′8 \\
-  108 & S     & grace note missing in Ms \\
-  108 & cor 2 & 1st half of bar in Ms: g′4–r8 \\
-  109 & T     & 2nd eighth in Ms: d′8 \\
-  109 & B     & 2nd eighth in Ms: g8 \\
-  110 & vl 1  & 8th sixteenth in Ms: fis″16 \\
-  111 & A     & 2nd quarter in Ms: e′4 \\
-  114 & cor 2 & bar in Ms: c′2. \\
-  114 & A     & 1st quarter in Ms: f′4 \\
-  128 & S     & grace note missing in Ms \\
-  131 & B     & 5th eighth in Ms: g8 \\
-  140 & S     & 3rd quarter in Ms: e″4 \\
+  96  & T     & 1st \quarterNote\ in \B1: b4 \\
+  98  & T     & 1st note in \B1: b4. \\
+  105 & T     & 5th \eighthNote\ in \B1: c′8 \\
+  108 & S     & grace note missing in \B1 \\
+  108 & cor 2 & 1st \halfNote\ in \B1: g′4–\quaverRest \\
+  109 & T     & 2nd \eighthNote\ in \B1: d′8 \\
+  109 & B     & 2nd \eighthNote\ in \B1: g8 \\
+  110 & vl 1  & 8th \sixteenthNote\ in \B1: \sharp f″16 \\
+  111 & A     & 2nd \quarterNote\ in \B1: e′4 \\
+  114 & cor 2 & bar in \B1: c′2. \\
+  114 & A     & 1st \quarterNote\ in \B1: f′4 \\
+  128 & S     & grace note missing in \B1 \\
+  131 & B     & 5th \eighthNote\ in \B1: g8 \\
+  140 & S     & 3rd \quarterNote\ in \B1: e″4 \\
   \midrule
-  157 & T     & 3rd quarter in Ms: fis8–fis8 \\
-  161 & A     & 7th eighth in Ms: g′8 \\
-  162 & S     & grace note missing in Ms \\
-  163 & T     & 4th eighth in Ms: b8 \\
-  168 & A     & grace note missing in Ms \\
-  172 & S     & 6th eighth in Ms: d″8 \\
-  175 & T     & 3rd quarter in Ms: e′8 \\
-  178 & org   & 5th eighth in Ms: g8 \\
-  179 & T     & 2nd/3rd quarter in Ms: d′8–b8–g4 \\
-  180 & T     & 4th quarter in Ms: g4 \\
+  157 & T     & 3rd \quarterNote\ in \B1: \sharp f8–\sharp f8 \\
+  161 & A     & 7th \eighthNote\ in \B1: g′8 \\
+  162 & S     & grace note missing in \B1 \\
+  163 & T     & 4th \eighthNote\ in \B1: b8 \\
+  168 & A     & grace note missing in \B1 \\
+  172 & S     & 6th \eighthNote\ in \B1: d″8 \\
+  175 & T     & 3rd \quarterNote\ in \B1: e′8 \\
+  178 & org   & 5th \eighthNote\ in \B1: g8 \\
+  179 & T     & 2nd/3rd \quarterNote\ in \B1: d′8–b8–g4 \\
+  180 & T     & 4th \quarterNote\ in \B1: g4 \\
 parts:
   cor12: Corno I, II in G
-  ottoni: Clarino I, II in C\nTimpani in C–G
-  ob1: Oboe I
-  ob2: Oboe II
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+  ottoni: Clarino I, II in C\\Timpani in C–G

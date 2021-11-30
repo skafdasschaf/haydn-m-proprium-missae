@@ -1,32 +1,25 @@
 title: Ex Sion species
 id: MH 443
-genre: Gradual
+genre: gradual
 festival: Adventus, Dominica II.
-scoring: S, A, T, B (coro), 2 clno (B), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 336
-    type: autograph manuscript
     date: 1787-08-28
     rism: 456009355
     url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084929/images
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: B 116
-    type: manuscript copy
-    date: unknown
     rism: 600038075
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/133.html
-critical_notes: |
-  – & – & According to (1), clno were added in 1796. \\
+toe: |
+  – & – & According to \A1, clno were added in 1796. \\
 parts:
-  ottoni: Clarino I, II in B
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+  ottoni: Clarino I, II in \flat B
 lyrics:
   Ex Sion species decoris eius Deus manifeste veniet.\\
   Congregate illi sanctos eius\\

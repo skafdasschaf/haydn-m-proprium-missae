@@ -1,37 +1,29 @@
-title: Sub tuum praesidium
+title: Sub tuum præsidium
 id: MH 654
-genre: Gradual
+genre: offertorium
 festival: Mariae (B.V.)
 scoring: S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 423
-    type: autograph manuscript
     date: 1797-02-24
     rism: 456009443
     url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00074861-7
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: L 17
-    type: manuscript copy
-    date: unknown
     rism: 600038630
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/542.html
-  3:
+  D1:
     siglum: F-Pn
     shelfmark: D-5591
-    type: manuscript copy
     date: 1830–1840
     rism: 840026225
     url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
 parts:
-  ottoni: Clarino I, II in C\nTimpani in C–G
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+  ottoni: Clarino I, II in C\\Timpani in C–G
 lyrics:
   Sub tuum praesidium confugimus, Sancta Dei Genetrix.\\
   Nostras deprecationes ne despicias in necessitatibus nostris,\\

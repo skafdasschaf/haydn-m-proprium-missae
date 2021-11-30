@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CXLVaAltoIncipit = \markup {
-  "Alto" \hspace #-16.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef alto s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CXLVaAltoNotes = {
+CXLVaAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVa
@@ -111,7 +100,7 @@ CXLVaAltoLyrics = \lyricmode {
   ae. %54 finis
 }
 
-CXLVbAltoNotes = {
+CXLVbAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \autoBeamOff \tempoCXLVa
@@ -253,7 +242,7 @@ CXLVbAltoLyrics = \lyricmode {
   rus. %142 finis
 }
 
-CXLVcAltoNotes = {
+CXLVcAlto = {
   \relative c' {
     \clef treble
     \twotwotime \key c \dorian \time 2/2 \autoBeamOff \tempoCXLVc
@@ -330,7 +319,7 @@ CXLVcAltoLyrics = \lyricmode {
   sti. %46 finis
 }
 
-CXLVdAltoNotes = {
+CXLVdAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVd

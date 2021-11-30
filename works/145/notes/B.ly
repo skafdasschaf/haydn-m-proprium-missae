@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-CXLVaBassoNotes = {
+CXLVaBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVa
@@ -100,7 +100,7 @@ CXLVaBassoLyrics = \lyricmode {
   ae. %54 finis
 }
 
-CXLVbBassoNotes = {
+CXLVbBasso = {
   \relative c {
     \clef bass
     \key f \major \time 3/4 \autoBeamOff \tempoCXLVa
@@ -297,7 +297,7 @@ CXLVbBassoLyrics = \lyricmode {
   rus. %142 finis
 }
 
-CXLVcBassoNotes = {
+CXLVcBasso = {
   \relative c {
     \clef bass
     \twotwotime \key c \dorian \time 2/2 \autoBeamOff \tempoCXLVc
@@ -348,7 +348,7 @@ CXLVcBassoLyrics = \lyricmode {
   sti. %46 finis
 }
 
-CXLVdBassoNotes = {
+CXLVdBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVd

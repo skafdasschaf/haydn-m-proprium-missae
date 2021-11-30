@@ -1,30 +1,28 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "145"
-      title = "T E   D E U M"
-    }
+    \section "145" "Te Deum"
+    \addTocEntry
+    \paper { indent = 3\cm }
     \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine \CXLVaClarinoI \CXLVaClarinoII
           >>
           \new Staff <<
-            \set Staff.instrumentName = \CXLVaTrombaIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \set Staff.instrumentName = \transposedName "Tromba I, II" "C" ""
             \partCombine \CXLVaTrombaI \CXLVaTrombaII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
+          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
           \CXLVaTimpani
         }
         \new StaffGroup <<
@@ -42,32 +40,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CXLVaSopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \CXLVaSopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \CXLVaSoprano }
           }
           \new Lyrics \lyricsto Soprano \CXLVaSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CXLVaAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CXLVaAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CXLVaAlto }
           }
           \new Lyrics \lyricsto Alto \CXLVaAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CXLVaTenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \CXLVaTenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \CXLVaTenore }
           }
           \new Lyrics \lyricsto Tenore \CXLVaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \CXLVaBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CXLVaBasso }
           }
           \new Lyrics \lyricsto Basso \CXLVaBassoLyrics
         >>
@@ -85,10 +77,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   G L O R I O S U S   A P O S T O L O R U M   C H O R U S"
-    }
-    \paper { indent = 1\cm }
+    \subsection "Te gloriosus Apostolorum chorus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -121,25 +111,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \CXLVbSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \CXLVbSoprano }
           }
           \new Lyrics \lyricsto Soprano \CXLVbSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \CXLVbAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \CXLVbAlto }
           }
           \new Lyrics \lyricsto Alto \CXLVbAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \CXLVbTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \CXLVbTenore }
           }
           \new Lyrics \lyricsto Tenore \CXLVbTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \CXLVbBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CXLVbBasso }
           }
           \new Lyrics \lyricsto Basso \CXLVbBassoLyrics
         >>
@@ -157,10 +147,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   E R G O   Q U A E S U M U S"
-    }
-    \paper { indent = 1\cm }
+    \subsection "Te ergo quaesumus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -193,25 +181,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \CXLVcSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \CXLVcSoprano }
           }
           \new Lyrics \lyricsto Soprano \CXLVcSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \CXLVcAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \CXLVcAlto }
           }
           \new Lyrics \lyricsto Alto \CXLVcAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \CXLVcTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \CXLVcTenore }
           }
           \new Lyrics \lyricsto Tenore \CXLVcTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \CXLVcBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CXLVcBasso }
           }
           \new Lyrics \lyricsto Basso \CXLVcBassoLyrics
         >>
@@ -229,10 +217,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "A E T E R N A   F A C"
-    }
-    \paper { indent = 1\cm }
+    \subsection "Æterna fac"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -265,25 +251,25 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \CXLVdSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \CXLVdSoprano }
           }
           \new Lyrics \lyricsto Soprano \CXLVdSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \CXLVdAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \CXLVdAlto }
           }
           \new Lyrics \lyricsto Alto \CXLVdAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \CXLVdTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \CXLVdTenore }
           }
           \new Lyrics \lyricsto Tenore \CXLVdTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \CXLVdBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CXLVdBasso }
           }
           \new Lyrics \lyricsto Basso \CXLVdBassoLyrics
         >>

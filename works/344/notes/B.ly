@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-CCCXLIVBassoNotes = {
+CCCXLIVBasso = {
   \relative c {
     \clef bass
     \key b \major \time 4/4 \autoBeamOff \tempoCCCXLIV

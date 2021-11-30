@@ -1,32 +1,25 @@
 title: Qui sedes Domine
 id: MH 444
-genre: Gradual
+genre: gradual
 festival: Adventus, Dominica III.
-scoring: S, A, T, B (coro), 2 clno (B), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 337
-    type: autograph manuscript
     date: 1787-09-01
     rism: 456009356
     url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084930/images
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: B 117
-    type: manuscript copy
-    date: unknown
     rism: 6000380757
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/134.html
-critical_notes: |
-  31 & vl 2 & 15th sixteenth in (1) and (2): f″16 \\
+toe: |
+  31 & vl 2 & 15th \sixteenthNote\ in \A1 and \B1: f″16 \\
 parts:
-  ottoni: Clarino I, II in B
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+  ottoni: Clarino I, II in \flat B
 lyrics:
   Qui sedes Domine super Cherubim,\\
   excita potentiam tuam,\\

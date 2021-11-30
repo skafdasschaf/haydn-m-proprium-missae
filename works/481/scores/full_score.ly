@@ -1,14 +1,13 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "481"
-      title = "E R I P E   M E   D O M I N E"
-    }
+    \section "481" "Eripe me Domine"
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -17,6 +16,7 @@
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
+      indent = 3\cm
     }
     \score {
       <<
@@ -35,32 +35,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CDLXXXISopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \CDLXXXISopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \CDLXXXISoprano }
           }
           \new Lyrics \lyricsto Soprano \CDLXXXISopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLXXXIAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CDLXXXIAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CDLXXXIAlto }
           }
           \new Lyrics \lyricsto Alto \CDLXXXIAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLXXXITenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \CDLXXXITenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \CDLXXXITenore }
           }
           \new Lyrics \lyricsto Tenore \CDLXXXITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \CDLXXXIBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CDLXXXIBasso }
           }
           \new Lyrics \lyricsto Basso \CDLXXXIBassoLyrics
         >>

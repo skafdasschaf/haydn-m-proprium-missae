@@ -1,14 +1,14 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "324"
-      title = "I N   A D O R A T I O N E   N O S T R A"
-    }
+    \section "324" "In adoratione nostra"
+    \addTocEntry
+    \paper { indent = 3\cm }
     \score {
       <<
         \new StaffGroup <<
@@ -26,7 +26,7 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Corno I, II" "in G" }
+            \set Staff.instrumentName = \transposedName "Corno I, II" "G" ""
             % \transpose c g,
             \partCombine \CCCXXIVCornoI \CCCXXIVCornoII
           >>
@@ -50,32 +50,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CCCXXIVSopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \CCCXXIVSopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \CCCXXIVSoprano }
           }
           \new Lyrics \lyricsto Soprano \CCCXXIVSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CCCXXIVAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CCCXXIVAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CCCXXIVAlto }
           }
           \new Lyrics \lyricsto Alto \CCCXXIVAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CCCXXIVTenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \CCCXXIVTenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \CCCXXIVTenore }
           }
           \new Lyrics \lyricsto Tenore \CCCXXIVTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \CCCXXIVBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CCCXXIVBasso }
           }
           \new Lyrics \lyricsto Basso \CCCXXIVBassoLyrics
         >>

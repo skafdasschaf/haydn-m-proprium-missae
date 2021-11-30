@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CCXLVIIISopranoIncipit = \markup {
-  "Soprano" \hspace #-19 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CCXLVIIISopranoNotes = {
+CCXLVIIISoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 4/4 \autoBeamOff \tempoCCXLVIII

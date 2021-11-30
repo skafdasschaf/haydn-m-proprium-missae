@@ -1,14 +1,13 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "46"
-      title = "I N   O M N E M   T E R R A M"
-    }
+    \section "46" "In omnem terram"
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -17,6 +16,7 @@
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
+      indent = 3\cm
     }
     \score {
       <<
@@ -35,7 +35,7 @@
         >>
         \new ChoirStaff <<
           \set ChoirStaff.instrumentName = \critnote
-          \new Staff \with { \smallChoirStaffDistance } {
+          \new Staff \with { \setStaffDistance #10 } {
             \set Staff.fontSize = #-2
             \override Staff.StaffSymbol.staff-space = #(magstep -2)
             \override Staff.StaffSymbol.thickness = #(magstep -2)
@@ -43,7 +43,7 @@
             \override Staff.InstrumentName.self-alignment-Y = ##f
             \override Staff.InstrumentName.self-alignment-X = #RIGHT
             \new Voice = "SopranoB" {
-              \dynamicUp \XLVISopranoNotesB \XLVISopranoNotesBRests
+              \dynamicUp \XLVISopranoB \XLVISopranoBRests
             }
           }
           \new Lyrics \with { \override LyricText.font-size = #-2 }
@@ -57,7 +57,7 @@
             \override Staff.InstrumentName.self-alignment-Y = ##f
             \override Staff.InstrumentName.self-alignment-X = #RIGHT
             \new Voice = "AltoB" {
-              \dynamicUp \XLVIAltoNotesB \XLVIAltoNotesBRests
+              \dynamicUp \XLVIAltoB \XLVIAltoBRests
             }
           }
           \new Lyrics \with { \override LyricText.font-size = #-2 }
@@ -65,18 +65,14 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \XLVISopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \XLVISopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \XLVISoprano }
           }
           \new Lyrics \lyricsto Soprano \XLVISopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \XLVIAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \XLVIAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \XLVIAlto }
           }
           \new Lyrics \lyricsto Alto \XLVIAltoLyrics
         >>

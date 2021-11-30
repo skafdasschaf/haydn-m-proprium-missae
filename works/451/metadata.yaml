@@ -1,22 +1,15 @@
 title: Angelis suis Deus
 id: MH 451
-genre: Gradual
+genre: gradual
 festival: Quadragesima, Dominica I.
 scoring: S, A, T, B (coro), 2 vl, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: B 125
-    type: manuscript copy
-    date: unknown
     rism: 600038084
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/141.html
-parts:
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+    principal: true
 lyrics:
   Angelis suis Deus mandavit de te,\\
   ut custodiant te in omnibus viis tuis,\\

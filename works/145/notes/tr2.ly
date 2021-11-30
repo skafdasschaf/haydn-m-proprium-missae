@@ -2,7 +2,7 @@
 
 CXLVaTrombaII = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoCXLVa
     \partial 8 r8 c4\fE r8 c g r g r
     g4 r8 g c4 r
@@ -50,7 +50,7 @@ CXLVaTrombaII = {
 
 CXLVbTrombaII = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 3/4 \tempoCXLVa
     R2.*30 %30
     r4 c\fE c
@@ -89,7 +89,7 @@ CXLVbTrombaII = {
 
 CXLVcTrombaII = {
   \relative c' {
-    \clef treble
+    \clef alto
     \twotwotime \key c \major \time 2/2 \tempoCXLVc
     R1*10 %10
     r2 r4 c\fE
@@ -103,7 +103,7 @@ CXLVcTrombaII = {
 
 CXLVdTrombaII = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoCXLVd
     c4\fE r r g
     c r r g

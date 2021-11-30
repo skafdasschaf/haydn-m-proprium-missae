@@ -1,44 +1,33 @@
 title: In adoratione nostra
 id: MH 324
-genre: Offertorium
+genre: offertorium
 festival: Pro Precibus 40 horarum
 scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 vl, vla, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: B 114
-    type: manuscript copy
-    date: unknown
     rism: 600038074
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/810.html
-  2:
+    principal: true
+  C1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 4328\#Beibd.3
-    type: print
-    date: unknown
     rism: 455024083
     url: http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045841-7
-critical_notes: |
-  14  & T, B  & 3rd quarter in (1): b4 (lyrics “iuva”) \\
-  42  & vla   & 3rd eighth in (1): d′8 \\
-  47  & vla   & 7th eighth in (1): dis′8 \\
-  51  & vla   & 2nd/3rd eighth in (1): e′8–d′8 \\
-  75  & vla   & 4th quarter in (1): e′8–e′8 \\
-  78  & cor 2 & 2nd half note in (1): e′2 \\
-  79  & ob 1  & 5th eighth in (1): g′8 \\
-  82  & T     & bar in (1): b8–b8–a4–c′4–b4 \\
-  111 & vla   & 2nd eighth in (1): d′8 \\
-  125 & vla   & 3rd eighth in (1): b8 \\
+toe: |
+  14  & T, B  & 3rd \quarterNote\ in \B1: b4 (lyrics “iuva”) \\
+  42  & vla   & 3rd \eighthNote\ in \B1: d′8 \\
+  47  & vla   & 7th \eighthNote\ in \B1: \sharp d′8 \\
+  51  & vla   & 2nd/3rd \eighthNote\ in \B1: e′8–d′8 \\
+  75  & vla   & 4th \quarterNote\ in \B1: e′8–e′8 \\
+  78  & cor 2 & 2nd \halfNote\ in \B1: e′2 \\
+  79  & ob 1  & 5th \eighthNote\ in \B1: g′8 \\
+  82  & T     & bar in \B1: b8–b8–a4–c′4–b4 \\
+  111 & vla   & 2nd \eighthNote\ in \B1: d′8 \\
+  125 & vla   & 3rd \eighthNote\ in \B1: b8 \\
 parts:
-  ob1: Oboe I
-  ob2: Oboe II
   cor12: Corno I, II in G
-  vl1: Violino I
-  vl2: Violino II
-  vla: Viola
-  coro: Coro
-  org: Organo
-  b: Bassi
 lyrics:
   In adoratione nostra, tremendi Dei sub hostia,\\
   qui continetur totus, et vere latet.\\

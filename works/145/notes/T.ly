@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CXLVaTenoreIncipit = \markup {
-  "Tenore" \hspace #-18.2 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef tenor s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CXLVaTenoreNotes = {
+CXLVaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVa
@@ -111,7 +100,7 @@ CXLVaTenoreLyrics = \lyricmode {
   ae. %54 finis
 }
 
-CXLVbTenoreNotes = {
+CXLVbTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 3/4 \autoBeamOff \tempoCXLVa
@@ -267,7 +256,7 @@ CXLVbTenoreLyrics = \lyricmode {
   rus. %142 finis
 }
 
-CXLVcTenoreNotes = {
+CXLVcTenore = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \dorian \time 2/2 \autoBeamOff \tempoCXLVc
@@ -360,7 +349,7 @@ CXLVcTenoreLyrics = \lyricmode {
   sti. %46 finis
 }
 
-CXLVdTenoreNotes = {
+CXLVdTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoCXLVd

@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CCCXXIVAltoIncipit = \markup {
-  "Alto" \hspace #-16.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef alto s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CCCXXIVAltoNotes = {
+CCCXXIVAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 4/4 \autoBeamOff \tempoCCCXXIV

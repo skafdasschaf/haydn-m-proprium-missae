@@ -1,103 +1,43 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
-
-\paper {
-	indent = 2\cm
-	top-margin = 1\cm
-	outer-margin = 1.5\cm
-	inner-margin = 1.5\cm
-	system-separator-markup = ##f
-	system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-	top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-	markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-	systems-per-page = #3
-}
-
-\layout {
-	\context {
-		\Lyrics
-		\override LyricText.font-size = #-.5
-	}
-	\context {
-		\ChoirStaff
-		\override StaffGrouper.staff-staff-spacing =
-		  #'((basic-distance . 12)
-         (minimum-distance . 12)
-         (padding . -100)
-         (stretchability . 0))
-		\override StaffGrouper.staffgroup-staff-spacing =
-		  #'((basic-distance . 13)
-         (minimum-distance . 13)
-         (padding . -100)
-         (stretchability . 0))
-	}
-	\context {
-		\Staff
-		instrumentName = "Organo"
-	}
-}
-
-#(set-global-staff-size 15.87)
+\include "../definitions.ly"
+\include "score_settings/coro.ly"
 
 \book {
-	\bookpart {
-		\header {
-			number = "215"
-			title = "L A U D A   S I O N"
-		}
-		\score {
-			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \ccxvSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \ccxvSopranoLyrics
+  \bookpart {
+    \section "215" "Lauda Sion"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \CCXVSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \CCXVSopranoLyrics
 
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \ccxvAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \ccxvAltoLyrics
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \CCXVAlto }
+          }
+          \new Lyrics \lyricsto Alto \CCXVAltoLyrics
 
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \ccxvTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \ccxvTenoreLyrics
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \CCXVTenore }
+          }
+          \new Lyrics \lyricsto Tenore \CCXVTenoreLyrics
 
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \ccxvBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \ccxvBassoLyrics
-				>>
-				\new Staff { \ccxvOrgano }
-				\new FiguredBass { \ccxvBassFigures }
-			>>
-		}
-	}
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \CCXVBasso }
+          }
+          \new Lyrics \lyricsto Basso \CCXVBassoLyrics
+        >>
+        \new Staff { \CCXVOrgano }
+        \new FiguredBass { \CCXVBassFigures }
+      >>
+    }
+  }
 }

@@ -1,70 +1,23 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  outer-margin = 1.5\cm
-  inner-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \Staff
-    instrumentName = "vl 2"
-  }
-}
+\include "../definitions.ly"
+#(define option-instrument-name "vl 2")
+\include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "145"
-      title = "T E   D E U M"
-    }
-    \paper { indent = 2\cm }
+    \section "145" "Te Deum"
+    \addTocEntry
     \score {
       <<
-        \new Staff {
-          \set Staff.instrumentName = "Violino II"
-          \CXLVaViolinoII
-        }
+        \new Staff { \CXLVaViolinoII }
       >>
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   G L O R I O S U S   A P O S T O L O R U M   C H O R U S"
-    }
+    \subsection "Te gloriosus Apostolorum chorus"
+    \addTocEntry
     \score {
       <<
         \new Staff { \CXLVbViolinoII }
@@ -72,9 +25,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   E R G O   Q U A E S U M U S"
-    }
+    \subsection "Te ergo quaesumus"
+    \addTocEntry
     \score {
       <<
         \new Staff { \CXLVcViolinoII }
@@ -82,9 +34,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "A E T E R N A   F A C"
-    }
+    \subsection "Æterna fac"
+    \addTocEntry
     \score {
       <<
         \new Staff { \CXLVdViolinoII }

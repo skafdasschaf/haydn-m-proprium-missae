@@ -1,8 +1,9 @@
 \version "2.22.0"
 
-tempoCDLXXXI = \tempoMarkup "Adagio non troppo"
+tempoCDXLVII = \tempoMarkup "Andante maestoso"
 
-
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/S.ly"

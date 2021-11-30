@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-XLVIAltoIncipit = \markup {
-  "Alto" \hspace #-16.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef alto s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-XLVIAltoNotes = {
+XLVIAlto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \autoBeamOff \tempoXLVI
@@ -313,7 +302,7 @@ XLVIAltoIncipitB = \markup {
   } \hspace #-1.8
 }
 
-XLVIAltoNotesB = {
+XLVIAltoB = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \autoBeamOff \tempoXLVI
@@ -370,7 +359,7 @@ XLVIAltoNotesB = {
   }
 }
 
-XLVIAltoNotesBRests = {
+XLVIAltoBRests = {
   s1*17 \bar "||" %90
   s4.*87 \bar "|."
 }

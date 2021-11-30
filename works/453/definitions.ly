@@ -1,10 +1,8 @@
 \version "2.22.0"
 
-tempoCDXLVIII = \tempoMarkup "Allegro"
+tempoCDLIII = \tempoMarkup "Moderato"
+tempoCDLIIIb = \tempoMarkup "Più vivace"
 
-
-\include "notes/clno1.ly"
-\include "notes/clno2.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/S.ly"

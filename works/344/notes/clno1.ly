@@ -4,7 +4,7 @@ CCCXLIVClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoCCCXLIV
-    \pa c'8\fE g16 e c4 \pd r r8 \pa g'
+    \pa c'8_\fE g16 e c4 \pd r r8 \pa g'
     g c \pd c4 r r8 d
     d[ e] e4 r2
     r8 \pao g, c d e4 r

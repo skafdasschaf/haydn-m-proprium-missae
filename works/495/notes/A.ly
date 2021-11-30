@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CDXCVAltoIncipit = \markup {
-  "Alto" \hspace #-16.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef alto s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CDXCVAltoNotes = {
+CDXCVAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \autoBeamOff \tempoCDXCV

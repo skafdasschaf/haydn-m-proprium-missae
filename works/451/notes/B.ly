@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-CDLIBassoNotes = {
+CDLIBasso = {
   \relative c {
     \clef bass
     \key h \minor \time 2/2 \autoBeamOff \tempoCDLI

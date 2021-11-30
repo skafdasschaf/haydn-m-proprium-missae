@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CDXLIIITenoreIncipit = \markup {
-  "Tenore" \hspace #-18.2 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef tenor s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CDXLIIITenoreNotes = {
+CDXLIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key g \minor \time 2/2 \autoBeamOff \tempoCDXLIII

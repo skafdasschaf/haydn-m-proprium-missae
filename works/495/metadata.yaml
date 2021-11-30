@@ -1,32 +1,25 @@
 title: Benedictus Dominus Deus Israel
 id: MH 495
-genre: Gradual
+genre: gradual
 festival: Epiphania Domini, Dominica I.
 scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 344
-    type: autograph manuscript
     date: 1788-09-29
     rism: 456009363
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084959-6
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: B 119
-    type: manuscript copy
-    date: unknown
     rism: 600038079
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/136.html
-critical_notes: |
-  80 & vl 1 & This bar is presumably crossed out, indicating that vl 1 should play in unison with vl 2. \\
+toe: |
+  80 & vl 1 & This bar is presumably crossed out in \A1, indicating that vl 1 should play in unison with vl 2. \\
 parts:
   cor12: Corno I, II in F
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
 lyrics:
   Benedictus Dominus Deus Israel\\
   qui facit mirabilia magna solus a saeculo.\\

@@ -1,7 +1,6 @@
 \version "2.22.0"
 
-tempoCDXCVIII = \tempoMarkup "Allegro"
-
+tempoCCCXLIV = \tempoMarkup "Andante cantabile"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

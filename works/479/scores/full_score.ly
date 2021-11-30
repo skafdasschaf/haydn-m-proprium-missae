@@ -1,7 +1,8 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \paper {
   top-system-spacing.basic-distance = #10
@@ -11,14 +12,13 @@
   markup-system-spacing.basic-distance = #10
   markup-system-spacing.minimum-distance = #10
   systems-per-page = #2
+  indent = 3\cm
 }
 
 \book {
   \bookpart {
-    \header {
-      number = "479"
-      title = "E X S U R G E   D O M I N E"
-    }
+    \section "479" "Exsurge Domine"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -36,32 +36,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CDLXXIXSopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \CDLXXIXSopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \CDLXXIXSoprano }
           }
           \new Lyrics \lyricsto Soprano \CDLXXIXSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLXXIXAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CDLXXIXAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CDLXXIXAlto }
           }
           \new Lyrics \lyricsto Alto \CDLXXIXAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLXXIXTenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \CDLXXIXTenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \CDLXXIXTenore }
           }
           \new Lyrics \lyricsto Tenore \CDLXXIXTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \CDLXXIXBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CDLXXIXBasso }
           }
           \new Lyrics \lyricsto Basso \CDLXXIXBassoLyrics
         >>

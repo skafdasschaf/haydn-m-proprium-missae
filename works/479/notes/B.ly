@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-CDLXXIXBassoNotes = {
+CDLXXIXBasso = {
   \relative c {
     \clef bass
     \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoCDLXXIX

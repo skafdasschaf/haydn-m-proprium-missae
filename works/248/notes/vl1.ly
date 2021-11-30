@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-CCXLVIIIViolinoIIncipit = \markup {
-  "I" \hspace #-16.1 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-0.8
-}
-
 CCXLVIIIViolinoI = {
   \relative c' {
     \clef treble

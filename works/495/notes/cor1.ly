@@ -4,7 +4,7 @@ CDXCVCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoCDXCV
-    c'8\fE g g4 r
+    c'8_\fE g g4 r
     c c d
     c r r
     r c8 c c c

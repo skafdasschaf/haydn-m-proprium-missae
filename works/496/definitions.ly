@@ -1,7 +1,6 @@
 \version "2.22.0"
 
-tempoCDXLVII = \tempoMarkup "Andante maestoso"
-
+tempoCDXCVI = \tempoMarkup "Andantino"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"

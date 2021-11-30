@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-XLVISopranoIncipit = \markup {
-  "Soprano" \hspace #-19 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-XLVISopranoNotes = {
+XLVISoprano = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \autoBeamOff \tempoXLVI
@@ -313,7 +302,7 @@ XLVISopranoIncipitB = \markup {
   } \hspace #-1.8
 }
 
-XLVISopranoNotesB = {
+XLVISopranoB = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \autoBeamOff \tempoXLVI
@@ -372,7 +361,7 @@ XLVISopranoNotesB = {
   }
 }
 
-XLVISopranoNotesBRests = {
+XLVISopranoBRests = {
   s1*17 \bar "||" %90
   s4.*87 \bar "|."
 }

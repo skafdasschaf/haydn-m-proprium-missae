@@ -1,14 +1,13 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "452"
-      title = "A N I M A   N O S T R A"
-    }
+    \section "452" "Anima nostra"
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -17,12 +16,13 @@
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
       systems-per-page = #2
+      indent = 3\cm
     }
     \score {
       <<
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Corno I, II" "in G" }
+            \set Staff.instrumentName = \transposedName "Corno I, II" "G" ""
             % \transpose c g,
             \partCombine \CDLIICornoI \CDLIICornoII
           >>
@@ -42,26 +42,20 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CDLIISopranoAIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipit "Soprano I" "soprano" #-19.8 #-1.8
             \new Voice = "SopranoA" { \dynamicUp \CDLIISopranoANotes }
           }
           \new Lyrics \lyricsto SopranoA \CDLIISopranoALyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLIISopranoBIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipit "Soprano II" "soprano" #-20.2 #-1.8
             \new Voice = "SopranoB" { \dynamicUp \CDLIISopranoBNotes }
           }
           \new Lyrics \lyricsto SopranoB \CDLIISopranoBLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLIIAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CDLIIAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CDLIIAlto }
           }
           \new Lyrics \lyricsto Alto \CDLIIAltoLyrics
         >>

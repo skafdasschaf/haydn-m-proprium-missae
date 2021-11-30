@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-CDXLIIBassoNotes = {
+CDXLIIBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 2/2 \autoBeamOff \tempoCDXLII

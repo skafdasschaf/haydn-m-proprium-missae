@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-CDLIISopranoAIncipit = \markup {
-  "Soprano 1" \hspace #-19.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
 CDLIISopranoANotes = {
   \relative c' {
     \clef treble

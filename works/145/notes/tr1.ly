@@ -1,19 +1,8 @@
 \version "2.22.0"
 
-CXLVaTrombaIncipit = \markup {
-  \center-column { "Tromba I, II" "in C" } \hspace #-20.8 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef alto s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
 CXLVaTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoCXLVa
     \partial 8 r8 g'4\fE r8 g g r g r
     g4 r8 g g4 r
@@ -61,7 +50,7 @@ CXLVaTrombaI = {
 
 CXLVbTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 3/4 \tempoCXLVa
     R2.*30 %30
     r4 g'\fE g
@@ -100,7 +89,7 @@ CXLVbTrombaI = {
 
 CXLVcTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \twotwotime \key c \major \time 2/2 \tempoCXLVc
     R1*10 %10
     r2 r4 g'\fE
@@ -114,7 +103,7 @@ CXLVcTrombaI = {
 
 CXLVdTrombaI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key c \major \time 4/4 \tempoCXLVd
     g'4\fE r r g
     g r r g

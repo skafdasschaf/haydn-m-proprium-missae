@@ -1,33 +1,26 @@
 title: Universi qui te expectant
 id: MH 442
-genre: Gradual
+genre: gradual
 festival: Adventus, Dominica I.
 scoring: S, A, T, B (coro), 2 cor (F), [2 vl], b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 335
-    type: autograph manuscript
     date: 1787-08-26
     rism: 456009354
     url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084928/images
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: B 115
-    type: manuscript copy
-    date: unknown
     rism: 600038076
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
-critical_notes: |
-  – & – & According to (1), vl are not obligatory,
+toe: |
+  – & – & According to \A1, vl are not obligatory,
           and cor were added in 1796. \\
 parts:
   cor12: Corno I, II in F
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
 lyrics:
   Universi qui te expectant non confundentur, Domine.\\
   Vias tuas Domine notas fac mihi et semitas tuas edoce me.\\

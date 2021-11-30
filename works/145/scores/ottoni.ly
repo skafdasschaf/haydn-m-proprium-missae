@@ -1,118 +1,51 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  outer-margin = 1.5\cm
-  inner-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  last-bottom-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . 0)
-       (stretchability . 1.0e7))
-
-  systems-per-page = #3
-}
-
-#(set-global-staff-size 17.82)
+\include "../definitions.ly"
+#(define option-instrument-name-upper "clno")
+#(define option-instrument-name-lower "timp")
+\include "score_settings/three-staves.ly"
 
 \layout {
   \context {
-    \GrandStaff
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-
-  }
-  \context {
-    \Staff
-    instrumentName = "timp"
+    \StaffGroup
+    \smallGroupDistance
   }
 }
 
-
 \book {
   \bookpart {
-    \header {
-      number = "145"
-      title = "T E   D E U M"
-    }
-    \paper { indent = 2 \cm }
+    \section "145" "Te Deum"
+    \addTocEntry
+    \paper { indent = 1.5\cm }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Clarino" "in C" }
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \CXLVaClarinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \CXLVaClarinoII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
+            \partCombine \CXLVaClarinoI \CXLVaClarinoII
           >>
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Tromba I, II" "in C" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "tr" "C" "" "1, 2" }
             \partCombine \CXLVaTrombaI \CXLVaTrombaII
           >>
         >>
-        \new Staff { \CXLVaTimpani }
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+          \CXLVaTimpani
+        }
       >>
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   G L O R I O S U S   A P O S T O L O R U M   C H O R U S"
-    }
+    \subsection "Te gloriosus Apostolorum chorus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "clno"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \CXLVbClarinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \CXLVbClarinoII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine \CXLVbClarinoI \CXLVbClarinoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "tr" "1, 2" }
@@ -124,23 +57,15 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "T E   E R G O   Q U A E S U M U S"
-    }
+    \subsection "Te ergo quaesumus"
+    \addTocEntry
     \paper { systems-per-page = #1 ragged-last = ##f }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "clno"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \CXLVcClarinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \CXLVcClarinoII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine \CXLVcClarinoI \CXLVcClarinoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "tr" "1, 2" }
@@ -152,22 +77,14 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "A E T E R N A   F A C"
-    }
+    \subsection "Æterna fac"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "clno"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \CXLVdClarinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \CXLVdClarinoII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine \CXLVdClarinoI \CXLVdClarinoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "tr" "1, 2" }

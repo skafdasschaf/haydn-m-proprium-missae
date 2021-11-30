@@ -1,19 +1,19 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "480"
-      title = "L A E T A T U S   S U M"
-    }
+    \section "480" "Lætatus sum"
+    \addTocEntry
+    \paper { indent = 3\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Clarinetto" \line { "in B" \musicglyph #'"pedal.*" } }
+            \set GrandStaff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
             \new Staff {
               \set Staff.instrumentName = "I"
               % \transpose c b,
@@ -28,7 +28,7 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in B" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "B" "flat"
             % \transpose c b,
             \partCombine \CDLXXXClarinoI \CDLXXXClarinoII
           >>
@@ -48,32 +48,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CDLXXXSopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \CDLXXXSopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \CDLXXXSoprano }
           }
           \new Lyrics \lyricsto Soprano \CDLXXXSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLXXXAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CDLXXXAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CDLXXXAlto }
           }
           \new Lyrics \lyricsto Alto \CDLXXXAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDLXXXTenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \CDLXXXTenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \CDLXXXTenore }
           }
           \new Lyrics \lyricsto Tenore \CDLXXXTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \CDLXXXBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CDLXXXBasso }
           }
           \new Lyrics \lyricsto Basso \CDLXXXBassoLyrics
         >>

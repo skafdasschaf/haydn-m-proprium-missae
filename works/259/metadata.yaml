@@ -1,53 +1,46 @@
 title: Quicunque manducaverit
 id: MH 259
-genre: Offertorium
+genre: offertorium
 festival: De Venerabili Sacramento
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cor (G), 2 clno (C), timp (C–G), 2 vl, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: B 110
-    type: manuscript copy
-    date: unknown
     rism: 600038070
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/755.html
-  2:
-    siglum: D-NATk
-    shelfmark: NA/SP (H-67)
-    type: print
-    date: 1826 (A. Diabelli, Vienna)
-    rism: 455039990
-    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H67/
-  3:
+    principal: true
+  B2:
     siglum: F-Pn
     shelfmark: D-5669 (2)
-    type: manuscript copy
     date: 1820–1840
     rism: 840026339
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729500
-critical_notes: |
-  –   & –       & cor 1, 2 only in (1); clno 1, 2 and timp only in (2) \\
-  9   & vl 1    & 8th note in (1): f′32 \\
-  11  & vl 1    & 14th/15th sixteenth in (1): d″16–d″16 \\
-  11  & vl 2    & 5th sixteenth in (1): g′16 \\
-  27  & vl 1    & 1st quarter in (1): f′8–g′8 \\
-  44  & vl 1, 2 & grace note missing in (1) \\
-  100 & S       & 2nd quarter in (1): a′8.–a′16 \\
-  101 & timp    & 1st half of bar in (2): r2 \\
-  101 & vl 2    & grace note missing in (1) \\
-  102 & vl 2    & grace note missing in (1) \\
-  106 & A       & 1st half of bar in (1): d′8–e′16–fis′16–fis′4 \\
-  112 & vl 2    & 4th note in (1): d′16. \\
-  119 & –       & fermata only in (2) \\
-  119 & vl 1    & 2nd eighth in (1): g″8 \\
+  C1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-67)
+    date: 1826
+    rism: 455039990
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H67/
+    nnotes: A. Diabelli, Vienna
+toe: |
+  –   & –       & cor 1, 2 only in \B1; clno 1, 2 and timp only in \C1 \\
+  9   & vl 1    & 8th note in \B1: f′32 \\
+  11  & vl 1    & 14th/15th \sixteenthNote\ in \B1: d″16–d″16 \\
+  11  & vl 2    & 5th \sixteenthNote\ in \B1: g′16 \\
+  27  & vl 1    & 1st \quarterNote\ in \B1: f′8–g′8 \\
+  44  & vl 1, 2 & grace note missing in \B1 \\
+  100 & S       & 2nd \quarterNote\ in \B1: a′8.–a′16 \\
+  101 & timp    & 1st \halfNote\ in \C1: \halfNote \\
+  101 & vl 2    & grace note missing in \B1 \\
+  102 & vl 2    & grace note missing in \B1 \\
+  106 & A       & 1st \halfNote\ in \B1: d′8–e′16–\sharp f′16–\sharp f′4 \\
+  112 & vl 2    & 4th note in \B1: d′16. \\
+  119 & –       & fermata only in \C1 \\
+  119 & vl 1    & 2nd \eighthNote\ in \B1: g″8 \\
 parts:
   cor12: Corno I, II in G
   ottoni: Clarino I, II in C\\Timpani in C–G
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
 lyrics:
   Quicunque manducaverit panem hunc,\\
   vel biberit calicem Domini indigne,\\

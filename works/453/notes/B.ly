@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-CDLIIIBassoNotes = {
+CDLIIIBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 2/2 \autoBeamOff \tempoCDLIII

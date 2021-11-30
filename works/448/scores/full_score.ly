@@ -1,19 +1,46 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
+
+\paper {
+  top-system-spacing.basic-distance = #10
+  top-system-spacing.minimum-distance = #10
+  top-markup-spacing.basic-distance = #0
+  top-markup-spacing.minimum-distance = #0
+  markup-system-spacing.basic-distance = #10
+  markup-system-spacing.minimum-distance = #10
+  system-system-spacing.basic-distance = #17
+  system-system-spacing.minimum-distance = #17
+  systems-per-page = #2
+}
+
+\layout {
+  \context {
+    \StaffGroup
+    \setGroupDistance #11 #11
+  }
+  \context {
+    \GrandStaff
+    \setGroupDistance #11 #12
+  }
+  \context {
+    \ChoirStaff
+    \setGroupDistance #12 #13
+  }
+}
 
 \book {
   \bookpart {
-    \header {
-      number = "448"
-      title = "T U   E S   D E U S"
-    }
+    \section "448" "Tu es Deus"
+    \addTocEntry
+    \paper { indent = 3\cm }
     \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine \CDXLVIIIClarinoI \CDXLVIIIClarinoII
           >>
         >>
@@ -32,32 +59,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CDXLVIIISopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \CDXLVIIISopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \CDXLVIIISoprano }
           }
           \new Lyrics \lyricsto Soprano \CDXLVIIISopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDXLVIIIAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CDXLVIIIAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CDXLVIIIAlto }
           }
           \new Lyrics \lyricsto Alto \CDXLVIIIAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CDXLVIIITenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \CDXLVIIITenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \CDXLVIIITenore }
           }
           \new Lyrics \lyricsto Tenore \CDXLVIIITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \CDXLVIIIBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CDXLVIIIBasso }
           }
           \new Lyrics \lyricsto Basso \CDXLVIIIBassoLyrics
         >>

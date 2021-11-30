@@ -1,15 +1,11 @@
 \version "2.22.0"
 
-tempoCXLII = \tempoMarkup "Allegro moderato"
+tempoCDXLVI = \tempoMarkup "Andantino"
 
-
-\include "notes/ob1.ly"
-\include "notes/ob2.ly"
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
-\include "notes/vla.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"

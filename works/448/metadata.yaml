@@ -1,30 +1,23 @@
 title: Tu es Deus
 id: MH 448
-genre: Gradual
+genre: gradual
 festival: Quinquagesima, Dominica in
 scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 350
-    type: autograph manuscript
     date: 1787-09-20
     rism: 456009369
     url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00051604-6
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: B 124
-    type: manuscript copy
-    date: unknown
     rism: 600038083
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/140.html
 parts:
   ottoni: Clarino I, II in C
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
 lyrics:
   Tu es Deus, qui facis mirabilia solus,\\
   notam fecisti in gentibus virtutem tuam.\\

@@ -1,30 +1,30 @@
 \version "2.22.0"
 
 \include "../../../definitions_main.ly"
-\include "../definitions_work.ly"
+\include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "183"
-      title = "T R E S   S U N T   Q U I   T E S T I M O N I U M   D A N T"
-    }
+    \section "183" "Tres sunt qui testimonium dant"
+    \addTocEntry
+    \paper { indent = 3\cm }
     \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Oboe" "I, II" }
+            \set Staff.instrumentName = "Oboe I, II"
             \partCombine \CLXXXIIIOboeI \CLXXXIIIOboeII
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine \CLXXXIIIClarinoI \CLXXXIIIClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
+          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
           \CLXXXIIITimpani
         }
         \new StaffGroup <<
@@ -46,32 +46,26 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \CLXXXIIISopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \CLXXXIIISopranoNotes }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \CLXXXIIISoprano }
           }
           \new Lyrics \lyricsto Soprano \CLXXXIIISopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CLXXXIIIAltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \CLXXXIIIAltoNotes }
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \CLXXXIIIAlto }
           }
           \new Lyrics \lyricsto Alto \CLXXXIIIAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \CLXXXIIITenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \CLXXXIIITenoreNotes }
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \CLXXXIIITenore }
           }
           \new Lyrics \lyricsto Tenore \CLXXXIIITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \CLXXXIIIBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \CLXXXIIIBasso }
           }
           \new Lyrics \lyricsto Basso \CLXXXIIIBassoLyrics
         >>

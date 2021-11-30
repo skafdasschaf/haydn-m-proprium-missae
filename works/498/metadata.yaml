@@ -1,29 +1,23 @@
 title: Dominus regnavit, exsultet terra
 id: MH 498
-genre: Gradual
+genre: gradual
 festival: Epiphania Domini, Dominica IV. \& VI.
-scoring: S, A, T, B (coro), 2 clno (B), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: B 122
-    type: manuscript copy
-    date: unknown
     rism: 600038081
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/138.html
-critical_notes: |
-  2  & clno 2  & last eighth in (1): g′8 \\
-  34 & S       & grace note missing in (1) \\
-  41 & vl 1, 2 & 9th sixteenth in (1): es′16 \\
-  49 & B       & 2nd quarter in (1): f4 \\
-  74 & vl 1    & 2nd sixteenth in (1): d″16 \\
+    principal: true
+toe: |
+  2  & clno 2  & last \eighthNote\ in \B1: g′8 \\
+  34 & S       & grace note missing in \B1 \\
+  41 & vl 1, 2 & 9th \sixteenthNote\ in \B1: \flat e′16 \\
+  49 & B       & 2nd \quarterNote\ in \B1: f4 \\
+  74 & vl 1    & 2nd \sixteenthNote\ in \B1: d″16 \\
 parts:
-  ottoni: Clarino I, II in B
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+  ottoni: Clarino I, II in \flat B
 lyrics:
   Dominus regnavit,\\
   exsultet terra,\\

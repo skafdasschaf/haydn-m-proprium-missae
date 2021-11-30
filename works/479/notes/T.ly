@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CDLXXIXTenoreIncipit = \markup {
-  "Tenore" \hspace #-18.2 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef tenor s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CDLXXIXTenoreNotes = {
+CDLXXIXTenore = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoCDLXXIX
@@ -248,6 +237,6 @@ CDLXXIXTenoreLyrics = \lyricmode {
   a
   fa -- ci -- e
   tu --
-  
+
   a. %117 finis
 }

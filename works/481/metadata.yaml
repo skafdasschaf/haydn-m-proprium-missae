@@ -1,31 +1,23 @@
 title: Eripe me Domine
 id: MH 481
-genre: Gradual
+genre: gradual
 festival: Quadragesima, Dominica V.
-scoring: S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (coro), [2 vl], b, org
 sources:
-  1:
+  A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 355
-    type: autograph manuscript
     date: 1788-03-01
     rism: 456009374
     url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084965/images
-  2:
+    principal: true
+  B1:
     siglum: A-Ed
     shelfmark: B 129
-    type: manuscript copy
-    date: unknown
     rism: 600038088
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/145.html
-critical_notes: |
-  – & – & According to (1) and (2), vl are not obligatory. \\
-parts:
-  vl1: Violino I
-  vl2: Violino II
-  coro: Coro
-  org: Organo
-  b: Bassi
+toe: |
+  – & – & According to \A1 and \B1, vl are not obligatory. \\
 lyrics:
   Eripe me, Domine, de inimicis meis:\\
   doce me facere voluntatem tuam.\\

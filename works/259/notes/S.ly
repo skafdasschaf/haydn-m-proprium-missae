@@ -1,17 +1,6 @@
 \version "2.22.0"
 
-CCLIXSopranoIncipit = \markup {
-  "Soprano" \hspace #-19 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-1.8
-}
-
-CCLIXSopranoNotes = {
+CCLIXSoprano = {
   \relative c' {
     \clef treble
     \key g \minor \time 4/4 \autoBeamOff \tempoCCLIX
