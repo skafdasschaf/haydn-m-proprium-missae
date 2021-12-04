@@ -3,12 +3,14 @@ id: MH 142
 genre: offertorium
 festival: Pro omni Tempore
 scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
 sources:
   B1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 12425
     date: 1850–1900
     url: https://nbn-resolving.org/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00051608-8
+    license: CC BY-NC-SA 4.0
     principal: true
   B2:
     siglum: D-Mbs
@@ -16,6 +18,7 @@ sources:
     date: 1860–1870
     rism: 455024081
     url: https://nbn-resolving.org/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045839-9
+    license: CC BY-NC-SA 4.0
 toe: |
   68  & org   & 2nd \quarterNote\ in \B1 and \B2: \crotchetRest \\
   80  & vla   & 1st \quarterNote\ in \B1 and \B2: \crotchetRest \\

@@ -3,19 +3,22 @@ id: MH 448
 genre: gradual
 festival: Quinquagesima, Dominica in
 scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 350
     date: 1787-09-20
     rism: 456009369
-    url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00051604-6
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00051604-6
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 124
     rism: 600038083
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/140.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/140.html
+    license: public domain
 parts:
   ottoni: Clarino I, II in C
 lyrics:

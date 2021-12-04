@@ -3,19 +3,22 @@ id: MH 481
 genre: gradual
 festival: Quadragesima, Dominica V.
 scoring: S, A, T, B (coro), [2 vl], b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 355
     date: 1788-03-01
     rism: 456009374
-    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084965/images
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00084965/images
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 129
     rism: 600038088
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/145.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/145.html
+    license: public domain
 toe: |
   – & – & According to \A1 and \B1, vl are not obligatory. \\
 lyrics:

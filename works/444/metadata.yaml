@@ -3,19 +3,22 @@ id: MH 444
 genre: gradual
 festival: Adventus, Dominica III.
 scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 337
     date: 1787-09-01
     rism: 456009356
-    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084930/images
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00084930/images
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 117
     rism: 6000380757
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/134.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/134.html
+    license: public domain
 toe: |
   31 & vl 2 & 15th \sixteenthNote\ in \A1 and \B1: f″16 \\
 parts:

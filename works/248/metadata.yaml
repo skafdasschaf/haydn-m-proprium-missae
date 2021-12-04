@@ -3,12 +3,14 @@ id: MH 248
 genre: offertorium
 festival: De Martyribus
 scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 112
     rism:  600038072
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/808.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/808.html
+    license: public domain
     principal: true
 toe: |
   –  & vl 2 & labelled as vla in \B1 \\

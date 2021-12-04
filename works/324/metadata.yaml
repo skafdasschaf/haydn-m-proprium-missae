@@ -3,18 +3,21 @@ id: MH 324
 genre: offertorium
 festival: Pro Precibus 40 horarum
 scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 114
     rism: 600038074
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/810.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/810.html
+    license: public domain
     principal: true
-  C1:
+  D1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 4328\#Beibd.3
     rism: 455024083
-    url: http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045841-7
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045841-7
+    license: CC BY-NC-SA 4.0
 toe: |
   14  & T, B  & 3rd \quarterNote\ in \B1: b4 (lyrics “iuva”) \\
   42  & vla   & 3rd \eighthNote\ in \B1: d′8 \\

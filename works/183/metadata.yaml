@@ -3,13 +3,15 @@ id: MH 183
 genre: offertorium
 festival: Trinitatis
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 111
     type: manuscript copy
     rism: 600038071
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/807.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/807.html
+    license: public domain
     principal: true
   B2:
     siglum: A-SPD
@@ -17,18 +19,21 @@ sources:
     date: 1800-1830
     rism: 455042303
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
+    license: public domain
   D1:
     siglum: CZ-Pu
     shelfmark: 59 rm 10
     date: 1775-1799
     rism: 550503093
-    url: http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_RM_10____0LP5PHB-cs
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_RM_10____0LP5PHB-cs
+    license: CC BY-NC-SA 4.0
   D2:
     siglum: D-Eu
     shelfmark: Esl II 65
     date: 1869
     rism: 450300076
     url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-65-2
+    license: CC BY-SA 4.0
 toe: |
   –  & –    & ob 1 only appears in \B2. ob 2 is missing in all sources and thus was reconstructed by the editor. \\
   3  & vl 1 & last \eighthNote\ in \B1: e″8 \\

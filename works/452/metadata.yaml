@@ -3,13 +3,15 @@ id: MH 452
 genre: gradual
 festival: Innocentium Martyrum, Commune plurimorum Martyrum
 scoring: 2 S, A (solo), 2 S, A (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   B1:
     siglum: F-Pn
     shelfmark: D-5569 (7)
     date: 1830–1840
     rism: 840026249
-    url: http://catalogue.bnf.fr/ark:/12148/cb409440402
+    url: https://catalogue.bnf.fr/ark:/12148/cb409440402
+    license: custom (free for non-commercial purposes)
     principal: true
 parts:
   cor12: Corno I, II in G

@@ -3,19 +3,22 @@ id: MH 479
 genre: gradual
 festival: Quadragesima, Dominica III.
 scoring: S, A, T, B (coro), [2 vl], b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 353
     date: 1788-02-20
     rism: 456009372
-    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084964/images
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00084964/images
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 127
     rism: 600038086
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/143.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/143.html
+    license: public domain
 toe: |
   – & – & According to \A1, vl are not obligatory. \\
 lyrics:

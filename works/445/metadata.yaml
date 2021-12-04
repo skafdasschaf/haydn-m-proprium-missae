@@ -3,6 +3,7 @@ id: MH 445
 genre: gradual
 festival: Adventus, Dominica IV.
 scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
@@ -10,12 +11,14 @@ sources:
     date: 1787-09-05
     rism: 456009357
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084931-8
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 118
     rism: 600038078
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/135.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/135.html
+    license: public domain
 toe: |
   –  & – & According to \A1, clno were added in 1796. \\
   55 & B & 3rd \quarterNote\ in \A1 and \B1: A4 \\

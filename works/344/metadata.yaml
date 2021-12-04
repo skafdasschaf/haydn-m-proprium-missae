@@ -3,12 +3,14 @@ id: MH 344
 genre: gradual
 festival: Joannis Apostoli et Evangelistae
 scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 209
     rism: 600038159
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/208.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/208.html
+    license: public domain
     principal: true
 toe: |
   50 & T      & 2nd \halfNote\ in \B1: f8–a8.–\flat b16–c′16–\flat b16 \\

@@ -2,8 +2,20 @@
 
 import argparse
 import os
+import re
 import subprocess
 import yaml
+
+
+def natural_sort(s, _nsre=re.compile("([0-9]+)")):
+    return [int(text) if text.isdigit() else text.lower()
+            for text in _nsre.split(s)]
+
+
+
+# Parameters --------------------------------------------------------------
+
+IGNORED_WORKS = ["template"]
 
 
 
@@ -26,9 +38,7 @@ where [id] is the catalogue of works number of a work:
 * {color}info{reset}: prints this message
 """.format(color="\033[94m", reset="\033[0m")
 
-# * {color}final/full_score{reset}: collection of all full scores and the critical report
-
-rule_single_score = """
+rule_work_score = """
 {work}/{score}: tmp/{work}/{score}.pdf
 tmp/{work}/{score}.pdf: works/{work}/scores/{score}.ly \
                         works/{work}/notes/*.ly \
@@ -45,7 +55,8 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >                                          -i works/{work}/metadata.yaml \\
 >                                          -t {score} \\
 >                                          -k festival genre lyrics toe \\
->                                          -s ../tmp/{work}
+>                                          -s ../tmp/{work} \\
+>                                          -l works/{work}
 >latexmk -cd \\
 >        -lualatex \\
 >        -outdir=../final/{work} \\
@@ -59,7 +70,7 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >        front_matter/critical_report.tex
 """
 
-rule_all_scores = """
+rule_work_scores = """
 .PHONY: {work}/scores
 {work}/scores: {deps}
 
@@ -67,70 +78,40 @@ rule_all_scores = """
 final/{work}/scores: {deps_final}
 """
 
-rule_all_final_works = """
+rule_works = """
 .PHONY: works
 works: {all_works}
 """
 
-# rule_full_score_final = """
-# .PHONY: final/full_score
-# final/full_score: final/full_score.pdf
-# final/full_score.pdf: front_matter/critical_report.tex \
-#                       {all_metadata} \
-#                       {all_full_scores}
-# >python make_webpage.py
-# >python read_metadata.py -t full_score
-# >latexmk -cd \
-#          -lualatex \
-#          -outdir=../final \
-#          -jobname=full_score \
-#          front_matter/critical_report.tex
-# >latexmk -c \
-#          -outdir=final \
-#          -jobname=full_score \
-#          front_matter/critical_report.tex
-# """
 
 
 # Generate makefile -------------------------------------------------------
 
-makefile = [make_header]
+included_works = [w for w in sorted(os.listdir("works"), key=natural_sort)
+                  if w not in IGNORED_WORKS]
 
-included_works = os.listdir("works")
+makefile = [make_header]
 
 for work in included_works:
     notes = os.listdir(os.path.join("works", work, "notes"))
     scores = [os.path.splitext(os.path.basename(s))[0]
               for s in os.listdir(os.path.join("works", work, "scores"))]
 
-    # rule for a single score
+    # rule for a single (final) score
     for score in scores:
-        makefile.append(rule_single_score.format(work=work, score=score))
+        makefile.append(rule_work_score.format(work=work, score=score))
 
-    # rule for all scores
+    # rule for all (final) scores
     deps = " ".join(["{}/{}".format(work, s) for s in scores])
     deps_final = " ".join(["final/{}/{}".format(work, s) for s in scores])
     makefile.append(
-        rule_all_scores.format(work=work, deps=deps, deps_final=deps_final)
+        rule_work_scores.format(work=work, deps=deps, deps_final=deps_final)
     )
-
 
 # rule for all final works
 all_works = " ".join(["final/{}/scores".format(w)
                       for w in included_works])
-makefile.append(rule_all_final_works.format(all_works=all_works))
-
-# # rule for the final pdf containing all full scores
-# all_full_scores = " ".join(["tmp/{}_full_score.pdf".format(w)
-#                             for w in included_works])
-# all_metadata = " ".join(["works/{}/metadata.yaml".format(w)
-#                         for w in included_works])
-# makefile.append(
-#     rule_full_score_final.format(
-#         all_full_scores=all_full_scores,
-#         all_metadata=all_metadata
-#     )
-# )
+makefile.append(rule_works.format(all_works=all_works))
 
 
 

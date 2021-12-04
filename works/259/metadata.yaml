@@ -3,26 +3,30 @@ id: MH 259
 genre: offertorium
 festival: De Venerabili Sacramento
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cor (G), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 110
     rism: 600038070
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/755.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/755.html
+    license: public domain
     principal: true
-  B2:
-    siglum: F-Pn
-    shelfmark: D-5669 (2)
-    date: 1820–1840
-    rism: 840026339
-    url: https://gallica.bnf.fr/ark:/12148/btv1b100729500
   C1:
     siglum: D-NATk
     shelfmark: NA/SP (H-67)
     date: 1826
     rism: 455039990
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H67/
+    license: public domain
     nnotes: A. Diabelli, Vienna
+  D1:
+    siglum: F-Pn
+    shelfmark: D-5669 (2)
+    date: 1820–1840
+    rism: 840026339
+    license: custom (free for non-commercial purposes)
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729500
 toe: |
   –   & –       & cor 1, 2 only in \B1; clno 1, 2 and timp only in \C1 \\
   9   & vl 1    & 8th note in \B1: f′32 \\

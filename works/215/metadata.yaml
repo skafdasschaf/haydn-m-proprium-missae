@@ -3,12 +3,14 @@ id: MH 215
 genre: sequence
 festival: Corpus Christi
 scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 176
     rism: 600038129
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/976.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/976.html
+    license: public domain
     principal: true
 toe: |
   3   & vl 1  & grace note missing in \B1 \\

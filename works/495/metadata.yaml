@@ -3,6 +3,7 @@ id: MH 495
 genre: gradual
 festival: Epiphania Domini, Dominica I.
 scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
@@ -10,12 +11,14 @@ sources:
     date: 1788-09-29
     rism: 456009363
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084959-6
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 119
     rism: 600038079
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/136.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/136.html
+    license: public domain
 toe: |
   80 & vl 1 & This bar is presumably crossed out in \A1, indicating that vl 1 should play in unison with vl 2. \\
 parts:

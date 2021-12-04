@@ -3,25 +3,29 @@ id: MH 654
 genre: offertorium
 festival: Mariae (B.V.)
 scoring: S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 423
     date: 1797-02-24
     rism: 456009443
-    url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00074861-7
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00074861-7
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: L 17
     rism: 600038630
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/542.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/542.html
+    license: public domain
   D1:
     siglum: F-Pn
     shelfmark: D-5591
     date: 1830–1840
     rism: 840026225
     url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
 lyrics:

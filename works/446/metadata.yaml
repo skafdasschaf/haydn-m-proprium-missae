@@ -3,6 +3,7 @@ id: MH 446
 genre: gradual
 festival: Septuagesima, Dominica in
 scoring: S, A, T, B (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
@@ -10,6 +11,7 @@ sources:
     date: 1787-09-09
     rism: 456009367
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084961-4
+    license: CC BY-NC-SA 4.0
     principal: true
 toe: |
   – & – & According to \A1, cor were added in 1796. \\

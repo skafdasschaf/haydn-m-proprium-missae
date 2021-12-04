@@ -3,12 +3,14 @@ id: MH 498
 genre: gradual
 festival: Epiphania Domini, Dominica IV. \& VI.
 scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 122
     rism: 600038081
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/138.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/138.html
+    license: public domain
     principal: true
 toe: |
   2  & clno 2  & last \eighthNote\ in \B1: g′8 \\

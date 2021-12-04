@@ -3,19 +3,22 @@ id: MH 442
 genre: gradual
 festival: Adventus, Dominica I.
 scoring: S, A, T, B (coro), 2 cor (F), [2 vl], b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 335
     date: 1787-08-26
     rism: 456009354
-    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084928/images
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00084928/images
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 115
     rism: 600038076
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
+    license: public domain
 toe: |
   – & – & According to \A1, vl are not obligatory,
           and cor were added in 1796. \\

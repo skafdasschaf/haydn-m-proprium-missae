@@ -1,6 +1,8 @@
-composer: Haydn, Johann Michael
+composer:
+  last: Haydn
+  first: Johann Michael
 title: Proprium missae
 id: (various)
 genre: (various)
 scoring: (various)
-imslp:
+license: cc-by-sa-4.0 OR cc-by-nc-sa-4.0

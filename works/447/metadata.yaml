@@ -3,6 +3,7 @@ id: MH 447
 genre: gradual
 festival: Sexagesima, Dominica in
 scoring: S, A, T, B (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
@@ -10,12 +11,14 @@ sources:
     date: 1787-09-14
     rism: 456009368
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084962-9
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 123
     rism: 600038082
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/139.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/139.html
+    license: public domain
 toe: |
   – & coro & All caps spelling of “DEUS” (bars 3, 19, 26, and 27) and “DEus” (bars 6, 30, and 43) according to \A1. \\
 parts:

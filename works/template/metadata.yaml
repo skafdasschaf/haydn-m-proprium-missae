@@ -3,25 +3,38 @@ id: MH xxx
 genre: gradual
 festival: xxx
 scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-sa-4.0
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 335
     date: 1787-08-26
     rism: 456009354
-    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084928/images
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00084928/images
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 115
     rism: 600038076
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
+    license: public domain
   B2:
     siglum: D-NATk
     shelfmark: NA/SP (H-18)
     date: 1800-1830
     rism: 455042303
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
+    license: public domain
+  B3:
+    siglum: F-Pn
+    shelfmark: D-5569 (7)
+    date: 1830–1840
+    rism: 840026249
+    url: https://catalogue.bnf.fr/ark:/12148/cb409440402
+    license: custom (free for non-commercial purposes)
+    principal: true
 toe: |
 
 parts:

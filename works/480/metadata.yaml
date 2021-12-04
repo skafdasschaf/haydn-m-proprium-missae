@@ -3,19 +3,22 @@ id: MH 480
 genre: gradual
 festival: Quadragesima, Dominica IV.
 scoring: S, A, T, B (coro), 2 cl (\flat B), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
 sources:
   A1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 354
     date: 1788-02-26
     rism: 456009373
-    url: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00051605-2
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00051605-2
+    license: CC BY-NC-SA 4.0
     principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 126
     rism: 600038087
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/144.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/144.html
+    license: public domain
 toe: |
   –  & –    & cl 1, 2 only in \B1 \\
   47 & cl 2 & bar in \B1: c″2–e″4–e″4 \\

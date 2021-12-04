@@ -3,33 +3,37 @@ id: MH 46
 genre: offertorium [or antiphon]
 festival: De Apostolis
 scoring: S, A (solo), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 113
     rism: 600038073
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/809.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/809.html
+    license: public domain
     principal: true
   B2:
-    siglum: D-Mbs
-    shelfmark: Mus.ms. 4133\#Beibd.3
-    rism: 455022525
-    url: http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00051611-6
-  B3:
     siglum: D-NATk
     shelfmark: NA/SP (H-77)
     date: 1790–1810
     rism: 455040180
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H77/
+    license: public domain
+  D1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4133\#Beibd.3
+    rism: 455022525
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00051611-6
+    license: CC BY-NC-SA 4.0
 toe: |
-  –    & –    & lyrics in \B3: “Salve Regina” etc. (ends after bar 73) \\
+  –    & –    & lyrics in \B2: “Salve Regina” etc. (ends after bar 73) \\
   18   & A    & 1st \halfNote\ in \B1: c″4–\flat b′4 \\
   19   & A    & 1st \halfNote\ in \B1: c″4–\flat b′4 \\
   42   & S    & 2nd \quarterNote\ in \B1: c″8.–d″32–\flat e″32 \\
   91ff & org  & In the Alleluja, \B1 only shows bass figures
                 in bars 92–94, 124–128, and 171–173.
                 The remaining bass figures were added by the editor. \\
-  102  & vl 1 & bar in \B1 and \B2: \flat b′4. \\
+  102  & vl 1 & bar in \B1: \flat b′4. \\
 lyrics:
   In omnem terram exivit sonus eorum,\\
   et in fines orbis terrae verba eorum.\\

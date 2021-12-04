@@ -3,12 +3,14 @@ id: MH 451
 genre: gradual
 festival: Quadragesima, Dominica I.
 scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: B 125
     rism: 600038084
-    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/141.html
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/141.html
+    license: public domain
     principal: true
 lyrics:
   Angelis suis Deus mandavit de te,\\
