@@ -1,0 +1,44 @@
+title: Alleluia, in die resurrectionis meæ
+id: MH 362
+genre: gradual
+festival: Dominica in Albis
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 358
+    date: 1810
+    rism: 456009377
+    url: https://mdz-nbn-resolving.de/details:bsb00086075
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: B 131
+    rism: 600038089
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/146.html
+    license: public domain
+  B3:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-41)
+    date: 1780-1800
+    rism: 455039962
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H41/
+    license: public domain
+  B4:
+    siglum: F-Pn
+    shelfmark: D-5592 (2)
+    date: 1839
+    rism: 840026176
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics: >
+  Alleluia, in die resurrectionis meae, dicit Dominus,\\
+  praecedam vos in Galilaeam.\\
+  Alleluia, post dies octo, ianuis clausis,\\
+  stetit Jesus in medio discipulorum suorum,\\
+  et dixit: Alleluia, pax vobis.\\
+  (\bibleverse{Joh}(20:26))
