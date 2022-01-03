@@ -23,7 +23,7 @@
   }
   \context {
     \GrandStaff
-    \setGroupDistance #11 #12
+    \setGroupDistance #11 #11
   }
   \context {
     \ChoirStaff
