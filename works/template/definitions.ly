@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-tempoCCLIX = \tempoMarkup "Allegro moderato"
+tempoxxx = \tempoMarkup "Allegro moderato"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
