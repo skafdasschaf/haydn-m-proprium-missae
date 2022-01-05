@@ -1,0 +1,19 @@
+\version "2.22.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "org")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "483" "Alleluia, redemptionem misit"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CDLXXXIIIOrgano }
+        \new FiguredBass { \CDLXXXIIIBassFigures }
+      >>
+    }
+  }
+}

@@ -1,0 +1,36 @@
+title: Alleluia, redemptionem misit
+id: MH 483
+genre: gradual
+festival: Pascha, Dominica III.
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 360
+    date: 1788-03-14
+    rism: 456009379
+    url: https://mdz-nbn-resolving.de/details:bsb00084968
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 133
+    rism: 600038091
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/148.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592 (4)
+    rism: 840026178
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Alleluia.\\
+  Redemptionem misit Dominus populo suo.\\
+  Oportebat pati Christum\\
+  et resurgere a mortuis:\\
+  Et ita intrare in gloriam suam.\\
+  (\bibleverse{Ps}(111/110:9), \bibleverse{Luk}(24:46,26))
