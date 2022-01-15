@@ -1,0 +1,88 @@
+title: Sicut cervus ad fluenta
+id: MH 143
+genre: offertorium
+festival: Pro omni Tempore
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (F), [2 trb], 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5669 (2)
+    date: 1820–1840
+    rism: 840016622
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729500
+    license: custom (free for non-commercial purposes)
+    principal: true
+  B2:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4328 Beibd.2
+    date: 1860–1870
+    rism: 455024082
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045840-1
+    license: CC BY-NC-SA 4.0
+toe: |
+  –   & trb  & voices only appear in \B1 \\
+      & coro & upper lyrics from \B1, lower lyrics from \B2 \\
+      & org  & treble ottavo and bass clefs added by the editor \\
+  39  & ob 2 & 1st \quarterNote\ in \B1: e′4 \\
+  47  & vl 2 & 1st \quarterNote\ in \B1: e′4 \\
+  53  & trb 1, A & bar in \B1: f′2.–e′4 \\
+  63  & vl 2 & 5th \eighthNote\ in \B1: e′8 \\
+  75  & vl 2 & grace note missing in \B1 \\
+  179 & ob 2 & last \quarterNote\ in \B1: f′4 \\
+parts:
+  cor12: Corno I, II in F
+lyrics: >
+  \begin{multicols}{2}
+  \B1\\
+  Sicut cervus ad fluenta cursitat,\\
+  sic amor matris pectus meum incitat.\\
+  Nos sitis videndi matrem allicit,\\
+  o quando dies haec dulcis advenit.\\
+  Per noctes diesque congemiscimus,\\
+  lacrymisque te Maria quaerimus.\\
+  Insultant ubi est mater tua,\\
+  monstrare pium queat quidquam lux sua.\\
+  His sitim nostram mater mali acuunt,\\
+  dum nomen tuum sublime proferunt.\\
+  Admirabilis donum matris emicat,\\
+  atque ad gaudium pectus meum incitat.\\
+  Quare tristis es mens nostra te eleva\\
+  in matreque spem nil mota colloca.\\
+  Quis sicut mater nostra quis exstitit,\\
+  cunctaque manu clementi dirigit.\\
+  Mille si dolos iam daemon instruit,\\
+  nil nocent matris quem dextra protegit.\\
+  Surge iam mater nos fida eripe,\\
+  quis suo filius redemit sanguine.\\
+  Tu certantibus constantiam ingere,\\
+  atque mortuos in astra suscipe.\\
+  Sit tibi mater et Deo gloria,\\
+  qui potens erat cuncta ante saecula.
+  \par\columnbreak
+  \B2\\
+  Sicut cervus ad fluenta cursitat,\\
+  sic amor Dei pectus meum incitat.\\
+  Nos sitis videndi numen allicit,\\
+  o quando dies haec dulcis advenit.\\
+  Per noctes diesque congemiscimus,\\
+  lacrymisque te dilecte quaerimus.\\
+  Insultant ubi est Deus tuus,\\
+  monstra nunc quidquam queat favor tuus.\\
+  His sitim meam Deus mali acuunt,\\
+  dum nomen tuum sublime proferunt.\\
+  Admirabilis domus Dei emicat,\\
+  atque ad gaudium pectus meum excitat.\\
+  Quare tristis es mens nostra te eleva\\
+  in Deoque spem nil mota colloca.\\
+  Quis sicut Deus noster quis exstitit,\\
+  cuncta qui manu potenti condidit.\\
+  Mille si dolos Tyrannus instruit,\\
+  nil nocent Dei quem dextra protegit.\\
+  Surge iam Deus nos fidos eripe,\\
+  quos tuo redemisti usque sanguine.\\
+  Tu certantibus constantiam ingere,\\
+  atque mortuos in astra suscipe.\\
+  Sit tibi Deus supreme gloria,\\
+  qui potens eras cuncta ante saecula.
+  \end{multicols}
