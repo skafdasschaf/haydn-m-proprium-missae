@@ -56,7 +56,8 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >                                          -t {score} \\
 >                                          -k festival genre lyrics toe \\
 >                                          -s ../tmp/{work} \\
->                                          -l works/{work}
+>                                          -l works/{work} \\
+>                                          -c tag
 >latexmk -cd \\
 >        -lualatex \\
 >        -outdir=../final/{work} \\
