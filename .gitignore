@@ -2,6 +2,7 @@ final/
 manuscript/
 tmp/
 front_matter/critical_report.pdf
+main.ly
 main.pdf
 *.aux
 *.bbl
