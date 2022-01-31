@@ -1,5 +1,15 @@
 # Changelog
 
+
+## 2022.01.0
+
+### Added
+
+- works: MH 143, 362, 460, and 482–484
+- recent git tag on copyright page
+- multicolumn support in critical report
+
+
 ## 2021.12.0
 
 ### Added
