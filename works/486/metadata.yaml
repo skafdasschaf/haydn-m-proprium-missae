@@ -1,0 +1,39 @@
+title: Alleluia, regnavit Dominus
+id: MH 486
+genre: gradual
+festival: Pascha, Dominica VI.
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 364
+    date: 1788-04-23
+    rism: 456009383
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084972-4
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 136
+    rism: 600038094
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/151.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592
+    date: 1839
+    rism: 840026181
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+toe: |
+  – & coro & Spelling of “DEus” (bars 11, 12, 60, and 61) according to \A1 \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Regnavit Dominus super omnes gentes:\\
+  Deus sedet super sedem sanctam suam.\\
+  Non vos relinquam orphanos,\\
+  vado et venio ad vos,\\
+  et gaudebit cor vestrum.\\
+  (\bibleverse{Ps}(47/46:9), \bibleverse{Joh}(14:18,16:22))
