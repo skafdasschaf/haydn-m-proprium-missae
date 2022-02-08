@@ -1,0 +1,37 @@
+title: Alleluia, surrexit Christus
+id: MH 485
+genre: gradual
+festival: Pascha, Dominica V.
+scoring: S, A, T, B (coro), 2 cor (E), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 362
+    date: 1788-04-11
+    rism: 456009381
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084971-9
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 135
+    rism: 600038093
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/150.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592
+    date: 1839
+    rism: 840026180
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in E
+lyrics:
+  Alleluia.\\
+  Surrexit Christus, et illuxit nobis,\\
+  quos redemit sanguine suo.\\
+  Exivi a Patre, et veni in mundum:\\
+  iterum relinquo mundum, et vado ad Patrem.\\
+  (\bibleverse{Joh}(16:28))
