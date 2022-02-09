@@ -1,0 +1,29 @@
+title: Salve Regina
+id: MH 634
+genre: antiphon
+scoring: S, A, T, B (coro), 2 cor (A), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 488
+    date: 1796-08-01
+    rism: 456009508
+    url: https://mdz-nbn-resolving.de/details:bsb00084992
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: K 50
+    rism: 600038603
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/515.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5587
+    date: 1820–1840
+    rism: 840026312
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072981p
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in A
