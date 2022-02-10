@@ -1,0 +1,24 @@
+title: Ave Regina cœlorum
+id: MH 650
+genre: antiphon
+scoring: S, A, T, B (coro), 2 clno (D), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: I 14
+    rism: 600038512
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/409.html
+    license: public domain
+    principal: true
+  D1:
+    siglum: F-Pn
+    shelfmark: D-5587
+    date: 1820–1840
+    rism: 840026311
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072981p
+    license: custom (free for non-commercial purposes)
+toe: |
+  16 & clno 2 & 4th \quarterNote\ in \B1: e′8–c′8 \\
+parts:
+  clno12: Clarino I, II in D
