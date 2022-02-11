@@ -1,0 +1,120 @@
+title: Responsoria in Cœna Domini
+id: MH 276
+genre: responsory
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 472
+    date: 1778-04-04
+    rism: 456009495
+    url: https://mdz-nbn-resolving.de/details:bsb00084988
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: F 28
+    rism: 600038314
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/964.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5670
+    date: 1820–1840
+    rism: 840026364
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10074844p
+    license: custom (free for non-commercial purposes)
+toe: |
+  – & coro & Spelling of “IEsum” (last responsory, bars 7, 32, and 55) according to \A1 \\
+lyrics:
+  \textit{Nocturni 1:mi Responsorium 1:mum}\\
+  In monte Oliveti oravit ad Patrem:\\
+  Pater, si fieri potest,\\
+  transeat a me calix iste.\\
+  Spiritus quidem promptus est,\\
+  caro autem infirma:\\
+  fiat voluntas tua.\\
+  Vigilate et orate,\\
+  ut non intretis in temptationem.\\
+  (\bibleverse{Mat}(26:39-41))\\[\baselineskip]
+
+  \textit{Nocturni 1:mi Responsorium 2:dum}\\
+  Tristis est anima mea usque ad mortem:\\
+  Sustinete hic et vigilate mecum,\\
+  nunc videbitis turbam\\
+  quae circumdabit me:\\
+  vos fugam capietis,\\
+  et ego vadam immolari pro vobis.\\
+  Ecce appropinquat hora, et Filius hominis\\
+  tradetur in manus peccatorum.\\
+  (\bibleverse{Mat}(26:38))\\[\baselineskip]
+
+  \textit{Nocturni 1:mi Responsorium 3:tium}\\
+  Ecce vidimus eum\\
+  non habentem speciem, neque decorem:\\
+  aspectus eius in eo non est:\\
+  hic peccata nostra portavit,\\
+  et pro nobis dolet:\\
+  ipse autem vulneratus est\\
+  propter iniquitates nostras:\\
+  cuius livore sanati sumus.\\
+  Vere languores nostros ipse tulit,\\
+  et dolores nostros ipse portavit.\\
+  (\bibleverse{Is}(53:2,4,5))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 1:mum}\\
+  Amicus meus osculi me tradidit signo:\\
+  quem osculatus fuero, ipse est, tenete eum:\\
+  hoc malum fecit signum,\\
+  qui per osculum adimplevit homicidium.\\
+  Infelix praetermisit pretium sanguinis,\\
+  et in fine laqueo se suspendit.\\
+  Bonum erat ei, si natus non fuisset homo ille.\\
+  (\bibleverse{Mat}(26:48,27:5,26:24))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 2:dum}\\
+  Iudas mercator pessimus\\
+  osculo petiit Dominum:\\
+  ille ut agnus innocens\\
+  non negavit Iudae osculum:\\
+  Denariorum numero\\
+  Christum Iudaeis tradidit.\\
+  Melius illi erat, si natus non fuisset.\\
+  (\bibleverse{Mat}(26:48,15,24))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 3:tium}\\
+  Unus ex discipulis meis tradet me hodie:\\
+  vae illi per quem tradar ego:\\
+  melius illi erat, si natus non fuisset.\\
+  Qui intingit mecum manum in parapside,\\
+  hic me traditurus est in manus peccatorum.\\
+  (\bibleverse{Mat}(26:24,23))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 1:mum}\\
+  Eram quasi agnus innocens,\\
+  ductus sum ad immolandum, et nesciebam:\\
+  consilium fecerunt inimici mei adversum me dicentes:\\
+  venite, mittamus lignum in panem eius,\\
+  et eradamus eum de terra viventium.\\
+  Omnes inimici mei\\
+  adversum me cogitabant mala mihi:\\
+  verbum iniquum mandaverunt adversum me.\\
+  (\bibleverse{Jer}(11:19), \bibleverse{Ps}(41/40:8,9))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 2:dum}\\
+  Una hora non potuistis vigilare mecum,\\
+  qui exhortabamini mori pro me?\\
+  Vel Iudam non videtis?\\
+  quomodo non dormit?\\
+  sed festinat tradere me Iudeis.\\
+  Quid dormitis? Surgite, et orate,\\
+  ne intretis in tentationem.\\
+  (\bibleverse{Mat}(20:40,41))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 3:tium}\\
+  Seniores populi consilium fecerunt\\
+  ut Iesum dolo tenerent, et occiderentc\\
+  um gladiis et fustibus exierunt tamquam ad latronem.\\
+  Collegerunt Pontifices et Pharisaei concilium.\\
+  (\bibleverse{Mat}(26:4,55), \bibleverse{Joh}(11:47))
