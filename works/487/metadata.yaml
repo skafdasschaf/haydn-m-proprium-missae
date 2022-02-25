@@ -1,0 +1,36 @@
+title: Ad Dominum cum tribularer
+id: MH 487
+genre: gradual
+festival: Pentecostes, Dominica II.
+scoring: S, A, T, B (coro), 2 cor (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 368
+    date: 1788-04-29
+    rism: 456009387
+    url: http://daten.digitale-sammlungen.de/bsb00043156/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 137
+    rism: 600038095
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/152.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592
+    date: 1839
+    rism: 840026182
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in C
+lyrics:
+  Ad Dominum, cum tribularer, clamavi,\\
+  et exaudivit me.\\
+  Domine, libera animam meam a labiis iniquis,\\
+  et a lingua dolosa.\\
+  (\bibleverse{Ps}(120/119:1-2))
