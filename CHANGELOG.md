@@ -1,7 +1,18 @@
 # Changelog
 
 
-## 2022.01.0
+## v2022.02.0
+
+### Added
+
+- works: MH 276, 485–487, 634, and 650
+
+### Fixed
+
+- siglum of source B1 for MH 484
+
+
+## v2022.01.0
 
 ### Added
 
@@ -10,7 +21,7 @@
 - multicolumn support in critical report
 
 
-## 2021.12.0
+## v2021.12.0
 
 ### Added
 
