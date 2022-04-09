@@ -1,0 +1,29 @@
+title: Alma Redemptoris Mater
+id: MH 637
+genre: antiphon
+scoring: S, A, T, B (coro), 2 clno (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 329
+    date: 1796-11-16
+    rism: 456009343
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00084925/images
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: H 21
+    rism: 600038489
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/385.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5587 (1)
+    date: 1820–1840
+    rism: 840026310
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072981p
+    license: custom (free for non-commercial purposes)
+parts:
+  clno12: Clarino I, II in D
