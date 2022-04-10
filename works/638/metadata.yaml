@@ -1,0 +1,44 @@
+title: Gaude virgo mater Christi
+id: MH 638
+genre: gradual
+festival: Mariae (B.V.)
+scoring: S, A, T, B (coro), 2 clno (D), timp (D–A), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 329
+    date: 1796-11-24
+    rism: 456009344
+    url: http://daten.digitale-sammlungen.de/~db/0008/bsb00084925/images
+    license: CC BY-NC-SA 4.0
+    notes: only comprises bars 1–8
+  B1:
+    siglum: A-Ed
+    shelfmark: B 190
+    rism: 600038142
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/194.html
+    license: public domain
+    principal: true
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5591 (18)
+    date: 1830–1840
+    rism: 840026224
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+toe: |
+  1  & vl 2 & 12th \sixteenthNote\ in \B1: \sharp c′16 \\
+  10 & vl 2 & 1st \sixteenthNote\ in \B1: a′16 \\
+  12 & vl 2 & 6th \eighthNote\ in \B1: a′8 \\
+  32 & vl 1 & 12th \sixteenthNote\ in \B1: \sharp c′16 \\
+  36 & vl 1 & 8ht \sixteenthNote\ in \B1: a16 \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
+lyrics:
+  Gaude virgo, mater Christi,\\
+  quia Jesum concepisti\\
+  Gabriele nuntio.\\
+  Fac, o mater, ut salvemur,\\
+  nam, quod matrem te fatemur,\\
+  recta poscit ratio.
