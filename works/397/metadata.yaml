@@ -1,0 +1,50 @@
+title: Tu es Petrus
+id: MH 397
+genre: gradual
+festival: Petri, Cathedrae Romae
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: A-Wn
+    shelfmark: SA.67.D.88
+    date: 1785-02-12
+    url: https://data.onb.ac.at/dtl/3771715
+    license: public domain
+    notes: clno added in 1796
+  A2:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 426
+    rism: 456009446
+    url: https://mdz-nbn-resolving.de/details:bsb00084977
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: presumably represents a later, revised version
+  B1:
+    siglum: A-Ed
+    shelfmark: B 195
+    rism: 600038147
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/197.html
+    license: public domain
+toe: |
+  –  & – & The main system reproduces clno and vl from \A2,
+           while the small staves contain the voices from
+           \A1 and \B1. In bars 1–77, the violins are equal
+           in all sources, except for minor differences in
+           bars 4 and 12 of vl 2. In bars 78–104 of \A1 and \B1,
+           vl 1 and 2 are mainly written unison with S and A,
+           respectively, while they are distinct in~\A2. \\
+  4  & A & 1st \quarterNote\ in \A1 and \B1: b4 \\
+  43 & A & 1st \quarterNote\ in \A1 and \B1: b4 \\
+  99 & A & bar in \A1 and \B1: \crotchetRest–g′4–g′4–f′4
+           with lyrics “et ti-bi” \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Tu es Petrus\\
+  et super hanc petram\\
+  aedificabo Ecclesiam meam,\\
+  et portae inferi\\
+  non praevalebunt adversus eam.\\
+  Et tibi dabo claves regni coelorum.\\
+  (\bibleverse{Mat}(16:18-19))
