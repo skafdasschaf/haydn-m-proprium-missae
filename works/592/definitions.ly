@@ -1,6 +1,11 @@
 \version "2.22.0"
 
 tempoDXCII = \tempoMarkup "Adagio"
+tempoDXCIIb = \tempoMarkup "Larghetto"
+
+flauto = \markup \remark "Flauto"
+principal = \markup \remark "Principal"
+principalE = \markup \remarkE "Principal"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"

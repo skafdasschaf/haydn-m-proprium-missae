@@ -196,3 +196,375 @@ DXCIIBassFigures = \figuremode {
   <6>4. <[6]>4 <6 5>8 <4> <3>
   r1 %78 finis
 }
+
+DXCIIbOrganoSolo = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoDXCIIb
+      \set Score.currentBarNumber = #79
+    \partial 16 f16^\principalE f8._\turn b16 a4 r8. f16
+    <c' es>2 <b d>4 %80
+    fis16( g) a h c d es f g es c b
+    \appoggiatura b a8 c16 a b c d es f g a b
+    \appoggiatura a g8 f16 es d f g f c es d c
+    <c a>4( b) r
+    << { \tiny <d, f>4 <es f>8 } \\ { \tiny b4 a8 } >> f'16^\flauto g a b c d %85
+    <c es> <d f> <es g> <d f> <c es>4 << {
+      \tiny <b d>
+      c2 b4
+      b8 a a4 <c, f>
+      <b f'> f'2~
+      f4 r <f b> %90
+      <d b'>2 <c a'>4
+      <d b'>16
+    } \\ {
+      \tiny f4
+      <es g>2.
+      <c f>2 a4
+      f d' es
+      d r d %90
+      f2.
+      f16
+    } >>
+    b c d es f g a b a g f
+    es c d es f g a b c8( a)
+    r16 b, c d es f g a b a g f
+    es c d es f g a b c8( a) %95
+    r16 f, g a b c d es f4
+    << { \tiny es d8 c <g b>4 <f b> } \\ { \tiny <g b> <es g> d d } >>
+    f'16 g a g f c a f
+    d'8 r << { \tiny <b d> r q r } \\ { \tiny f r f r } >>
+    c''8( a) a( f) f( c) %100
+    d^\critnote r << { \tiny <b d> r q r } \\ { \tiny f r f r } >>
+    c''8( a) a([ f)] f r
+    << { \tiny c8 a b2 } \\ { \tiny <d, f>2. } >>
+    f'8[ c] <a c> <f a> q4
+    << { \tiny a8 fis g2 } \\ { \tiny <b, d>2. } >> %105
+    c''8( g) g( e) e4
+    << { \tiny <f, c'>4 <a, f'> <g e'> } \\ { \tiny c c2 } >>
+    c8._\parenthesize_\turn^\principal f16 e4 r8. c16
+    <g' b>2 <f a>4
+    d16 g b d f,4 << { g8.\turn a16 } \\ { e4 } >> %110
+    <e g>4( f) << { \tiny <d f> q4. } \\ { \tiny as4 c h8 } >>
+    d'^\flauto g h,
+    \appoggiatura h c4 c << { \tiny c b a8 } \\ { \tiny <es g>4 <es f>4. } >>
+    f'8 e es
+    es([ a)] b r r b, %115
+    b( h) c4 r8 c
+    c8( cis) d4 r
+    r8 d es d c b
+    b4( a8) <es g>^\principal <d f> <c es>
+    d16 f d' b a8 f16^\flauto g a b c d %120
+    <c es> <d f> <es g> <d f> <c es>4 << {
+      \tiny <b d>4
+      <g c>2 <g b>4
+      <d b'> <c a'>2
+      <d f>4 <es f>8
+    } \\ {
+      \tiny f4
+      es2 d4
+      f2.
+      b,4 a8
+    } >>
+    f'16 g a b c d
+    <c es> <d f> <es g> <d f> <c es>4 << {
+      \tiny <b d> %125
+      <g c>2 <g b>4
+      b a <c, f>
+      <b f'> r <f' b>
+      q <d b'> <c a'>
+      <d b'>16
+    } \\ {
+      \tiny f4 %125
+      es2 es4
+      <c f>2 a4
+      d, r d'
+      d f2
+      f16
+    } >>
+    b c d es f g a b a g f %130
+    es c d es f g a b c8( a)
+    r16 b,, c d es f g a b a g f
+    es c d es f g a b c8( a)
+    r16 f' g f b f es d c b a b
+    << {
+      \tiny b4 as2 %135
+      as4 g8 as g as
+      as4 g g
+      as g g
+      g2 f4
+      <f d h> es8
+    } \\ {
+      \tiny <c es>2. %135
+      <d f>2 <c es>4
+      <h f'>2 <g c>4
+      <h d>2 <g c>4
+      <g d'>2.
+      g4.
+    } >>
+    fis''8 g b,! %140
+    <a f'>4 << { \tiny e' es es d8 } \\ { \tiny b4 c f,4. } >>
+    d'8 b g
+    fis16 d fis a fis d fis' d g d b g
+    fis d fis a fis d fis' d g d b g
+    fis d fis a fis d fis' d g d b g %145
+    fis d a' fis <fis a d>4 r
+    << {
+      \tiny h4 r c8 h
+      h4 c g
+      g4.
+    } \\ {
+      \tiny <f as>4 r <d f>
+      <c g'>2 <g d'>4
+      <h d f> <c es>8
+    } >>
+    <es es'> <f f'> <fis fis'>
+    <g g'>4 r8 g' f es %150
+    << { \tiny <b d>2 <a c>4 <f b>8 } \\ { \tiny f2. d8 } >>
+    f' es d c b
+    r c' b a g f
+    r <b, b'> <a a'> <g g'> <f f'> <es es'>
+    <d d'>4 r << {
+      \tiny c'8 h
+      h4 c g
+      g4.
+    } \\ {
+      \tiny <f as>4
+      <c g'>2 <g d'>4
+      <h d f> <c es>8
+    } >>
+    <g' g'> <as as'> <h h'>
+    <c c'>4 r8 << {
+      \tiny <b es> <b d> <b c>
+      <d, b'>2 <c a'>4
+      <f b>2. %160
+      <b d>2 <a c>8
+    } \\ {
+      \tiny es8 f g
+      f2.
+      d %160
+      f2~ f8
+    } >>
+    f^\principal
+    f8.\turn b16 a4 r8. f16
+    <c' es>2 <b d>4
+    fis16 g a h c d es f fis g es c
+    \appoggiatura b a8 c16 a b c d es f g a b %165
+    \appoggiatura a g8 f16 es d f g f c es d c
+    <a c>4( b8) r <b e g>8. <e, g b>16
+    q2( <f a>8) r\fermata \bar "||" %168 finis
+  }
+}
+
+DXCIIbOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \tempoDXCIIb
+      \set Score.currentBarNumber = #79
+    \partial 16 r16 \mvTr <b' d>4\pE-\soloE <c es> r
+    r a b %80
+    es, << { g g } \\ { es es } >>
+    << { f f } \\ { es d } >> r
+    << { b' b a8 es' } \\ { es,4 f f } >>
+    << { es'4( d) r } \\ { b2 r4 } >>
+    b, c r %85
+    a a' b
+    es, es es
+    r8 es es es es es
+    d d d' d c c
+    b4 r8 b, d b %90
+    d' b f4 f,
+    b r d
+    c a f
+    b r d
+    c a f %95
+    b r d
+    es es e
+    f r8 f f f
+    f r f r f r
+    << { a4 r8 a a a } \\ { f4 r8 f f f } >> %100
+    << { b } \\ { f } >> r f r f r
+    << { a4 r8 a a a } \\ { f4 r8 f f f } >>
+    d4 r8 d d d
+    c4 r8 c c c
+    b4 r8 b b b %105
+    b4 r8 b b b
+    a4 c c
+    <f a> <g b> r
+    r e f
+    << { b a b } \\ { b, c c } >> %110
+    << { b'( a) } \\ { f2 } >> f4
+    g8 as g f es d
+    c4 r8 es c es
+    f ges f f g? a
+    b4 r8 b <b, d> <d f> %115
+    es4 r8 <es g> <c es> <es g>
+    f4 r8 <f a> <d f> <f a>
+    g4 c,8 d es e
+    f( e) f4 r
+    <f d b>4 <es c> r %120
+    a, a' b
+    es, es e
+    f4. es8 d c
+    b4 c r
+    a a' b %125
+    es, es es
+    r8 es es es es es
+    d4 r8 b d b
+    d' b f4 f,
+    b4 r d %130
+    c a f
+    b r d
+    c a f
+    b r d
+    c c8 c c c %135
+    h4 h c
+    d d es
+    f f es
+    h8 h h h h h
+    c c c c es es %140
+    f f g g a a
+    b4 r8 d\f b g
+    d r d r d r
+    d r d r d r
+    d r r a' b g %145
+    d4 d r
+    d\p r d
+    es es h
+    c c d
+    es r es %150
+    f f f
+    b, r <d f>
+    <c es> r <es a>
+    <d b'> r a
+    b r d %155
+    es8 es es es h h
+    c c c c f f
+    es4 r8 g f es
+    f f f f f f
+    b, b' d b d b %160
+    f f f f f f
+    <b d>4 <c es> r
+    r a b
+    es, << { g g } \\ { es es } >>
+    << { f f } \\ { es d } >> r %165
+    << { b' b a8 es' } \\ { es,4 f f } >>
+    << { es'4( d8) r } \\ { b4 r } >> c,
+    f f, r\fermata \bar "||" %168 finis
+  }
+}
+
+DXCIIbBassFigures = \figuremode {
+  r16 r2.
+  r %80
+  r
+  r
+  r
+  r
+  r4 <6>2 %85
+  r4 <6> <\t>
+  <6>2 <5>4
+  r8 <2> r2
+  <6>4 q q
+  r2. %90
+  <6>4 <6 4> <5 [3]>
+  r2.
+  r
+  r
+  r %95
+  r2 <6>4
+  r <7>8 <6> <7>4
+  <6 4> <5 [3]>2
+  <6 4>4 <\t \t> q
+  r2. %100
+  r4 <6 4> <\t \t>
+  r2.
+  <7>8 <5> <6> <3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <4>2.
+  <7>8 <5+> <6> <3>4 \bassFigureExtendersOn q8 %105
+  \bo <6 [4! 2]>2 <6 4! 2>8 \bc <6 [4! 2]> \bassFigureExtendersOff
+  <6>4 <6 4> <[5] _!>
+  r2.
+  r
+  r %110
+  r2 <6 _->4
+  <7 4> <\t _!>2
+  r2.
+  <7 4>4 <\t 3>2
+  r2. %115
+  r
+  r
+  r
+  r
+  r %120
+  r
+  <6>4 <\t> <7>
+  <6 4> <[5] 3>2
+  r4 <6>2
+  r2. %125
+  <6>2 <5>4
+  <5 2>4 <4 \t>2
+  <6>2.
+  q4 <6 4> <5 [3]>
+  r2. %130
+  r
+  r
+  r
+  r
+  <7>4 <6->2 %135
+  <7- 5>4 <6 \t> <5>8 <6->
+  <6! 5->4 <\t 4> <6>
+  <4! _-> <\t 2> <6>
+  <6>2 <5>4
+  <9 4> <[8] 3>2 %140
+  r4 <6!> <5->
+  <9 4> <[8] 3>2
+  r2.
+  r
+  r %145
+  r
+  <6! 5- _!>2 <7>8 <6!>
+  <5!>4 <6> q
+  <9 4> <[8] 3>2
+  r2. %150
+  <6 4>2 <5 [3]>4
+  r2.
+  r
+  r
+  r2 <7 5->8 <6 \t> %155
+  <5!>4 <6> q
+  <9 4> <[8] 3>2
+  r4. <6>8 <6 4> <6 5>
+  <6 4>2 <5 [3]>4
+  r2. %160
+  <6 4>2 <5 [3]>4
+  r2.
+  r
+  r
+  r %165
+  r
+  r
+  r %168 finis
+}
+
+% DXCIIbOrganoSolo = {
+%   \relative c' {
+%     \clef treble
+%     \key b \major \time 3/4 \tempoDXCIIb
+%       \set Score.currentBarNumber = #79
+%     \partial 16 r16
+%   }
+% }
+%
+% DXCIIbOrgano = {
+%   \relative c {
+%     \clef bass
+%     \key b \major \time 3/4 \tempoDXCIIb
+%       \set Score.currentBarNumber = #79
+%     \partial 16 r16
+%   }
+% }
+%
+% DXCIIbBassFigures = \figuremode {
+%
+% }

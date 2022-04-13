@@ -31,8 +31,11 @@ sources:
     principal: true
     notes: full score
 toe: |
+  & –  & org  & all small notes have been added by the editor \\
   & 1  & –   & The original tempo indication “Maestoso” has been revised in \A2 to “Adagio”. \\
-  & 58 & S 1 & 3rd \quarterNote\ in \B1: a′4 \\
+  & 58 & S 1 & 3rd \quarterNote\ in \A1: a′4 \\
+  & 101 & org & 1st \eighthNote\ in \A1: d″4 \\
+  & 145f & cor & bars in \A2: \quaverRest–c′8–c′8–c′8–c′8–c′8 and c′4–c′4–\crotchetRest \\
 parts:
   cor12: Corno I, II in F/\flat B alto
 lyrics:
@@ -72,3 +75,24 @@ lyrics:
   mein kummervolles Haupt zurück;
   und Troſt durchſtrömet meine Glieder
   in deinem milden Gnadenblick.
+
+  Zum Leben Herr! und nicht zum Tödten
+  erhebe deiner Allmacht Hand,
+  laß meine Hofnung nicht erröthen,
+  waſch mich und beſſre meinen Stand.
+  Du wirſt dich deines Volks erbarmen,
+  da wo dein Aug nur Bosheit findt;
+  wo die gerechte Sach der Armen
+  wird unterdrückt, und Laſter ſind.
+  Ein Volk mit Langmuth zu ertragen,
+  das deiner Güte ganz vergißt,
+  zeugt uns heut noch in unſern Tagen,
+  wie groß Herr! dein Erbarmen iſt.
+  Daß du dein Blut am Kreuz vergoſſen,
+  ſind meine Sünden Schuld daran:
+  dein Blut iſt für mein Heil gefloſſen,
+  ich aber finng aufs neue an,
+  mit ſündigen die herben Schmerzen
+  erneuernd dich zu kreuzigen;
+  der Lanzenſtoß gieng dir zu Herzen:
+  Wie werd ich einſt im G’richt beſtehn?

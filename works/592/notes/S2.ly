@@ -163,3 +163,16 @@ DXCIISopranoIILyrics = \lyricmode {
   Gna -- den -- blick. __
   %78 finis
 }
+
+% DXCIIbSopranoII = {
+%   \relative c' {
+%     \clef treble
+%     \key b \major \time 3/4 \autoBeamOff \tempoDXCIIb
+%       \set Score.currentBarNumber = #79
+%     \partial 16 r16
+%   }
+% }
+%
+% DXCIIbSopranoIILyrics = \lyricmode {
+%
+% }

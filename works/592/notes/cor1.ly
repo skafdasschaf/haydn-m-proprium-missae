@@ -67,3 +67,61 @@ DXCIICornoI = {
     c g g g g2\fermata \bar "||" %78 finis
   }
 }
+
+DXCIIbCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDXCIIb
+      \set Score.currentBarNumber = #79
+    \partial 16 r16 R2.*11 %89
+    r4 g''2~\p %90
+    g4 e d
+    c r r
+    r r d
+    c r r
+    r r d %95
+    c r r
+    R2.*13 %109
+    r4 \pa d d \pd %110
+    d2 r4
+    R2.*8 %119
+    g,2.~ %120
+    g4 r r
+    R2.*2
+    g2.~
+    g4 r r %125
+    R2.*2
+    r4 g'2~
+    g4 e d
+    c r r %130
+    r r d
+    c r r
+    r r d
+    c r r
+    R2.*7 %141
+    r4 r e,\fz
+    e8 e\p r e r e
+    r e r e r e
+    r e^\critnote e e\fz e e %145
+    e4 e r
+    R2.*5 %151
+    c'2.\p
+    g
+    g4 r d'\f
+    c r r %155
+    R2.*4
+    r8 c\fz e c e c %160
+    g4 r r
+    R2.*6 %167
+    R2.\fermata \bar "||" %168 finis
+  }
+}
+
+% DXCIIbCornoI = {
+%   \relative c' {
+%     \clef treble
+%     \key c \major \time 3/4 \tempoDXCIIb
+%       \set Score.currentBarNumber = #79
+%     \partial 16 r16
+%   }
+% }

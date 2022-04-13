@@ -163,3 +163,186 @@ DXCIISopranoILyrics = \lyricmode {
   Gna -- den -- blick. __
   %78 finis
 }
+
+DXCIIbSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \autoBeamOff \tempoDXCIIb
+      \set Score.currentBarNumber = #79
+    \partial 16 r16 R2.*5 %83
+    r4 r r8 f\pE
+    f8.([ b16)] a4 r %85
+    es' r d
+    c16([ d es d] c4) b
+    \appoggiatura b8 a4 a r8 f
+    f2 f4
+    f8([ g16 a] b[ c)] d([ es)] f4~ %90
+    f d c
+    b r r8 b
+    a es' es c a es
+    d([ g16 f)] f4 r8 b
+    a es' es c f es %95
+    es4( d) r8 f
+    g, es' d([ c)] d([ b)]
+    b4( a) r8 f
+    f b b d f d
+    h([ c)] c4 r8 f, %100
+    f b b d f d
+    h4( c) r8 c
+    f d b b b b
+    b4 a r8 a
+    d b g g g f %105
+    e4( c') r
+    c8([ a)] f4( g8.) f16
+    f4 r r
+    R2.*2 %110
+    r4 r8 f f' d
+    c4( h8) h c d
+    \appoggiatura d es4 es8 g \appoggiatura f16 es8 \appoggiatura d16 c8
+    b!4( a8) a b c
+    c4( d8) r d b %115
+    \appoggiatura a g4 g8 g es' c
+    \appoggiatura b a4 a4 f'8 d
+    \appoggiatura c b4 g'8 f es d
+    d4( c) r
+    r r r8 f, %120
+    es'2 d4
+    c16([ d)] es([ d)] c4 b
+    b a r8 f
+    f8.([ b16)] a8 r f f
+    es'2 d4 %125
+    g8([ es] c4) b
+    b( a) r8 f
+    f g16([ a)] b([ c)] d([ es)] f4~
+    f d c
+    b r r8 b %130
+    a es' es c a es
+    d([ g16 f)] f4 r8 b
+    a es' es c f es
+    es4( d) r8 b
+    b8. as16 as4 r8 as %135
+    as4( g8[ as)] g([ as])
+    as4( g8[ as)] g as
+    as4( g) g
+    g( g') f
+    f8. es16 es4 r %140
+    f( e) es
+    es8. d16 d4 r
+    r8 d d([ a)] b([ g)]
+    d'4. a8 b g
+    d'2.~ %145
+    d4 d, r
+    r8 f'! es d c h
+    h4( c) d
+    d( es) r
+    r8 g f es d c %150
+    b!2 \appoggiatura d16 c4
+    b r r
+    a r r
+    f' r r
+    r8 f es d c h %155
+    h4( c) d
+    d( es) r
+    r8 g f es d c
+    b!2 c4
+    b b8([ d)] b([ d)] %160
+    f2 a,4
+    b r r
+    R2.*5 %167
+    R2.\fermata \bar "||" %168 finis
+  }
+}
+
+DXCIIbSopranoLyrics = \lyricmode {
+  Zum %84
+  Le -- ben %85
+  Herr! und
+  nicht __ zum
+  Töd -- ten er --
+  he -- be
+  dei -- ner All -- %90
+  _ macht
+  Hand, laß
+  mei -- ne Hof -- nung nicht er --
+  rö -- then, waſch
+  mich und beſſ -- re mei -- nen %95
+  Stand, __ und
+  beſſ -- re mei -- nen
+  Stand. __ Du
+  wirſt dich dei -- nes Volks er --
+  bar -- men, da %100
+  wo dein Aug nur Bos -- heit
+  findt; __ wo
+  die ge -- rech -- te Sach der
+  Ar -- men wird
+  un -- ter -- drückt, und La -- ſter %105
+  ſind, __
+  und La -- ſter
+  ſind.
+
+  Ein Volk mit %111
+  Lang -- muth zu er --
+  tra -- gen, das dei -- ner
+  Gü -- te ganz ver --
+  gißt, __ zeugt uns %115
+  heut noch in un -- ſern
+  Ta -- gen, wie groß
+  Herr! dein Er -- bar -- men
+  iſt. __
+  Daß %120
+  du dein
+  Blut am Kreuz ver --
+  goſ -- ſen, ſind
+  mei -- ne, mei -- ne
+  Sün -- den %125
+  Schuld da --
+  ran, __ ſind
+  mei -- ne Sün -- den Schuld __
+  _ da --
+  ran: dein %130
+  Blut iſt für mein Heil ge --
+  floſ -- ſen, ich
+  a -- ber fieng aufs neu -- e
+  an, __ mit
+  ſün -- di -- gen die %135
+  her -- ben
+  Schmer -- zen er --
+  neu -- ernd
+  dich __ zu
+  kreu -- zi -- gen, %140
+  dich __ zu
+  kreu -- zi -- gen;
+  der Lan -- zen --
+  ſtoß gieng dir zu
+  Her -- %145
+  zen:
+  wie werd ich einſt im
+  G’richt be --
+  ſtehn,
+  wie werd ich einſt im %150
+  G’richt be --
+  ſtehn?
+  wie?
+  wie?
+  wie werd ich einſt im %155
+  G’richt be --
+  ſtehn,
+  wie werd ich einſt im
+  G’richt be --
+  ſtehn, wie im %160
+  G’richt be --
+  ſtehn? %162 finis
+}
+
+% DXCIIbSopranoI = {
+%   \relative c' {
+%     \clef treble
+%     \key b \major \time 3/4 \autoBeamOff \tempoDXCIIb
+%       \set Score.currentBarNumber = #79
+%     \partial 16 r16
+%   }
+% }
+%
+% DXCIIbSopranoILyrics = \lyricmode {
+%
+% }

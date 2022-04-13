@@ -84,3 +84,111 @@ DXCIIViolinoII = {
     f16 a8 a16 f a,8 c16 a2\fermata \bar "||" %78 finis
   }
 }
+
+DXCIIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoDXCIIb
+      \set Score.currentBarNumber = #79
+    \partial 16 r16 d4-!\p es8-! r f16 g a b
+    c( d es d) c4 b %80
+    r g g
+    c,8( f) f4 r8 b16( f')
+    \appoggiatura f es8 d16 c b8.( d16) \once \slurDashed a( c) b a
+    a4( b8) d, d d
+    d4-! es-! es16 d c b %85
+    a4 c' b
+    r8 g g( c) g( b)
+    r f f f f f
+    r f f f es es
+    d d b d f b %90
+    f d' b( d) c16( b) c a
+    b8 d, d d d d
+    r es es es f( es)
+    r d d d d d
+    r es es es a,( f') %95
+    f4 r b,
+    b g' g
+    d( c8) a' a a
+    b4 b2
+    r8 a a( c) f( a) %100
+    b( b,) b2
+    r8 f f( c) a f'
+    f4. f8 f f
+    f4. f8 f f
+    d4. d8 d d %105
+    c( e) e( g) g( c)
+    c( f,) f( a,) c b
+    a4-! b8-! r c16 d e f
+    g( a b a) g4 f
+    d8( g) c, c e e %110
+    e4( f) as
+    d,4. g8 g h
+    \appoggiatura h c4 c8 c, es g
+    es4. a8 b c
+    c4( b) f %115
+    g4. g8 g g
+    a4. a8 a a
+    b4 es8 d c b
+    b4( a8) a, b c
+    d4-! es8-! r f16 g a b %120
+    c( d es d) c4 b
+    r8 c, es es d d
+    d4 c8 a f' es
+    d4-! es-! es16 d c b
+    a4 c' b %125
+    r8 g g( c) g( b)
+    r f f f f f
+    f b, b d f b
+    f( d') b( d) c16 b c a
+    b8 d, d d d d %130
+    r es es es f( es)
+    r d d d d d
+    r es es es a,( f')
+    f4 r8 f f f
+    es4 es8 es es es %135
+    d d d d es es
+    f f f f es es
+    d d d d c c
+    d d d d d' d
+    d( h) c fis,( g) b, %140
+    a a b b c c'
+    c4 b8 d-!\fz b-! g-!
+    fis-! a-!\p r c-! b-! g-!
+    d' a r c b g
+    d' a r d,16\fz fis d g d b %145
+    a4-! <a fis'>-! r
+    as'2\p as4
+    g4. c8 g d'
+    d4( c8) es,\fz f( fis)
+    g-! c(-.\p d-. es-. d-. c-.) %150
+    b! d, d'( b) f( es)
+    d-! f es(-. d-.) c(-. b-.)
+    r c' b(-. a-.) g(-. f-.)
+    r b\f a g f es
+    d4 as'2\p %155
+    g8 g g g g d'
+    d4( c8) g\f as h
+    c4 r8 b\p b b
+    b b8.( d16) b( d) c b c a
+    b( d) d(\fz f) f( b) b( d) b-! f-! d-! b-! %160
+    f8 b\p d, d es es
+    d4-! es8-! r f16 g a b
+    c( d es d) c4 b
+    r g g
+    c,8( f) f4 r8 b16( f') %165
+    \appoggiatura f es8 d16 c b8. d16 a( c) b a
+    a4( b8) d\fz g16( e) b g
+    g2( f8) r\fermata \bar "||" %168 finis
+  }
+}
+
+% DXCIIbViolinoII = {
+%   \relative c' {
+%     \clef treble
+%     \key b \major \time 3/4 \tempoDXCIIb
+%       \set Score.currentBarNumber = #79
+%     \partial 16 r16
+%
+%   }
+% }
