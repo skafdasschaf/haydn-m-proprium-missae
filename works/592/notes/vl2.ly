@@ -183,12 +183,62 @@ DXCIIbViolinoII = {
   }
 }
 
-% DXCIIbViolinoII = {
-%   \relative c' {
-%     \clef treble
-%     \key b \major \time 3/4 \tempoDXCIIb
-%       \set Score.currentBarNumber = #79
-%     \partial 16 r16
-%
-%   }
-% }
+DXCIIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoDXCIIc
+      \set Score.currentBarNumber = #169
+    a'8(\f c) b( g) f16( c) c8 r f16 a
+    c8-! c-! a-! g f d r cis16( e) %170
+    a,8-! cis-! d-! fis g16( d' c e,) f( a c f)
+    b( g e b) a( f' c a) d,( f d d') c,( e) e( g)
+    f8 a,16( c) c( f) f( a) a([ f) r f] f( a) a( c)
+    c([ a) r a] a( c) c( f) f([ c) r c] a( f') c( a')
+    f( c') a( f) c( f) c( a) g( b) g( e) f f a f %175
+    f( d) e( g) f( c') a( f) d d' d d e, b' b b
+    a8 a4(\p f8) r16 g( b g) r e( g e)
+    f\fp a, a f' e g f es d f b, d c e c g'
+    g\fp e f c' a f g a b b'-! f-! d-! b-! f d b
+    d\fp b a c a' a g g f f( g f) r f( g f) %180
+    r d'32([ c] d c h a) g16-! g,32 a h[ c d e] f8 e dis( d)
+    c r r16 g c32([ e f e)] f4 r16 g, d'32([ f g f)]
+    e4 r16 e g32([ c g c)] e16( g) e e e( c) d( h)
+    \appoggiatura h8 c4 r16 e,(\fz g c) e g,( e c) g d''( c h)
+    \appoggiatura h8 c8. c,16\p c( e) e( g) g8( \scriptOut f16)-! c c( f) f( a) %185
+    a8( \scriptOut g16)-! c, c e g f b8 a a( g)
+    f4 f16(-. f-. f-. f-.) f4 as16(-. as-. as-. as-.)
+    as4 f'16(-. f-. f-. f-.) f8 f,4 f8
+    e e f4\fz e8-! g(\pE f e)
+    f f( g a) b b,16( d) b( d) c( g') %190
+    g( e) f32([ a) g b] a16 f g a b b, d f b d d f
+    \appoggiatura d8 c4 c8\fz c4 b8\p d,16( b') d,( a')
+    \appoggiatura a8 g4 g8 r g r fis c'16( a)
+    fis( a) g-! b c( b) b b a8(\scriptOut b16)-! b c( b) b g
+    fis8( \scriptOut g16)-! b c( b) b g f8( \scriptOut a16)-! a f'( c) \once \slurDashed b( g) %195
+    f8( e) r16 e(\fz dis e) e8(\p f8.) f16( e f)
+    fis8( g8.) g16( fis g) gis8( a8.) a16( f' a)
+    a8( g!) e,16( g) g( b) b(\pp g) g g g g g g
+    g(\cresc des) des des des des des des' c\fp f, f f es'\fp c c c
+    b\fp b, b b d'( cis) d( b) a8( f) e( g) %200
+    r16 f(\fz e f) d'( cis) d( b) r f a( f) r e g( e)
+    f8\f f'16( a,) d( g,) b'( e,) f([ c) r f,] \grace { e([ f g] } f8.\trill e32 f)
+    a16([ f) r f] \grace { e([ f g] } f8.\trill e32 f) f'16([ a,) r f] \grace { e([ f g] } f8.\trill e32 f)
+    a'16([ f) r f] \grace { e([ f g] } f8.\trill e32 f) c16-! g-! e-! c-! f'-! c-! a-! f-!
+    b' g e b a a' f c d d, d d d d' d d %205
+    cis8 cis16-! a-! d-! a-! e'-! a,-! f'-! a,-! a32[ d f a] g16 cis, d f
+    e a, cis a e' a, f' a, g' cis, a32[ a' e cis] d16 a cis a
+    d d d d d d d d d d e e f f f f
+    g g, g g f c' c c g d' d d g, b b b
+    a f'(\p c a) c( a) f( c) r b''( g e) b( g) e( g) %210
+    \appoggiatura { f32[ c'] } f16[-! f-! r f] c'[ c r b,] a32[ c d c] f c d c a([ a') a( g)] g( f) f( e)
+    d16[ d r d] a'[ a r g,] f32[ a b a] d a b a f'[ g a g] f g e f]
+    d16[ f, r d'] f[ f r d] e g8 e32 c f16 a8 f32 c
+    g'16 b8 g32 c, a'[ b c a] f g a f d16 f8 f16 f32([ e) e( d)] d( c) c( e,)
+    f16-![ a-! r a] a'32[ f c a] f' c a f c''16[ c r c,] f,32 a c f a,[ c f a] %215
+    c16[ c r c,] f32[ c a f] a' f c a fis16[ fis r d'] a32[ d fis a] d, fis a d
+    es16[ es r es,] es32[ c a fis] es' c a fis g16 g'8 e32 c f,16 a'8 f32 c
+    \kneeBeam c,16 b''8 g32 e a,16 c'8 a32 f d[ f e f] d f, e f f16 f e e
+    f16 a\p a( f) r c' f( a) r b, f( d) r d f( b)
+    b,4 g8( b) a <c f a>\f q4\fermata \bar "|." %220 finis
+  }
+}

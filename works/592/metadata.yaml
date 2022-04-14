@@ -1,7 +1,7 @@
 title: Bußgeſang in der Faſtenszeit
 id: MH 592/811
 genre: sacred song
-scoring: 2 S (solo), 2 S (coro), 2 cor (F/\flat B alto), 2 vl, vla, b, org solo
+scoring: 2 S (solo), 2 S (coro), 2 cor (F/\flat B\ alto), 2 vl, vla, b, org solo
 license: cc-by-nc-sa-4.0
 sources:
   A1:
@@ -20,7 +20,7 @@ sources:
     rism: 450113706
     url: http://daten.digitale-sammlungen.de/bsb00085274/image_1
     license: CC BY-NC-SA 4.0
-    notes: contains cor 1, cor 2, vl 1, vl 2, vla
+    notes: contains cor 1, cor 2, vl 1, vl 2, and vla
   B1:
     siglum: F-Pn
     shelfmark: D-5983 (4)
@@ -28,71 +28,104 @@ sources:
     rism: 840016788
     url: https://gallica.bnf.fr/ark:/12148/btv1b100750675
     license: custom (free for non-commercial purposes)
-    principal: true
     notes: full score
 toe: |
-  & –  & org  & all small notes have been added by the editor \\
-  & 1  & –   & The original tempo indication “Maestoso” has been revised in \A2 to “Adagio”. \\
-  & 58 & S 1 & 3rd \quarterNote\ in \A1: a′4 \\
-  & 101 & org & 1st \eighthNote\ in \A1: d″4 \\
-  & 145f & cor & bars in \A2: \quaverRest–c′8–c′8–c′8–c′8–c′8 and c′4–c′4–\crotchetRest \\
+  –    & org & All small notes have been added by the editor. \\
+  1    & –   & The original tempo indication “Maestoso”
+               has been revised in \A2 to “Adagio”. \\
+  58   & S 1 & 3rd \quarterNote\ in \A1: a′4 \\
+  101  & org & 1st \eighthNote\ in \A1: d″4 \\
+  145f & cor & bars in \A2: \quaverRest–c′8–c′8–c′8–c′8–c′8
+               and c′4–c′4–\crotchetRest \\
 parts:
-  cor12: Corno I, II in F/\flat B alto
+  cor12: Corno I, II in F/\flat B\ alto
+  org: Organo solo
 lyrics:
-  Im Staub vor deinem Angeſichte,
-  o Gott! erſcheint die Büſſerſchaar;
-  ſie liegt vor deinem Strafgerichte
-  mit Trauern hier vor dem Altar.
-  Herr! mir zittern die Gebeine,
-  es deckt die Stirn ein kalter Schweiß;
-  und meine Thräne, die ich weine,
-  fließt langſam, und von Liebe heiß.
-  Im Geiſt der Demuth will ichs wagen,
-  in dem zerknirſchten Büſſergeiſt,
-  mich, einen Sünder zu verklagen
-  vor dir, der du ſchon alles weißt.
-  Ich war bisher in Chriſten Pflichten
-  ſo lau und kalt, und tugendleer:
-  ich ſchäme mich, du wirſt mich richten,
-  wie fürcht ich dein Gericht o Herr!
-  Mit Reu bekenn ich, und mit Schmerzen,
-  daß ich die Liebe ganz verkehrt;
-  ich liebte aus verdorbnem Herzen,
-  nur was die Sinnlichkeiten nährt.
-  Doch Vater! du wirſt dich erbarmen,
-  ſieh gnädig her von deinem Thron;
-  wir werfen uns in deine Armen,
-  und flehn, wie der verlohrne Sohn.
-  Gerechter Gott! vor dem ich bebe,
-  o geh mit mir nicht ins Gericht!
-  Dein Wort heißt ja, ſo wahr ich lebe,
-  ich will den Tod des Sünders nicht;
-  ich laß den Sünder nicht verderben,
-  der vor mir wahre Buſſe thut;
-  die Lieb erkaufte meine Erben
-  am Kreuze theuer, durch mein Blut.
-  Erbarmender! nun hab ich wieder
-  mein kummervolles Haupt zurück;
-  und Troſt durchſtrömet meine Glieder
+  \begin{multicols}{2}[I]
+  Im Staub vor deinem Angeſichte,\\
+  o Gott! erſcheint die Büſſerſchaar;\\
+  ſie liegt vor deinem Strafgerichte\\
+  mit Trauern hier vor dem Altar.\\
+  Herr! mir zittern die Gebeine,\\
+  es deckt die Stirn ein kalter Schweiß;\\
+  und meine Thräne, die ich weine,\\
+  fließt langſam, und von Liebe heiß.\\
+  Im Geiſt der Demuth will ichs wagen,\\
+  in dem zerknirſchten Büſſergeiſt,\\
+  mich, einen Sünder zu verklagen\\
+  vor dir, der du ſchon alles weißt.\\
+  Ich war bisher in Chriſten Pflichten\\
+  ſo lau und kalt, und tugendleer:\\
+  ich ſchäme mich, du wirſt mich richten,\\
+  wie fürcht ich dein Gericht o Herr!\\
+  Mit Reu bekenn ich, und mit Schmerzen,\\
+  daß ich die Liebe ganz verkehrt;\\
+  ich liebte aus verdorbnem Herzen,\\
+  nur was die Sinnlichkeiten nährt.\\
+  Doch Vater! du wirſt dich erbarmen,\\
+  ſieh gnädig her von deinem Thron;\\
+  wir werfen uns in deine Armen,\\
+  und flehn, wie der verlohrne Sohn.\\
+  Gerechter Gott! vor dem ich bebe,\\
+  o geh mit mir nicht ins Gericht!\\
+  Dein Wort heißt ja, ſo wahr ich lebe,\\
+  ich will den Tod des Sünders nicht;\\
+  ich laß den Sünder nicht verderben,\\
+  der vor mir wahre Buſſe thut;\\
+  die Lieb erkaufte meine Erben\\
+  am Kreuze theuer, durch mein Blut.\\
+  Erbarmender! nun hab ich wieder\\
+  mein kummervolles Haupt zurück;\\
+  und Troſt durchſtrömet meine Glieder\\
   in deinem milden Gnadenblick.
+  \end{multicols}
 
-  Zum Leben Herr! und nicht zum Tödten
-  erhebe deiner Allmacht Hand,
-  laß meine Hofnung nicht erröthen,
-  waſch mich und beſſre meinen Stand.
-  Du wirſt dich deines Volks erbarmen,
-  da wo dein Aug nur Bosheit findt;
-  wo die gerechte Sach der Armen
-  wird unterdrückt, und Laſter ſind.
-  Ein Volk mit Langmuth zu ertragen,
-  das deiner Güte ganz vergißt,
-  zeugt uns heut noch in unſern Tagen,
-  wie groß Herr! dein Erbarmen iſt.
-  Daß du dein Blut am Kreuz vergoſſen,
-  ſind meine Sünden Schuld daran:
-  dein Blut iſt für mein Heil gefloſſen,
-  ich aber finng aufs neue an,
-  mit ſündigen die herben Schmerzen
-  erneuernd dich zu kreuzigen;
-  der Lanzenſtoß gieng dir zu Herzen:
+  \begin{multicols}{2}[II]
+  Zum Leben Herr! und nicht zum Tödten\\
+  erhebe deiner Allmacht Hand,\\
+  laß meine Hofnung nicht erröthen,\\
+  waſch mich und beſſre meinen Stand.\\
+  Du wirſt dich deines Volks erbarmen,\\
+  da wo dein Aug nur Bosheit findt;\\
+  wo die gerechte Sach der Armen\\
+  wird unterdrückt, und Laſter ſind.\\
+  Ein Volk mit Langmuth zu ertragen,\\
+  das deiner Güte ganz vergißt,\\
+  zeugt uns heut noch in unſern Tagen,\\
+  wie groß Herr! dein Erbarmen iſt.\\
+  Daß du dein Blut am Kreuz vergoſſen,\\
+  ſind meine Sünden Schuld daran:\\
+  dein Blut iſt für mein Heil gefloſſen,\\
+  ich aber finng aufs neue an,\\
+  mit ſündigen die herben Schmerzen\\
+  erneuernd dich zu kreuzigen;\\
+  der Lanzenſtoß gieng dir zu Herzen:\\
   Wie werd ich einſt im G’richt beſtehn?
+  \end{multicols}
+
+  \begin{multicols}{2}[III]
+  Herr! meine offne Lippen preiſen\\
+  dein Recht, wie die Barmherzigkeit,\\
+  du giebſt dem Thoren, wie dem Weiſen\\
+  zur Buß gezählte Stund und Zeit.\\
+  Du hauſt den Wald um, alle Bäume\\
+  ſo jung als alter fällt dahin.\\
+  Und ich gebrechlichs Gſchür vom Laime,\\
+  ich weiß, daß ich dennoch leb und bin.\\
+  Erhalte deiner Hoheit Zeichen,\\
+  die heilige Religion:\\
+  laß Kirch und Staat ihr Wohl erreichen,\\
+  das bitten wir durch deinen Sohn;\\
+  durch Jeſum, der am Kreuz geſtorben,\\
+  der uns die wahre Buſſe lehrt,\\
+  der Mittler, der uns das Heil erworben,\\
+  und einſt das Himmelreich gewährt.\\
+  Lob, Ruhm und Dank und Preis und Ehre\\
+  ſey Gott auf ſeinem höchſten Thron.\\
+  Es preiſen ewig Erd und Meere\\
+  den Vater und den lieben Sohn,\\
+  den Geiſt der Gnaden und der Stärke\\
+  in gleicher Macht und Herrlichkeit.\\
+  O Gott! nimm gnädig unſre Werke\\
+  in dieſer Buß- und Faſtenszeit.
+  \end{multicols}

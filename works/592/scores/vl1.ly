@@ -7,11 +7,30 @@
 
 \book {
   \bookpart {
-    \section "DXCII" ""
+    \section "592" "Bußgeſang in der Faſtenszeit"
     \addTocEntry
     \score {
       <<
         \new Staff { \DXCIIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Zum Leben Herr! und nicht zum Tödten"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DXCIIbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Herr! meine offne Lippen preiſen dein Recht"
+    \addTocEntry
+    \paper { page-count = #2 }
+    \score {
+      <<
+        \new Staff { \DXCIIcViolinoI }
       >>
     }
   }

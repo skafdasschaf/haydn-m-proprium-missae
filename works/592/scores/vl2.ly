@@ -7,11 +7,29 @@
 
 \book {
   \bookpart {
-    \section "DXCII" ""
+    \section "592" "Bußgeſang in der Faſtenszeit"
     \addTocEntry
     \score {
       <<
         \new Staff { \DXCIIViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Zum Leben Herr! und nicht zum Tödten"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DXCIIbViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Herr! meine offne Lippen preiſen dein Recht"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DXCIIcViolinoII }
       >>
     }
   }

@@ -4,30 +4,193 @@ DXCIIOrganoSolo = {
   \relative c' {
     \clef treble
     \key f \major \time 4/4 \tempoDXCII
-    R1*8 %8
-    r8 <a' c>4 <a f'>8 <b d>( <g b>16) r <g b,>8( <e g,>16) r
-    R1*6 %15
-    r4 e16 g c e <e g>4~ q16 <d f> <c e> <h d>
-    \appoggiatura q8 c4 r r2
-    R1*3 %20
-    r8 <c e> <as f'> <f h> <e c'> <g b> <f a!> <e g>
-    R1*11 %32
-    r4 <d' f>16 <cis e> <d f> <b d> <a c>8 r <b, e> r
-    R1*8 %41
-    r8 <a' a'>4 <d f>8 <e g,>( <g b,>16) r \once \slurDashed <cis, e,>8( <e g,>16) r
-    <d f,>8 r r4 r2
-    R1*5 %48
-    r2 r4 r16 a e'( g)
+    << {
+      \tiny <c f>4 g' <f a>2~
+      q1~
+      q2 <e g>4 <f a>
+      <g b> <f a> a8 g <e g>4
+      <f a>1~ %5
+      q~
+      q2 <e g>4 <d f>
+      g <f a> g2
+      f8
+    } \\ {
+      \tiny a,4 <d f>8 <c e> c2~
+      c d~
+      d4. c8 c2
+      c <d f>4 c
+      c1~ %5
+      c~
+      c4 d c8 b a4
+      <d f>8 <c e> c[ d] <d f>4 <c e>
+      <a c>8
+    } >>
+    <a' c>4 <a f'>8 <b d>( <g b>16) r <g b,>8( <e g,>16) r
+    << {
+      \tiny f4 es <b d> <b e>~ %10
+      q8 <c f>4. f2~
+      f4 <f a>8 <c g'> <h f'>4 <d f>
+      q2 <f a>8 <e g> <dis fis> <d f>
+      <c e>2 <f g>
+      <e g> <e c'>4. <d h'>8 %15
+      <e c'>4
+    } \\ {
+      \tiny <a, c>2 f4 g~ %10
+      g8 a4. <b d>2~
+      q8 <a c> c[ g] g4 g
+      h2 h4 a8 h
+      g2 <h d>
+      c g' %15
+      g4
+    } >>
+    e16 g c e <e g>4~ q16 <d f> <c e> <h d>
+    \appoggiatura q8 c4 r r8 << {
+      \tiny <f, a> q4
+      r8 <g b> q4 r8 <a c>4 <g b>8
+      <f a>4 <f as> q2~
+      q1 %20
+      <e g>8
+    } \\ {
+      \tiny c c4
+      r8 e e4 r8 e f c
+      c4 c c2
+      des~ des8 b c d %20
+      c
+    } >>
+    <c' e> <as f'> <f h> <e c'> <g b> <f a!> <e g>
+    << {
+      \tiny <c f>4 <e g>8 <es a> <f b>4. <e g>8~
+      q <c f>4. <d f>2~
+      q8 <c es>4. <es a>4 <d b'>8 <c a'>
+      <c fis a> <b g'> <d g>4 <es g> <d fis> %25
+      <a c fis>8 <b g'>4. r8 <d g>4.
+      r8 <e g>4. r8 <f a> <f c'> <g b>
+      <f a> <e g>4. r8 <f a>4.
+      r8 <g c>4. r8 <a c>4.
+      <g b>2 q %30
+      <g des'> <f c'>
+      <f b>4 <g b> <f a> <e g>
+      <d f>8
+    } \\ {
+      \tiny a4 b8 c d4. b8~
+      b a4. b2
+      a c4 d
+      d b a4. c8 %25
+      d2 r8 b4.
+      r8 b4. r8 c c d
+      c2 r8 d4.
+      r8 e4. r8 f4.
+      e2 e %30
+      e c4 es
+      d4 d c2
+      a8
+    } >>
+    r <d' f>16 <cis e> <d f> <b d> <a c>8 r <b, e> r
+    << {
+      \tiny <a f'>4 g' <f a>2~
+      q1~ %35
+      q2 <e g>4 <f a>
+      <g b> <f a> a8 g4.
+      <a a,>2 <f a>8 <d a'> <g a> <f a>
+      <e a>4. <f a>8 <g a> <e a> <d a'> <g a>
+      <f a>4 <fis a> g <f a> %40
+      <b, g'> <f' a> g2
+      f8
+    } \\ {
+      \tiny c8[ d] <d f> <c e> c2~
+      c d~ %35
+      d4. c8 c2
+      c <b d>
+      cis4 d8 e d a cis d
+      a cis a d cis cis a cis
+      d4 d <b d>8 <c e> c4 %30
+      c8 e c4 <d f> <c e>
+      <a c>8
+    } >>
+    <a' a'>4 <d f>8 <e g,>( <g b,>16) r \once \slurDashed <cis, e,>8( <e g,>16) r
+    <d f,>8 r r << {
+      \tiny <f, a> <g b>2~
+      q8 <f a> <g a>4 <f a> <e a>
+      <f a> <c a'>8 <b g'> q <a f'> <f' a>4 %45
+      a1~
+      a2. <e g>4
+      <d f>1
+      <e g>4 r8 q <d f>[ <cis e>]
+    } \\ {
+      \tiny d d4 cis8 e
+      d4 cis d a8 cis
+      d4 d d d %45
+      <d f>4 <cis e> <e g> <d f>~
+      q <e g>8 <d f> <cis e>4 a
+      a2 b4 f8 a
+      b4 r8 b a4
+    } >>
+    r16 a' e'( g)
     r a, d f e g32 b a g f e d8( cis32) e gis, h a8 r %50
-    R1*7 %57
-    r2 r8 a'32 h c h a16 e a c,
-    h f' \appoggiatura e32 d16[ c32 h] a8_[ \grace c16 <gis h>8] a r r4
-    R1*7 %66
-    r2 r8 f'( e) d-!
+    << {
+      \tiny <e a>4. <d gis>8~ q <e a>4.
+      <e h'>4 <e a> <c a'>8 <h gis'>4.
+      <e a>4 <e gis>8 <e a> <d h'>4 r8 <e h'>
+      <d gis h>4 <c a'> <e gis> <e a>
+      <a, f'> <d g> <g, e'> <c f> %55
+      <f, d'> h'8 a a gis4.~
+      gis2. <e h'>4~
+      q8 <f a>4 <e gis>8 <e a>
+    } \\ {
+      \tiny c4. h8~ h c4. d4 c e2
+      c4 d8 c e f r d
+      e4 e8 fis h,4 a
+      e'8 d g,[ h] d c f,[ a]
+      c h <d f>4 <h d e>2~ %55
+      q2. d4
+      c h c8
+    } >>
+    a''32 h c h a16 e a c,
+    h f' \appoggiatura e32 d16[ c32 h] a8_[ \grace c16 <gis h>8] a r << {
+      \tiny fis8 <es g>
+      <c a'>4 <c a'> <fis a>8 <g b> <fis a>4 %60
+      <c fis a>8 <b g'>4. <g' b>2~
+      q4 r8 q q <f a> q4
+      a1~
+      a2. <e g>4
+      <d f>1~ %65
+      q4. <cis e>8~ q <b d> <d f>4~
+      q4. <cis e>8 <a d>
+    } \\ {
+      \tiny c4
+      d8 es fis[ es] d4 d %60
+      d2 g8 f e f
+      e4 r8 e c cis d4
+      <d f> <cis e> <e g> <d f>~
+      q <e g>8 <d f> <cis e>4 a
+      a2 b8 f a h %65
+      a2~ a8[ f] a h
+      a2 f8
+    } >>
+    f''( e) d-!
     \appoggiatura d16 c!8 b'~ b16 g b b, a c h c \appoggiatura d c8 b16 a
     g8[ \grace { b32 c } d8] \appoggiatura c16 b8 a16 g f8( e16) c'( h b a g)
-    R1*8 %77
-    R1\fermata \bar "|." %78 finis
+    << {
+      \tiny <c, f>4 <e g> <f a>4. <g a>8 %70
+      <f a>4 <e a> <f a>2~
+      q <e g>4 <f a>
+      <g b> <f a> a8 g <c, g'>4
+      <f a>1~
+      q2 <fis a>~ %75
+      q g4 <c, f>
+      <b g'> <f' a> g4~ <c, g'>
+      <c f>1\fermata
+    } \\ {
+      \tiny a4 c c4. cis8 %70
+      d4 cis d2~
+      d c
+      c <d f>4 f8 e
+      c1~
+      c2 d %75
+      es <b d>8 <c e> a4
+      c8 e c4 <c e>8 <d f> f[ e]
+      a,1\fermata
+    } >> \bar "||" %78 finis
   }
 }
 
@@ -159,7 +322,7 @@ DXCIIBassFigures = \figuremode {
   r <\t> <7 5+> <\t \t> <6> <2> <6>4 %40
   <6 5>2 q
   r1
-  r2.. <7>8
+  r2. <[6\\ 5]>8 <7>
   <6 4> <6> <6\\> <\t> <6>4 q
   r8 q <9 4!> <6> <6 4> <5 [3]>4. %45
   <6 4>4 <[5] _+> <7 \t> <6 4>
@@ -187,7 +350,7 @@ DXCIIBassFigures = \figuremode {
   r1
   r
   r2.. <6\\>8 %70
-  r2 <5>4. \bassFigureExtendersOn q8
+  r4 \bo <[_+]>8 \bc <[6]> <5>4. \bassFigureExtendersOn q8
   <7>4. q8 \bassFigureExtendersOff <5>4 <6>
   <5>2 <7>8 <6 5> <4> <3>
   <3>1 \bassFigureExtendersOn
@@ -547,24 +710,252 @@ DXCIIbBassFigures = \figuremode {
   r %168 finis
 }
 
-% DXCIIbOrganoSolo = {
-%   \relative c' {
-%     \clef treble
-%     \key b \major \time 3/4 \tempoDXCIIb
-%       \set Score.currentBarNumber = #79
-%     \partial 16 r16
-%   }
-% }
-%
-% DXCIIbOrgano = {
-%   \relative c {
-%     \clef bass
-%     \key b \major \time 3/4 \tempoDXCIIb
-%       \set Score.currentBarNumber = #79
-%     \partial 16 r16
-%   }
-% }
-%
-% DXCIIbBassFigures = \figuremode {
-%
-% }
+DXCIIcOrganoSolo = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoDXCIIc
+      \set Score.currentBarNumber = #169
+    << {
+      \tiny <c f>4 g' <f a>2~
+      q4. <g a>8 <f a>4 <e a> %170
+      <f a>8 <g a> <d a'>4 g <f a>
+      <g b> <f a> a8 g <e g>4
+      <f a>1~
+      q~
+      q2 <e g>4 <d f> %175
+      g <f a> g2
+      f8
+    } \\ {
+      \tiny a,4 <d f>8 <c e> c2~
+      c4. cis8 d4 cis %170
+      d8 cis f fis <d b> <c e> c4
+      c2 <d f>4 c
+      c1~
+      c~
+      c2 c8 b a4 %175
+      <g d'>8 <c e> c[ d] <d f>4 <c e>
+      <a c>8
+    } >>
+    <a' c>4 <a f'>8 <b d>( <g b>16) r <g b,>8( <e g,>16) r
+    << {
+      \tiny <c f>4 <e g>8 <es a> <f b>4 <e g>~
+      q8 <c f>4. f2~ %180
+      f4 <f a>8 <c g'> <h f'>4 <d f>
+      q2 <f a>8 <e g> <dis fis> <d f>
+      <c e>2 <f g>
+      <e g> <e c'>4. <d h'>8
+      <e c'>4
+    } \\ {
+      \tiny a,4 b8 c d4 b~
+      b8 a4. <b d>2~
+      q8 <a c> c[ g] g4 g %180
+      h2 h4 a8 h
+      g2 <h d>
+      c g'
+      g8
+    } >>
+    e16 g c e <e g>4~ q16 <d f> <c e> <h d>
+    \appoggiatura <f h d>8 <e c'>4 r4 r8 << {
+      \tiny <f a> q4 %185
+      r8 <g b> q4 r8 <a c>4 <g b>8
+      <f a>4 <f as> q2~
+      q1
+      <e g>8
+    } \\ {
+      \tiny c c4 %185
+      r8 e e4 r8 e f c
+      c4 c c2
+      des~ des8 b c d
+      c
+    } >>
+    <c' e> <as f'> <f h> <e c'> <g b> <f a!> <e g>
+    << {
+      \tiny <c f>4 <e g>8 <es a> <f b>4. <e g>8~ %190
+      q <c f>4. <d f>2~
+      q8 <c es>4. <es a>8 <d b'>4 <c a'>8
+      <c fis a> <b g'> <es g>4 q <c fis>
+      <a c fis>8 <b g'>4. r8 <d g>4.
+      r8 <e g>4. r8 <f a> <f c'> <g b> %195
+      <f a> <e g>4. r8 <f a>4.
+      r8 <g c>4. r8 <a c>4.
+      r8 <g b>4. q2
+      <g des'> <f c'>
+      <f b>4 r8 q <f a>4 <e g> %200
+      <d f>8
+    } \\ {
+      \tiny a4 b8 c d4. b8~ %190
+      b a4. b2
+      a c8 d4.
+      d4 b a a
+      d2 r8 b4.
+      r8 b4. r8 c c d %195
+      c2 r8 d4.
+      r8 e4. r8 f4.
+      r8 e4. e2
+      e c4 es
+      d4 r8 d c2 %200
+      a8
+    } >>
+    r <d' f>16 <cis e> <d f> <b d> <a c>8 r <e c b> r
+    << {
+      \tiny <a, f'>4 g' <f a>2~
+      q1~
+      q2 <e g>4 <f a>
+      <g b> <f a> a8 g4. %205
+      <a a,>2 <f a>8 <d a'> <g a> <f a>
+      <e a>4. <f a>8 <g a> <e a> <d a'> <g a>
+      <f a>4 <fis a> g <c, f>
+      <b g'> <f' a> g2
+      f8
+    } \\ {
+      \tiny c8[ d] <d f>8 <c e> c2~
+      c d~
+      d4. c8 c2
+      c <b d> %205
+      cis4 d8 e d a cis d
+      a cis a d cis cis a cis
+      d4 d <b d>8 <c e> a4
+      c8 e c4 <d f> <c e>
+      <a c>8
+    } >>
+    <c' c'>4 q8 <g' b>16( <g b,>) q q <b, e>( <b e,>) q q %210
+    << {
+      \tiny <c, f>4 <c g'> <f a>4. <e a>8
+      <f a>4 <e a> <f a>2
+      q <e g>4 <f a>
+      <g b> <f a> a8 g <e g>4
+      <f a>1~ %215
+      q2 <fis a>~
+      q g4 <c, f>
+      <c g'> <f a> g2
+      f16
+    } \\ {
+      \tiny a,4 g c4. a8
+      d4 a d2
+      d c4 c
+      c4 c8 d <d f>4 c
+      c1~ %215
+      c2 d
+      es <b d>8 <c e> a4
+      g c <d f~> <c~ f>8 <c e>
+      <a c>16
+    } >>
+    f' a c es c es es, d f b d b f b d,
+    <e c b g>2 <f c a>\fermata \bar "|." %220 finis
+  }
+}
+
+DXCIIcOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoDXCIIc
+      \set Score.currentBarNumber = #169
+    \mvTr f8\fE-\tuttiE a, b c f a c c16. b32
+    a8 g f e d f a a16. g32 %170
+    f8 e d c b b' a f
+    e c f a, b h c c,
+    f f' a c f, a c, f
+    a, c f, c''16. a32 f8 a c, f
+    a, c f, a c cis d c %175
+    h b a d b b c c
+    f,-\soloE r f' r b, r c r
+    f,16\fp f' f f f f f f f f f f f f f f
+    f,\fp f' f f f f f f f f f f f f f f
+    f,\fp f' f f f f e e d8 d' h, h' %180
+    g g, g' g, g' g, r g
+    c g' e c r d h g
+    r c' g e c e g g,
+    c c' g e c e g g,
+    c c' c,4 r8 c'\p c,4 %185
+    r8 c' c,4 r8 c d e
+    f f, r f' as g f es
+    des f des c b des c h
+    c r des4 c8 r r4
+    f8 f, f' f, f' f, f' f, %190
+    f' f, f' f, f' f, f' f,
+    f' f, f'16 g a g fis8 fis r fis
+    g4 es c d
+    g8 g, fis( g) r g' \once \slurDashed fis( g)
+    r c, \once \slurDashed h( c) r f a, b %195
+    c c' h( c) r c h( c)
+    r c h( c) r c \once \slurDashed h( c)
+    r c, c c des16\pp des des des des des des des
+    b\cresc b b b b b b b a8\fp a a a
+    b b r b c c c c %200
+    d r b\f r c c c c
+    f-\tutti d b c f a c a
+    f a f c d f a f
+    d f d a b b' a f
+    e c f a b b, b b' %205
+    a a, h cis d f e d
+    cis a cis d e g f e
+    d c b a b b' a f
+    e c f a, b g c c,
+    f r <a f'> r <c e> r <c g'> r %210
+    f16-\markup \remark "Tutti tutti" c a' f e c b' e, f g a g f e d cis
+    d a f' d cis a g' cis, d e f e d cis d c
+    b c d c b a b h c e g b a c f, a
+    e g c, e f a d, f b, a b h c b a g
+    f f' e f c f a, c f, f' e f a f c' f, %215
+    es es d es a es c' es, d d cis d fis d a' d,
+    c c h c fis c a' c, b b' b b a f f f
+    e c c c f a, a a b b h h c c c c
+    f,8 r << { a' } \\ { f } >> r << { b } \\ { f } >> r << { d' } \\ { f, } >> r
+    f, f f f f2\fermata \bar "|." %220 finis
+  }
+}
+
+DXCIIcBassFigures = \figuremode {
+  r4 <6 5> <3>2 \bassFigureExtendersOn %169
+  q4 q8 \bassFigureExtendersOff <6\\> <5> <\t> <_+>8.. <\t>32 %170
+  <6>8 <6\\>4 <4+ 2>8 <6> <2> <6>4
+  <6 5>4. <[6]>8 <7> <6 5>4.
+  <3>1 \bassFigureExtendersOn
+  q
+  q4. q8 \bassFigureExtendersOff r <7> <3> <\t> %175
+  <6> <2> <6>4 <6 5>2
+  r1
+  r4 <7 2>8 <7- 3> <6 4>4 <7! 2>
+  <\t \t>8 <[8] 3>4. <6 4>2
+  <\t \t>8 <5 [3]>4 <6>8 <6!>4 <5> %180
+  <7 _!>2 <9 7>8 <8 6> <7+ 5+> <7! 5!>
+  <[5]>4. \bassFigureExtendersOn <5>8 \bassFigureExtendersOff r <6!> <5> <[7 _!]>
+  r4 <\t>2 <6 4>8 <7 _!>
+  <\t \t> <8 [3]>2..
+  r2 r8 <6 4>4. %185
+  r8 <7->2 <8 6>8 <7> <5>
+  r4 <_->2 \bassFigureExtendersOn q8 q
+  <5->4. q8 \bassFigureExtendersOff <7- _->4. <\t _!>8
+  r1
+  <_!>4 <7 2>8 <7- 3> <6 4>4. <7! 2>8 %190
+  <\t \t> <[8] 3>4. <6 4>2
+  <8 6>8 <7- 5>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 4> <\t \t> <5 [3]>
+  <9 4> <[8] 3>4. <6 5 _->4 <7 _+>
+  <9 4>8 <[8] 3>2..
+  r8 <7>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff r4 <6>8 q %195
+  <6 4> <5 [3]>2 <2>4 \bassFigureExtendersOn q8
+  r <3>4 q8 r <6 4>4 q8 \bassFigureExtendersOff
+  r8 <7->4. <2>2
+  <4 _-> <6>4 <5->
+  r2 <6 4>4 <[5] 3> %200
+  r1
+  r4 <6 5> <3>2 \bassFigureExtendersOn
+  q4. q8 <5>2
+  q4 q8 \bassFigureExtendersOff <6> <2>4 <6>
+  <5>2 <7>8 <6>4. %205
+  <_+>2 r8 <6> <6\\>4
+  <6>2 <6\\>8 <\t> <6> <6\\>
+  r <\t> <7 5+> <\t \t> <6> <2> <6>4
+  <6 5>4. <[6]>8 <6 5>2
+  r1 %210
+  <3>8. \bassFigureExtendersOn q16 <6>8. q16 <3>8. q16 \bassFigureExtendersOff r8 <\tllur>16 <6>
+  <5>8. \bassFigureExtendersOn q16 <6>8. q16 <5>4.. q16
+  <7>4.. q16 <5>8. q16 <6>8. q16
+  <6\! 5>8. <6 5>16 <3>8 <5> <7> <6 5> <5\!>8. <5>16
+  <3>2... q16 %215
+  <2>4.. q16 <_+>4.. q16
+  <4+ _->4.. q16 <6>8 <4! 2> <6> r
+  <6>8. q16 <3>8. q16 <6 5>8. q16 \bassFigureExtendersOff <4>8 <3>
+  r1
+  r %220 finis
+}

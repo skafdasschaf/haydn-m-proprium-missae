@@ -117,11 +117,58 @@ DXCIIbCornoI = {
   }
 }
 
-% DXCIIbCornoI = {
-%   \relative c' {
-%     \clef treble
-%     \key c \major \time 3/4 \tempoDXCIIb
-%       \set Score.currentBarNumber = #79
-%     \partial 16 r16
-%   }
-% }
+DXCIIcCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDXCIIc
+      \set Score.currentBarNumber = #169
+    c'4\f r8 g c4 c
+    c r8 \pao e, e'4 e %170
+    e r r8 d c e
+    d f r c c4 \pao g8 r
+    r c e g c, e g, c
+    e, g c, g''16. e32 c8 e g, c
+    e, g c,4 r2 %175
+    r8 d' e c r c[ g g]
+    g r c\p r r4 \pao g
+    g8\f r r4 r2
+    c8\f r r4 r c8\p c
+    c\f r r4 r2 %180
+    R1*3
+    r8 d\fz d d d4 \pao d
+    d g,8\p r r4 g8 r %185
+    r4 g8 r r2
+    R1*2
+    r2 g\>
+    g8\! r r4 r2 %190
+    c1
+    r8 c\fz c r r2
+    R1*2
+    r2 g'4.\p f8 %195
+    e( d) r4 r2
+    g,8 r r4 g8 r r4
+    g8 r r4 r2
+    r c8\f r c r
+    c r r4 r2 %200
+    r e4\fz d
+    c8\f e d d c e g e
+    c e c g c4 r16 c c c
+    c4 r16 c c c d4 c16 g c e
+    d8. f16 e8 r r2 %205
+    r8 e e e e4 r
+    r8 e e e e4 e
+    e r r8 d c e
+    r f[ e g] r d d16 d d d
+    c8 r r c\p d4 r8 d %210
+    c16\f e c e d f d f e8 r e r
+    e8 e e e e r e r
+    c c c c g r g r
+    g4 r r8 d' d d
+    c[ r16 c] g c e, g c,8[ r16 c'] e c g' e %215
+    c8 c c r r2
+    e4 e8 e \pao d r g,16 c c c
+    g d' d d g, e' e e r d d d d d d d
+    c8 r \clef bass c,, c c2
+    c \clef treble r8 c''\f c4\fermata \bar "|." %220 finis
+  }
+}

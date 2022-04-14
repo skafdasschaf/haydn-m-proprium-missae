@@ -334,15 +334,115 @@ DXCIIbSopranoLyrics = \lyricmode {
   ſtehn? %162 finis
 }
 
-% DXCIIbSopranoI = {
-%   \relative c' {
-%     \clef treble
-%     \key b \major \time 3/4 \autoBeamOff \tempoDXCIIb
-%       \set Score.currentBarNumber = #79
-%     \partial 16 r16
-%   }
-% }
-%
-% DXCIIbSopranoILyrics = \lyricmode {
-%
-% }
+DXCIIcSopranoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoDXCIIc
+      \set Score.currentBarNumber = #169
+    \mvTr f4\fE^\tutti g( a8) a a a
+    a4 a a a8 a %170
+    a4 r8 a g4( a
+    \once \stemUp b) a a8 g g4(
+    a) r8 a a a a a
+    a4 a a8 a r a
+    a4 a g f %175
+    g( a8) a g2(
+    f4) r r2
+    \mvTr f8\pE^\solo r16 f g8 a b b b b
+    b a r16 a b c d8. d,16 d8 d
+    d([ c)] r c' h4 d %180
+    f8([ d)] h([ f)] a g fis([ f)]
+    e4 r8 g g4. a16([ g)]
+    g8 r e16([ g)] c([ e)] e4. f16([ d)]
+    \appoggiatura d8 c4 r r2
+    r4 r8 g b! a r a %185
+    c b r b16 a d8 c c([ b)]
+    a4 as as4. as8
+    as4 as8([ f')] f4. as,8
+    g r r4 r2
+    f4 g8 a! b8. b16 b8 b %190
+    b a r16 a b c d8. d16 d8 f
+    f([ es)] r es es d d c
+    \appoggiatura c b4 r8 b a([ es' d)] c
+    c b r d cis([ d)] r b
+    a b r g a8. b16 c8 b %195
+    a([ g)] r c cis d r d
+    dis([ e)] r e e( f4) a,8
+    c b r b b8. b16 b8 b
+    e4 r8 e f4 es
+    d8 r16 d f([ e)] f([ d)] c4 e, %200
+    f r r2
+    \mvTr f4\fE^\tutti g( a8) a a a
+    a4 a a8 a r a
+    a4 a g( a
+    \once \stemUp b) a a8 g g4( %205
+    a) r8 a a a a a
+    a4 a a8 a r a
+    a4 a g f
+    g( a8) a g2(
+    f4) r r2 %210
+    f4^\markup \remark "Tutti tutti" g( a8) a a a
+    a4 a a8 a r a
+    a4 a g( a
+    \once \stemUp b) a a8 g g4(
+    a) r8 a a4 a %215
+    a8 a a a a a r a
+    a4 a g f
+    g( a8) a g2(
+    f4) r r2
+    R1\fermata \bar "|." %220 finis
+  }
+}
+
+DXCIIcSopranoILyrics = \lyricmode {
+  Herr! mei -- ne off -- ne %169
+  Lip -- pen prei -- ſen dein %170
+  Recht, wie die __
+  Barm -- her -- zig -- keit, __
+  du giebſt dem Tho -- ren,
+  wie dem Wei -- ſen zur
+  Buß ge -- zähl -- te %175
+  Stund __ und Zeit. __
+
+  Du, du hauſt den Wald um, al -- le
+  Bäu -- me ſo jung als al -- ter fällt da --
+  hin. __ Und ich ge -- %180
+  brech -- lichs Gſchür vom Lai --
+  me, ich weiß, daß
+  ich den -- noch leb und
+  bin.
+  Er -- hal -- te, er -- %185
+  hal -- te dei -- ner Ho -- heit Zei --
+  chen, die hei -- li --
+  ge Re -- li -- gi --
+  on:
+  laß Kirch und Staat ihr Wohl er -- %190
+  rei -- chen, das bit -- ten wir durch dei -- nen
+  Sohn; durch Je -- ſum, der am
+  Kreuz, am Kreuz __ ge --
+  ſtor -- ben, der uns die
+  wah -- re, die wah -- re Buſ -- ſe %195
+  lehrt, der Mitt -- ler, der
+  uns das Heil er --
+  wor -- ben, und einſt das Him -- mel --
+  reich, und einſt, und
+  einſt das Him -- mel -- reich ge -- %200
+  währt.
+  Lob, Ruhm __ und Dank und
+  Preis und Eh -- re ſey
+  Gott auf ſei --
+  nem höch -- ſten Thron. __ %205
+  Es prei -- ſen e -- wig
+  Erd und Mee -- re den
+  Va -- ter und den
+  lie -- ben Sohn, __
+  %210
+  den Geiſt __ der Gna -- den
+  und der Stär -- ke in
+  glei -- cher Macht __
+  und Herr -- lich -- keit. __
+  O Gott! nimm %215
+  gnä -- dig un -- ſre Wer -- ke in
+  die -- ſer Buß- und
+  Fa -- ſtens -- zeit. __ %218 finis
+}

@@ -9,13 +9,13 @@
 
 \book {
   \bookpart {
-    \section "DXCII" ""
+    \section "592" "Bußgeſang in der Faſtenszeit"
     \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedNameShort "cor" "C" ""
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "F" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \DXCIICornoI
@@ -23,6 +23,48 @@
             \new Staff {
               \set Staff.instrumentName = "2"
               \DXCIICornoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Zum Leben Herr! und nicht zum Tödten"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "alto" }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DXCIIbCornoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DXCIIbCornoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Herr! meine offne Lippen preiſen dein Recht"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "F" ""
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \DXCIIcCornoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \DXCIIcCornoII
             }
           >>
         >>

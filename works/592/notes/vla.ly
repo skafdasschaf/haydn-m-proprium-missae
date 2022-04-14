@@ -183,12 +183,62 @@ DXCIIbViola = {
   }
 }
 
-% DXCIIbViola = {
-%   \relative c' {
-%     \clef treble
-%     \key b \major \time 3/4 \tempoDXCIIb
-%       \set Score.currentBarNumber = #79
-%     \partial 16 r16
-%
-%   }
-% }
+DXCIIcViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 4/4 \tempoDXCIIc
+      \set Score.currentBarNumber = #169
+    f,4\f b a8 f c' c16. b32
+    a8 g f e d f' a a16. g32 %170
+    f8 g a d, d g, c c
+    c4. c8 d g, c c
+    c4 r8 f, f4 f
+    f r8 f f4 f
+    f r8 c' c cis d c %175
+    h b a d b16 b b b c c c c
+    c8 r r f\p b,4 c
+    f,16\fp f f f f f f f f f f f f f f f
+    f\fp f f f f f f f f f f f f f f f
+    f\fp f f f f' f e e d8 g, g g %180
+    g4 g r8 g a( h)
+    c2 h
+    c c16( e) c c g8 g
+    g4 c,8\fz c c g''4 g16 f
+    \appoggiatura f8 e4 r8 c\p c,4 r8 c' %185
+    c,4 r8 c' c, e' f c
+    c4 c16(-. c-. c-. c-.) c4 c16(-. c-. c-. c-.)
+    des4 r r8 b c d
+    g, g f4\fz g8 c4\p b8
+    a a( b c) f,4 r %190
+    f'8 f, f' f, f' f, f' f,
+    f' f, a16(\fz g) f( g) a8 a\p d d
+    d4 g,8 r es' r a, d
+    d-! d fis,( g) r g' fis( g)
+    r c, h( c) r f c d %195
+    c c\f h( c) r c\p h( c)
+    r c \slurDashed h( c) r c h( c) \slurSolid
+    r c c c e,16\pp e' e e e e e e
+    e,(\cresc g) g g g g g g c\fp c c c f,\fp f f f
+    f\fp f f8 r b c4 r8 c %200
+    d4 b\fz c8 r c r
+    c\f d d c c c a c
+    f c r c d a f a
+    d a r c e e f f
+    c c c f b b, b b %205
+    a a h cis d f e d
+    cis a cis d e g f e
+    d c b a b b' a f
+    e c f a, b g c c,
+    f4 r8 f'\p c c4 c8 %210
+    c16 f a f e c b' e, f g a g f e d cis
+    d a f' d cis a g' cis, d e f e d cis d c
+    b c d c b a b h c e g b a c f, a
+    e g c, e f a d, f b, a b h c b a g
+    f f' e f c f a, c f, f' e f a f c' f, %215
+    es es d es a es c' es, d d cis d fis d a' d,
+    c c h c fis c a' c, b b' b b a f f f
+    e c c c f a, a a b b h h c c c c
+    c8 r f,\p r f r f r
+    g4 e8( g) f f\f f4\fermata \bar "|." %220 finis
+  }
+}

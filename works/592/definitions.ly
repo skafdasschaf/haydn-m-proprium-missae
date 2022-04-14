@@ -2,6 +2,7 @@
 
 tempoDXCII = \tempoMarkup "Adagio"
 tempoDXCIIb = \tempoMarkup "Larghetto"
+tempoDXCIIc = \tempoMarkup "Tempo primo"
 
 flauto = \markup \remark "Flauto"
 principal = \markup \remark "Principal"
