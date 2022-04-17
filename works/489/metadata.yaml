@@ -1,0 +1,32 @@
+title: Propitius esto Domine
+id: MH 489
+genre: gradual
+festival: Pentecostes, Dominica IV.
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 370
+    date: 1788-05-17
+    rism: 456009389
+    url: https://daten.digitale-sammlungen.de/bsb00043154/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 139
+    rism: 600038097
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/154.html
+    license: public domain
+toe: |
+  – & coro & All caps spelling of “DEus” (bars 6, 12, 28, 30,
+             38, and 40) according to \A1. \\
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Propitius esto Domine peccatis nostris:\\
+  ne quando dicant gentes, ubi est Deus eorum?\\
+  Adiuva nos, DEus salutaris noster,\\
+  et propter honorem nominis tui Domine, libera nos.\\
+  (\bibleverse{Ps}(79/78:9-10))
