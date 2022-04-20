@@ -1,0 +1,39 @@
+title: Protector noster
+id: MH 501
+genre: gradual
+festival: Pentecostes, Dominica V.
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 371
+    date: 1789-02-12
+    rism: 456009390
+    url: http://daten.digitale-sammlungen.de/bsb00043153/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 140
+    rism: 600038098
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/155.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592 (11)
+    date: 1839
+    rism: 840026185
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+toe: |
+  – & coro & Double caps spelling of “DEus” (bars 2, 6f, 11f, 18,
+             22, 26, 30f, and 35f)\newline according to \A1. \\
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Protector noster aspice DEus:\\
+  et respice super servos tuos.\\
+  Domine DEus virtutum,\\
+  exaudi preces servorum tuorum.\\
+  (\bibleverse{Ps}(84/83:9-10))
