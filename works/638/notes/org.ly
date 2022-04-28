@@ -143,7 +143,7 @@ DCXXXVIIIBassFigures = \figuremode {
   r4 <7+ 6! 4>8 <\t 5 \t> <8 3>2 %50
   r4 <7+ 6! 4>8 <\t 5 \t> <8 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
   <2>4 <6> q2
-  <5>4 <6> <7>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <5>4 <6 [4 3]> <7>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
   r4. <4 2>8 <5 3>4 <5+ \t>
   <6 4>8 <7 \t> <8 [3]> <7 2> <8 [3]>4 <6 5> %55
   <1>2 q4. q8

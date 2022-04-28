@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-tempoDCXXXVIII = \tempoMarkup "Allegro  "
+tempoDCXXXVIII = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
@@ -12,3 +12,4 @@ tempoDCXXXVIII = \tempoMarkup "Allegro  "
 \include "notes/T.ly"
 \include "notes/B.ly"
 \include "notes/org.ly"
+\include "notes/chords.ly"
