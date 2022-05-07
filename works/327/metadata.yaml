@@ -1,0 +1,20 @@
+title: Surgite Sancti DEi
+id: MH 327
+genre: antiphon
+scoring: S, A, T, B (coro)
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 3114
+    date: 1782-08-27
+    rism: 450113836
+    url: https://daten.digitale-sammlungen.de/bsb00085269/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+toe: |
+  – & coro & Double caps spelling of “DEus” (bar 5) according to \A1. \\
+lyrics:
+  Surgite Sancti DEi de mansionibus vestris\\
+  loca sanctificate plebem benedicite\\
+  et nos homines peccatores in pace custodire.
