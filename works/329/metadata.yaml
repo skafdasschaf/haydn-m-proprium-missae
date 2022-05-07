@@ -1,0 +1,29 @@
+title: JEsu Redemptor omnium
+id: MH 329
+genre: antiphon
+scoring: S, A, T, B (coro), [org]
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 3114
+    date: 1782-08-27
+    rism: 450113838
+    url: https://daten.digitale-sammlungen.de/bsb00085269/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+toe: |
+  – & coro & Double caps spelling of “JEsus” (bars 1, 3, 6, and 8)
+             according to \A1. \\
+  – & org  & \A1 contains bass figures in the A, T, and B staves.
+             Based on these figures,\newline the org part of
+             this edition has been assembled. \\
+lyrics:
+  JEsu Redemptor omnium,\\
+  perpes corona praesulum,\\
+  in hac die clementius\\
+  indulgeas precantibus.\\[1ex]
+  Rex gloriose Martyrum,\\
+  corona confitentium,\\
+  qui respuentes terrea\\
+  perducis ad coelestia.
