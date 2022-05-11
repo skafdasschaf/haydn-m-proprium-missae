@@ -1,0 +1,36 @@
+title: Convertere Domine
+id: MH 490
+genre: gradual
+festival: Pentecostes, Dominica VI.
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 372
+    date: 1788-05-29
+    rism: 456009391
+    url: https://daten.digitale-sammlungen.de/bsb00043152/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 141
+    rism: 600038099
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/156.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592 (12)
+    date: 1839
+    rism: 840026186
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics:
+  Convertere Domine aliquantulum:\\
+  et deprecare super servos tuos.\\
+  Domine refugium factus es nobis\\
+  a generatione et progenie.\\
+  (\bibleverse{Ps}(90/89:13,1))
