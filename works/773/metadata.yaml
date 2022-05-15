@@ -1,0 +1,30 @@
+title: Tantum ergo
+id: MH 773
+genre: hymn
+scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.36700
+    date: 1801-10-08
+    url: https://data.onb.ac.at/rec/AC14014457
+    license: public domain
+    principal: true
+  C1:
+    siglum: A-SPD
+    shelfmark: SP (H-20)
+    date: ca. 1840
+    rism: 455042305
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H20/
+    license: public domain
+    notes: A. Diabelli, Vienna, plate number 2029
+  D1:
+    siglum: F-Pn
+    shelfmark: D-5673 (2)
+    date: 1820–1840
+    rism: 840026368
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in G
