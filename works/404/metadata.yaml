@@ -1,0 +1,31 @@
+title: Tantum ergo
+id: MH 404
+genre: hymn
+scoring: S, A, T, B (coro), timp (C–G), org solo
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 7083
+    date: 1785-05-10
+    rism: 450106753
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00085119/images
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: contains chorus and org
+  A2:
+    siglum: F-Pn
+    shelfmark: RES-2573
+    date: 1785-05-10
+    rism: 840016366
+    url: https://gallica.bnf.fr/ark:/12148/btv1b55006743d
+    license: custom (free for non-commercial purposes)
+    notes: contains org and timp
+toe: |
+  & –   & at end of org part: “Senza Strumenti di fiato” \\
+  12 & org & left hand in \A1: \crotchetRest–g′4–\halfNoteRest \\
+  13 & org & left hand, upper voice: last \quarterNote\ missing in \A2 \\
+  48f & org & bars missing in \A1 \\
+parts:
+  timp: Timpani in C–G
+  org_solo: Organo solo
