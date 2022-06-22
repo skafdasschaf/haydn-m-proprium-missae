@@ -1,0 +1,40 @@
+title: Esto mihi
+id: MH 503
+genre: gradual
+festival: Pentecostes, Dominica VIII.
+scoring: S, A, T, B (coro), 2 cor (A), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 374
+    date: 1789-03-19
+    rism: 456009393
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00043298-6
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 143
+    rism: 600038100
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/158.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592 (14)
+    date: 1839
+    rism: 840026188
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+toe: |
+  – & chorus & double caps spelling of “DEus” in bars 4, 15, 47,
+      66, 77, and 98 according to \A1 \\
+parts:
+  cor12: Corno I, II in A
+lyrics:
+  Esto mihi in DEum protectorem,\\
+  et in locum refugii,\\
+  ut salvum me facias.\\
+  DEus in te speravi:\\
+  Domine non confundar in aeternum.\\
+  (\bibleverse{Ps}(71/70:3,1))
