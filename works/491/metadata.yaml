@@ -1,0 +1,35 @@
+title: Domine Dominus noster
+id: MH 491
+genre: gradual
+festival: Pentecostes, Dominica IX.
+scoring: S, A, T, B (coro), 2 cor (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 375
+    date: 1788-06-07
+    rism: 456009394
+    url: https://daten.digitale-sammlungen.de/bsb00043299/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 144
+    rism: 600038101
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/159.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592 (15)
+    date: 1839
+    rism: 840026189
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in D
+lyrics:
+  Domine Dominus noster,\\
+  quam admirabile est nomen tuum in universa terra!\\
+  Quoniam elevata est magnificentia tua super coelos.\\
+  (\bibleverse{Ps}(8:2))
