@@ -1,0 +1,28 @@
+title: Regina cœli lætare
+id: MH 694
+genre: antiphon
+scoring: 2 S (solo), 2 S (coro), 2 cor (F), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: GB-Lbm
+    shelfmark: Add 32.173 (f. 144)
+    date: 1798-03-30
+    url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
+    license: public domain
+    principal: true
+toe: |
+  1–25 & org & All small notes have been added by the editor. \\
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Glorreiche Himmelskönigin!\\
+  freu dich beym höchſten Throne;\\
+  bey dem, der war von Anbeginn,\\
+  bey deinem liebſten Sohne!\\
+  Alleluja!\\[1ex]
+  Den du als Mutter ſehr beklagt,\\
+  ſo ſehr beklagt im Grab, am Kreuz, in Banden,\\
+  der iſt, wie Er’s hat vorgeſagt,\\
+  nun ſiegreich auferſtanden.\\
+  Alleluja!
