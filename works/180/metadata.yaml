@@ -1,0 +1,29 @@
+title: Kommt her, ihr Menſchen
+id: MH 180
+genre: sacred song
+scoring: S (solo), cl, 2 cor (C), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: US-Wc
+    shelfmark: ML96.H366
+    date: 1772-01-13
+    rism: 141988
+    url: https://hdl.loc.gov/loc.music/musml96.100002
+    license: public domain
+    principal: true
+toe: |
+  – & – & \A1 lacks any indication where the piece should end after the
+          \textit{dal segno}. Here, the \textit{fine} mark is placed
+          on the 7th \eighthNote\ of bar 13. \\
+parts:
+  cor12: Corno I, II in C
+lyrics:
+  Kommt her, ihr Menſchen, kommet her,\\
+  die ihr ſo lange Jahre\\
+  ſchifft in der Welt, dem großen Meer,\\
+  in Seel- und Leibsgefahre.\\
+  Maria Gnadenſtern\\
+  ohn Makel leucht’t von fern,\\
+  nach dieſem euren Lauf richt ein,\\
+  wann ihr wollt ſicher ſeyn.
