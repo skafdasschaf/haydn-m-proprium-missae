@@ -1,0 +1,36 @@
+title: Custodi me
+id: MH 504
+genre: gradual
+festival: Pentecostes, Dominica X.
+scoring: S, A, T, B (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 376
+    date: 1789-04-04
+    rism: 456009397
+    url: https://daten.digitale-sammlungen.de/bsb00043300/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 145
+    rism: 600038102
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/160.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5592 (16)
+    date: 1839
+    rism: 840026190
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Custodi me, Domine, ut pupillam oculi:\\
+  sub umbra alarum tuarum protege me.\\
+  De vultu tuo iudicium meum prodeat:\\
+  oculi tui videant aequitatem.\\
+  (\bibleverse{Ps}(17/16:8,2))
