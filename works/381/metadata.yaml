@@ -1,0 +1,42 @@
+title: Benedicite Dominum
+id: MH 381
+genre: gradual
+festival: Dominica Sanctorum Angelorum, et festo Sancti Michaelis Archangeli
+scoring: S, A, T, B (coro), 2 cor (E), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 390
+    date: 1784-08-24
+    rism: 456009409
+    url: https://daten.digitale-sammlungen.de/bsb00044052/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  A2:
+    siglum: US-Wc
+    shelfmark: ML30.8b.H43 G7
+    date: 1793-11-03
+    url: https://lccn.loc.gov/2008560621
+    license: public domain
+    notes: short score
+  B1:
+    siglum: A-Ed
+    shelfmark: B 202
+    rism: 600038154
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/203.html
+    license: public domain
+toe: |
+  –  & cor & according to \A1 added in 1796 \\
+  19 & A & The last \eighthNote\ is b′8 in both \A1\ and \B1,
+           although \sharp c″8 would be more likely (and would also be
+           in concordance with the bass figure and with \A2). \\
+parts:
+  cor12: Corno I, II in E
+  short_score: Short score
+lyrics:
+  Benedicite Dominum omnes Angeli eius,\\
+  potentes virtute, qui facitis verbum eius.\\
+  Benedic anima mea Dominum,\\
+  et omnia interiora mea nomen sanctum eius.\\
+  (\bibleverse{Ps}(103/102:20,1))
