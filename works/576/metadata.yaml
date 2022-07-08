@@ -1,0 +1,20 @@
+title: Ein Rundgeſang von Gottes Güte anſtatt des Magnificat
+id: MH 576
+genre: vesper
+scoring: S (coro), 2 cor (F), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: GB-Lbm
+    shelfmark: Add 32.173 (f. 139r)
+    date: ca. 1795
+    url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
+    license: CC BY-SA 4.0
+    principal: true
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  1) Zu dir ruft, Herr, mein ganz’ Gemüthe;\\
+  kein banger Kummer quälet mich.\\
+  2) Ich traue feſt auf deine Güte:\\
+  Du ſorgſt für mich ja väterlich.
