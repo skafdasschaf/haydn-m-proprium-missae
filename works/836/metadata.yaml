@@ -1,0 +1,26 @@
+title: Te DEum
+id: MH 836
+genre: hymn
+scoring: S, A, T, B (coro), 2 clno (C), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: GB-Lbm
+    shelfmark: Add 32.173
+    date: 1805-06-05
+    url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
+    license: CC BY-SA 4.0
+    principal: true
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Herr! groſſer Gott! dich loben wir,
+  bekennen dich, und danken dir,\\
+  die ganze Schöpfung preiſet dich
+  durch Himmel, Erd’ und Meere.\\
+  Zu deinem Throne beugen ſich
+  der Engel ſeel’ge Chöre,\\
+  Erzengel, Kräfte, Seraphim,
+  und Thronen, Fürſten, Cherubim.\\
+  Herr! groſſer Gott! dich loben wir,
+  bekennen dich, und danken dir.
