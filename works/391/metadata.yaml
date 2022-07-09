@@ -1,0 +1,49 @@
+title: Benedictus qui venit
+id: MH 391
+genre: gradual
+festival: Nativitas Domini
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 165
+    rism: 600038119
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/176.html
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.2719
+    url: https://data.onb.ac.at/rec/AC14272581
+    license: public domain
+  D1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 849\#Beibd.1
+    date: 1830
+    rism: 456009532
+    url: https://mdz-nbn-resolving.de/details:bsb00084994
+    license: CC-BY-NC-SA-4.0
+  D2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-43)
+    date: 1810-1840
+    rism: 455039964
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H43/
+    license: public domain
+  D3:
+    siglum: D-Eu
+    shelfmark: Esl II 62
+    date: 1869
+    rism: 450300071
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-62-5
+    license: public domain
+    notes: lacks clno
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics:
+  Benedictus qui venit in nomine Domini.\\
+  Deus Dominus et illuxit nobis.\\
+  A Domino factum est istud,\\
+  et est mirabile in oculis nostris.\\
+  (\bibleverse{Ps}(118/117:26,27,23))
