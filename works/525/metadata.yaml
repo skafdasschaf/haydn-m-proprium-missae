@@ -1,0 +1,22 @@
+title: In omnem terram
+id: MH 525
+genre: gradual
+festival: De Apostolis, Lucae Evangelistæ
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.16439
+    date: 1790-10-14
+    url: https://data.onb.ac.at/rec/AC14014500
+    license: public domain
+    principal: true
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics:
+  In omnem terram exivit sonus eorum:\\
+  et in fines orbis terrae verba eorum.\\
+  Coeli enarrant gloriam Dei:\\
+  et opera manuum eius annuntiat firmamentum.\\
+  (\bibleverse{Ps}(19/18:5,2))
