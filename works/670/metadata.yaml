@@ -1,0 +1,23 @@
+title: Ipsa Virgo virginum
+id: MH 670
+genre: gradual
+scoring: S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4328
+    date: 1866-08-27
+    rism: 455024080
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045838-9
+    license: CC BY-NC-SA 4.0
+    principal: true
+toe: |
+  –  & timp & written sounding in \B1 \\
+  3  & S    & 3rd \quarterNote\ in \B1: \sharp f″4 \\
+  22 & org  & lower voice, 3rd \quarterNote\ in \B1: b4 \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
+lyrics:
+  Ipsa Virgo virginum intercedat pro nobis.\\
+  O gloriosa virginum.
