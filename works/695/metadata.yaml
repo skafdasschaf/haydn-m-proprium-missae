@@ -1,0 +1,32 @@
+title: Tenuisti manum dexteram meam
+id: MH 695
+genre: gradual
+festival: Dominica in Palmis
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 356
+    date: 1798-04-04
+    rism: 456009375
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00084966/images
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Eu
+    shelfmark: Esl I 76
+    date: 1845
+    rism: 450300079
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-76-4
+    license: CC BY-SA 4.0
+lyrics:
+  Tenuisti manum dexteram meam:\\
+  et in voluntate tua deduxisti me:\\
+  et cum gloria assumpsisti me.\\
+  Quam bonus Israel Deus rectis corde?\\
+  mei autem pene moti sunt pedes,\\
+  pene effusi sunt gressus mei:\\
+  quia zelavi in peccatoribus,\\
+  pacem peccatorum videns.\\
+  (\bibleverse{Ps}(73/72:24,1-3))
