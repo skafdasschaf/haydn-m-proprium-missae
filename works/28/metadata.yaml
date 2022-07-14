@@ -1,0 +1,60 @@
+title: Te Deum
+id: MH 28
+genre: hymn
+scoring: S, A, T, B (coro), [2 ob], 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 463
+    date: 1760-04-01
+    rism: 456009482
+    url: https://daten.digitale-sammlungen.de/bsb00051607/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-82)
+    date: 1800-1830
+    rism: 455040185
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H82/
+    license: public domain
+  D1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 847
+    date: 1820
+    rism: 456009529
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00089939/images
+    license: CC BY-NC-SA 4.0
+  D2:
+    siglum: F-Pn
+    shelfmark: D-5984 (2)
+    date: 1830–1840
+    rism: 840016803
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10073216q
+    license: custom (free for non-commercial purposes)
+toe: |
+  –   & –    & Scoring in \A1 comprises 2 clno, timp, mixed chorus, 2 vl, and org. \B1 contains two additional ob, which are also included in this edition. Minor mistakes in \B1 are not reported here. Compared to \A1, \D1 contains the following additional instruments: 2 ob (different from those in \B1), 2 fag, 2 cor (C), and vla; moreover, a solo vl appears in bars 70–75. The common instruments are characterized by many small differences. \D2 uses the same instruments as \A1, but the differences in these parts indicate that \D1 and \D2 share a common source. \\
+  2   & ob 2 & 1st \halfNote\ in \B1: g′4–g′8–e′16–g′16 \\
+  39  & S    & last \sixteenthNote\ in \A1 and \B1: \sharp f′16 \\
+  45  & ob 1 & 3rd \quarterNote\ in \B1: f″8–e″8 \\
+  45  & ob 2 & 3rd \quarterNote\ in \B1: b′8–a′8 \\
+  56  & ob 2 & 1st \halfNote\ in \B1: b′4–b′4 \\
+  57  & ob 1 & 1st \eighthNoteDotted\ in \B1: e″8. \\
+  57  & ob 2 & 1st \eighthNoteDotted\ in \B1: c″8. \\
+  61  & ob 1 & last \eighthNote\ in \B1: f″8 \\
+  61  & ob 2 & last \eighthNote\ in \B1: d″8 \\
+  64  & ob 2 & 1st \halfNote\ in \B1: g′4.–e′16–g′16 \\
+  66  & ob   & bar missing in \B1 \\
+  81f & ob 2 & bars in \B1: b′2–c″4 and b′4–a′2 \\
+  98  & ob 2 & 3rd \quarterNote\ in \B1: b′4 \\
+  100 & ob 1 & 3rd \quarterNote\ in \B1: d″4 \\
+  100 & ob 2 & 3rd \quarterNote\ in \B1: b′4 \\
+  133 & ob 2 & bar in \B1: g′2–g′4 \\
+  166 & ob 1 & 1st \quarterNote\ in \B1: d″4 \\
+  167 & ob 1 & 1st \quarterNote\ in \B1: c″4 \\
+  168 & ob 2 & 2nd \quarterNote\ in \B1: d′4 \\
+  187 & ob   & one \wholeNoteRest\ missing in \B1 \\
+  194 & ob 2 & 3rd \quarterNote\ in \B1: d″4 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
