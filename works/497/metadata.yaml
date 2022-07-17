@@ -1,0 +1,23 @@
+title: Timebunt gentes
+id: MH 497
+genre: gradual
+festival: Epiphania Domini, Dominica III. et V.
+scoring: S, A, T, B (coro), 2 cor (E), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 346
+    date: 1788-12-20
+    rism: 456009365
+    url: https://mdz-nbn-resolving.de/details:bsb00084960
+    license: CC BY-NC-SA 4.0
+    principal: true
+parts:
+  cor12: Corno I, II in E
+lyrics:
+  Timebunt gentes nomen tuum, Domine,\\
+  et omnes reges terrae gloriam tuam.\\
+  Quoniam aedificavit Dominus Sion,\\
+  et videbitur in maiestate sua.\\
+  (\bibleverse{Ps}(102/101:16-17))
