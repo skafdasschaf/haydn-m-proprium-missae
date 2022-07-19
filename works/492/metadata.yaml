@@ -1,0 +1,35 @@
+title: Benedicam Dominum
+id: MH 492
+genre: gradual
+festival: Pentecostes, Dominica XII.
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 378
+    date: 1788-06-19
+    rism: 456009399
+    url: https://daten.digitale-sammlungen.de/bsb00043312/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150
+    rism: 455022597
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 147
+    rism: 600038104
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/162.html
+    license: public domain
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Benedicam Dominum in omni tempore:\\
+  Semper laus eius in ore meo.\\
+  In Domino laudabitur anima mea:\\
+  audiant mansueti et laetentur.\\
+  (\bibleverse{Ps}(34/33:2-3))
