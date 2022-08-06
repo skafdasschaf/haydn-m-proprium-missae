@@ -1,0 +1,27 @@
+title: Tenebræ factæ sunt
+id: MH 162
+genre: responsory
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: D-Mbs
+    shelfmark: 4 Mus.pr. 2009.4704
+    date: 1850
+    url: https://mdz-nbn-resolving.de/details:bsb11141829
+    license: public domain
+    principal: true
+    notes: Verlag der Schlesinger’schen Buch und Musikhandlung, Berlin, plate number S. 3922
+toe:
+  – & – & Dynamics from \C1 have not been reproduced in this edition.
+          The org part and its bass figures have been added by the editor. \\
+lyrics:
+  Tenebrae factae sunt,\\
+  cum crucifixissent Jesum Judaei:\\
+  et circa horam nonam exclamavit Jesus voce magna:\\
+  Deus meus, ut quid me dereliquisti?\\
+  Et inclinato capite emisit spiritum.\\
+  Exclamans Jesus voce magna ait:\\
+  Pater, in manus tuas commendo spiritum meum;\\
+  et inclinato capite emisit spiritum.\\
+  (\bibleverse{Mat}(27:45–51))
