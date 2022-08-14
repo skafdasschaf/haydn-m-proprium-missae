@@ -1,0 +1,35 @@
+title: Salve Regina
+id: MH 31
+genre: antiphon
+scoring: A (solo), S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 477
+    date: 1760-08-13
+    rism: 456009502
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00085086/images
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: Bars 1–42 are in Werigand Rettensteiner’s hand.
+  B1:
+    siglum: A-Ed
+    shelfmark: K 45
+    rism: 600038598
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/509.html
+    license: public domain
+    notes: lacks clno parts
+  B2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-81)
+    date: 1815-07-16
+    rism: 455040184
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H81
+    license: public domain
+    notes: lacks clno parts
+toe: |
+  42 & vl 1 & 1st \eighthNote\ in \A1: \flat e″8 \\
+  42 & vl   & rhythm of last \quarterNote\ in \A1: 4 × \sixteenthNote \\
+parts:
+  clno12: Clarino I, II in \flat B
