@@ -4,17 +4,17 @@ XXXIAlto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoXXXI \autoBeamOff
-    \mvTrh b'4\fpE^\tuttiE f8 f es es r4
+    \mvTr b'4\fE^\tutti f8 f es es r4
     f8 c16 c c8 c c16 b b8 r4
     R1*2
     \mvTr b'4\pE^\solo c8 d es([ c)] a es %5
-    d4 r8 b' a b c8.([ d32 es)]
-    d4 r8 \mvTr f,\pE^\tutti es es r4
-    f8\fE c16 c c8 c16 c c8 b r \mvTr f'\pE^\soloE
-    d'4 b8 g e f r f
+    \appoggiatura es d4 r8 b' a b c8.([ d32 es)]
+    d4 r8 \mvTr f,\fE^\tutti es es r4
+    f8 c16 c c8 c16 c c8 b r \mvTr f'\pE^\solo
+    d'4 \appoggiatura c16 b8 \appoggiatura a16 g8 \appoggiatura f16 e8 f r f
     h4 h8 h c c, r g' %10
     as4 as16([ g)] g([ f)] as4~ as16[ g] g([ f)]
-    g2 f4 r
+    \appoggiatura { f16[ g as] } g2\trill f4 r
     \mvTr g4.\fE^\tutti g8 f f r4
     g8. g16 g8 g f f r4
     f4. f8 f f r g %15
@@ -24,10 +24,10 @@ XXXIAlto = {
     \mvTr b'2\pE^\solo b
     b b4. c16([ d)] %20
     es4 es, c'4. c8
-    b([ d,)] es([ b')] as2
+    b([ d,)] es([ b')] \appoggiatura b4 as2\trill
     g4 r r2
     b4 c8 des c4. as8
-    f4. es8 d!8. es16 f4 %25
+    f4. es8 \appoggiatura es d!8. es16 f4 %25
     es'2 c4~ c16.[ es,32 es8]\trill
     b'4~ b16.[ es,32 es8]\trill as4~ as16.[ f32 f8]\trill
     g16[ es as f] f4\trill es r
@@ -35,12 +35,12 @@ XXXIAlto = {
     g r8 g f f r4 %30
     f r8 a f f r4
     f4. g16 g f8 f r \mvTr f\pE^\solo
-    b4 c8 d es([ c)] a f
+    b4 c8 d es([ c)] a es
     d([ f)] b([ d)] es([ c)] a([ es)]
-    d([ es')] d c b4 c %35
+    d([ es')] d c b4 c\trill %35
     d8([ es)] d es16([ c)] b4( c)\trill
-    b r8 \mvTr f\pE^\tutti es es r4
-    f r8 c c b r4
+    b r8 \mvTr f\p^\tutti es es r4
+    f\f r8 c\p c b r4
     r2 f'4\fE r8 f
     f f r4 f r8 f %40
     f f r4 f\fermata r8 f

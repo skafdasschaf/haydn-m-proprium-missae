@@ -4,11 +4,11 @@ XXXIBasso = {
   \relative c {
     \clef bass
     \key b \major \time 4/4 \tempoXXXI \autoBeamOff
-    \mvTrh b4\fpE^\tuttiE b8 b c c r4
+    \mvTr b4\fE^\tuttiE b8 b c c r4
     a8 a16 a a8 a b16 b b8 r4
     R1*4 %6
-    b4\fpE b8 b c c r4
-    a8\fE a16 a a8 a16 a b8 b r4
+    b4\fE b8 b c c r4
+    a8 a16 a a8 a16 a b8 b r4
     R1*4 %12
     e4.\fE c8 f a r4
     e8. e16 e8 c f f, r4
@@ -22,8 +22,8 @@ XXXIBasso = {
     a r8 f b, d r4
     b8([ c)] d es f f, r4
     R1*4 %36
-    b4\fpE r8 b c c r4
-    a r8 a b b r4
+    b4\f r8 b\p c c r4
+    a\fE r8 a\pE b b r4
     r2 a'4\fE r8 f
     b, d r4 a r8 f' %40
     b, d r4 a\fermata r8 a'

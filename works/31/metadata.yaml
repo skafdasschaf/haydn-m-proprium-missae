@@ -12,7 +12,6 @@ sources:
     url: https://daten.digitale-sammlungen.de/~db/0008/bsb00085086/images
     license: CC BY-NC-SA 4.0
     principal: true
-    notes: Bars 1–42 are in Werigand Rettensteiner’s hand.
   B1:
     siglum: A-Ed
     shelfmark: K 45
@@ -28,8 +27,5 @@ sources:
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H81
     license: public domain
     notes: lacks clno parts
-toe: |
-  42 & vl 1 & 1st \eighthNote\ in \A1: \flat e″8 \\
-  42 & vl   & rhythm of last \quarterNote\ in \A1: 4 × \sixteenthNote \\
 parts:
   clno12: Clarino I, II in \flat B

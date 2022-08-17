@@ -89,10 +89,10 @@ XXXOrgano = {
     a r r
     a r r
     a r r
-    r16 \mvTr a\f-\tuttiE cis e a8 e cis g %90
-    r fis fis' d a fis
-    g g' a4 a,
-    d2.\fermata \bar "|." %93 finis
+    \mvTr g16-!\f-\tuttiE g-! cis-! e-! g8-! e-! cis-! g-! %90
+    r fis fis'( d) a( fis)
+    g8. g'16 a4 a,
+    d4 r r\fermata \bar "|." %93 finis
   }
 }
 
@@ -171,6 +171,6 @@ XXXBassFigures = \figuremode {
   r
   <4+ 2>2 \bassFigureExtendersOn q8 q %90
   <6>2 q8 q \bassFigureExtendersOff
-  r8 <6> <6 4>4 <5 3>
+  r8. <6>16 <6 4>4 <5 3>
   r2. %93 finis
 }

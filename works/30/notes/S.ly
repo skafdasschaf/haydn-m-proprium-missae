@@ -84,7 +84,7 @@ XXXSoprano = {
     d r r %85
     \mvTr a'2.\pE^\solo
     g'8[( cis,)] cis4 r
-    a4. a16[ h] cis[ d e fis]
+    a4~ a8.[ h16] cis[ d e fis]
     g8([ cis,)] cis4 r
     \mvTr cis\fE^\tutti cis cis %90
     d2.
@@ -174,7 +174,7 @@ XXXSopranoLyrics = \lyricmode {
   a, %85
   o
   cle -- mens,
-  o __ _ _
+  o __ _
   pi -- a,
   o dul -- cis %90
   vir --

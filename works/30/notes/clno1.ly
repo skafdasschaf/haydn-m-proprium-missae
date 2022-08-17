@@ -53,6 +53,6 @@ XXXClarinoI = {
     h'2.\fE %90
     c
     a8 g16 f e4 d8. d16
-    c2.\fermata \bar "|." %93 finis
+    c4 r r\fermata \bar "|." %93 finis
   }
 }

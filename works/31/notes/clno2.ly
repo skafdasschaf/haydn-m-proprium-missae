@@ -5,13 +5,13 @@ XXXIClarinoII = {
     \clef treble
     \key c \major \time 4/4 \tempoXXXI
     c'2\fpE g4 r
-    g2 e4 r8 g
-    c,4\fE r d'2
+    g2\fpE c,4 r8 g'\fE
+    c,4 r d'2
     c4 r r r8 g
     e4 r r2 %5
     R1
     c'2\fpE g4 r
-    g2\fE e4 r
+    g2\fpE c,4 r
     R1*4 %12
     c'4.\fE d8 d4 r
     c4. d8 d4 r
@@ -26,9 +26,9 @@ XXXIClarinoII = {
     e4. d16 c c8 g r4
     R1*4 %36
     c2\fpE g4 r
-    g2 c,4 r
-    \mvDl c\fE r8 c' g4 r8 d'
-    c4 r8 c g4 r8 d' %40
+    g2\fpE c,4 r8 g'\fE
+    c,4 r8 c' g4. d'8
+    c4 r8 c g4. d'8 %40
     c4 r g\fermata r
     r8 e' d4 c r
     c,2 r

@@ -4,11 +4,11 @@ XXXITenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 4/4 \tempoXXXI \autoBeamOff
-    \mvTrh d4\fpE^\tuttiE d8 d c c r4
+    \mvTr d4\fE^\tuttiE d8 d c c r4
     c8 f,16 f f8 f f16 f f8 r4
     R1*4 %6
-    d'4\fpE d8 d c c r4
-    c8\fE f,16 f f8 f16 f f8 f r4
+    d'4\fE d8 d c c r4
+    c8 f,16 f f8 f16 f f8 f r4
     R1*4 %12
     c'4.\fE e8 c c r4
     c8. c16 c8 e c a r4
@@ -22,8 +22,8 @@ XXXITenore = {
     c r8 c b b r4
     d4. c16 b b8 a r4
     R1*4 %36
-    d4\fpE r8 d c c r4
-    c r8 f, f f r4
+    d4\f r8 d\p c c r4
+    c\fE r8 f,\pE f f r4
     r2 c'4\fE r8 c
     b b r4 c r8 c %40
     b b r4 c\fermata r8 c

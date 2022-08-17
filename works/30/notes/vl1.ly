@@ -93,9 +93,9 @@ XXXViolinoI = {
     cis g' g fis e d
     cis a' g fis e d
     cis g' g fis e d
-    cis\f cis' cis4 cis %90
+    cis(\f cis') cis4 cis %90
     d2.
-    h8 a16 g fis4 e
-    d2.\fermata \bar "|." %93 finis
+    \appoggiatura cis16 h8 a16 g fis4 e\trill
+    d4 r r\fermata \bar "|." %93 finis
   }
 }

@@ -96,6 +96,6 @@ XXXViolinoII = {
     \mvDl a4\f a' a %90
     a2.
     g8 fis16 e d4 cis
-    d2.\fermata \bar "|." %93 finis
+    d4 r r\fermata \bar "|." %93 finis
   }
 }
