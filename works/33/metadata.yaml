@@ -1,0 +1,31 @@
+title: Salve Regina
+id: MH 33
+genre: antiphon
+scoring: B (solo), S, A, T, B (coro), 2 clno (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 477
+    date: 1760-09-11
+    rism: 456009504
+    url: https://daten.digitale-sammlungen.de/~db/0008/bsb00085086/images
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: K 46
+    rism: 600038599
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/510.html
+    license: public domain
+  B2:
+    siglum: A-SPD
+    shelfmark: SP (H-9)
+    date: 1800-1830
+    rism: 455042288
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H09/
+    license: public domain
+toe: |
+  65 & B & 1st \halfNote\ in \A1: \sharp c2 \\
+parts:
+  clno12: Clarino I, II in D
