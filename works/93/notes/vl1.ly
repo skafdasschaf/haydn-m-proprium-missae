@@ -143,3 +143,159 @@ XCIIIViolinoI = {
     es, r r\fermata \bar "||" %137 finis
   }
 }
+
+XCIIIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoXCIIIb
+      \set Score.currentBarNumber = #138
+    b'4.\pE c8
+    d4. es8
+    f4. g16 es %140
+    \appoggiatura d8 c4 b
+    es,8 d es c
+    f es d b
+    c c' f, a
+    b, b' d b %145
+    r b d b
+    r a c es
+    d16\f c b a b c d e
+    f g f e f8 r
+    b,16 a b c d c d e %150
+    f g f e f8 r
+    g16 f es d es f g a
+    b8 f d b
+    es4 d
+    c8 c16\p b a8 g %155
+    a2
+    b~
+    b4 a
+    \once \tieDashed b2~
+    b4-\critnote a8(\pocoF f') %160
+    e-! r c( f)
+    e-! r c( f)
+    e-! r c( f)
+    e4 r8 f\p
+    a,4 b %165
+    c16( d c b) c8 f
+    a,4 b
+    c16( d c b) c8 f
+    d, d d d
+    e e e e %170
+    f f c c
+    d d d d
+    f f e e
+    f4 a
+    h c %175
+    b4. a8
+    g4 f8 f'
+    b, f' c f
+    d16 f a g f8 a,
+    b f' c e %180
+    a,16\f g f e f g a h
+    c d c h c8 r
+    h16 c d e f a g f
+    e f e d c8 r
+    d16 c b! a b c d e %185
+    f g f e f8 r
+    b16 a g f e d c b
+    a8 f' g, e'
+    f c f,4
+    f4.\p \tuplet 3/2 8 { g16 a b } %190
+    a4. \tuplet 3/2 8 { b16 c d }
+    c4. d16 b
+    \appoggiatura a8 g4 f
+    f g
+    g a8 c %195
+    \appoggiatura c b4. b8
+    a a c a
+    r d f d
+    r g, b g
+    a4 f'8 f %200
+    as g f es!
+    d c h as
+    g g' es c
+    f, d' g, h
+    c4. \tuplet 3/2 8 { d16 es f } %205
+    es4. \tuplet 3/2 8 { f16 g as }
+    g4. as16 f
+    \appoggiatura es8 d4 c
+    f4. d8
+    \appoggiatura c h4 c8 g %210
+    \appoggiatura g f4. f8
+    es c' es c
+    r c es c
+    r h d f
+    es es es es %215
+    es es es es
+    g g g g
+    g g g g
+    f f f f
+    es es es es %220
+    d d d d
+    c c c c
+    e e e e
+    f f f f
+    g16 f es! d es f g a %225
+    b8 f d b
+    es4 d
+    c r
+    d2
+    es~ %230
+    es4 d
+    es2~
+    es4 d8 b'
+    a-\parenthesize-! r f( b)
+    a-\parenthesize-! r \once \slurDashed f( b) %235
+    a-\parenthesize-! r \once \slurDashed f( b)
+    a4 r8 b
+    d,4 es
+    \once \slurDashed f16( g f es) f8 b
+    d,4 es %240
+    \once \slurDashed f16( g f es) f8 b
+    g, g g g
+    a a a a
+    b b f f
+    g g g g %245
+    b b-\critnote a a
+    b2~
+    b
+    a4 c
+    \appoggiatura c8 b4 a %250
+    r8 f' b f
+    r g b g
+    r es g es
+    r c es c
+    r a c a %255
+    r es g es
+    r es c' es,
+    r d b' d,
+    es b' f b
+    g16 b d c b8 f' %260
+    es, g' f, a'
+    d,16\f c b a b c d e
+    f g f e f8 r
+    b,16 c b a b c d e
+    f g f e f8 r %265
+    g16 f es d es f g a
+    b a g f b8 r
+    b16 a g f b8 r
+    b16 a g f es d c b
+    f4 c'\trill %270
+    b r\fermata \bar "||" %271 finis
+  }
+}
+
+% XCIIIcViolinoI = {
+%   \relative c' {
+%     \clef treble
+%
+%   }
+% }
+%
+% XCIIIdViolinoI = {
+%   \relative c' {
+%     \clef treble
+%
+%   }
+% }

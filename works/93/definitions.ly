@@ -1,6 +1,7 @@
 \version "2.22.0"
 
 tempoXCIII = \tempoMarkup "Allegro"
+tempoXCIIIb = \tempoMarkup "Presto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

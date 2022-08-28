@@ -143,3 +143,159 @@ XCIIIViolinoII = {
     es, r r\fermata \bar "|."
   }
 }
+
+XCIIIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoXCIIIb
+      \set Score.currentBarNumber = #138
+    b'4.\pE a8
+    b4. c8
+    d4. es16 c %140
+    \appoggiatura b8 a4 b
+    es,8 d es c
+    f es d b
+    c c' f, a
+    b, d f d %145
+    r g b g
+    r f a c
+    d16\f c b a b c d e
+    f g f e f8 r
+    b,16 a b c d c d e %150
+    f g f e f8 r
+    g16 f es d es f g a
+    b8 f d b
+    c4 b
+    a8 c16\p b a8 g %155
+    f2
+    g~
+    g4 f
+    g2~
+    g4 f8 a(\pocoFE %160
+    b) g( f) a(
+    b) g( f) a(
+    b) g( f) a(
+    g4) r
+    f8\pE c g' c, %165
+    a' c, a' g
+    f c g' c,
+    a' c, a a
+    b b b b
+    c c c c %170
+    d d a a
+    b b b b
+    c c c c
+    a4 d
+    g g %175
+    f e
+    d c8 a'
+    b f' c f
+    d16 f a g f8 a,
+    b f' c e %180
+    a,16\f g f e f g a h
+    c d c h c8 r
+    h16 c d e f a g f
+    e f e d c8 r
+    d16 c b! a b c d e %185
+    f g f e f8 r
+    e,4 g
+    a8 f' g, e'
+    f c f,4
+    f4.\p \tuplet 3/2 8 { e16 f g } %190
+    f4. \tuplet 3/2 8 { g16 a b }
+    a4. b16 g
+    \appoggiatura f8 e4-\critnote f
+    d d
+    c4. a'8 %195
+    d,4 e
+    f8 f a f
+    r b d b
+    r e, g e
+    f4 r %200
+    f8 g as g
+    f es! d c
+    h4 r8 c'
+    f,4 g
+    es4. h'8 %205
+    c4. \tuplet 3/2 8 { d16 es f }
+    es4. f16 d
+    \appoggiatura c8 h4-\critnote c
+    as2
+    \appoggiatura es8 d4-\critnote c8 es %210
+    a,!4 h
+    c8 es g es
+    r as c as
+    r g h d
+    c c g g %215
+    g g g g
+    c c c c
+    c c c c
+    c c c c
+    c c c c %220
+    f, f f f
+    f f f f
+    b b b b
+    a a a a
+    b b b b %225
+    b4 r8 b
+    a4 b
+    a r
+    b2
+    c~ %230
+    c4 b
+    c2~
+    c4 b8 d-!
+    es( c) b( d)
+    es( c) b( d) %235
+    es( c) b( d)
+    c4 r
+    b8 f c' f,
+    d' f, d' c
+    b f c' f, %240
+    d' f, d d
+    es es es es
+    f f f f
+    g g d d
+    es es es es %245
+    f f f f
+    d4 f
+    es d
+    es f
+    f2 %250
+    r8 b f' b,
+    r b g' b,
+    r b es b
+    r a c a
+    r f a f %255
+    r c es c
+    r c es c
+    r b d b
+    es b' f b
+    g16 b d c b8 f' %260
+    es, g' f, a'
+    d,16\f c b a b c d e
+    f g f e f8 r
+    b,16 c b a b c d e
+    f g f e f8 r %265
+    g16 f es d es f g a
+    f, f b b f f g g
+    f f b b f f g g
+    f8 g'16 f es d c b
+    f4 a\trill %270
+    b r\fermata \bar "||" %271 finis
+  }
+}
+
+% XCIIIcViolinoII = {
+%   \relative c' {
+%     \clef treble
+%
+%   }
+% }
+%
+% XCIIIdViolinoII = {
+%   \relative c' {
+%     \clef treble
+%
+%   }
+% }

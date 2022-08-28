@@ -179,5 +179,191 @@ XCIIIBassoLyrics = \lyricmode {
   ia. %127 finis
 }
 
+XCIIIbBasso = {
+  \relative c {
+    \clef bass
+    \twofourtime \key b \major \time 2/4 \tempoXCIIIb \autoBeamOff
+      \set Score.currentBarNumber = #138
+    R2*7 %144
+    b'2\p %145
+    g
+    f
+    b,4 r
+    R2*8 %156
+    g'4. b8
+    b4 a
+    g4. b8
+    b4 a %160
+    c c
+    c c8 c
+    c4 c
+    c r
+    f,2 %165
+    f
+    f
+    f4 r
+    R2*5 %173
+    f4. d'8
+    h4 c %175
+    b4. a8
+    g4 f8 a
+    b4 c
+    d r8 a
+    b4 c %180
+    f, r
+    R2*8 %189
+    f4. g8 %190
+    a4. b8
+    c4. d16([ b)]
+    \appoggiatura a8 g4^\critnote f
+    d4. d'8
+    \appoggiatura f, e4 f8 a %195
+    \appoggiatura a b4. b8
+    a4 r
+    R2*5 %202
+    r4 r8 as
+    f4 g
+    c, r %205
+    R2*6 %211
+    c'2
+    as
+    g
+    c,4 r %215
+    R2*13 %228
+    f4. b8
+    b4 a %230
+    f4. b8
+    b4 a
+    f2
+    f
+    f4 f8 f %235
+    f4. f8
+    f4 r
+    b,2
+    b
+    b %240
+    b4 r
+    R2*5 %246
+    b4. as'8
+    \appoggiatura as g4 f
+    es4. es'8
+    \appoggiatura es d4 c %250
+    R2
+    b
+    g
+    es
+    f %255
+    g4. g8
+    a2
+    b4 r8 d,
+    es4 f
+    g r8 d %260
+    es4 f
+    b, r
+    R2*8 %270
+    R2\fermata \bar "||" %271 finis
+  }
+}
+
+XCIIIbBassoLyrics = \lyricmode {
+  Al -- %145
+  le --
+  lu --
+  ia.
+
+  Re -- sur -- %157
+  re -- xit,
+  si -- cut
+  di -- xit, %160
+  si -- cut
+  di -- xit, al --
+  le -- lu --
+  ia,
+  al -- %165
+  le --
+  lu --
+  ia,
+
+  al -- le -- %174
+  lu -- ia, %175
+  al -- le --
+  lu -- ia, al --
+  le -- lu --
+  ia, al --
+  le -- lu -- %180
+  ia.
+
+  Re -- sur -- %190
+  re -- xit,
+  si -- cut
+  di -- xit,
+  si -- cut
+  di -- xit, al -- %195
+  le -- lu --
+  ia,
+
+  al -- %203
+  le -- lu --
+  ia, %205
+
+  al -- %212
+  le --
+  lu --
+  ia, %215
+
+  re -- sur -- %229
+  re -- xit, %230
+  si -- cut
+  di -- xit,
+  si --
+  cut
+  di -- xit, al -- %235
+  le -- lu --
+  ia,
+  al --
+  le --
+  lu -- %240
+  ia,
+
+  re -- sur -- %247
+  re -- xit,
+  si -- cut
+  di -- xit, %250
+
+  al --
+  le --
+  lu --
+  ia, %255
+  al -- le --
+  lu --
+  ia, al --
+  le -- lu --
+  ia, al -- %260
+  le -- lu --
+  ia. %262 finis
+}
+
+% XCIIIcBasso = {
+%   \relative c {
+%     \clef bass
+%
+%   }
+% }
+%
+% XCIIIcBassoLyrics = \lyricmode {
+%
+% }
+%
+% XCIIIdBasso = {
+%   \relative c {
+%     \clef bass
+%
+%   }
+% }
+%
+% XCIIIdBassoLyrics = \lyricmode {
+%
+% }
+
 % re -- sur -- re -- xit, si -- cut di -- xit, al -- le -- lu -- ia.
 % O -- ra pro no -- bis De -- um, al -- le -- lu -- ia.

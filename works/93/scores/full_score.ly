@@ -11,49 +11,93 @@
 }
 
 \book {
+  % \bookpart {
+  %   \section "93" "Regina cœli"
+  %   \addTocEntry
+  %   \paper { indent = 3\cm }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \XCIIIViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \XCIIIViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \incipitSoprano
+  %           \new Voice = "Soprano" { \dynamicUp \XCIIISoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \XCIIISopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Basso"
+  %           \new Voice = "Basso" { \dynamicUp \XCIIIBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \XCIIIBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+  %           % \transpose c c,
+  %           \XCIIIOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \XCIIIBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "93" "Regina cœli"
-    % \addTocEntry
-    \paper { indent = 3\cm }
+    \subsection "Resurrexit sicut dixit"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \XCIIIViolinoI
+              \set Staff.instrumentName = "1"
+              \XCIIIbViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \XCIIIViolinoII
+              \set Staff.instrumentName = "2"
+              \XCIIIbViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \XCIIISoprano }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \XCIIIbSoprano }
           }
-          \new Lyrics \lyricsto Soprano \XCIIISopranoLyrics
+          \new Lyrics \lyricsto Soprano \XCIIIbSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \XCIIIBasso }
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \XCIIIbBasso }
           }
-          \new Lyrics \lyricsto Basso \XCIIIBassoLyrics
+          \new Lyrics \lyricsto Basso \XCIIIbBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
-            \transpose c c,
-            \XCIIIOrgano
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \XCIIIbOrgano
           }
         >>
-        \new FiguredBass { \XCIIIBassFigures }
+        \new FiguredBass { \XCIIIbBassFigures }
       >>
-      % \layout { }
-      \midi { \tempo 4 = 100 }
+      \layout { }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

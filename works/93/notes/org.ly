@@ -283,3 +283,282 @@ XCIIIBassFigures = \figuremode {
   r4 <6 5>2
   r2. %137 finis
 }
+
+XCIIIbOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key b \major \time 2/4 \tempoXCIIIb
+      \set Score.currentBarNumber = #138
+    r8 b'\pE b,4
+    r8 b' b,4
+    r8 b' b, es %140
+    f es d b
+    R2*3
+    b4 r %145
+    es r
+    f r
+    b8\fE b b b
+    a a a a
+    g g g g %150
+    f f f f
+    es! es es es
+    d d d d
+    a4 b
+    f' r %155
+    f8\p f a f
+    c'4 r
+    r8 f, a f
+    c'4 r8 c,
+    f4 r %160
+    g8\pocoF b a r
+    g b a r
+    g b a f
+    c'4 r
+    R2 %165
+    f,4\pE r
+    R2
+    f4 r
+    R2*5 %173
+    f8 f f f
+    f f e e %175
+    d d c c
+    b b a a'-!
+    b4-! c-!
+    d-! r8 a-!
+    b4-! c-! %180
+    f,8\f f f f
+    e e e e
+    d d d d
+    c c c' c
+    b! b b b %185
+    a a a a
+    g g c, c
+    f a b c
+    f,4 r
+    r8 f\p f,4 %190
+    r8 f' f,4
+    r8 f f' b
+    c b a f
+    b a b g
+    c b a f %195
+    g, g' c, c'
+    f,4 r
+    b, r
+    c r
+    f r %200
+    R2*2
+    r4 r8 as-!
+    f4-! g-!
+    c,8 c' c,4 %205
+    r8 c' c,4
+    r8 c' c, f
+    g f es c
+    d d es f
+    g f es c %210
+    d d' g,, g'
+    c,4 r
+    f r
+    g r
+    c8 c c c %215
+    c c c c
+    es, es es es
+    es es es es
+    f f f f
+    f f f f %220
+    b b b b
+    a a a a
+    g g g g
+    f f f f
+    es! es es es %225
+    d4 r8 d'
+    c4 b
+    f r
+    r8 b, d b
+    f'4 r %230
+    r8 b, d b
+    f'4 r8 f,
+    b4 r
+    c'8 es d r
+    c es d r %235
+    c es d b
+    f4 r
+    R2
+    b,4 r
+    R2 %240
+    b4 r
+    R2*5 %246
+    b8 b d b
+    es g b b,
+    c c' a f
+    b b, f' es %250
+    d4 r
+    es r
+    es r
+    f r
+    f, r %255
+    c' r
+    f r
+    b, r8 d-!
+    es4-! f-!
+    g-! r8 d-! %260
+    es4-! f-!
+    b8\f b b b
+    a a a a
+    g g g g
+    f f f f %265
+    es! es es es
+    d4 d8 es
+    d4 d8 es
+    d d es es
+    f f f f %270
+    b,4 r\fermata \bar "||" %271 finis
+  }
+}
+
+XCIIIbBassFigures = \figuremode {
+  r2 %138
+  r
+  r4. <6>8 %140
+  <6 4> q <6>4
+  r2*3
+  r2 %145
+  r
+  r
+  r
+  <[6]>
+  <5>4. <6!>8 %150
+  r2
+  r
+  <6>
+  <6 5>
+  r %155
+  r
+  <7 4>4 <\t _!>
+  <9 4> <6>
+  <7 4> <\t _!>
+  <9 4> <[8] 3> %160
+  <6!>8 <\t> <6>4
+  <6!>8 <\t> <6>4
+  <6!>8 <\t> <6>4
+  <[_!]>2
+  r %165
+  r
+  r
+  r
+  r2*5 %173
+  <5>4 <6>
+  <4! 2> <6> %175
+  <6-> \bo <[7] _!>8 \bc <[6] \t>
+  <6>4 q
+  r2
+  r
+  r %180
+  r
+  <6>
+  <6!>
+  <_!>
+  r %185
+  <6>
+  <6!>4 <\t>
+  r8 <[6]> <6 5> <_!>
+  r2
+  r %190
+  r
+  r4. <6>8
+  <6 4> <6 4!> <6>4
+  <5> <6>
+  \bo <[6 4]>8 \bc <[6 4!]> <6>4 %195
+  <7> <7 _!>
+  r2
+  r
+  <_!>
+  r %200
+  r2*2
+  r2
+  r
+  <_-> %205
+  r
+  r4. <6 _->8
+  <6 4> <6 4!> <6>4
+  <[5-]>2
+  \bo <[6 4]>8 \bc <[6 4!]> <6>4 %210
+  <7 [5!]>4 <7 _!>
+  r2
+  <_->
+  <_!>
+  r %215
+  r
+  <6>
+  r
+  <_!>
+  <7 _!> %220
+  r
+  <6>
+  <6!>
+  r
+  r %225
+  <[6]>
+  <6>
+  r
+  r
+  <7 4>4 <\t 3> %230
+  <9 4> <6>
+  <7 4> <\t 3>
+  \bo <[9 4]> \bc <[8 3]>
+  <6 4>8 <\t \t> <6>4
+  <6 4>8 <\t \t> <6>4 %235
+  <6 4>8 <\t \t> <6>4
+  r2
+  r
+  r
+  r %240
+  r
+  r2*5 %246
+  <8>4 <\t>8 <7->
+  \bo <[4-]>8 \bc <[6]>4.
+  <6>4 <\t>8 <7 5>8
+  \bo <[9 4]>8 \bc <[8 3]>4. %250
+  <6>2
+  r
+  r
+  <[7]>
+  r %255
+  <_->
+  <[7]>
+  r
+  r
+  r %260
+  r
+  r
+  <[6]>
+  <6!>
+  r %265
+  r
+  <6>
+  q
+  <[6]>
+  <6 4>4 <5 3> %270
+  r2 %271 finis
+}
+
+% XCIIIcOrgano = {
+%   \relative c {
+%     \clef bass
+%
+%   }
+% }
+%
+% XCIIIcBassFigures = \figuremode {
+%
+% }
+%
+% XCIIIdOrgano = {
+%   \relative c {
+%     \clef bass
+%
+%   }
+% }
+%
+% XCIIIdBassFigures = \figuremode {
+%
+% }
