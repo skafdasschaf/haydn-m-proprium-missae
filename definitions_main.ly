@@ -2,5 +2,5 @@
 
 #(define option-movement-title-format "number-title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #f)
+#(define option-print-all-bar-numbers #t)
 \include "ees.ly"

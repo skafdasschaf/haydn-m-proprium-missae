@@ -286,13 +286,40 @@ XCIIIbViolinoI = {
   }
 }
 
-% XCIIIcViolinoI = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
-%
+XCIIIcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #263
+    \mvTr b'16(\p-\critnote g es g) b-! b-! b-! b-! b( f d f) b-! b-! b-! b-!
+    es( c as) es'-! d( g,) g-! g-! c( as f) c'-! b( es,) es-! es-!
+    d( as') g( es) c( f) as,( d) es(\f b) g( b) g'( es) b( es) %265
+    b'\pp( g) es( g) b-! b-! b-! b-! b( f) d( f) b-! b-! b-! b-!
+    b( g es g) es'-! es-! es-! es-! es( c as es') d( g,) g-! g-!
+    c( as f c') b( es,) es-! es-! c'( f, c f) c'-! c-! c-! c-!
+    b( f d f) b-! b-! b-! b-! es( b g b) a( es') es-! es-!
+    d( b f-\critnote b) d-! d-! d-! d-! g( d b g') f( c) c-! c-! %270
+    es( b g es') d( a) a-! a-! c( g c, g') c-! c-! c-! c-!
+    c( a f a) b-! b-! b-! b-! e( b g b) e-! e-! e-! e-!
+    f(\f c a c) es( c a c) des(\p b f b) des-! des-! des-! des-!
+    des( b e, b') b-! b-! b-! b-! a( f c a') b-! b-! b-! b-!
+    b(\fE f c f) a-! a-! a-! a-! b(\pE f b, d!) f-! f-! f-! f-! %275
+    f( c a c) f-! f-! f-! f-! b( g es! b') a( d,) d-! d-!
+    g( es c g') f( b,) b-! b-! a( es') d( b) c( es) b'( a)
+    b(\f f d) b'-! as( f d) as'-! g(\p es b es) g-! g-! g-! g-!
+    b( f d f) b-! b-! b-! b-! es( b g b) es-! es-! es-! es-!
+    es( b f-\critnote b) d-! d-! d-! d-! es( b g b) des-! des-! des-! des-! %280
+    c( es, c es) c'-! c-! c-! c-! b( es, b es) b'-! b-! b-! b-!
+    as( es c es) as-! as-! as-! as-! g( b es g) f( b,) b-! b-!
+    es( c as es') d( g,) g-! g-! c( as f c') b( es,) es-! es-!
+    as( f d as') g-! g-! g-! g-! a( es c es) a-! a-! a-! a-!
+    b(\f f d) b'-! as( f d) as'-! ges(\p es b es) ges-! ges-! ges-! ges-! %285
+    ges( es a, es') es'-! es-! es-! es-! d( b f b) d-! d-! d-! d-!
+    es8 es es es d16( b f d') a( es c a')
+    <b d,>2 r\fermata \bar "||" %288 finis
+  }
+}
+
 % XCIIIdViolinoI = {
 %   \relative c' {
 %     \clef treble

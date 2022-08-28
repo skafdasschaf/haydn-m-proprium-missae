@@ -398,17 +398,53 @@ XCIIIbSopranoLyrics = \lyricmode {
   ia. %262 finis
 }
 
-% XCIIIcSoprano = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
-%
-% XCIIIcSopranoLyrics = \lyricmode {
-%
-% }
-%
+XCIIIcSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoXCIIIc \autoBeamOff
+      \set Score.currentBarNumber = #263
+    R1*6 %268
+    b'2\pE es4. es8
+    \appoggiatura es16 d8.([ c16)] b8 b g'4 f
+    es d8 d g es c b
+    \appoggiatura b a4 b8 b e4 e
+    f8 f, r4 des'2~
+    des4 c8 b a4 b
+    b( a) b r
+    R1*3
+    b2 es4. es8
+    es4 d es( des)
+    c c b2
+    as g4 b
+    es d c b8 b
+    as4 g a2
+    b4 r ges ges'~
+    ges f8 es d4 d
+    es2 d4 r
+    R1\fermata \bar "||"
+  }
+}
+
+XCIIIcSopranoLyrics = \lyricmode {
+  O -- ra pro %269
+  no -- bis, pro no -- bis %270
+  De -- um, o -- ra, o -- ra pro
+  no -- bis, pro no -- bis
+  De -- um, o --
+  ra pro no -- bis
+  De -- um. %275
+
+  O -- ra pro %279
+  no -- bis De -- %280
+  um, o -- ra
+  pro no -- bis
+  De -- um, o -- ra pro
+  no -- bis De --
+  um, o -- _ %285
+  ra pro no -- bis
+  De -- um. %287 finis
+}
+
 % XCIIIdSoprano = {
 %   \relative c' {
 %     \clef treble
@@ -420,4 +456,4 @@ XCIIIbSopranoLyrics = \lyricmode {
 %
 % }
 
-% O -- ra pro no -- bis De -- um, al -- le -- lu -- ia.
+ % al -- le -- lu -- ia.

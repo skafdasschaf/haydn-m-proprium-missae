@@ -2,6 +2,7 @@
 
 tempoXCIII = \tempoMarkup "Allegro"
 tempoXCIIIb = \tempoMarkup "Presto"
+tempoXCIIIc = \tempoMarkup "Adagio"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

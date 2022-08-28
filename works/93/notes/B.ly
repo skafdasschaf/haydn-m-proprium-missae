@@ -343,17 +343,61 @@ XCIIIbBassoLyrics = \lyricmode {
   ia. %262 finis
 }
 
-% XCIIIcBasso = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% XCIIIcBassoLyrics = \lyricmode {
-%
-% }
-%
+XCIIIcBasso = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoXCIIIc \autoBeamOff
+      \set Score.currentBarNumber = #263
+    R1*3 %265
+    es2\pE b'4. as8
+    \appoggiatura as g8.([ f16)] es8 es c'4 b
+    as g8 g c as f es
+    \appoggiatura es d4 es8 es g4 a
+    b8 b, r4 b' a %270
+    g f8 f es4 g
+    f f b2
+    a4 r b2~
+    b4 c8 des f,4. e8
+    f2 b,4 r %275
+    R1*2
+    r2 es2
+    b'4. b8 b4 a
+    b( as) g b~ %280
+    b as2 g4
+    g f es' d
+    c b as g8 g
+    f4 es es2
+    d4 r es2~ %285
+    es4 f8 ges b,4 b
+    a2 b
+    R1\fermata \bar "||" %288 finis
+  }
+}
+
+XCIIIcBassoLyrics = \lyricmode {
+  O -- ra pro %266
+  no -- bis, pro no -- bis
+  De -- um, o -- ra, o -- ra pro
+  no -- bis, pro no -- bis
+  De -- um, o -- ra, %270
+  o -- ra, o -- ra pro
+  no -- bis De --
+  um, o --
+  ra pro no -- bis
+  De -- um. %275
+
+  O -- %278
+  ra pro no -- bis
+  De -- um, o -- %280
+  ra pro
+  no -- bis De -- um,
+  o -- ra, o -- ra pro
+  no -- bis De --
+  um, o -- %285
+  ra pro no -- bis
+  De -- um. %287 finis
+}
+
 % XCIIIdBasso = {
 %   \relative c {
 %     \clef bass
@@ -364,6 +408,3 @@ XCIIIbBassoLyrics = \lyricmode {
 % XCIIIdBassoLyrics = \lyricmode {
 %
 % }
-
-% re -- sur -- re -- xit, si -- cut di -- xit, al -- le -- lu -- ia.
-% O -- ra pro no -- bis De -- um, al -- le -- lu -- ia.

@@ -541,17 +541,69 @@ XCIIIbBassFigures = \figuremode {
   r2 %271 finis
 }
 
-% XCIIIcOrgano = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% XCIIIcBassFigures = \figuremode {
-%
-% }
-%
+XCIIIcOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #263
+    es8(\p g) es( g) d( f) d( f)
+    c c' b b, as as' g g,
+    f es as b es,4 r %265
+    es'8\pp g es g d f d f
+    es g es g c, c' b b,
+    as as' g g, as as as' as
+    b as g es c c' f,, f'
+    b, b' f d b b' a a, %270
+    g g' f f, es' es es e
+    f es d d c c' c, c'
+    f,\f f f f b\p b b b
+    ges ges ges ges f f f e
+    f\f f f f b,\p d! b d %275
+    a c a c g g' f f,
+    es' es' d d, c b f' f,
+    b4 r es8 g es g
+    d f d f c es f, f'
+    b, b' b, b' es, g es g %280
+    as, as' as, c es es' es, g
+    c, c' d, b' es, es' d d,
+    c c' b b, as as' g g,
+    f f' es g f f, f f'
+    b,\f b b b es\p es es es %285
+    ces ces ces ces b b b b
+    a a a a b2~
+    b r\fermata \bar "||" %288 finis
+  }
+}
+
+XCIIIcBassFigures = \figuremode {
+  r2 <6> %263
+  q4 q q q
+  q <6 5>8 <[7]> r2 %265
+  r <6 [5]>
+  r <6>4 q
+  q q q <\t>8 <5>
+  \bo <[4]> <2> <6>4 <7> \bc <[7] _!>
+  r2 <6>4 q %270
+  q <6 [_!]> <6>4. <5>8
+  \bo <[5 4]>8 \bc <[4! 2]> <6>4 <7 _!>2
+  <8 _!>4 <7- \t> <_->2
+  <6! 5-> <_!>4 <6- 4>8 <\t \t>
+  <4>4 <_!> q2 %275
+  <6> q4 <6 [_!]>
+  <6> q <6!> <4>8 <_!>
+  r1
+  <6>2 <7>4 <7 _!>
+  \bo <[8] 4> \bc <[7-] 3> <8> <7-> %280
+  <9> <8> <4> <3>
+  <6 5> q2 <6>4
+  q q q q
+  q2 <7 _!>
+  <8>4 <7-> <_->2 %285
+  <6! 5-> <8>
+  <7- 5> <3>4 <7! 2>
+  <8 3>1 %288 finis
+}
+
 % XCIIIdOrgano = {
 %   \relative c {
 %     \clef bass
