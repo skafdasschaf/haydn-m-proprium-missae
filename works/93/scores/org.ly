@@ -7,12 +7,42 @@
 
 \book {
   \bookpart {
-    \section "XCIII" ""
+    \section "93" "Regina cœli"
     \addTocEntry
     \score {
       <<
         \new Staff { \XCIIIOrgano }
         \new FiguredBass { \XCIIIBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Resurrexit sicut dixit"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIbOrgano }
+        \new FiguredBass { \XCIIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Ora pro nobis"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIcOrgano }
+        \new FiguredBass { \XCIIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Alleluia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIdOrgano }
+        \new FiguredBass { \XCIIIdBassFigures }
       >>
     }
   }

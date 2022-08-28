@@ -290,39 +290,149 @@ XCIIIcViolinoII = {
   \relative c' {
     \clef treble
     \key es \major \time 4/4 \tempoXCIIIc
-      \set Score.currentBarNumber = #263
+      \set Score.currentBarNumber = #272
     \mvTr b'16(\p-\critnote g es g) b-! b-! b-! b-! b(^\critnote f d f) b-! b-! b-! b-!
     es( c as) es'-! d( g,) g-! g-! c( as f) c'-! b( es,) es-! es-!
-    d( as') g( es) c( f) as,( d) es4\f es16( b) g( b) %265
-    g'-!\pp g-! g-! g-! g( es b g') as-! as-! as-! as-! as( f b, f')
+    d( as') g( es) c( f) as,( d) es4\f es16( b) g( b)
+    g'-!\pp g-! g-! g-! g( es b g') as-! as-! as-! as-! as( f b, f') %275
     g-! g-! g-! g-! b( g es g) es'( c as es') d( g,) g-! g-!
     c( as f c') b( es,) es-! es-! c'( f, c f) c'-! c-! c-! c-!
     b( f d f) b-! b-! b-! b-! es( b g b) a( es') es-! es-!
-    d( b f b) d-! d-! d-! d-! g( d b g') f( c) c-! c-! %270
-    es( b g es') d( a) a-! a-! c( g c, g') c-! c-! c-! c-!
+    d( b f b) d-! d-! d-! d-! g( d b g') f( c) c-! c-!
+    es( b g es') d( a) a-! a-! c( g c, g') c-! c-! c-! c-! %280
     c( a f a) b-! b-! b-! b-! e( b g b) e-! e-! e-! e-!
     f(\f c a c) es( c a c) des-!\p des-! des-! des-! des( b f b)
     des-! des-! des-! des-! des( b e, b') c-! c-! c-! c-! b( f des b)
-    c-!\f c-! c-! c-! f( es c es) d8\p b16( d) f-! f-! f-! f-! %275
-    f( c a c) f-! f-! f-! f-! b( g es! b') a( d,) d-! d-!
+    c-!\f c-! c-! c-! f( es c es) d8\p b16( d) f-! f-! f-! f-!
+    f( c a c) f-! f-! f-! f-! b( g es! b') a( d,) d-! d-! %285
     g( es c g') f( b,) b-! b-! a( es') d( b) c( es) b'( a)
     b(\f f d) b'-! f( d b) f'-! es-!\p es-! es-! es-! es( b g b)
     f'-! f-! f-! f-! f( d b d) g-! g-! g-! g-! f( c a c)
-    f-! f-! f-! f-! f( d b f') g-! g-! g-! g-! g( es b es) %280
-    c'( es, c es) c'-! c-! c-! c-! b( es, b es) b'-! b-! b-! b-!
+    f-! f-! f-! f-! f( d b f') g-! g-! g-! g-! g( es b es)
+    c'( es, c es) c'-! c-! c-! c-! b( es, b es) b'-! b-! b-! b-! %290
     as( es c es) as-! as-! as-! as-! g( b es g) f( b,) b-! b-!
     es( c as es') d( g,) g-! g-! c( as f c') b( es,) es-! es-!
     as( f d as') g-! g-! g-! g-! a( es c es) a-! a-! a-! a-!
     b(\f f d) b'-! as( f d) as'-! ges-!\p ges-! ges-! ges-! ges( es b es)
-    a-! a-! a-! a-! a( ges es ges) b-! b-! b-! b-! b( f d b') %285
+    a-! a-! a-! a-! a( ges es ges) b-! b-! b-! b-! b( f d b') %295
     ges8 ges ges ges f2
-    <f b> r\fermata \bar "||" %288 finis
+    <f b> r\fermata \bar "||" %297 finis
   }
 }
 
-% XCIIIdViolinoII = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
+XCIIIdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/8 \tempoXCIIId
+      \set Score.currentBarNumber = #298
+    g'4\fE g8
+    g4 g8
+    es\p d es %300
+    \appoggiatura es f4.
+    d'4\f d8
+    d4( f8)
+    d,\p es f
+    \appoggiatura f es4. %305
+    g4.
+    c,
+    b'
+    f
+    f8\f a c %310
+    f, b d
+    c,4(\p es8)
+    d4( f8)
+    \once \slurDashed f4(\f a,8)
+    b r r %315
+    c4(\p es8)
+    d4( f8)
+    d g f
+    g f es
+    d es d %320
+    es d c
+    b g' f
+    g f es
+    d d'\fE d
+    \once \slurDashed d4( b8) %325
+    c\pE b a
+    b d\fE d
+    \once \slurDashed d4( b8)
+    c\pE b a
+    d,16\ffE d d d d d %330
+    es es es es es es
+    f f f f f f
+    es es es es es es
+    f c' c c c c
+    f, b b b b b %335
+    es,8 c f
+    b,4 r8
+    d4\fE d8
+    d4 d8
+    b'\p a b %340
+    \appoggiatura b c4.
+    a4\f a8
+    \once \slurDashed a4( c8)
+    a\p b c
+    \appoggiatura c b4. %345
+    b,8 b b
+    b b b
+    b b b
+    b b b
+    ges' f es %350
+    b'\f b, b'
+    b b, b'
+    as! g f
+    g4 g8
+    g4 g8 %355
+    es\p d es
+    \appoggiatura es f4.
+    d'4\f d8
+    d4( f8)
+    d,\p es f %360
+    \appoggiatura f es4.
+    b
+    c
+    d
+    es %365
+    f
+    b,4 es8
+    d4 r8
+    b\f d f
+    b, es g %370
+    f4(\p as8)
+    g4( b8)
+    \once \slurDashed b4(\f d,8)
+    es r r
+    f4(\p as8) %375
+    g4( b8)
+    es, c( b)
+    c( b as)
+    g \slurDashed as'( g)
+    as( g f) %380
+    es c'( b)
+    c( b as) \slurSolid
+    g g\f g
+    g4( es8)
+    f\p es d %385
+    es es'\f es
+    es4( g,8)
+    f\p es d
+    es16\ff g g g g g
+    as as as as as as %390
+    b b b b b b
+    es, es es es es es
+    b'-\critnote f' f f f f
+    b, es es es es es
+    g,8 as b %395
+    es,4 r8
+    es-!\mf f-! g-!
+    as( b) c-!
+    b-! c-! d-!
+    es( f) g-! %400
+    g,-! as-! b-!
+    c( d) es-!
+    g,-! as-! b-!
+    es,4-! r8
+    <d as>4\f r8 %405
+    <es g,>4 r8\fermata \bar "|." %406 finis
+  }
+}

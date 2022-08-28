@@ -402,58 +402,210 @@ XCIIIcSoprano = {
   \relative c' {
     \clef treble
     \key es \major \time 4/4 \tempoXCIIIc \autoBeamOff
-      \set Score.currentBarNumber = #263
-    R1*6 %268
-    b'2\pE es4. es8
+      \set Score.currentBarNumber = #272
+    R1*6 %277
+    b'2\pE es4. es8 %278
     \appoggiatura es16 d8.([ c16)] b8 b g'4 f
-    es d8 d g es c b
+    es d8 d g es c b %280
     \appoggiatura b a4 b8 b e4 e
     f8 f, r4 des'2~
     des4 c8 b a4 b
     b( a) b r
-    R1*3
+    R1*3 %287
     b2 es4. es8
     es4 d es( des)
-    c c b2
+    c c b2 %290
     as g4 b
     es d c b8 b
     as4 g a2
     b4 r ges ges'~
-    ges f8 es d4 d
+    ges f8 es d4 d %295
     es2 d4 r
-    R1\fermata \bar "||"
+    R1\fermata \bar "||" %297 finis
   }
 }
 
 XCIIIcSopranoLyrics = \lyricmode {
-  O -- ra pro %269
-  no -- bis, pro no -- bis %270
-  De -- um, o -- ra, o -- ra pro
+  O -- ra pro %278
+  no -- bis, pro no -- bis
+  De -- um, o -- ra, o -- ra pro %280
   no -- bis, pro no -- bis
   De -- um, o --
   ra pro no -- bis
-  De -- um. %275
+  De -- um.
 
-  O -- ra pro %279
-  no -- bis De -- %280
-  um, o -- ra
+  O -- ra pro %288
+  no -- bis De --
+  um, o -- ra %290
   pro no -- bis
   De -- um, o -- ra pro
   no -- bis De --
-  um, o -- _ %285
-  ra pro no -- bis
-  De -- um. %287 finis
+  um, o -- _
+  ra pro no -- bis %295
+  De -- um. %2956 finis
 }
 
-% XCIIIdSoprano = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
-%
-% XCIIIdSopranoLyrics = \lyricmode {
-%
-% }
+XCIIIdSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/8 \tempoXCIIId \autoBeamOff
+      \set Score.currentBarNumber = #298
+    es'4\pE es8
+    es4 b8
+    es, f g %300
+    \appoggiatura g as4.
+    f'4 f8
+    f4 d8
+    f, g as
+    \appoggiatura as g4. %305
+    R4.*6 %311
+    f'4 a,8
+    b f r
+    R4.*2 %315
+    f'4 a,8
+    b f r
+    b[( es d])
+    es([ d)] c
+    b([ g')] f %320
+    g([ f)] es
+    d([ b')] a
+    b([ a)] g
+    f f f
+    f4 d8 %325
+    es d c
+    d f f
+    f4 d8
+    es d c
+    b4 r8 %330
+    R4.*9 %339
+    b8 c d %340
+    \appoggiatura d es4.
+    R4.*2
+    c8 d es
+    \appoggiatura es d4. %345
+    f
+    ges
+    d
+    es4 es8
+    a,4 a8 %350
+    b4 r8
+    R4.*2
+    es4 es8
+    es4 b8 %355
+    es, f g
+    \appoggiatura g as4.
+    as4 as8
+    as4 f8
+    f g as %360
+    \appoggiatura as g4.
+    R4.*9  %370
+    b4 d8
+    es b r
+    R4.*2
+    b4 d8 %375
+    es b r
+    es,([ as g)]
+    as([ g)] f
+    es([ c')] b
+    c([ b)] as %380
+    g([ es')] d
+    es([ d)] c
+    b b b
+    b4 g8
+    as g f %385
+    g g' g
+    g4 es8
+    as, g f
+    es4 r8
+    R4.*7 %396
+    es8([ f)] g
+    as([ b)] c
+    b([ c)] d
+    es([ f)] g %400
+    g, as b
+    c4 r8
+    g as b
+    es,4 r8
+    R4. %405
+    R\fermata \bar "|." %406 finis
+  }
+}
 
- % al -- le -- lu -- ia.
+XCIIIdSopranoLyrics = \lyricmode {
+  Al -- le -- %298
+  lu -- ia,
+  al -- le -- lu -- %300
+  ia,
+  al -- le --
+  u -- ia,
+  al -- le -- lu --
+  ia, %305
+
+  al -- le -- %312
+  lu -- ia,
+
+  al -- le -- %316
+  lu -- ia,
+  al --
+  le -- lu --
+  ia, __ al -- %320
+  le -- lu --
+  ia, __ al --
+  le -- lu --
+  ia, al -- le --
+  lu -- ia, %325
+  al -- le -- lu --
+  ia, al -- le --
+  lu -- ia,
+  al -- le -- lu --
+  ia. %330
+
+  Al -- le -- lu -- %340
+  ia,
+
+  al -- le -- lu -- %344
+  ia, %345
+  al --
+  le --
+  lu --
+  ia, al --
+  le -- lu -- %350
+  ia.
+
+  Al -- le -- %354
+  lu -- ia, %355
+  al -- le -- lu --
+  ia,
+  al -- le --
+  lu -- ia,
+  al -- le -- lu -- %360
+  ia,
+
+  al -- le -- %371
+  lu -- ia,
+
+  al -- le -- %375
+  lu -- ia,
+  al --
+  le -- lu --
+  ia, __ al --
+  le -- lu -- %380
+  ia, __ al --
+  le -- lu --
+  ia, al -- le --
+  lu -- ia,
+  al -- le -- lu -- %385
+  ia, al -- le --
+  lu -- ia,
+  al -- le -- lu --
+  ia.
+
+  Al -- le -- %397
+  lu -- ia,
+  al -- le --
+  lu -- ia, %400
+  al -- le -- lu --
+  ia,
+  al -- le -- lu --
+  ia. %404 finis
+}

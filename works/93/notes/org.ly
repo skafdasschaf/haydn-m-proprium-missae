@@ -545,72 +545,242 @@ XCIIIcOrgano = {
   \relative c {
     \clef bass
     \key es \major \time 4/4 \tempoXCIIIc
-      \set Score.currentBarNumber = #263
+      \set Score.currentBarNumber = #272
     es8(\p g) es( g) d( f) d( f)
     c c' b b, as as' g g,
-    f es as b es,4 r %265
-    es'8\pp g es g d f d f
+    f es as b es,4 r
+    es'8\pp g es g d f d f %275
     es g es g c, c' b b,
     as as' g g, as as as' as
     b as g es c c' f,, f'
-    b, b' f d b b' a a, %270
-    g g' f f, es' es es e
+    b, b' f d b b' a a,
+    g g' f f, es' es es e %280
     f es d d c c' c, c'
     f,\f f f f b\p b b b
     ges ges ges ges f f f e
-    f\f f f f b,\p d! b d %275
-    a c a c g g' f f,
+    f\f f f f b,\p d! b d
+    a c a c g g' f f, %285
     es' es' d d, c b f' f,
     b4 r es8 g es g
     d f d f c es f, f'
-    b, b' b, b' es, g es g %280
-    as, as' as, c es es' es, g
+    b, b' b, b' es, g es g
+    as, as' as, c es es' es, g %290
     c, c' d, b' es, es' d d,
     c c' b b, as as' g g,
     f f' es g f f, f f'
-    b,\f b b b es\p es es es %285
-    ces ces ces ces b b b b
+    b,\f b b b es\p es es es
+    ces ces ces ces b b b b %295
     a a a a b2~
-    b r\fermata \bar "||" %288 finis
+    b r\fermata \bar "||" %297 finis
   }
 }
 
 XCIIIcBassFigures = \figuremode {
-  r2 <6> %263
+  r2 <6> %272
   q4 q q q
-  q <6 5>8 <[7]> r2 %265
-  r <6 [5]>
+  q <6 5>8 <[7]> r2
+  r <6 [5]> %275
   r <6>4 q
   q q q <\t>8 <5>
   \bo <[4]> <2> <6>4 <7> \bc <[7] _!>
-  r2 <6>4 q %270
-  q <6 [_!]> <6>4. <5>8
+  r2 <6>4 q
+  q <6 [_!]> <6>4. <5>8 %280
   \bo <[5 4]>8 \bc <[4! 2]> <6>4 <7 _!>2
   <8 _!>4 <7- \t> <_->2
   <6! 5-> <_!>4 <6- 4>8 <\t \t>
-  <4>4 <_!> q2 %275
-  <6> q4 <6 [_!]>
+  <4>4 <_!> q2
+  <6> q4 <6 [_!]> %285
   <6> q <6!> <4>8 <_!>
   r1
   <6>2 <7>4 <7 _!>
-  \bo <[8] 4> \bc <[7-] 3> <8> <7-> %280
-  <9> <8> <4> <3>
+  \bo <[8] 4> \bc <[7-] 3> <8> <7->
+  <9> <8> <4> <3> %290
   <6 5> q2 <6>4
   q q q q
   q2 <7 _!>
-  <8>4 <7-> <_->2 %285
-  <6! 5-> <8>
+  <8>4 <7-> <_->2
+  <6! 5-> <8> %295
   <7- 5> <3>4 <7! 2>
-  <8 3>1 %288 finis
+  <8 3>1 %297 finis
 }
 
-% XCIIIdOrgano = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% XCIIIdBassFigures = \figuremode {
-%
-% }
+XCIIIdOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/8 \tempoXCIIId
+      \set Score.currentBarNumber = #298
+    es8\f g b
+    es es, r
+    R4.*2 %301
+    b8\fE d f
+    b b, r
+    R4.*2 %305
+    es8\pE es es
+    f f f
+    g g g
+    a a a
+    f\f a c %310
+    f, b d
+    f,\p a c
+    f, b d
+    f,\f a c
+    f, b d %315
+    f,\p a c
+    f, b d
+    b,-\tasto b b
+    b b b
+    b b b %320
+    b b b
+    b b b
+    b b b
+    b b'\f b
+    b b, r %325
+    f'\p f f
+    b b\f b
+    b b, r
+    es\p f f
+    b,\ffE b b %330
+    c c c
+    d d d
+    es es es
+    f g a
+    b c d %335
+    es,-! c-! f-!
+    b,4-! r8
+    b\fE d f
+    b b, r
+    R4.*2 %341
+    f'8\fE a c
+    f, f, r
+    R4.*2 %345
+    b4\pE r8
+    b4 r8
+    b4 r8
+    b4 r8
+    b4 r8 %350
+    b'8\f b, b'
+    b b, b'
+    as! g f
+    es g b
+    es es, r %355
+    R4.*2
+    b8\fE d f
+    b b, r
+    R4.*2 %361
+    g8\p g g
+    as as as
+    b b b
+    c c c %365
+    d d d
+    es d c
+    b4 r8
+    b\f d f
+    b, es g %370
+    b,\p d f
+    b, es g
+    b,\f d f
+    b, es g
+    b,\p d f %375
+    b, es g
+    es-\tasto es es
+    es es es
+    es es es
+    es es es %380
+    es es es
+    es es es
+    es es'\f es
+    es es, r
+    as\p b b, %385
+    es es'\f es
+    es es, r
+    as\p b b,
+    es\ff es es
+    f f f %390
+    g g g
+    as as as
+    d,! d d
+    es es es
+    g-! as-! b-! %395
+    es,4 r8
+    es-!\mfE f-! g-!
+    as( b) c-!
+    R4.*2 %400
+    g8-! as-! b-!
+    c4-! r8
+    g-! as-! b-!
+    es,4-! r8
+    b4\f r8 %405
+    es,4 r8\fermata \bar "|." %406 finis
+  }
+}
+
+XCIIIdBassFigures = \figuremode {
+  r4.*8 %305
+  <6>4.
+  \bo <5 [_!]>8 \bc <6 [\t]>4
+  <5>8 <6>4
+  <5>8 <6>4
+  \bo <[5 _!]>4. %310
+  <6 4>
+  <5 _!>
+  <6 4>
+  <5 _!>
+  <6 4> %315
+  <5 _!>
+  \bc <[6 4]>
+  r4.*6
+  r8 <5 3>4
+  r4. %325
+  <7 5 [_!]>8 <6 4> <5 _!>
+  r4.
+  r
+  <8 6>8 <6 4> <5 _!>
+  r4. %330
+  <6!>
+  <5->
+  r
+  <7 _!>
+  r4.*7 %341
+  <7 _!>4.
+  <\t \t>
+  r4.*3 %346
+  <6- 4>4.
+  <5 3>
+  <6- 4>
+  <7! 2> %350
+  <[8 3]>
+  r4.*6 %357
+  \bo <[7]>4. \bassFigureExtendersOn
+  <7>8 \bc <[7]>4 \bassFigureExtendersOff
+  r4.*2 %361
+  <6>4.
+  <5>8 <6>4
+  <5>8 <6>4
+  <5>8 <6>4 %365
+  <5>8 <6>4
+  r8 <[6]> <6!>
+  r4.
+  \bo <[5 3]>
+  <6 4> %370
+  <5 3>
+  <6 4>
+  <5 3>
+  <6 4>
+  <5 3> %375
+  \bc <[6 4]>
+  r4.*6 %382
+  r8 <[5 3]>4
+  r4.
+  <8 6>8 <6 4> <5 3> %385
+  r4.
+  r
+  <8 6>8 <6 4> <5 3>
+  r4.
+  <6> %390
+  <5->
+  r
+  <6 5>
+  r4.*11 %404
+  <7>4. %405
+  r %406 finis
+}

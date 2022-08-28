@@ -1,6 +1,6 @@
 title: Regina cœli
 id: MH 93
-genre: gradual
+genre: antiphon
 scoring: S, B (solo), 2 vl, b, org
 license: cc-by-nc-sa-4.0
 sources:
@@ -15,14 +15,16 @@ sources:
 toe: |
   57  & vl 1 & 2nd /3rd \eighthNote\ in \B1: d′8–f′8 \\
   75f & vl 2 & bars in \B1: \flat b2. and f′2. \\
-  120 & vl 2 & rhythtm of 1st \quarterNote\ in \B1: \eighthNote–\sixteenthNote–\sixteenthNote \\
+  120 & vl 2 & rhythtm of 1st \quarterNote\ in \B1:
+               \eighthNote–\sixteenthNote–\sixteenthNote \\
   160 & vl 1 & 1st \quarterNote\ in \B1: a′4 \\
   193 & vl 2 & grace note missing in \B1 \\
   195 & B    & 2nd \quarterNote\ in \B1: grace note \flat b8–a4 \\
   208 & vl 2 & grace note missing in \B1 \\
   210 & vl 2 & grace note missing in \B1 \\
   246 & vl 1 & 1st \quarterNote\ in \B1: a′8–a′8 \\
-  263–288 & vl & Inconsistent slurs and staccato marks have been tacitly aligned. \\
-  263 & vl 2 & 9th \sicteenthNote\ in \B1: \flat a′16 \\
-  270 & vl 1 & 3rd \sixteenthNote\ in \B1: g′16 \\
-  280 & vl 1 & 3rd \sixteenthNote\ in \B1: g′16 \\
+  272–297 & vl & Inconsistent slurs and staccato marks have been tacitly aligned. \\
+  272 & vl 2 & 9th \sixteenthNote\ in \B1: \flat a′16 \\
+  279 & vl 1 & 3rd \sixteenthNote\ in \B1: g′16 \\
+  289 & vl 1 & 3rd \sixteenthNote\ in \B1: g′16 \\
+  393 & vl 2 & 1st \sixteenthNote\ in \B1: d′16 \\

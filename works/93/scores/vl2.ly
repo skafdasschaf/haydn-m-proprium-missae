@@ -7,11 +7,38 @@
 
 \book {
   \bookpart {
-    \section "XCIII" ""
+    \section "93" "Regina cœli"
     \addTocEntry
     \score {
       <<
         \new Staff { \XCIIIViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Resurrexit sicut dixit"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIbViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Ora pro nobis"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIcViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Alleluia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIdViolinoII }
       >>
     }
   }

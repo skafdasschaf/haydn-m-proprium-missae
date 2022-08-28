@@ -4,9 +4,15 @@
 \include "../definitions.ly"
 \include "score_settings/coro.ly"
 
+\paper {
+  system-system-spacing.basic-distance = #22
+  system-system-spacing.minimum-distance = #22
+  systems-per-page = #4
+}
+
 \book {
   \bookpart {
-    \section "XCIII" ""
+    \section "93" "Regina cœli"
     \addTocEntry
     \score {
       <<
@@ -18,18 +24,6 @@
           \new Lyrics \lyricsto Soprano \XCIIISopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \XCIIIAlto }
-          }
-          \new Lyrics \lyricsto Alto \XCIIIAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \XCIIITenore }
-          }
-          \new Lyrics \lyricsto Tenore \XCIIITenoreLyrics
-
-          \new Staff {
             \set Staff.instrumentName = "B"
             \new Voice = "Basso" { \dynamicUp \XCIIIBasso }
           }
@@ -37,6 +31,75 @@
         >>
         \new Staff { \XCIIIOrgano }
         \new FiguredBass { \XCIIIBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Resurrexit sicut dixit"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \XCIIIbSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \XCIIIbSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \XCIIIbBasso }
+          }
+          \new Lyrics \lyricsto Basso \XCIIIbBassoLyrics
+        >>
+        \new Staff { \XCIIIbOrgano }
+        \new FiguredBass { \XCIIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Ora pro nobis"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \XCIIIcSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \XCIIIcSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \XCIIIcBasso }
+          }
+          \new Lyrics \lyricsto Basso \XCIIIcBassoLyrics
+        >>
+        \new Staff { \XCIIIcOrgano }
+        \new FiguredBass { \XCIIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Alleluia"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \XCIIIdSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \XCIIIdSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \XCIIIdBasso }
+          }
+          \new Lyrics \lyricsto Basso \XCIIIdBassoLyrics
+        >>
+        \new Staff { \XCIIIdOrgano }
+        \new FiguredBass { \XCIIIdBassFigures }
       >>
     }
   }

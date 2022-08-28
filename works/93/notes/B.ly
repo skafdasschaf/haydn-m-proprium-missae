@@ -347,64 +347,198 @@ XCIIIcBasso = {
   \relative c {
     \clef bass
     \key es \major \time 4/4 \tempoXCIIIc \autoBeamOff
-      \set Score.currentBarNumber = #263
-    R1*3 %265
-    es2\pE b'4. as8
+      \set Score.currentBarNumber = #272
+    R1*3 %274
+    es2\pE b'4. as8 %275
     \appoggiatura as g8.([ f16)] es8 es c'4 b
     as g8 g c as f es
     \appoggiatura es d4 es8 es g4 a
-    b8 b, r4 b' a %270
-    g f8 f es4 g
+    b8 b, r4 b' a
+    g f8 f es4 g %280
     f f b2
     a4 r b2~
     b4 c8 des f,4. e8
-    f2 b,4 r %275
-    R1*2
+    f2 b,4 r
+    R1*2 %286
     r2 es2
     b'4. b8 b4 a
-    b( as) g b~ %280
-    b as2 g4
+    b( as) g b~
+    b as2 g4 %290
     g f es' d
     c b as g8 g
     f4 es es2
-    d4 r es2~ %285
-    es4 f8 ges b,4 b
+    d4 r es2~
+    es4 f8 ges b,4 b %295
     a2 b
-    R1\fermata \bar "||" %288 finis
+    R1\fermata \bar "||" %297 finis
   }
 }
 
 XCIIIcBassoLyrics = \lyricmode {
-  O -- ra pro %266
+  O -- ra pro %275
   no -- bis, pro no -- bis
   De -- um, o -- ra, o -- ra pro
   no -- bis, pro no -- bis
-  De -- um, o -- ra, %270
-  o -- ra, o -- ra pro
+  De -- um, o -- ra,
+  o -- ra, o -- ra pro %280
   no -- bis De --
   um, o --
   ra pro no -- bis
-  De -- um. %275
+  De -- um.
 
-  O -- %278
+  O -- %287
   ra pro no -- bis
-  De -- um, o -- %280
-  ra pro
+  De -- um, o --
+  ra pro %290
   no -- bis De -- um,
   o -- ra, o -- ra pro
   no -- bis De --
-  um, o -- %285
-  ra pro no -- bis
-  De -- um. %287 finis
+  um, o --
+  ra pro no -- bis %295
+  De -- um. %296 finis
 }
 
-% XCIIIdBasso = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% XCIIIdBassoLyrics = \lyricmode {
-%
-% }
+XCIIIdBasso = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/8 \tempoXCIIId \autoBeamOff
+      \set Score.currentBarNumber = #298
+    R4.*8 %305
+    g'8\p c b
+    \appoggiatura b a4.
+    b8 es d
+    \appoggiatura d c4.
+    R4.*8 %317
+    b4.~
+    b~
+    b8[ es d] %320
+    es([ d)] c
+    b([ g)] f
+    g([ f)] es
+    d d' d
+    d4 b8 %325
+    c b a
+    b d d
+    d4 b8
+    c b a
+    b4 r8 %330
+    R4.*7 %337
+    b4 b8
+    b4 f8
+    R4.*2 %341
+    c'4 c8
+    c4 a8
+    R4.*2 %345
+    d,4.
+    es
+    f
+    ges4 ges8
+    es4 es8 %350
+    d4 r8
+    R4.*2
+    es'4 es8
+    es4 b8 %355
+    R4.*2
+    as4 as8
+    as4 f8
+    R4.*2 %361
+    es8 es es
+    es[ f16 es f8]~
+    f[ g16 f g8]~
+    g[ as16 g as8]~ %365
+    as[ b16 as b8]
+    g f es
+    b'4 r8
+    R4.*8 %376
+    es,4.~
+    es~
+    es8[ as g]
+    as([ g)] f %380
+    es([ c')] b
+    c([ b)] as
+    g g g
+    g4 es8
+    f es d %385
+    es es' es
+    es4 g,8
+    f es d
+    es4 r8
+    R4.*7 %396
+    es8([ f)] g
+    as([ b)] c
+    R4.*2 %400
+    g8 as b
+    c4 r8
+    g as b
+    es,4 r8
+    R4. %405
+    R\fermata \bar "|." %406 finis
+  }
+}
+
+XCIIIdBassoLyrics = \lyricmode {
+  Al -- le -- lu -- %306
+  ia,
+  al -- le -- lu --
+  ia,
+
+
+  al -- %318
+
+  le -- lu --
+  ia, __ al --
+  le -- lu --
+  ia, al -- le --
+  lu -- ia, %325
+  al -- le -- lu --
+  ia, al -- le --
+  lu -- ia,
+  al -- le -- lu --
+  ia. %330
+
+  Al -- le -- %338
+  lu -- ia,
+
+  al -- le -- %342
+  lu -- ia,
+
+  al -- %346
+  le --
+  lu --
+  ia, al --
+  le -- lu -- %350
+  ia.
+
+  Al -- le -- %354
+  lu -- ia, %355
+
+  al -- le -- %358
+  lu -- ia,
+
+  al -- le -- lu -- %362
+  ia, __
+
+  al -- le -- lu -- %376
+  ia,
+
+  al -- %377
+
+  le -- lu -- %380
+  ia, __ al --
+  le -- lu --
+  ia, al -- le --
+  lu -- ia,
+  al -- le -- lu -- %385
+  ia, al -- le --
+  lu -- ia,
+  al -- le -- lu --
+  ia.
+
+  Al -- le -- %397
+  lu -- ia,
+
+  al -- le -- lu -- %401
+  ia,
+  al -- le -- lu --
+  ia. %404 finis
+}
