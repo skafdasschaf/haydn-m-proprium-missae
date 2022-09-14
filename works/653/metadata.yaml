@@ -1,0 +1,27 @@
+title: Ecce ancilla Domini
+id: MH 653
+genre: gradual
+festival: Mariae (B.V.) Annuntiatio
+scoring: S, A, T, B (coro), 2 clno (\flat B), timp (\flat B–F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 413
+    date: 1797-02-23
+    rism: 456009433
+    url: https://mdz-nbn-resolving.de/details:bsb00084974
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 182
+    rism: 600038135
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/187.html
+    license: public domain
+parts:
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+lyrics:
+  Ecce ancilla Domini:\\
+  fiat mihi secundum verbum tuum.\\
+  (\bibleverse{Luk}(1:38))
