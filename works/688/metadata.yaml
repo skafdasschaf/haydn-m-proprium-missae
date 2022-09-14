@@ -1,0 +1,36 @@
+title: Improperium exspectavit
+id: MH 688
+genre: offertorium
+festival: Dominica in Palmis
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Eu
+    shelfmark: Esl I 339 (1)
+    date: 1830–1840
+    rism: 450300089
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-339-7
+    license: CC-BY-SA-4.0
+    principal: true
+  B2:
+    siglum: D-Eu
+    shelfmark: Esl I 76 (2)
+    date: 1845
+    rism: 450300080
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-76-4
+    license: CC-BY-SA-4.0
+  B3:
+    siglum: D-Eu
+    shelfmark: Esl I 175 (3)
+    date: 1849–1851
+    rism: 450201309
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-175-2
+    license: CC-BY-SA-4.0
+lyrics:
+  Improperium exspectavit cor meum et miseriam:\\
+  et sustinui qui simul mecum contristaretur, et non fuit:\\
+  consolantem me quaesivi, et non inveni.\\
+  Et dederunt in escam meam fel\\
+  et in siti mea potaverunt me aceto.\\
+  (\bibleverse{Ps}(69/68:21-22))
