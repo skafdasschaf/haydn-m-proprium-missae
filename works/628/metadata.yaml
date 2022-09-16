@@ -1,0 +1,66 @@
+title: Introitus, Graduale, Offertorium et Communio\\ad Missam in Cœna Domini
+id: MH 628
+genre: sacred song
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Eu
+    shelfmark: Esl I 136
+    date: 1835–1845
+    rism: 450300083
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-136-6
+    license: CC-BY-SA-4.0
+    principal: true
+  B2:
+    siglum: D-Eu
+    shelfmark: Esl I 76 (3, 4)
+    date: 1845
+    rism: 450300078
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-76-4
+    license: CC-BY-SA-4.0
+    notes: only offertorium and communio
+  B3:
+    siglum: D-Eu
+    shelfmark: Esl I 339 (2)
+    date: 1830–1840
+    rism: 450300090
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-339-7
+    license: CC-BY-SA-4.0
+    notes: only communio
+toe: |
+  2/59 & S   & 1st \quarterNote\ in \B1: c″4 \\
+  4/35 & org & last \quarterNote\ in \B1: c4 \\
+lyrics:
+  \textsb{Introitus}\\
+  Nos autem gloriari oportet\\
+  in cruce Domini nostri Iesu Christi,\\
+  in quo est salus, vita, et resurrectio nostra,\\
+  per quem salvati et liberati sumus.\\
+  (\bibleverse{Gal}(6:15))\\[1ex]
+  Deus misereatur nostri,\\
+  et benedicat nobis:\\
+  illuminet vultum suum super nos,\\
+  et misereatur nostri.\\
+  (\bibleverse{Ps}(67/66:2))\\[2ex]
+  \textsb{Graduale}\\
+  Christus factus est pro nobis\\
+  obediens usque ad mortem,\\
+  mortem autem crucis.\\
+  Propter quod et Deus exaltavit illum\\
+  et dedit illi nomen,\\
+  quod est super omne nomen.\\
+  (\bibleverse{Phil}(2:8-9))\\[2ex]
+  \textsb{Offertorium}\\
+  Dextera Domini fecit virtutem,\\
+  dextera Domini exaltavit me:\\
+  Non moriar, sed vivam,\\
+  et narrabo opera Domini.\\
+  (\bibleverse{Ps}(118/117:16-17))\\[2ex]
+  \textsb{Communio}\\
+  Dominus Jesus, postquam cenavit cum discipulis suis,\\
+  lavit pedes eorum, et ait illis:\\
+  Scitis quid fecerim vobis,\\
+  ego Dominus et Magister?\\
+  Exemplum dedi vobis, ut et vos ita faciatis.\\
+  (\bibleverse{Joh}(13:12,14,15))
