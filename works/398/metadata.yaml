@@ -1,0 +1,39 @@
+title: Beatus vir
+id: MH 398
+genre: gradual
+festival: Anniversario Electionis Celsissimi, De Confessore Pontifice post Septuagesimam, Commune unius Martyris non Pontificis
+scoring: S, A, T, B (coro), 2 ob, 2 cor (\flat E), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 425
+    date: 1785-02-19
+    rism: 456009445
+    url: https://daten.digitale-sammlungen.de/bsb00045587/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 216
+    rism: 600038166
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/215.html
+    license: public domain
+  D1:
+    siglum: D-Eu
+    shelfmark: Esl II 64
+    date: 1869-03-14
+    rism: 450300070
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-64-7
+    license: CC BY-SA 4.0
+parts:
+  cor12: Corno I, II in \flat E
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Beatus vir qui timet Dominum:\\
+  In mandatis eius cupit nimis.\\
+  Potens in terra erit semen eius:\\
+  Generatio rectorum benedicetur.\\
+  Gloria et divitiae in domo eius:\\
+  Et iustitia eius manet in saeculum saeculi.\\
+  (\bibleverse{Ps}(112/111:1-3))
