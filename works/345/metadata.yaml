@@ -1,0 +1,50 @@
+title: Ecce sacerdos magnus
+id: MH 345
+genre: gradual
+festival: S. Silvestri, Virgilii, et Martini, vel de Confessore Pontifice
+scoring: S, A, T, B (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 437
+    date: 1783-12-24
+    rism: 456009457
+    url: https://daten.digitale-sammlungen.de/bsb00045834/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 217
+    rism: 600038167
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/216.html
+    license: public domain
+  B2:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291 (14)
+    rism: 455023095
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
+  B3:
+    siglum: D-Eu
+    shelfmark: Esl II 63
+    date: 1865-1875
+    rism: 450300072
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-63-1
+    license: public domain
+    notes: cor missing
+  B4:
+    siglum: F-Pn
+    shelfmark: D-5591 (4)
+    date: 1830–1840
+    rism: 840026210
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Ecce sacerdos magnus,\\
+  qui in diebus suis placuit Deo.\\
+  Non est inventus similis illi,\\
+  qui conservaret legem excelsi.\\
+  (\bibleverse{Sir}(44:16,20))
