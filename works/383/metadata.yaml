@@ -1,0 +1,55 @@
+title: Locus iste
+id: MH 383
+genre: gradual
+festival: Dedicatio Ecclesiae
+scoring: S, A, T, B (coro), 2 cor (F), 2 ob, 3 trb, 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 400
+    date: 1784-09-09
+    rism: 456009420
+    url: https://daten.digitale-sammlungen.de/bsb00045053/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 221
+    rism: 600038171
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/220.html
+    license: public domain
+    notes: no trb parts
+  B2:
+    siglum: D-Eu
+    shelfmark: Esl I 14
+    date: 1835-1845
+    rism: 450300074
+    url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-i-14-1
+    license: CC BY-SA 4.0
+    notes: only choral score
+  B3:
+    siglum: F-Pn
+    shelfmark: D-5591 (13)
+    date: 1830–1840
+    rism: 840026219
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+    notes: does not contain trb notes
+  C1:
+    siglum: D-Mbs
+    shelfmark: 2 Mus.pr. 159
+    date: ca. 1800
+    url: https://mdz-nbn-resolving.de/details:bsb00108408
+    license: CC BY-NC-SA 4.0
+    notes: no trb parts
+toe: |
+  – & trb & trb only appear as second voices in bars 117–126. \\
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Locus iste a Deo factus est,\\
+  inaestimabile sacramentum,\\
+  irreprehensibilis est.\\
+  Deus, cui adstat Angelorum chorus,\\
+  exaudi preces servorum tuorum.
