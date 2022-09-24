@@ -18,6 +18,13 @@ sources:
     rism: 455024083
     url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00045841-7
     license: CC BY-NC-SA 4.0
+  D2:
+    siglum: CZ-Pu
+    shelfmark: 59 rm 9
+    date: 1825
+    rism: 550503092
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_RM_9_____3DA5612-cs
+    license: CC BY-NC-SA 4.0
 toe: |
   14  & T, B  & 3rd \quarterNote\ in \B1: b4 (lyrics “iuva”) \\
   42  & vla   & 3rd \eighthNote\ in \B1: d′8 \\

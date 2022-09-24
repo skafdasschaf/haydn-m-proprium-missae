@@ -26,6 +26,12 @@ sources:
     rism: 840026181
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
     license: custom (free for non-commercial purposes)
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/7
+    rism: 455022580
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
 toe: |
   – & coro & Spelling of “DEus” (bars 11, 12, 60, and 61) according to \A1 \\
 parts:

@@ -26,6 +26,12 @@ sources:
     rism: 840026186
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
     license: custom (free for non-commercial purposes)
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/19
+    rism: 455022592
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
 parts:
   clno12: Clarino I, II in \flat B
 lyrics:

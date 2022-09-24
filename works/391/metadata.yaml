@@ -17,6 +17,12 @@ sources:
     shelfmark: Mus.Hs.2719
     url: https://data.onb.ac.at/rec/AC14272581
     license: public domain
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/2
+    rism: 455023083
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
   D1:
     siglum: D-Mbs
     shelfmark: Mus.ms. 849\#Beibd.1

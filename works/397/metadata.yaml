@@ -26,6 +26,12 @@ sources:
     rism: 600038147
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/197.html
     license: public domain
+  B2:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/5
+    rism: 455023086
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
 toe: |
   –  & – & The main system reproduces clno and vl from \A2,
            while the small staves contain the voices from

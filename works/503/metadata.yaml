@@ -26,6 +26,12 @@ sources:
     rism: 840026188
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
     license: custom (free for non-commercial purposes)
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/21
+    rism: 455022594
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
 toe: |
   – & chorus & double caps spelling of “DEus” in bars 4, 15, 47,
       66, 77, and 98 according to \A1 \\

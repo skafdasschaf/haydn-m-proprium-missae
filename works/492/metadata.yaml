@@ -25,6 +25,12 @@ sources:
     rism: 600038104
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/162.html
     license: public domain
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/24
+    rism: 455022597
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
 parts:
   cor12: Corno I, II in F
 lyrics:

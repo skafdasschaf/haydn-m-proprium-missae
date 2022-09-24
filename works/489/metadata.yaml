@@ -26,6 +26,12 @@ sources:
     rism: 840026184
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
     license: custom (free for non-commercial purposes)
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/17
+    rism: 455022590
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
 toe: |
   – & coro & All caps spelling of “DEus” (bars 6, 12, 28, 30,
              38, and 40) according to \A1. \\

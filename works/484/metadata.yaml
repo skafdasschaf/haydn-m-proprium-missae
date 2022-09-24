@@ -26,6 +26,12 @@ sources:
     rism: 840026179
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
     license: custom (free for non-commercial purposes)
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/5
+    rism: 455022578
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
 parts:
   cor12: Corno I, II in A
 lyrics:

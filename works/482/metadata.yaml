@@ -26,6 +26,12 @@ sources:
     rism: 840026177
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729807
     license: custom (free for non-commercial purposes)
+  B3:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/3
+    rism: 455022576
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
 toe: |
   – & coro & uppercase spelling of “JEsum” in bars 9, 68, and 70 according to \A1 \\
 parts:
