@@ -1,0 +1,38 @@
+title: Germinavit radix Jesse
+id: MH 651
+genre: gradual
+festival: Mariae (B.V.)
+scoring: S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 331
+    date: 1797-01-27
+    rism: 456009348
+    url: https://daten.digitale-sammlungen.de/bsb00043162/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 189
+    rism:  600038141
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/193.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5591 (17)
+    date: 1830–1840
+    rism: 840026223
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+toe: |
+  111 & timp & bar in \A1: G4–G4-\crotchetRest \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Germinavit radix Jesse,\\
+  orta est stella ex Jacob,\\
+  Virgo peperit Salvatorem,\\
+  te laudamus, Deus noster.\\
+  (\bibleverse{Num}(24:17))
