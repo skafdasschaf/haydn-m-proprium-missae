@@ -1,0 +1,79 @@
+title: Veni Sancte Spiritus
+id: MH 366
+genre: gradual
+festival: Pentecostes
+scoring: S, A, T, B (coro), 2 ob, 2 cor (\flat E), 3 trb, 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 475
+    date: 1784-05-13
+    rism: 456009498
+    url: https://mdz-nbn-resolving.de/details:bsb00084991
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/11
+    rism: 455022584
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+    notes: notes for trb missing
+  B2:
+    siglum: A-Ed
+    shelfmark: B 174
+    rism: 600038127
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/181.html
+    license: public domain
+    notes: no trb parts
+  B3:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-39)
+    date: 1800-1830
+    rism: 455039959
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H39/
+    license: public domain
+  B4:
+    siglum: CZ-Pu
+    shelfmark: 59 rm 7
+    date: 1830–1824
+    rism: 550503090
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_RM_7_____0NPSHL5-cs
+    license: CC BY-NC-SA 4.0
+    notes: no trb parts
+toe: |
+  107 & ob 1 & 3rd \eighthNote\ in \A1: d″8 \\
+parts:
+  cor12: Corno I, II in \flat E
+lyrics:
+  Veni, Sancte Spiritus,\\
+  et emitte coelitus\\
+  lucis tuae radium.\\[1ex]
+  Veni, Pater pauperum,\\
+  veni, dator munerum,\\
+  veni, lumen cordium.\\[1ex]
+  Consolator optime,\\
+  dulcis hospes animae,\\
+  dulce refrigerium.\\[1ex]
+  In labore requies,\\
+  in aestu temperies\\
+  in fletu solatium.\\[1ex]
+  O lux beatissima,\\
+  reple cordis intima\\
+  tuorum fidelium.\\[1ex]
+  Sine tuo numine,\\
+  nihil est in homine,\\
+  nihil est innoxium.\\[1ex]
+  Lava quod est sordidum,\\
+  riga quod est aridum,\\
+  sana quod est saucium.\\[1ex]
+  Flecte quod est rigidum,\\
+  fove quod est frigidum,\\
+  rege quod est devium.\\[1ex]
+  Da tuis fidelibus,\\
+  in te confidentibus,\\
+  sacrum septenarium.\\[1ex]
+  Da virtutis meritum,\\
+  da salutis exitum,\\
+  da perenne gaudium.
