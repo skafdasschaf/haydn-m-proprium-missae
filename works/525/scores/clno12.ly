@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "cor")
+#(define option-instrument-name "clno")
 \include "score_settings/two-staves.ly"
 
 \paper { indent = 1.5\cm }
@@ -15,14 +15,14 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedNameShort "cor" "B" "flat"
+            \set GrandStaff.instrumentName = \transposedNameShort "clno" "B" "flat"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DXXVCornoI
+              \DXXVClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DXXVCornoII
+              \DXXVClarinoII
             }
           >>
         >>
