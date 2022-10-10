@@ -1,0 +1,41 @@
+title: Ave Maria
+id: MH 388
+genre: gradual
+festival: Adventus, Dominica IV.
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 428
+    date: 1784-11-26
+    rism: 456009448
+    url: https://mdz-nbn-resolving.de/details:bsb00084978
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/11
+    rism: 455023092
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046856-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: Cz-Pu
+    shelfmark: 59 rm 8
+    rism: 550503091
+    url: http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_RM_8_____355PR44-cs
+    license: CC BY-NC-SA 4.0
+  B3:
+    siglum: F-Pn
+    shelfmark: D-5591 (15)
+    date: 1830–1840
+    rism: 840026221
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Ave Maria, gratia plena,\\
+  Dominus tecum,\\
+  benedicta tu in mulieribus.\\
+  (\bibleverse{Luk}(1:28))
