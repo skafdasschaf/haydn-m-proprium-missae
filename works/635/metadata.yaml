@@ -1,0 +1,36 @@
+title: Virgo prudentissima
+id: MH 635
+genre: gradual
+festival: Mariae (B.V.) Assumptio
+scoring: S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 414
+    date: 1796-08-05
+    rism: 456009434
+    url: https://daten.digitale-sammlungen.de/~db/0004/bsb00045049/images/
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 184
+    rism: 600038137
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/189.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5591 (16)
+    date: 1830–1840
+    rism: 840026222
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Virgo prudentissima, quo progrederis,\\
+  quasi aurora valde rutilans?\\
+  Filia Sion, tota formosa et suavis es,\\
+  pulchra ut luna, electa ut sol.\\
+  (\bibleverse{Songs}(6:9,3))
