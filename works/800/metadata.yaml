@@ -1,0 +1,31 @@
+title: Te Deum
+id: MH 800
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5984 (3)
+    date: 1801–1810
+    rism: 840016804
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100725459
+    license: custom (free for non-commercial purposes)
+  C1:
+    siglum: D-KA
+    shelfmark: DonMusDr 1383
+    date: 1819
+    rism: 991020378
+    url: https://digital.blb-karlsruhe.de/id/2992625
+    license: CC BY-SA 4.0
+    principal: true
+    notes: Lentner (Sidler), München
+toe: |
+  31 & timp & 1st \halfNote\ in \C1: \crotchetRest–G4 \\
+  57 & clno 2 & 2nd \halfNote\ in \C1: \crotchetRest–d″4 \\
+  99 & vl 2 & 1st \eighthNote\ in \C1: b′8 \\
+  105 & T & 1st \halfNote\ in \C1: a2 \\
+  115 & vl 1 & 4th \eighthNote\ in \C1: b′8 \\
+  138 & vl 1 & 7th \eighthNote\ in \C1: \sharp c″8 \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
