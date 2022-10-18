@@ -340,12 +340,26 @@ DCCCAltoLyrics = \lyricmode {
 DCCCbAlto = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 4/4 \tempoDCCCb \autoBeamOff
+      \set Score.currentBarNumber = #172
+    \mvTr fis4\p^\tuttiE g8 fis g8. g16 g4
+    g8.\f g16 g4 fis8\p g a16([ c)] h a
+    a8([ g16)] a h4 g8 g4 g8
+    g4 g g8. e16 e([ dis)] e([ g)] %175
+    fis8. d16 d4 d8 fis a([ g)]
+    fis fis fis fis e4( eis)
+    fis r r2\fermata \bar "||" %178 finis
   }
 }
 
 DCCCbAltoLyrics = \lyricmode {
-
+  Te er -- go quae -- su -- mus, %172
+  quae -- su -- mus, tu -- is fa -- mu -- lis
+  sub -- ve -- ni, quos pre -- ti --
+  o -- so, pre -- ti -- o -- so %175
+  san -- gui -- ne re -- de -- mi --
+  sti, quos re -- de -- mi --
+  sti. %178 finis
 }
 
 DCCCcAlto = {

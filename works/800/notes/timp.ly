@@ -119,7 +119,10 @@ DCCCTimpani = {
 DCCCbTimpani = {
   \relative c {
     \clef bass
-
+    \key c \major \time 4/4 \tempoDCCCb
+      \set Score.currentBarNumber = #172
+    R1*6 %177
+    R1\fermata \bar "||" %178 finis
   }
 }
 

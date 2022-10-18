@@ -155,7 +155,12 @@ DCCCClarinoII = {
 DCCCbClarinoII = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 4/4 \tempoDCCCb
+      \set Score.currentBarNumber = #172
+    R1*4 %175
+    c2\p c4 r
+    c r r2
+    e e\fermata \bar "||" %178 finis
   }
 }
 

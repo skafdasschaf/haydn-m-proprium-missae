@@ -355,12 +355,26 @@ DCCCBassFigures = \figuremode {
 DCCCbOrgano = {
   \relative c {
     \clef bass
-
+    \key g \major \time 4/4 \tempoDCCCb
+      \set Score.currentBarNumber = #172
+    \mvTr d8\p-\tuttiE es d c h h h h
+    c\f c c c d\p e fis fis
+    g g f f e e e e
+    d d d d cis cis cis cis %175
+    c\f c\p c\f c\p h a g cis
+    d d d d g g g g
+    fis4 fis fis2\fermata \bar "||" %178 finis
   }
 }
 
 DCCCbBassFigures = \figuremode {
-
+  <7>8 <\t> <6 4> <2> <6>2
+  r r8 <6\\> <5!>4
+  <9 4>8 \bo <[8] 3>4 \once \bassFigureExtendersOn \bc q8 <6>2
+  <6 4> <6 5> %175
+  <2> <6>8 q <9 4> <7>
+  r2 <6 5 3>8 \bassFigureExtendersOn q <6\\ 5 3> <6\\ 4+ 3> \bassFigureExtendersOff
+  <[5+] _+>1 %178 finis
 }
 
 DCCCcOrgano = {

@@ -340,13 +340,26 @@ DCCCSopranoLyrics = \lyricmode {
 DCCCbSoprano = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 4/4 \tempoDCCCb \autoBeamOff
+      \set Score.currentBarNumber = #172
+    \mvTr c'4\p^\tuttiE h8 a d8. g,16 g4
+    g'8.\f e16 e4 d8\p cis c16([ e)] d c
+    c8([ h16)] c d4 c8 g'4 c,8
+    h( g'4) h,8 a8. g'16 g([ fis)] g([ e)] %175
+    d8. fis,16 fis4 g8 a c([ h)]
+    a a a d d4.( cis8)
+    cis4 r r2\fermata \bar "||" %178 finis
   }
 }
 
 DCCCbSopranoLyrics = \lyricmode {
-  % Te er -- go quae -- su -- mus, tu -- is fa -- mu -- lis sub -- ve -- ni,
-  % quos pre -- ti -- o -- so san -- gui -- ne re -- de -- mi -- sti.
+  Te er -- go quae -- su -- mus, %172
+  quae -- su -- mus, tu -- is fa -- mu -- lis
+  sub -- ve -- ni, quos pre -- ti --
+  o -- so, pre -- ti -- o -- so %175
+  san -- gui -- ne re -- de -- mi --
+  sti, quos re -- de -- mi --
+  sti. %178 finis
 }
 
 DCCCcSoprano = {

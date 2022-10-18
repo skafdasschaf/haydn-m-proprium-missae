@@ -338,12 +338,26 @@ DCCCBassoLyrics = \lyricmode {
 DCCCbBasso = {
   \relative c {
     \clef bass
-
+    \key g \major \time 4/4 \tempoDCCCb \autoBeamOff
+      \set Score.currentBarNumber = #172
+    \mvTr d8([\p^\tuttiE es)] d c h8. h16 h4
+    c8.\f c16 c4 d8\p e fis fis16 fis
+    g8. g16 f4 e8 e4 e8
+    d4 d cis8. cis16 cis8 cis %175
+    c8. c16 c4 h8 a g([ cis)]
+    d d d d g2
+    fis4 r r2\fermata \bar "||" %178 finis
   }
 }
 
 DCCCbBassoLyrics = \lyricmode {
-
+  Te er -- go quae -- su -- mus, %172
+  quae -- su -- mus, tu -- is fa -- mu -- lis
+  sub -- ve -- ni, quos pre -- ti --
+  o -- so, pre -- ti -- o -- so %175
+  san -- gui -- ne re -- de -- mi --
+  sti, quos re -- de -- mi --
+  sti. %178 finis
 }
 
 DCCCcBasso = {

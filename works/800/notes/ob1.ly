@@ -177,7 +177,15 @@ DCCCOboeI = {
 DCCCbOboeI = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 4/4 \tempoDCCCb
+      \set Score.currentBarNumber = #172
+    c'4\p h8 a r d d g
+    r g\f g e d\p cis c16 e d c
+    r c h c d h d h r g' g g g4
+    r16 g g g g4 r16 g g g g fis g e %175
+    d8 fis, r fis' g d c h
+    a4 r8 d d4. cis8
+    cis4 r r2\fermata \bar "||" %178 finis
   }
 }
 

@@ -181,7 +181,15 @@ DCCCViolinoI = {
 DCCCbViolinoI = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 4/4 \tempoDCCCb
+      \set Score.currentBarNumber = #172
+    d16(\p fis) a( c) h( g) a( fis) r32 d'( e fis g a h c) d16( h) g( d)
+    r32 g,(\f a h c d e fis) g([ fis g fis)] \grace a g16( fis32 e) d16 fis,\p g e d e' d c
+    c( a) h( c) d32( h' a g) fis([ g d h)] c16( g') g g g32([ fis g a)] g( fis g c,)
+    h16( g') g g g32([ fis h a)] g( fis g h,) a16( g') g g g( fis) a( e) %175
+    d(\f fis,) fis\p fis d'(\f fis,) fis\p fis r g( fis d') c8( h)
+    a32( d e fis g a h cis) d16( a) fis( d) r e, e( d') eis,( d') cis( h)
+    ais cis' ais( fis) cis( ais) fis( cis) ais2\fermata \bar "||" %178 finis
   }
 }
 

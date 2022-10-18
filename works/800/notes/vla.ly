@@ -180,8 +180,16 @@ DCCCViola = {
 
 DCCCbViola = {
   \relative c' {
-    \clef treble
-
+    \clef alto
+    \key g \major \time 4/4 \tempoDCCCb
+      \set Score.currentBarNumber = #172
+    d8\p es d c h h h h
+    c\f c c c d\p e fis fis
+    g g f f e e e e
+    d d d d cis cis cis cis %175
+    c\fE c\pE c\fE c\pE h a g cis
+    d d d d g g g g
+    fis4 fis fis2\fermata \bar "||" %178 finis
   }
 }
 
