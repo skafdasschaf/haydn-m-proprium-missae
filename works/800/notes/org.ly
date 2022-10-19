@@ -603,10 +603,165 @@ DCCCcBassFigures = \figuremode {
 DCCCdOrgano = {
   \relative c {
     \clef bass
-
+    \key d \major \time 2/2 \tempoDCCCd
+      \set Score.currentBarNumber = #285
+    r4 \mvTr a'2-!\fE-\tuttiE fis4-!
+    h-! g-! e-! a-!
+    fis-!
+    << {
+      d'2 cis4
+      fis d h e
+      cis2
+    } \\ {
+      d,4 r a'~
+      a fis gis2
+      a4 a8 g
+    } >> fis4 h
+    g2 a %290
+    d, \clef "treble_8" fis'4 e
+    d2 e
+    a,4 \clef bass a2 fis4
+    h g e a
+    fis d d g %295
+    e cis cis fis
+    d h h'2~
+    h ais
+    h4 a gis fis8 gis
+    a4 a, cis fis %300
+    d2 e
+    a, cis'4 a
+    d h gis e
+    a2 fis
+    h, cis %305
+    fis, a'4 fis
+    h gis eis cis
+    fis fis a fis
+    h h, d h
+    e, e' gis e %310
+    a a, cis a
+    d d fis d
+    g,!2 g'
+    c, d
+    g, e' %315
+    a, h
+    e4. d!8 cis!4 d
+    g,2 a
+    d fis4 d
+    g e cis a %320
+    h h h h
+    a1~-\tasto
+    a~
+    a~
+    a~ %325
+    a~
+    \once \tieDashed a~
+    a
+    d4 r d r
+    g, r a r %330
+    d2 r
+    r a
+    d r
+    r a
+    d r %335
+    r a
+    d4 a'\p fis d
+    cis2 d
+    a4 a'2\f fis4~
+    fis h2 g4~ %340
+    g e2 a4~
+    a fis2 d4~
+    d h2 g4
+    a1
+    d4 d fis d %345
+    g h g e
+    a cis a fis
+    h d h g
+    a cis, d fis
+    g e a a, %350
+    d2 r
+    d r
+    d r
+    d fis4 a
+    d a fis a %355
+    d2 r
+    d d,
+    d r\fermata \bar "|." %358 finis
   }
 }
 
 DCCCdBassFigures = \figuremode {
-
+  r1 %285
+  r
+  r
+  r
+  r2 <6>4 <5>
+  <6 5>1 %290
+  r2 <6>4 <6 4>
+  <6 5>2 <_+>
+  r2. <6>4
+  r q q2
+  q q %295
+  <5>4 <\t> <6\\> <\t>
+  <6>1
+  <2>2 <6>
+  r4 <\t> <6>2
+  r2. <5>4 %300
+  <6>2 <[_+]>
+  r <6>
+  r <6>4 <[_+]>
+  r1
+  <6\\>2 <[5+] _+> %305
+  r <6>
+  r <6 [_+]>
+  r1
+  r
+  <_+> %310
+  r
+  r
+  r
+  <6>
+  r %315
+  <6 _!>2 <_+>
+  r4. <\t>8 <5>2
+  <6>1
+  r
+  r2 <6> %320
+  <5> <6\\>
+  r1
+  r
+  r
+  r %325
+  r
+  <[5] 3>2 <6 4>
+  <5 \t> <\t 3>
+  r1
+  r %330
+  r
+  r
+  r
+  r
+  r %335
+  r
+  <5>2. \once \bassFigureExtendersOn q4
+  <6 5>1
+  r4 <5> <6> <7>
+  <6> <3>2. %340
+  <6>4 \bo <[5]> \bc <[6]>2
+  r4 <5> <6>2
+  r4 <5> <6> q
+  <7> <6 4> <5 \t> <\t 3>
+  r1 %345
+  <3>2 \once \bassFigureExtendersOn q4 <8>
+  <3>2 \once \bassFigureExtendersOn q4 <8>
+  <3> <\t> <6> <[6]>
+  <7>1
+  <6 5> %350
+  r
+  r
+  r
+  <8>1 \bassFigureExtendersOn
+  q2. q4 \bassFigureExtendersOff %355
+  r1
+  r
+  r %358 finis
 }

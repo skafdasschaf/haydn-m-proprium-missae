@@ -172,6 +172,55 @@ DCCCcTimpani = {
 DCCCdTimpani = {
   \relative c {
     \clef bass
-
+    \key c \major \time 2/2 \tempoDCCCd
+      \set Score.currentBarNumber = #285
+    R1*8 %292
+    g2\fE r
+    r g
+    c r %295
+    R1*4
+    g2 r %300
+    R1
+    g2 r
+    R1
+    g2 r
+    R1*6 %310
+    g2 g4 g
+    c c c c
+    c2 r
+    R1*4 %317
+    r2 g
+    c r
+    r g %320
+    c c4 c
+    g2 r
+    R1*4 %326
+    r2 c4 c
+    g g g g
+    c2 r
+    R1*2 %331
+    r2 g
+    c r
+    r g
+    c r %335
+    r g
+    c r
+    g\p c
+    g r
+    R1*3 %342
+    c2\f r
+    g g4 g
+    c2 r %345
+    R1*3
+    g2 c
+    r g4 g %350
+    c2 r
+    c r
+    c r
+    c4 c c c
+    c2 r %355
+    c r
+    c4 c8 c c4 c
+    c2 r\fermata \bar "|." %358 finis
   }
 }

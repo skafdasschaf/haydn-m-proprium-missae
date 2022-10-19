@@ -310,6 +310,78 @@ DCCCcViolinoII = {
 DCCCdViolinoII = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 2/2 \tempoDCCCd
+      \set Score.currentBarNumber = #285
+    R1*4 %288
+    r4 a'2\fE fis4
+    h g e a %290
+    fis d r a'~
+    a fis gis2
+    a4 e cis d
+    d e8 fis g4 e
+    a fis fis8 h h h %295
+    h g' g g e ais, ais ais
+    h4 fis r d'
+    cis e, r cis'
+    d8 fis fis fis e h h h
+    e,4 cis' r a %300
+    h fis e gis
+    a e a,8 e' e e
+    fis d' d d e, h' h h
+    e,4 cis r a'
+    d h gis cis %305
+    a fis cis8 fis fis fis
+    fis h h h cis, gis' gis gis
+    fis4 cis fis8 a cis fis
+    fis d fis d h d fis h
+    h gis h gis e h gis h %310
+    a e e' cis a cis e a
+    a fis d a d a fis a
+    g!4 h r g
+    a e d fis
+    g h, h8 e e e %315
+    fis a a a h, fis' fis fis
+    g4 h r a
+    g' e cis! a
+    a fis d8 a' a a
+    g h h h a e' e e %320
+    d4 fis, d h'
+    <a e a,> r r d
+    d8 g h a g fis g e
+    d cis d fis e d cis h
+    a e e' d cis e a cis, %325
+    d e fis d h a h h'
+    cis, a' g e a, a' fis d
+    e, d' e d e, cis' d cis
+    d,4 r <fis d' a'> r
+    <g d' h'> r <a, g' cis> r %330
+    <a fis' d'> fis'8 e d fis a d
+    g fis e d cis a g' e
+    d a g e fis d a d
+    g fis e d cis a g' e
+    d a fis' e d fis a d %335
+    g fis e d cis a g' e
+    d4 d,\p d d
+    e e d d
+    cis8 e\f e' d cis h cis a
+    d e fis e d cis d h %340
+    h' a g fis e d cis h
+    cis e a, cis d a fis a
+    fis a d fis h, d g h
+    g e fis d e, d' e, cis'
+    d a fis a d a' fis d %345
+    h4 h, r2
+    r8 e' d e cis cis' a fis
+    d4 d, r2
+    a'8 a' g e a, fis' d a
+    h e g h a4 cis, %350
+    d8 a' fis a <d fis, d,>2
+    r q
+    r q
+    fis,4 a d a
+    fis a d a %355
+    fis8 cis d cis d a fis a
+    d2 <a d,>
+    <fis' a, d,> r\fermata \bar "|." %358 finis
   }
 }

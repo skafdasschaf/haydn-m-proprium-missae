@@ -574,10 +574,149 @@ DCCCcTenoreLyrics = \lyricmode {
 DCCCdTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key d \major \time 2/2 \tempoDCCCd \autoBeamOff
+      \set Score.currentBarNumber = #285
+    R1*2
+    r4 \mvTr d2\fE^\tuttiE cis4
+    fis d h e
+    cis a r d~
+    d h cis2 %290
+    d4 fis2 e4
+    d2( e)
+    a,4 cis( e) a,
+    h2( a)
+    a r %295
+    R1
+    r4 fis'2 d4
+    g e cis fis
+    d h h e
+    cis2 a %300
+    fis4 fis' e2
+    r4 e2 cis4
+    fis d h e
+    cis a r2
+    R1 %305
+    r4 cis2 a4
+    d h gis cis
+    a cis fis2~
+    fis4 d d2
+    r h4 e %310
+    cis a r2
+    a4 fis d( fis)
+    g!2 r
+    R1
+    r4 h2 g4 %315
+    c a fis h
+    g e r2
+    R1
+    r4 a2 fis4
+    h g e a %320
+    fis2( gis)
+    a r
+    r4 d2 cis4
+    fis d h e
+    cis2. e4 %325
+    d d2 g4~
+    g cis, d a
+    a1
+    a4 a2 fis4
+    h g e a %330
+    fis d r2
+    r a'4 a
+    a1~
+    a~
+    a~ %335
+    a~
+    \once \tieDashed a~\p
+    a
+    a4 cis\f fis e
+    d2 d %340
+    e cis
+    a d
+    r4 fis,( d') h
+    a1
+    a2 r %345
+    h2. h4
+    cis2. cis4
+    d2. e4
+    cis e d2~
+    d cis %350
+    d r
+    fis,4 a d a
+    fis a d a
+    a a a2~
+    a1 %355
+    a
+    R
+    R\fermata \bar "|." %358 finis
   }
 }
 
 DCCCdTenoreLyrics = \lyricmode {
+  Non con -- %287
+  fun -- dar in ae --
+  ter -- num, in __
+  ae -- ter -- %290
+  num, in ae --
+  ter --
+  num, in __ ae --
+  ter --
+  num, %295
 
+  non con --
+  fun -- dar in ae --
+  ter -- num, in ae --
+  ter -- _ %300
+  _ _ num,
+  non con --
+  fun -- dar in ae --
+  ter -- num,
+  %305
+  non con --
+  fun -- dar in ae --
+  ter -- _ _
+  _ num,
+  in ae -- %310
+  ter -- num,
+  in ae -- ter --
+  num,
+
+  non con -- %315
+  fun -- dar in ae --
+  ter -- num,
+
+  non con --
+  fun -- dar in ae -- %320
+  ter --
+  num,
+  non con --
+  fun -- dar in ae --
+  ter -- _ %325
+  _ num, in __
+  _ _ ae --
+  ter --
+  num, non con --
+  fun -- dar in ae -- %330
+  ter -- num,
+  in ae --
+  ter --
+
+  num, non, non con -- %339
+  fun -- dar %340
+  in ae --
+  ter -- num,
+  in __ ae --
+  ter --
+  num, %345
+  non con --
+  fun -- dar
+  in ae --
+  ter -- _ _
+  _ %350
+  num,
+  non con -- fun -- dar
+  in ae -- ter -- num,
+  in ae -- ter --
+  %355
+  num. %356 finis
 }

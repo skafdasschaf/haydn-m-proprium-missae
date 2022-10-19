@@ -309,7 +309,81 @@ DCCCcViola = {
 
 DCCCdViola = {
   \relative c' {
-    \clef treble
-
+    \clef alto
+    \key d \major \time 2/2 \tempoDCCCd
+      \set Score.currentBarNumber = #285
+    R1*2
+    r4 d2\fE cis4
+    fis d h e
+    cis a r d~
+    d h cis2 %290
+    d4 fis2 e4
+    d2 e
+    a,4 cis e a,
+    h2 a
+    a r %295
+    R1
+    r4 fis'2 d4
+    g e cis fis
+    d h h e
+    cis a cis fis %300
+    d2 e
+    a,4 e'2 cis4
+    fis d h e
+    cis a r d
+    h' gis eis eis %305
+    fis cis2 a4
+    d h gis cis
+    a fis a' fis
+    h h, d h
+    e e, h' e %310
+    cis a cis a
+    d d fis d
+    g!2 r
+    R1
+    r4 h,2 g4 %315
+    c a fis h
+    g e r d'
+    g,2 a
+    r4 a2 fis4
+    h g e a %320
+    h h h h
+    a2 r
+    r4 d2 cis4
+    fis d h e
+    cis2. e4 %325
+    d d2 g4~
+    g cis, d a
+    a1
+    d4 r d r
+    g, r a r %330
+    d2 r
+    r a
+    d r
+    r a
+    d r %335
+    r a
+    d4 a'\p fis d
+    cis2 d
+    a4 a'2\f fis4~
+    fis h2 g4~ %340
+    g e2 a4~
+    a fis2 d4~
+    d h2 g4
+    a1
+    d4 d fis d %345
+    g h g e
+    a cis a fis
+    h d h g
+    a cis, d fis
+    g e a a, %350
+    d2 r
+    d r
+    d r
+    d fis4 a
+    d a fis a
+    d2 r
+    d d,
+    d r\fermata \bar "|." %358 finis
   }
 }

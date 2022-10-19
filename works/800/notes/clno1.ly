@@ -258,6 +258,61 @@ DCCCcClarinoI = {
 DCCCdClarinoI = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 2/2 \tempoDCCCd
+      \set Score.currentBarNumber = #285
+    R1*8 %292
+    \pao g'2\fE r
+    r \pao g
+    g r %295
+    r \pa e
+    e \pd r
+    R1*2
+    d'2 r %300
+    R1
+    d2 r
+    R1
+    \pao g,2 r
+    R1 %305
+    \pao e2 r
+    R1
+    \pao e2 r
+    R1*2 %310
+    d'2 d4 d
+    c c c c
+    c2 r
+    R1*4 %317
+    r2 d
+    c r
+    r d %320
+    c4 c c c
+    d2 r
+    R1*4 %326
+    r2 e4 e
+    d d d d
+    c2 r
+    R1*2 %331
+    r2 g'
+    e r
+    r g
+    e r %335
+    r g
+    e r
+    g,1\p
+    g2 r
+    R1*3 %342
+    c2\f r
+    d4 \pao c d d
+    c2 r %345
+    R1*3
+    d2 e
+    r4 d d d %350
+    c2 r
+    c r
+    c r
+    c \pa e,4 g
+    c g e g %355
+    c2 \pd r
+    \pa c4 c, c c
+    c2 \pd r\fermata \bar "|." %358 finis
   }
 }

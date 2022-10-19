@@ -297,6 +297,77 @@ DCCCcOboeII = {
 DCCCdOboeII = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 2/2 \tempoDCCCd
+      \set Score.currentBarNumber = #285
+    R1*4 %288
+    r2 d'~\fE
+    d cis4 e %290
+    d4. a8 a2~
+    a gis4 h
+    cis a' a,2
+    r g4 e
+    a fis fis d( %295
+    g2) fis
+    fis r4 fis
+    g2 fis
+    fis h
+    e,4 cis'2 a4 %300
+    d h gis gis
+    a2 r
+    R1
+    r4 a2 fis4
+    h gis eis eis %305
+    fis2 r
+    R1
+    a
+    h
+    gis %310
+    a2 a
+    a r
+    r4 h2 g!4
+    c a fis fis
+    g2 r %315
+    R1
+    r4 e'2 d4
+    g e cis! cis
+    d2 r4 d
+    h e r e %320
+    d2 d
+    cis r
+    R1*2
+    r2 r4 a~ %325
+    a fis h g
+    e a fis d
+    e1
+    d4 a''2 fis4
+    h g e a %330
+    fis d r2
+    r cis
+    d4 fis2 d4
+    g e cis cis
+    d2 r %335
+    r cis
+    d r
+    R1
+    r2 r4 a~\fE
+    a fis2 h4~ %340
+    h g2 e4~
+    e a2 fis4~
+    fis d g2~
+    g4 fis e2
+    fis a4 fis %345
+    d2. g4
+    e2. a4
+    fis2 h(
+    cis4) e d2
+    d4 d cis2 %350
+    d r
+    fis1
+    fis
+    fis,4 a d a
+    fis a d a %355
+    d2 r
+    d fis
+    fis r\fermata \bar "|." %358 finis
   }
 }

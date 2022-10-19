@@ -1,7 +1,7 @@
 title: Te Deum
 id: MH 800
 genre: hymn
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -21,17 +21,17 @@ sources:
     principal: true
     notes: Lentner (Sidler), München
 toe: |
-  31 & timp & 1st \halfNote\ in \C1: \crotchetRest–G4 \\
-  57 & clno 2 & 2nd \halfNote\ in \C1: \crotchetRest–d″4 \\
-  99 & vl 2 & 1st \eighthNote\ in \C1: b′8 \\
-  105 & T & 1st \halfNote\ in \C1: a2 \\
-  115 & vl 1 & 4th \eighthNote\ in \C1: b′8 \\
-  138 & vl 1 & 7th \eighthNote\ in \C1: \sharp c″8 \\
-  218 & ob 1 & 3rd \quarterNote\ in \C2: e″4 \\
-  221 & vla & 4th \eighthNote\ in \C1: b8 \\
-  228 & vl 1 & 4th \sixteenthNote\ in \C1: \sharp c″16 \\
-  231 & vl 2 & 5th \eighthNote\ in \C1: e″8 \\
-  234 & B & 2nd \halfNote\ in \C1: B2 \\
+  31  & timp   & 1st \halfNote\ in \C1: \crotchetRest–G4 \\
+  57  & clno 2 & 2nd \halfNote\ in \C1: \crotchetRest–d″4 \\
+  99  & vl 2   & 1st \eighthNote\ in \C1: b′8 \\
+  105 & T      & 1st \halfNote\ in \C1: a2 \\
+  115 & vl 1   & 4th \eighthNote\ in \C1: b′8 \\
+  138 & vl 1   & 7th \eighthNote\ in \C1: \sharp c″8 \\
+  218 & ob 1   & 3rd \quarterNote\ in \C2: e″4 \\
+  221 & vla    & 4th \eighthNote\ in \C1: b8 \\
+  228 & vl 1   & 4th \sixteenthNote\ in \C1: \sharp c″16 \\
+  231 & vl 2   & 5th \eighthNote\ in \C1: e″8 \\
+  234 & B      & 2nd \halfNote\ in \C1: B2 \\
   260 & clno 2 & 2nd \halfNote\ in \C1: e′4–\crotchetRest \\
 parts:
   ottoni: Clarino I, II in D\\Timpani in D–A
