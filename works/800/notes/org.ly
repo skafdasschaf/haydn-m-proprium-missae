@@ -380,12 +380,224 @@ DCCCbBassFigures = \figuremode {
 DCCCcOrgano = {
   \relative c {
     \clef bass
-
+    \key h \minor \time 4/4 \tempoDCCCc
+      \set Score.currentBarNumber = #179
+    \mvTr h8\f-\tuttiE-\unisono h' d ais h fis d fis
+    h4 h, r h' %180
+    ais fis r e
+    d8 d d d dis dis dis dis
+    e e e e g g e e
+    h' h h h g g g g
+    e e e e fis fis fis fis %185
+    h, h' d ais h fis d fis
+    h4 h, r h
+    cis cis r cis
+    d ais h h
+    fis'8 fis fis fis e e e e %190
+    d4 h r h
+    cis cis r cis
+    d d ais h
+    fis' r8 fis ais fis ais fis
+    h h h h h, h h h %195
+    e e e e d d d d
+    cis cis cis cis a a a a
+    d d e e fis fis d d
+    g g fis fis e e d d
+    a' a a, a' g g g, g' %200
+    fis4 r g r
+    fis r cis r8 cis
+    d fis g e a a a, a
+    d fis-\solo e d cis h a cis
+    d a fis' a, e' a, g' a, %205
+    fis' d a' g fis d fis d
+    g g h h g g a a
+    d, fis a-\tutti fis d d cis cis
+    h d fis d h h a a
+    g g g g a a a a %210
+    d a fis' a, e' a, cis a
+    fis' d a' g fis d fis d
+    g g g g g g g g
+    fis fis fis fis e e d d
+    cis4 cis r8 cis a cis %215
+    d4 h e e
+    a,8 a cis e a4 a,
+    ais8 ais ais ais ais ais ais ais
+    h h h h h h h h
+    cis4 cis d d %220
+    cis r8 cis eis cis gis' eis
+    cis' cis cis cis h h h h
+    a a a a eis eis eis eis
+    fis4 h, cis cis
+    fis8 a-\solo gis fis eis dis cis eis %225
+    fis cis a' cis, gis' cis, h' cis,
+    a' fis cis' h a fis a fis
+    h h d d h h cis cis
+    \mvTr fis,\p-\tutti fis fis fis fis fis fis fis
+    e! e e e e e e e %230
+    d4 d r d
+    cis e a, cis
+    d8 d d d d d d d
+    cis cis cis cis cis cis cis cis
+    h4 h r h %235
+    ais cis fis, ais
+    h8 \mvTr h'\f-\unisono d ais h fis d fis
+    h4 h, r h'
+    ais fis r e
+    d8 d d d dis dis dis dis %240
+    e dis e fis g fis g e
+    h' h h h d, d dis dis
+    e dis e fis g fis g e
+    h h' h d h fis d h
+    ais ais ais ais h h h h %245
+    fis'4 r8 fis ais fis ais fis
+    h h, h' h a a, a' a
+    g g, g' g g e g e
+    dis h dis fis dis h dis h
+    e e, e' fis g fis e d %250
+    cis cis cis cis d d d d
+    ais ais ais ais h h d d
+    e e cis cis fis fis fis, fis
+    h fis' d ais h d fis h
+    fis fis, fis' fis eis( fis) fis fis %255
+    fis fis, fis' fis eis( fis) fis fis
+    fis fis, fis' fis eis( fis) fis fis
+    g! g g g e e e e
+    cis cis cis cis d d d d
+    e e e e fis fis fis fis %260
+    g g, g' g g g, g' g
+    fis fis fis fis fis fis fis fis
+    h, d'-\solo cis h ais gis fis ais
+    h fis d' fis, cis' fis, e' fis,
+    d' h fis e d-\tutti d d d %265
+    e e e e fis fis fis fis
+    h,4 h'\pE fis d
+    h g' d h
+    cis a'! e cis
+    d d' a fis %270
+    d c' a fis
+    d a' fis d
+    g d' h g
+    e b' g e
+    d a' f d %275
+    b8\f b' b b b b b b
+    a a, a' a gis( a) a a
+    a a, a' a gis( a) a a
+    a a, a' a gis( a) a a
+    a a, a' a a a, a' a %280
+    a a, a' a a a, a' a
+    d,4 r h! r
+    a8 a' e cis a a' e cis
+    a4 a' r2\fermata \bar "||" %284 finis
   }
 }
 
 DCCCcBassFigures = \figuremode {
-
+  r1 %179
+  <8> %180
+  <6>4 <_+>2 <4+ 2>4
+  <7 [5+]> <6> <\t>2
+  r <6>
+  <6 4>4 <6 [3]>2.
+  <6 5>2 <_+> %185
+  <3>2.. \once \bassFigureExtendersOn q8
+  r1
+  <7 5>2 <6\\ \t>
+  <6>4 q <9 4> <[8] 3>
+  <_+>2 <\t> %190
+  <6>1
+  <7 5>2 <6\\ \t>
+  <6> <5>
+  <6 4>4 <[5] _+> <6>2
+  r1 %195
+  <9 4!>4 \bo <[8] 3> \bc <[\t] \t>2
+  <6> <7>
+  r4 <6> q2
+  r4 q q2
+  <6 4>4 \bo <5 [3]>2 \bassFigureExtendersOn <5 3>8 \bc <5 [3]> \bassFigureExtendersOff %200
+  <6>2 <2>
+  <6> <5>
+  r4 <6> <6 4> <[5] 3>
+  r2 <[6]>
+  r4 <6> q <2> %205
+  <6> <6 4>8 <2> <6>2
+  r4 <3> <6 5>2
+  <8>4. \once \bassFigureExtendersOn q8 r4 <6>
+  <3>4. \once \bassFigureExtendersOn q8 r4 <6 4>
+  <6 5>2 <7> %210
+  r4 <6> q <5>
+  <6> <6 4>8 <2> <6>2
+  r1
+  <6>2 q
+  <6 5>1 %215
+  r4 <7> <7 _+>2
+  <\t \t>4 <6>8 <\t> r4 <7!>
+  <\t>2 <6>4 <5>
+  <9 4>2 <[8] 3>
+  \bo <9 [5+] _+>4 <8 [\t] \t> <7> <6\\> %220
+  \bo <[5+] _+>1 \bassFigureExtendersOn
+  <5+ _+>2.. \bc <[5+] _+>8 \bassFigureExtendersOff
+  <6>2 <6 _+>
+  r <6 4>4 <[5+] _+>
+  r2 <[6 _+]> %225
+  r4 <6> <6\\> <[6+] 4+ 2>
+  <6> <6 4>8 <[6+] 4+ 2> <6>2
+  r4 <6> <6\\ 5> <[5+] _+>
+  r1
+  <6 _!> %230
+  r2. <6>8 <5>
+  <6>2 \once \bassFigureExtendersOn q4 <5>
+  <9 4>4. <[8] 3>8 r2
+  <6\\>1
+  r %235
+  <6>2 \once \bassFigureExtendersOn q4 <5>
+  r1
+  <8>
+  <6>4 <_+>2 <4+ 2>4
+  <7 [5+]> <6> <\t>2 %240
+  r <6>
+  <6 4>4 <5 [3]> <6> <[\t]>
+  r2 <6>
+  <6 4>4 \bo <5 [3]>2 \bassFigureExtendersOn <5 3>8 \bc <5 [3]> \bassFigureExtendersOff
+  <6>4. <5>8 <9 4>4 <[8] 3> %245
+  <6 4> <[5] _+> <6>2
+  r <4+ 2>
+  <6>1
+  <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <5>4
+  <9 4> \bo <[8] 3>2 \bassFigureExtendersOn <8 3>8 \bc <[8] 3> \bassFigureExtendersOff %250
+  <6\\>2 <6>
+  <6 5>2. <[6]>4
+  <6>2 <6 4>4 <[5] _+>
+  r1
+  <6 4>4 <[5] _+> <1>8 q \bo <[5] _+>4 %255
+  \bc <[\t] \t> <6 4> <1>8 q <6 4>4
+  <\t \t> <7 5> \bo <[1]>8 \bc q <_+>4
+  <2+>2 <4+ 3>
+  <6\\ 5> <6>
+  q <6 4>4 <[5] _+> %260
+  r2 <6\\ 5>
+  <6 4> <[5] _+>
+  r <[6]>
+  r4 <6> <6\\> <4+ 2>
+  <6> <6 4>8 <4+ 2> <6>2 %265
+  r <_+>
+  <8>2. \bassFigureExtendersOn q4
+  <6>2. q4
+  <6!>2 q4 <5>
+  <3>2. q4 %270
+  <\l>2. q4
+  <7!>2. <7!>4
+  <3>2. q4
+  \bo <6\\ [5-]>2. \bc q4
+  <_!>2. q4 \bassFigureExtendersOff %275
+  <6\\ [5!]>1
+  r2 <1>8 q <[5] 3>4
+  <6! 4> <[5] 3> <1>8 q <5 [3]>4
+  <6! 4> <5 [3]> <1>8 q <5>4
+  <7>1 \bassFigureExtendersOn %280
+  q2.. q8 \bassFigureExtendersOff
+  <_+>2 <6\\>
+  <3>2.. \once \bassFigureExtendersOn q8
+  r1 %284 finis
 }
 
 DCCCdOrgano = {

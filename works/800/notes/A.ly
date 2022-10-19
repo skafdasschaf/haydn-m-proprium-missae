@@ -365,12 +365,214 @@ DCCCbAltoLyrics = \lyricmode {
 DCCCcAlto = {
   \relative c' {
     \clef treble
-
+    \key h \minor \time 4/4 \tempoDCCCc \autoBeamOff
+      \set Score.currentBarNumber = #179
+    R1
+    r4 \mvTr h'\f^\tuttiE h d, %180
+    r cis cis fis
+    fis2 r4 fis
+    g2 e
+    e4 d r g
+    g g8 g cis,4. fis8 %185
+    fis4 fis r2
+    fis fis4 h
+    g4. g8 g2
+    fis4 fis fis4. fis8
+    fis4 r r2 %190
+    r4 fis fis h
+    g2. g4
+    fis4. fis8 fis4 fis
+    fis fis r2
+    fis fis4 fis %195
+    fis( e) e2
+    e4 e cis e
+    fis( g) fis2
+    d4 a' a a
+    a1~ %200
+    a~
+    a2 a
+    a4 g fis( e)
+    d r r2
+    R1*3 %207
+    r4 fis fis e8 e
+    d2 d
+    d4 d cis cis8 cis %210
+    d4 r r2
+    r a'4 a
+    h g g h
+    a2 g4 fis
+    g4. e8 e4 r %215
+    d d h8([ d)] d gis
+    gis8. a16 a4 r e
+    e2 cis4 fis
+    fis2 fis
+    eis4 eis8 eis fis4 fis %220
+    eis eis r2
+    eis gis4 gis
+    fis2 gis4 gis
+    a fis fis( eis)
+    fis r r2 %225
+    R1*3
+    fis2.\p fis4
+    g!2 g %230
+    fis4. fis8 fis4 fis
+    e2. e4
+    e4. d8 d4 r
+    e2 e
+    fis2. d4 %235
+    cis1
+    h4 r r2
+    r4 h'2\f d,4
+    r cis2 fis4
+    fis fis r fis %240
+    g8([ fis)] g([ fis)] e4 e8 e
+    e4 d r2
+    g8([ fis)] g fis e4 e
+    e( d) r2
+    fis4. fis8 fis4 fis %245
+    fis2 r4 fis
+    fis4. fis8 fis4 fis
+    e4. e8 e4 e
+    a4. fis8 fis4 fis
+    fis( e) r g %250
+    fis4. fis8 fis4 fis
+    fis4. fis8 fis4 fis
+    e cis' h fis
+    fis r r d
+    h'( ais) r ais %255
+    cis( h) r h
+    d( cis) r fis,
+    e4. e8 g!4 g
+    e4. e8 d4 fis
+    e cis' h fis8([ e)] %260
+    d4 r h'2
+    h4 r fis2
+    fis4 r r2
+    R1
+    r2 h %265
+    h fis
+    fis4 r r2
+    d\p g
+    e2. e4
+    d r r2 %270
+    c' a4 fis
+    d2( fis)
+    g4 r r g
+    g r r g
+    f r r2 %275
+    d2.\f d4
+    e r r a
+    f( e) r a
+    d( cis) r2
+    e, g %280
+    g4. e8 e4 cis
+    d1
+    cis4 r r2
+    R1\fermata \bar "||" %284 finis
   }
 }
 
 DCCCcAltoLyrics = \lyricmode {
+  Ae -- ter -- na, %180
+  ae -- ter -- na
+  fac cum
+  san -- ctis
+  tu -- is in
+  glo -- ri -- a nu -- me -- %185
+  ra -- ri.
+  Sal -- vum fac
+  po -- pu -- lum
+  tu -- um Do -- mi --
+  ne, %190
+  et be -- ne --
+  dic hae --
+  re -- di -- ta -- ti
+  tu -- ae.
+  Et re -- ge %195
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que in ae --
+  ter -- %200
 
+  num,
+  in ae -- ter --
+  num.
+
+  Per sin -- gu -- los %208
+  di -- es,
+  be -- ne -- di -- ci -- mus %210
+  te
+  et lau --
+  da -- mus no -- men
+  tu -- um in
+  sae -- cu -- lum, %215
+  et in sae -- cu -- lum
+  sae -- cu -- li. Di --
+  gna -- re, di --
+  gna -- re
+  Do -- mi -- ne, di -- e %220
+  i -- sto
+  si -- ne pec --
+  ca -- to nos
+  cu -- sto -- di --
+  re. %225
+
+  Mi -- se -- %229
+  re -- re, %230
+  mi -- se -- re -- re
+  no -- stri,
+  Do -- mi -- ne,
+  mi -- se --
+  re -- re %235
+  no --
+  stri.
+  Fi -- at,
+  fi -- at,
+  fi -- at mi -- %240
+  se -- ri -- cor -- di -- a
+  tu -- a
+  Do -- mi -- ne, su -- per
+  nos, __
+  fi -- at su -- per %245
+  nos, quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in
+  te, __ quem -- %250
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in
+  te, in
+  te, __ in %255
+  te, __ in
+  te, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in __ %260
+  te, in
+  te, in
+  te,
+
+  in %265
+  te, in
+  te.
+  In te,
+  Do -- mi --
+  ne, %270
+  in te spe --
+  ra --
+  vi, in
+  te, in
+  te, %275
+  Do -- mi --
+  ne, in
+  te, __ in
+  te, __
+  in te, %280
+  Do -- mi -- ne, spe --
+  ra --
+  vi: %283 finis
 }
 
 DCCCdAlto = {

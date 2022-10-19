@@ -167,7 +167,91 @@ DCCCbClarinoI = {
 DCCCcClarinoI = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 4/4 \tempoDCCCc
+      \set Score.currentBarNumber = #179
+    e4\f r e e
+    e2 r4 e %180
+    \pa e e \pd r \pa e
+    e e \pd r2
+    R1*2
+    r2 \pao e %185
+    r4 e e e
+    e2 r
+    R1
+    \pao e4 r \pao e r
+    r8 \pa e e e e e e e %190
+    e4 \pd e r2
+    R1
+    \pao e4 r \pao e r
+    \pao e e'8 e e e e e
+    c4 r r2 %195
+    R1
+    d2. f4
+    e d c c
+    c r r e
+    e d r8 d d d %200
+    r c c c r d d d
+    r c c c d4 g
+    g f e d
+    c r r d
+    c \pa g8 g g g g g \pd %205
+    g4 r c r
+    r \pao c d8 d d d
+    c4 r r2
+    c4 r r2
+    r r4 d %210
+    c \pa g8 g g g g g \pd
+    g4 r r c
+    c r r2
+    c4 r r2
+    r4 d d d %215
+    e r \pao d2
+    r4 d d r
+    r2 r4 d
+    d2 c4 r
+    R1*17 %236
+    r4 e,\f e e
+    e r e r
+    \pao e r \pao e r
+    \pa e e \pd r2 %240
+    R1*3
+    r4 \pa e e e
+    e2 e %245
+    e4 \pd r e' e
+    c r r2
+    R1*3 %250
+    \pao e,4 r \pao e r
+    \pao e2 r
+    r \pa e4 e \pd
+    e r r2
+    \pao e r %255
+    \pao e r
+    \pao e r
+    R1*2
+    r2 r4 \pa e %260
+    c \pd r r2
+    \pa e4 e8. e16 e4 e \pd
+    e r r2
+    \pa e4 e8 e e e e e
+    e4 \pd r r2 %265
+    r \pa e8 e e e \pd
+    e4 r r2
+    R1*2
+    g2\p g4 g %270
+    g1
+    g2.( c4)
+    c2 r
+    R1
+    r4 c c c %275
+    c\f c8. c16 c4 c
+    d r r2
+    g,4 r r2
+    g4 r r2
+    d'4 r d r %280
+    d r d r
+    r c8 c c4 c
+    d r d r
+    d2 r\fermata \bar "||" %284 finis
   }
 }
 

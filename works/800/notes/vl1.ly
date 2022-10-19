@@ -196,7 +196,123 @@ DCCCbViolinoI = {
 DCCCcViolinoI = {
   \relative c' {
     \clef treble
-
+    \key h \minor \time 4/4 \tempoDCCCc
+      \set Score.currentBarNumber = #179
+    h8\f h' d ais h fis d fis
+    h h' d ais h fis d fis %180
+    r cis' e cis ais fis cis ais
+    r fis' fis fis fis16 ais h ais h a g fis
+    g fis e dis e fis g a h8 e, g h,
+    h g fis fis d'16 cis d cis h d cis h
+    g' fis g fis e d cis d cis h cis h ais cis fis e %185
+    d8 fis d ais h fis d fis
+    h h' d ais h fis d fis
+    r e cis e g e cis ais
+    h fis' fis fis fis4 \appoggiatura e16 d8 cis16 h
+    ais8 cis \appoggiatura h16 ais8 gis16 fis fis'8 fis16 gis \appoggiatura h ais8 gis16 fis %190
+    h8 h d ais h fis d fis
+    r e cis e g fis16 e d cis h ais
+    h8 fis' fis fis cis e d16 cis d fis
+    fis8( d) cis cis fis, ais cis fis
+    d d16 cis d8 h fis' d h fis %195
+    r h'16 ais h8 g h g e h
+    r a!16 h a8 e' g e cis g
+    fis16 fis' e d a g' fis e d8 fis a d
+    r d,16 cis d8 d, r a'16( g) a8 a'
+    a( fis) e a, <e cis' a'>4 r %200
+    <fis d' a'> r <e cis' a'> r
+    <fis d' a'> r a16 h cis d e fis g e
+    fis8 a h, h' fis, d' a' cis,
+    d a4 a a' a8
+    fis16 g e fis d8 r g16 a fis g e8 r %205
+    a16 h g a fis g e fis d e fis g a h cis d
+    \appoggiatura cis h8 a16 g \appoggiatura g fis8 e16 d d e fis e e4\trill
+    d8 a fis a fis' a, e' a,
+    d fis, d fis d' fis, d fis
+    h e,4 e a a8 %210
+    fis'16 g e fis d8 r g16 a fis g e8 r
+    a16 h g a fis g e fis d e fis g a h cis d
+    h c a h g8 r h,16 c d e fis g a h
+    a g fis e d8 d cis16 h cis a d cis d a
+    e' fis e fis g a g a g8 e g g, %215
+    fis a d fis d h gis e
+    r e a e cis cis( e) g
+    g2\fz fis8 fis( cis') e
+    e2\fzE d8 fis,( h) d
+    d eis,( gis) cis cis fis( a) his, %220
+    cis eis cis gis eis cis gis' eis
+    cis'( gis') eis cis cis( gis') eis cis
+    cis( a') fis cis cis( h') gis cis,
+    cis( fis) d( fis) a,-! fis-! cis'-! eis,-!
+    fis cis'4 cis cis' cis8 %225
+    a16 h gis a fis8 r eis16 fis dis eis cis8 r
+    cis16 d h cis a h gis a fis gis a h cis fis eis fis
+    d cis d h^\critnote h'8 h gis2\trill
+    fis8-! cis-!\p a( fis) r cis'( a fis)
+    r g'!( e! cis) r g'( e cis) %230
+    d( cis fis e) d( cis h a)
+    a g'( a g) e( cis a g)
+    g( e g fis) fis-! a-! d( fis)
+    r e e( ais,) r e' e( ais,)
+    h( cis d cis) h( ais h fis) %235
+    cis'( e fis e) cis( ais fis e)
+    d h'\f d ais h fis d fis
+    h h' d ais h fis d fis
+    r cis' e cis ais fis cis ais
+    r fis' fis fis fis16 ais h ais h a g fis %240
+    g8 h4 h8 \once \slurDashed h( ais) h h,
+    h( g) fis fis' fis16 ais h ais h a g fis
+    g8 h4 h8 h( ais) h h,
+    h( g) fis-! fis-! d'16 e d cis h cis d e
+    fis8 fis, fis e' e( cis) d fis %245
+    fis( d) cis fis fis16 g fis g fis e fis e
+    d8 fis16 e d8 h' dis, fis16 e dis8 h'
+    e,16 h cis dis e fis g fis e8 g16 fis e8 h'
+    h, h'4 h h,8 h,[ a']
+    fis[ a] g h4 e g8 %250
+    ais, cis16 h ais8 fis' h, d16 cis h8 fis'
+    cis fis16 g fis8 e d fis h h,
+    cis cis16 d e8 g d h fis' ais,
+    h fis4 fis h'8 fis[ d]
+    d4( cis8) fis, eis( fis) fis fis %255
+    e'4( d8) fis, eis( fis) fis fis
+    fis'4( e8) fis, eis( fis) fis fis
+    g e cis ais cis' e16 d cis d e fis
+    g8 e cis ais h16 cis d e fis h ais h
+    cis,8 cis16 d e8 cis d h fis' ais, %260
+    h d'4 h eis, eis8
+    fis h d, fis fis, cis' e ais,
+    h fis4 fis fis' fis8
+    d16 e cis d h8 r e16 fis d e cis8 r
+    fis16 g e fis d e cis d h cis d e fis h ais h %265
+    g8 g g g ais, ais ais ais
+    h fis4\p fis fis fis8(
+    g) g4 g g g8~
+    g g4 g g g8(
+    fis) fis4 fis fis << {
+      fis8( %270
+      a) a4 a a a8(
+      c) c4 c c c8(
+      h) h4 h h \once \slurDashed h8(
+      cis!) cis4 cis cis \once \slurDashed cis8(
+      d) d4 d d d8 %275
+    } \\ {
+      s8 %270
+      d,1
+      d
+      d
+      e
+      d %275
+    } >>
+    f'8\f f4 f gis, gis8
+    a a, a' a gis( a) a a
+    d4( cis8) a gis( a) a a
+    f'4( e8) a, gis( a) a a
+    g'!4 g2 e4~ %280
+    e cis2 g'4
+    <fis! a, d,> r <gis d d,> r
+    <a cis, e,>8 a, cis e a e cis e
+    a4 a, r2\fermata \bar "||" %284 finis
   }
 }
 

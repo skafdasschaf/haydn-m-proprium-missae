@@ -365,23 +365,215 @@ DCCCbSopranoLyrics = \lyricmode {
 DCCCcSoprano = {
   \relative c' {
     \clef treble
-
+    \key h \minor \time 4/4 \tempoDCCCc \autoBeamOff
+      \set Score.currentBarNumber = #179
+    r2 r4 \mvTr fis\f^\tuttiE
+    fis'1~ %180
+    fis2. ais,4
+    cis( h) r h
+    h2. g4
+    g fis r d'
+    cis cis8 cis e4. cis8 %185
+    d8.([ cis16)] h4 r2
+    fis' d4 h
+    h4. ais8 ais2
+    h4 cis e( d8.) cis16
+    cis4 r r fis %190
+    fis2. d8([ h)]
+    h2( ais4) ais
+    h fis' e d
+    d cis r2
+    d fis4 h, %195
+    a!( g) g2
+    e'4 e g g,
+    fis( a) a2
+    h4 a g' fis
+    fis e r2 %200
+    d4 a r cis
+    d a e'4. g8
+    fis4 e d( cis)
+    d r r2
+    R1*3 %207
+    r4 a a a8 a
+    d2 fis,
+    e4 e \appoggiatura a8 g4 g8 g %210
+    fis4 r r2
+    a2. d4
+    d h h d
+    d2 cis4 d
+    e4. g,8 g4 r %215
+    fis fis' d8([ h)] gis h
+    h8. a16 a4 r g
+    g2 fis4 e'
+    e2 d4 d~
+    d cis8 cis cis4 his %220
+    cis gis r2
+    gis eis'4 eis
+    fis( cis) cis cis
+    cis d a( gis)
+    fis r r2 %225
+    R1*3
+    a2.\p a4
+    cis2 cis %230
+    d8([ cis)] fis([ e)] d([ cis)] h([ a)]
+    a2. g4
+    g4. fis8 fis4 r
+    ais2. ais4
+    h8([ cis d cis] h[ ais)] h([ fis)] %235
+    fis2.( e4)
+    d r fis\f fis
+    fis'1~
+    fis2. ais,4
+    cis h r h %240
+    h h h8([ ais)] h g
+    g4 fis h2~
+    h4 h8 h h([ ais h)] g
+    g4( fis) r2
+    fis4. e'8 e4 d %245
+    d( cis) r cis
+    d4. d8 dis4 dis
+    e4. h8 h4 e
+    fis4. h,8 h4 a
+    a( g) r h %250
+    ais4. ais8 h4 h
+    cis4. e8 d4 h
+    cis e d ais
+    h r r h
+    d( cis) r cis %255
+    e( d) r d
+    fis( e) r cis
+    cis4. cis8 cis4 cis
+    g'4. g8 fis4 h,
+    cis e d ais %260
+    h r eis2
+    fis4 r ais,2
+    h4 r r2
+    R1
+    r2 h %265
+    g' ais,
+    h4 r r2
+    g\p h
+    a!2. g4
+    fis r r2 %270
+    c' a4 fis
+    d2( c')
+    h4 r r h
+    cis! r r cis
+    d r r2 %275
+    f2.\fE gis,4
+    a r r a
+    d( cis) r a
+    f'( e) r2
+    g e %280
+    cis4. g8 g4 g
+    fis!2( gis)
+    a4 r r2
+    R1\fermata \bar "||" %284 finis
   }
 }
 
 DCCCcSopranoLyrics = \lyricmode {
-  % Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
-  % Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
-  % et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.
-  % Et re -- ge e -- os, et ex -- tol -- le il -- los us -- que in ae -- ter -- num.
-  % Per sin -- gu -- los di -- es, be -- ne -- di -- ci -- mus te
-  % et lau -- da -- mus no -- men tu -- um in sae -- cu -- lum,
-  % et in sae -- cu -- lum sae -- cu -- li.
-  % Di -- gna -- re Do -- mi -- ne, di -- e i -- sto si -- ne pec -- ca -- to nos cu -- sto -- di -- re.
-  % Mi -- se -- re -- re no -- stri, Do -- mi -- ne, mi -- se -- re -- re no -- stri.
-  % Fi -- at mi -- se -- ri -- cor -- di -- a tu -- a Do -- mi -- ne,
-  % su -- per nos, quem -- ad -- mo -- dum spe -- ra -- vi -- mus in te.
-  % In te, Do -- mi -- ne, spe -- ra -- vi:
+  Ae -- %179
+  ter -- %180
+  na
+  fac __ cum
+  san -- ctis
+  tu -- is in
+  glo -- ri -- a nu -- me -- %185
+  ra -- ri.
+  Sal -- vum fac
+  po -- pu -- lum
+  tu -- um Do -- mi --
+  ne, et %190
+  be -- ne --
+  dic __ hae --
+  re -- di -- ta -- ti
+  tu -- ae.
+  Et re -- ge %195
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que in ae --
+  ter -- num, %200
+  re -- ge, ex --
+  tol -- le us -- que
+  in ae -- ter --
+  num.
+
+  Per sin -- gu -- los %208
+  di -- es,
+  be -- ne -- di -- ci -- mus %210
+  te
+  et lau --
+  da -- mus no -- men
+  tu -- um in
+  sae -- cu -- lum, %215
+  et in sae -- cu -- lum
+  sae -- cu -- li. Di --
+  gna -- re, di --
+  gna -- re Do --
+  mi -- ne, di -- e %220
+  i -- sto
+  si -- ne pec --
+  ca -- to nos
+  cu -- sto -- di --
+  re. %225
+
+  Mi -- se -- %229
+  re -- re, %230
+  mi -- se -- re -- re __
+  no -- stri,
+  Do -- mi -- ne,
+  mi -- se --
+  re -- re __ %235
+  no --
+  stri. Fi -- at,
+  fi --
+  at,
+  fi -- at mi -- %240
+  se -- ri -- cor -- di -- a
+  tu -- a Do --
+  mi -- ne, su -- per
+  nos, __
+  fi -- at su -- per %245
+  nos, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in
+  te, __ quem -- %250
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in
+  te, in
+  te, __ in %255
+  te, __ in
+  te, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in %260
+  te, in
+  te, in
+  te,
+
+  in %265
+  te, in
+  te.
+  In te,
+  Do -- mi --
+  ne, %270
+  in te spe --
+  ra --
+  vi, in
+  te, in
+  te, %275
+  Do -- mi --
+  ne, in
+  te, __ in
+  te, __
+  in te, %280
+  Do -- mi -- ne, spe --
+  ra --
+  vi: %283 finis
 }
 
 DCCCdSoprano = {

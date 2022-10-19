@@ -361,12 +361,214 @@ DCCCbTenoreLyrics = \lyricmode {
 DCCCcTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key h \minor \time 4/4 \tempoDCCCc \autoBeamOff
+      \set Score.currentBarNumber = #179
+    R1
+    r4 \mvTr d\fE^\tuttiE d h %180
+    r ais ais cis
+    fis,( h) r h
+    h2. h4
+    h h r h
+    h h8 h ais4. ais8 %185
+    h8.([ ais16)] h4 r2
+    d d4 d
+    e4. e8 e2
+    d4 cis cis( h8.) ais16
+    ais4 r r2 %190
+    r4 d d fis8([ d)]
+    e2. e4
+    d h cis h
+    h ais r2
+    d d4 d %195
+    h2 h
+    a!4 a a cis
+    d( cis) d2
+    d4 d cis d
+    d cis r2 %200
+    d4 d r e
+    d d g4. e8
+    d4 h a2
+    a4 r r2
+    R1*3 %207
+    r4 d d a8 a
+    fis2. a4
+    h h e, a8 a %210
+    a4 r r2
+    r d4 d
+    d d d d
+    d2 a4 a
+    a4. a8 a4 r %215
+    a a gis h8 d
+    d8. cis16 cis4 r cis
+    cis2 cis4 cis
+    cis2 h
+    gis4 gis8 gis fis4 fis %220
+    gis gis r2
+    cis cis4 cis
+    cis2 cis4 cis
+    fis d cis2
+    cis4 r r2 %225
+    R1*3
+    cis2.\p cis4
+    a2 a %230
+    a4. a8 a4 d
+    a2. a4
+    a4. a8 a4 r
+    cis2 cis
+    d2. h4 %235
+    fis1
+    fis4 r r2
+    r4 d'2\f h4
+    r ais2 cis4
+    fis, h r h %240
+    h h h h8 h
+    h4 h r2
+    h4 h8 h h4 h
+    h2 r
+    cis4. cis8 cis4 h %245
+    h( ais) r ais
+    h4. h8 h4 h
+    h4. h8 h4 h
+    h4. h8 h4 h
+    h2 r4 e %250
+    e4. cis8 h4 h
+    e4. cis8 h4 h
+    g g' fis cis
+    h r r2
+    r4 fis g( fis) %255
+    r fis g( fis)
+    r fis g( fis8) ais
+    ais4. ais8 ais4 ais
+    ais4. ais8 h4 h
+    g g' fis cis %260
+    h r d2
+    d4 r cis2
+    h4 r r2
+    R1
+    r2 fis' %265
+    e cis
+    h4 r r2
+    h\p d
+    a!2. a4
+    a r r2 %270
+    c a4 fis
+    d2( a')
+    g4 r r d'
+    e r r e
+    a, r r2 %275
+    gis2.\f d'4
+    cis a b( a)
+    r a b( a)
+    r a b( a)
+    cis2 cis %280
+    e4. cis8 cis4 a
+    a2( h!)
+    e,4 r r2
+    R1\fermata \bar "||" %284 finis
   }
 }
 
 DCCCcTenoreLyrics = \lyricmode {
+  Ae -- ter -- na, %180
+  ae -- ter -- na
+  fac cum
+  san -- ctis
+  tu -- is in
+  glo -- ri -- a nu -- me -- %185
+  ra -- ri.
+  Sal -- vum fac
+  po -- pu -- lum
+  tu -- um Do -- mi --
+  ne, %190
+  et be -- ne --
+  dic hae --
+  re -- di -- ta -- ti
+  tu -- ae.
+  Et re -- ge %195
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que in ae --
+  ter -- num, %200
+  re -- ge, ex --
+  tol -- le us -- que
+  in ae -- ter --
+  num.
 
+  Per sin -- gu -- los %208
+  di -- es,
+  be -- ne -- di -- ci -- mus %210
+  te
+  et lau --
+  da -- mus no -- men
+  tu -- um in
+  sae -- cu -- lum, %215
+  et in sae -- cu -- lum
+  sae -- cu -- li. Di --
+  gna -- re, di --
+  gna -- re
+  Do -- mi -- ne, di -- e %220
+  i -- sto
+  si -- ne pec --
+  ca -- to nos
+  cu -- sto -- di --
+  re. %225
+
+  Mi -- se -- %229
+  re -- re, %230
+  mi -- se -- re -- re
+  no -- stri,
+  Do -- mi -- ne,
+  mi -- se --
+  re -- re %235
+  no --
+  stri.
+  Fi -- at,
+  fi -- at,
+  fi -- at mi -- %240
+  se -- ri -- cor -- di -- a
+  tu -- a
+  Do -- mi -- ne, su -- per
+  nos,
+  fi -- at su -- per %245
+  nos, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in
+  te, quem -- %250
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in
+  te,
+  in te, __ %255
+  in te, __
+  in te, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus, spe --
+  ra -- vi -- mus in %260
+  te, in
+  te, in
+  te,
+
+  in %265
+  te, in
+  te.
+  In te,
+  Do -- mi --
+  ne, %270
+  in te spe --
+  ra --
+  vi, in
+  te, in
+  te, %275
+  Do -- mi --
+  ne, in te, __
+  in te, __
+  in te, __
+  in te, %280
+  Do -- mi -- ne, spe --
+  ra --
+  vi: %283 finis
 }
 
 DCCCdTenore = {

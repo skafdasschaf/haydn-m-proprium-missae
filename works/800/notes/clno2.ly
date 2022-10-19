@@ -167,7 +167,91 @@ DCCCbClarinoII = {
 DCCCcClarinoII = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 4/4 \tempoDCCCc
+      \set Score.currentBarNumber = #179
+    c4\f r c c
+    c2 r4 c %180
+    e e r e
+    e e r2
+    R1*2
+    r2 e %185
+    r4 c c c
+    c2 r
+    R1
+    e4 r e r
+    r8 e e e e e e e %190
+    e4 c r2
+    R1
+    e4 r e r
+    e e8 e e e e e
+    e4 r r2 %195
+    R1
+    g2. d'4
+    c g c, c
+    c r r c'
+    c g r8 g g g %200
+    r c, c c r g' g g
+    r c, c c g'4 d'
+    e d c g
+    e r r g
+    g g8 g g g g g %205
+    c,4 r c r
+    r c' c8 c g g
+    e4 r r2
+    e4 r r2
+    r r4 g %210
+    g g8 g g g g g
+    c,4 r r c
+    c r r2
+    c4 r r2
+    r4 g' g g %215
+    e r d'2
+    r4 g, g r
+    r2 r4 e
+    e2 e4 r
+    R1*17 %236
+    r4 c\f c c
+    c r c r
+    e r e r
+    e e r2 %240
+    R1*3
+    r4 e e e
+    e2 e %245
+    e4 r e e
+    e r r2
+    R1*3 %250
+    e4 r e r
+    e2 r
+    r e4 e
+    c r r2
+    e r %255
+    e r
+    e r
+    R1*2
+    r2 r4_\critnote e %260
+    c r r2
+    e4 e8. e16 e4 e
+    c r r2
+    e4 e8 e e e e e
+    e4 r r2 %265
+    r e8 e e e
+    c4 r r2
+    R1*2
+    e2\p e4 e %270
+    e1
+    e2.( c4)
+    c2 r
+    R1
+    r4 c c c %275
+    c\f c8. c16 c4 c
+    g' r r2
+    g,4 r r2
+    g4 r r2
+    g'4 r g r %280
+    g r g r
+    r c,8 c c4 c
+    g' r g r
+    g2 r\fermata \bar "||" %284 finis
   }
 }
 

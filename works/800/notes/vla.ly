@@ -195,8 +195,115 @@ DCCCbViola = {
 
 DCCCcViola = {
   \relative c' {
-    \clef treble
-
+    \clef alto
+    \key h \minor \time 4/4 \tempoDCCCc
+      \set Score.currentBarNumber = #179
+    h8\f h' d ais h fis d fis
+    h4 h, r h' %180
+    ais fis r e
+    d8 d d d dis dis dis dis
+    e e e e g g e e
+    h' h h h g g g g
+    e e e e fis fis fis fis %185
+    h, h' d ais h fis d fis
+    h4 h, r h
+    cis cis r cis
+    d ais h h
+    fis'8 fis fis fis e e e e %190
+    d4 h r h
+    cis cis r cis
+    d d ais h
+    fis' r8 fis ais fis ais fis
+    h h h h h, h h h %195
+    e e e e d d d d
+    cis cis cis cis a a a a
+    d d e e fis fis d d
+    g g fis fis e e d d
+    a' a a, a' g g g, g' %200
+    fis4 r g r
+    fis r cis r8 cis
+    d fis g e a a a, a
+    d fis e d cis h a cis
+    d a fis' a, e' a, g' a, %205
+    fis' d a' g fis d fis d
+    g g h h g g a a
+    d, fis a fis d d cis cis
+    h d fis d h h a a
+    g g g g a a a a %210
+    d a fis' a, e' a, cis a
+    fis' d a' g fis d fis d
+    g g g g g g g g
+    fis fis fis fis e e d d
+    cis4 cis r8 cis a cis %215
+    d4 h e e
+    a,8 a cis e a4 a,
+    ais8 ais ais ais ais ais ais ais
+    h h h h h h h h
+    cis4 cis d d %220
+    cis r8 cis^\critnote eis cis gis' eis
+    cis' cis cis cis h h h h
+    a a a a eis eis eis eis
+    fis4 h, cis cis
+    fis8 a gis fis eis dis cis eis %225
+    fis cis a' cis, gis' cis, h' cis,
+    a' cis,  fis eis fis fis a fis
+    h, h d d fis fis cis cis
+    cis4 r r cis\p
+    a2 a %230
+    a fis'4( d)
+    a2 a
+    a4 a r fis'
+    fis fis r cis
+    d fis r h, %235
+    ais cis fis, ais
+    h8 h'\f d ais h fis d fis
+    h4 h, r h'
+    ais fis r e
+    d8 d d d dis dis dis dis %240
+    e dis e fis g fis g e
+    h' h h h d, d dis dis
+    e dis e fis g fis g e
+    h h' h d h fis d h
+    ais ais ais ais h h h h %245
+    fis'4 r8 fis ais fis ais fis
+    h h, h' h a a, a' a
+    g g, g' g g e g e
+    dis h dis fis dis h dis h
+    e e, e' fis g fis e d %250
+    cis cis cis cis d d d d
+    ais ais ais ais h h d d
+    e e cis cis fis fis fis, fis
+    h fis' d ais h d fis h
+    fis fis, fis' fis eis( fis) fis fis %255
+    fis fis, fis' fis eis( fis) fis fis
+    fis fis, fis' fis eis( fis) fis fis
+    g! g g g e e e e
+    cis cis cis cis d d d d
+    e e e e fis fis fis fis %260
+    g g, g' g g g, g' g
+    fis fis fis fis fis fis fis fis
+    h, d' cis h ais gis fis ais
+    h fis d' fis, cis' fis, e' fis,
+    d' h fis e d d d d %265
+    e e e e fis fis fis fis
+    h,4 h'\p fis d
+    h g' d h
+    cis a'! e cis
+    d d' a fis %270
+    d c' a fis
+    d a' fis d
+    g d' h g
+    e b' g e
+    d a' f d %275
+    b8\f b' b b b b b b
+    a a, a' a gis( a) a a
+    a a, a' a gis( a) a a
+    a a, a' a gis( a) a a
+    a a, a' a a a, a' a %280
+    a a, a' a a a, a' a
+    d,4 r h! r
+    a8 a' e cis a a' e cis
+    a4 a' r2\fermata \bar "||" %284 finis
   }
 }
 

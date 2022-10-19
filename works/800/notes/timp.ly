@@ -129,7 +129,43 @@ DCCCbTimpani = {
 DCCCcTimpani = {
   \relative c {
     \clef bass
-
+    \key c \major \time 4/4 \tempoDCCCc
+      \set Score.currentBarNumber = #179
+    R1*20 %198
+    r2 r4 c\fE
+    g g g r %200
+    c r g r
+    c r g r
+    r2 g4 g
+    c r r g
+    c r g r %205
+    c r c r
+    r2 r4 g
+    c r r2
+    c4 r r2
+    r r4 g %210
+    c r g r
+    c r r c
+    c r r2
+    c4 r r2
+    r4 g g g %215
+    c r r2
+    r4 g g r
+    R1*52 %269
+    c4\p c8 c c4 c %270
+    c r r2
+    c4 r r2
+    R1*2
+    r4 c c c %275
+    c\f c8. c16 c4 c
+    g r r2
+    g4 r r2
+    g4 r r2
+    g4 r g r %280
+    g r g r
+    r c8 c c4 c
+    g r g r
+    g2 r\fermata \bar "||" %284 finis
   }
 }
 

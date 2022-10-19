@@ -192,7 +192,105 @@ DCCCbOboeII = {
 DCCCcOboeII = {
   \relative c' {
     \clef treble
-
+    \key h \minor \time 4/4 \tempoDCCCc
+      \set Score.currentBarNumber = #179
+    h'2\fE d4 fis
+    d d r h %180
+    cis ais r ais
+    ais h h2
+    h h4 e
+    e d d h
+    h2 ais4 cis8 ais %185
+    h2 d4 fis
+    d r r2
+    e e,
+    fis4 cis' cis( h)
+    ais2 cis %190
+    h4 r r2
+    e e,
+    fis4 h cis h
+    h ais r cis
+    d h h fis %195
+    fis( e) e e'
+    e2. cis4
+    a2. fis4
+    g a cis d
+    d cis cis2 %200
+    d cis
+    d e
+    a,4 h fis e
+    d r r2
+    a'2. cis4 %205
+    d a r d
+    d d2 cis4
+    d r r2
+    fis d
+    d cis4 e %210
+    d a2 e'4
+    d a r a
+    h2 h
+    a cis4 d
+    e2 e, %215
+    d4 d' h gis8 e
+    e4( a) r e'
+    e2 cis4 cis
+    cis2 h4 fis
+    eis2 fis %220
+    eis4 r cis' cis
+    cis1
+    cis2 gis'
+    fis4 fis2 eis4
+    fis r r2 %225
+    r4 cis2 eis4
+    fis cis r cis
+    d fis r eis
+    fis r r2
+    R1*2 %231
+    a,2.\p e'4
+    e4. d8 d4 r
+    R1*2 %235
+    fis,2. cis'4
+    h h\f d fis
+    d d r h~
+    h ais r ais
+    ais h fis fis %240
+    g8 fis g fis e4 e
+    e d fis' fis
+    g8 fis g fis e4 e
+    e( d) d2
+    fis,4 cis'2 h4 %245
+    h ais r cis
+    d r dis r
+    e r e r
+    fis r fis, fis
+    fis( e) h' h %250
+    r ais r h
+    r cis h h
+    r cis h ais
+    h r d4. h8
+    h4( ais) r ais %255
+    cis( h) r h
+    d( cis) fis, ais
+    cis2 cis
+    ais h
+    r4 cis h ais %260
+    h d2 d4
+    h2 ais
+    h4 r r2
+    r4 fis2 ais4
+    h fis r fis' %265
+    g e cis ais
+    h r r2
+    R1*8 %275
+    d1\fE
+    cis4 r r a
+    \once \slurDashed f( e) r a
+    \once \slurDashed d( cis) r cis
+    a2 cis %280
+    e cis4 cis
+    d r d r
+    cis1
+    cis2 r\fermata \bar "||" %284 finis
   }
 }
 
