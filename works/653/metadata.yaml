@@ -19,6 +19,13 @@ sources:
     rism: 600038135
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/187.html
     license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5569 (4)
+    date: 1830–1840
+    rism: 840026246
+    url: https://gallica.bnf.fr/ark:/12148/cb409440402
+    license: custom (free for non-commercial purposes)
 parts:
   ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
 lyrics:
