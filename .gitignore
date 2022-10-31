@@ -4,6 +4,7 @@ tmp/
 front_matter/critical_report.pdf
 main.ly
 main.pdf
+scores/full_score.ly
 *.aux
 *.bbl
 *.blg
