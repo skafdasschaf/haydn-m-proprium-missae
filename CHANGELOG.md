@@ -1,5 +1,18 @@
 # Changelog
 
+## v2022.10.0
+
+### Added
+
+- works: MH 213, 361, 366, 388, 588, 635, and 800
+- additional source for MH 653
+
+
+### Fixed
+
+- error in clno parts of MH 525 which prevented compilation of the project
+
+
 ## v2022.09.0
 
 ### Added
