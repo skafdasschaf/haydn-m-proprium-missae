@@ -1,0 +1,63 @@
+title: Responsoria in Solemnitate Ssmi Corporis Christi
+id: MH 213
+genre: responsory
+festival: Corpus Christi
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5587 (4)
+    date: 1820–1840
+    rism: 840026313
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072981p
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  1/5   & B   & 1st \halfNote\ in \B1: g8.–g16–g4 \\
+  1/9   & A   & 4th \eighthNote\ in \B1: e′4 \\
+  1/16  & T   & last \sixteenthNote\ in \B1: a16 \\
+  2/18  & S   & last \eighthNote\ in \B1: g″8 \\
+  2/27  & T   & 3rd \quarterNote\ in \B1: d′4 \\
+  2/35  & B   & 2nd/3rd \quarterNote\ in \B1: f4.–B8 \\
+  2/47  & T   & 2nd/3rd \quarterNote\ in \B1: c′8–d′8–c′4 \\
+  3/6   & org & 6th \eighthNote\ in \B1: \flat e16–d16 \\
+  3/7   & T   & 5th \eighthNote\ in \B1: a8 \\
+  3/13  & org & 2nd \quarterNote\ in \B1: F8–\quaverRest \\
+  4/17  & org & 1st \quarterNote\ in \B1: d″4 in treble clef \\
+  4/38  & T   & last \eighthNote\ in \B1: b8 \\
+  4/48f & org & notes in treble clef missing in \B1 \\
+lyrics:
+  \textsb{1}\\
+  Exsultate Deo adiutori nostro,\\
+  iubilate Deo Iacob.\\
+  Sumite psalmum et date tympanum,\\
+  psalterium iucundum cum cithara.\\
+  Buccinate in neomenia tuba,\\
+  in insigni die solemnitatis nostrae.\\
+  Gustate et videte,\\
+  quoniam suavis est Dominus.\\
+  Beati omnes qui sperant in eo.\\
+  (\bibleverse{Ps}(81/80:2–4), \bibleverse{Ps}(34/33:9), \bibleverse{Ps}(5:12))\\[2ex]
+  \textsb{2}\\
+  O sacrum convivium,\\
+  in quo Christus sumitur,\\
+  recolitur memoria passionis eius,\\
+  mens impletur gratia\\
+  et futurae gloriae nobis pignus datur.\\[2ex]
+  \textsb{3}\\
+  O sacramentum pietatis,\\
+  o signum unitatis,\\
+  o vinculum charitatis,\\
+  qui vult vivere, habet ubi vivat, habet unde vivat.\\
+  Accedat, credat, incorporetur, ut vivificetur.\\
+  Hic est panis de coelo descendens,\\
+  ut si quis ex ipso manducaverit non moriatur.\\
+  (\bibleverse{John}(6:50))\\[2ex]
+  \textsb{4}\\
+  Confitemini Domino, quoniam bonus:\\
+  quoniam in aeternum misericordia eius.\\
+  Agimus tibi gratias, omnipotens Deus,\\
+  pro universis beneficiis tuis,\\
+  qui vivis et regnos in saecula saeculorum, amen.\\
+  (\bibleverse{Ps}(106/105:1))
