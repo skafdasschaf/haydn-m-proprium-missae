@@ -1,0 +1,33 @@
+title: Paratum cor meum Deus
+id: MH 524
+genre: gradual
+festival: Pentecostes, Dominica XX.
+scoring: S, A, T, B (coro), 2 clno (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 385
+    date: 1790-11-29
+    rism: 456009404
+    url: https://daten.digitale-sammlungen.de/bsb00044034/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/31
+    rism: 455022604
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 154
+    rism: 600038111
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/168.html
+    license: public domain
+parts:
+  clno12: Clarino I, II in D
+lyrics:
+  Paratum cor meum, Deus, paratum cor meum:\\
+  cantabo, et psallam tibi, gloria mea.\\
+  (\bibleverse{Ps}(108/107:2))
