@@ -1,0 +1,36 @@
+title: Liberasti nos
+id: MH 523
+genre: gradual
+festival: Pentecostes, Dominica XXIII.
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 388
+    date: 1790-10-28
+    rism: 456009407
+    url: https://daten.digitale-sammlungen.de/bsb00044048/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/34
+    rism: 455022607
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 157
+    rism: 600038114
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/171.html
+    license: public domain
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Liberasti nos, Domine,\\
+  ex affligentibus nos:\\
+  et eos qui nos oderunt, confudisti.\\
+  In Deo laudabimur tota die,\\
+  et in nomine tuo confitebimur in saecula.\\
+  (\bibleverse{Ps}(44/43:8-9))
