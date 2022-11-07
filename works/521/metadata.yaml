@@ -1,0 +1,38 @@
+title: Domine refugium factus es
+id: MH 521
+genre: gradual
+festival: Pentecostes, Dominica XXI.
+scoring: S, A, T, B (coro), 2 cor (A), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 386
+    date: 1790-10-14
+    rism: 456009405
+    url: https://daten.digitale-sammlungen.de/bsb00044035/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/32
+    rism: 455022605
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 169
+    rism: 600038112
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
+    license: public domain
+toe: |
+  – & coro & Double caps spelling of “DEus” (bars 103–106) according to \A1. \\
+parts:
+  cor12: Corno I, II in A
+lyrics:
+  Domine, refugium factus es nobis\\
+  a generatione et progenie.\\
+  Priusquam montes fierent,\\
+  aut formaretur terra et orbis:\\
+  a saeculo, et usque in saeculum tu es Deus.\\
+  (\bibleverse{Ps}(90/89:1-2))
