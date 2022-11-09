@@ -1,0 +1,41 @@
+title: Dirigatur oratio mea
+id: MH 520
+genre: gradual
+festival: Pentecostes, Dominica XIX.
+scoring: S, A, T, B (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 384
+    date: 1790-09-23
+    rism: 456009403
+    url: https://daten.digitale-sammlungen.de/bsb00044033/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/30
+    rism: 455022603
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 153
+    rism: 600038110
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/167.html
+    license: public domain
+toe: |
+  – & – & At the end of \A1, Haydn added “NB. Pro Dom: 20me post
+          Pent: Graduale \textit{Oculi omnium} sicut habetur de Ven:
+          Sacramento. vel ut sequitur: \textit{Paratum}.” (italic text
+          is underlined in the source). Notably, bar 70 is written on a
+          separate staff on top of the last page. The original bars 60f in
+          vl 1 have been cancelled by Haydn and replaced by the bars
+          shown here. \\
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Dirigatur oratio mea sicut incensum in conspectu tuo, Domine.\\
+  Elevatio manuum mearum sacrificium vespertinum.\\
+  (\bibleverse{Ps}(141/140:2))
