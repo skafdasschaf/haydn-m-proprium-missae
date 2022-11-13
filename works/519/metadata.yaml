@@ -1,0 +1,35 @@
+title: Lætatus sum
+id: MH 519
+genre: gradual
+festival: Pentecostes, Dominica XVIII.
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 383
+    date: 1790-09-14
+    rism: 456009402
+    url: https://daten.digitale-sammlungen.de/bsb00043315/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/29
+    rism: 455022602
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 152
+    rism: 600038109
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/166.html
+    license: public domain
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Laetatus sum in his quae dicta sunt mihi:\\
+  in domum Domini ibimus.\\
+  Fiat pax in virtute tua,\\
+  et abundantia in turribus tuis.\\
+  (\bibleverse{Ps}(122/121:1, 7))
