@@ -1,0 +1,34 @@
+title: Caro mea vere
+id: MH 513
+genre: gradual
+festival: De Venerabili Sacramento
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 179
+    rism: 600038132
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/185.html
+    license: public domain
+    principal: true
+  B2:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 433
+    date: 1820
+    rism: 456009453
+    url: https://daten.digitale-sammlungen.de/bsb00045833/image_1
+    license: CC BY-NC-SA 4.0
+toe: |
+  16 & A     & 2nd \halfNote\ in \B1: f′2 \\
+  17 & cor 2 & 1st \quarterNote\ in \B1: d″8 \\
+  87 & vl 1  & 2nd \quarterNote\ in \B1: f″8 \\
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Caro mea vere est cibus,\\
+  et sanguis meus vere est potus.\\
+  Qui manducat meam carnem,\\
+  et bibit meum sanguinem,\\
+  in me manet, et ego in eo.\\
+  (\bibleverse{John}(6:56-57))
