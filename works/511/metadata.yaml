@@ -1,0 +1,38 @@
+title: Beata gens cuius
+id: MH 511
+genre: gradual
+festival: Pentecostes, Dominica XVII.
+scoring: S, A, T, B (coro), 2 cor (\flat E), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 382
+    date: 1789-09-03
+    rism: 456009401
+    url: https://daten.digitale-sammlungen.de/bsb00043316/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/28
+    rism: 455022601
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 151
+    rism: 600038108
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/165.html
+    license: public domain
+toe: |
+  – & coro & Double caps spelling of “DEus” in bars 6f according to \A1;
+             \newline in bars 67f adapted by the editor \\
+parts:
+  cor12: Corno I, II in \flat E
+lyrics:
+  Beata gens, cuius est Dominus DEus eorum:\\
+  populus quem elegit Dominus in hereditatem sibi.\\
+  Verbo Domini coeli firmati sunt\\
+  et spiritu oris eius omnis virtus eorum.\\
+  (\bibleverse{Ps}(33/32:12,6))
