@@ -1,0 +1,45 @@
+title: Bonum est confiteri
+id: MH 510
+genre: gradual
+festival: Pentecostes, Dominica XV.
+scoring: S, A, T, B (coro), 2 cor (A), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 381
+    date: 1789-08-22
+    rism: 456009396
+    url: https://daten.digitale-sammlungen.de/bsb00043317/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/27
+    rism: 455022600
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 150
+    rism: 600038107
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/164.html
+    license: public domain
+  B3:
+    siglum: A-SPD
+    shelfmark: SP (H-15)
+    date: 1800-1830
+    rism: 455042300
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H15
+    license: public domain
+toe: |
+  – & – & At the end of \A1, Haydn added “NB. Dominica 16ta sicut
+          Dom: 3tia post Epiph: Timebunt gentes.” \\
+parts:
+  cor12: Corno I, II in A
+lyrics:
+  Bonum est confiteri Domino\\
+  et psallere nomini tuo, Altissime.\\
+  Ad annuntiandum mane misericordiam tuam,\\
+  et veritatem tuam per noctem.\\
+  (\bibleverse{Ps}(92/91:2,3))
