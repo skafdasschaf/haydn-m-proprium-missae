@@ -45,7 +45,7 @@ CCXVOrgano = {
     a a a a b b b b
     es es es es d c' h! fis %40
     g g, h g c d h d
-    g c, d d, r d' fis d
+    g g, d' d, r d' fis d
     g h a g fis d g g,
     r c16 h c8 a d c h fis
     g g' e cis d c h a %45
