@@ -1,0 +1,37 @@
+title: Bonum est confidere
+id: MH 509
+genre: gradual
+festival: Pentecostes, Dominica XIV.
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/26
+    rism: 455022599
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: B 149
+    rism: 600038106
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/163.html
+    license: public domain
+toe: |
+  4  & org  & 3rd \quarterNote\ in \B1: \flat B4 \\
+  7  & S    & last \sixteenthNote\ in \B2: d′16 \\
+  7  & A    & last \sixteenthNote\ in \B2: \flat B16 \\
+  47 & S    & last \sixteenthNote\ in \B2: d′16 \\
+  47 & A    & last \sixteenthNote\ in \B2: \flat B16 \\
+  49 & A, T & bar in \B1 and \B2: unison d′2–f′4 \\
+  90 & vl 2 & 1st \eighthNote\ in \B1 unison with vl 1 \\
+  96 & vl 2 & 1st \eighthNote\ in \B1 unison with vl 1 \\
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics:
+  Bonum est confidere in Domino,\\
+  quam confidere in homine.\\
+  Bonum est sperare in Domino,\\
+  quam sperare in principibus.\\
+  (\bibleverse{Ps}(118/117:8-9))
