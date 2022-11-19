@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-tempoCDLXXXVIII = \tempoMarkup "Allegetto"
+tempoCDLXXXVIII = \tempoMarkup "Allegretto"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
