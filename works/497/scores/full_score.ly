@@ -41,7 +41,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "E" ""
-            \transpose c e
+            % \transpose c e
             \partCombine \CDXCVIICornoI \CDXCVIICornoII
           >>
         >>
