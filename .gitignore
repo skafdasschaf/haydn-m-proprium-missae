@@ -12,7 +12,7 @@ scores/full_score.ly
 *.fls
 *.log
 *.macros
-*.midi
+main*.midi
 *.out
 *.ps
 *.ref
