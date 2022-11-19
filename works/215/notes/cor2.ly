@@ -28,7 +28,7 @@ CCXVCornoII = {
     e4 r r2
     r c4 r
     c r8 c c4 r
-    g'2 c,8 e c' d
+    g'2 c,8 g' c' d
     e4. d16 c g8 g16 g g4 %35
     g r g r8 g
     g8. c,16 c4 c r
