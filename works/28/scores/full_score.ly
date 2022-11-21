@@ -33,7 +33,6 @@
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          % \transpose c c
           \XXVIIITimpani
         }
         \new StaffGroup <<
