@@ -1,0 +1,59 @@
+title: In DEo speravit
+id: MH 505
+genre: gradual
+festival: Pentecostes, Dominica XI.
+scoring: S, A, T, B (coro), [2 ob], 2 clno (C), [timp (C–G)], 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 377
+    date: 1789-04-23
+    rism: 456009398
+    url: https://daten.digitale-sammlungen.de/bsb00043301/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/23
+    rism: 455022596
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 146
+    rism: 600038103
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/161.html
+    license: public domain
+  B3:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-46)
+    date: 1810-1840
+    rism: 455039967
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H46
+    license: public domain
+toe: |
+  –   & –    & ob 1 and 2 are only available in \B3.
+               timp are available in \B2 and \B3, but differ in these sources.
+               This edition reproduces the timp part of \B2. \\
+  –   & coro & Double caps spelling of “DEus” (bars 1, 23, 37f, 46, and 90)
+               according to \A1. \\
+  39  & timp & 2nd \quarterNote\ in \B2: G4 \\
+  40  & ob 2 & 3rd \eighthNote\ in \B3: g′8 \\
+  66  & ob 2 & bar in \B3: e′4.–e′8 \\
+  100 & ob 1 & 4th \eighthNote\ in \B3: d″8 \\
+  101 & timp & 4th \eighthNote\ in \B3: G8 \\
+  124 & timp & 2nd \eighthNote\ in \B3: G8 \\
+  127 & timp & 2nd \eighthNote\ in \B3: G8 \\
+  130 & timp & 2nd \eighthNote\ in \B3: G8 \\
+  132 & timp & 2nd \eighthNote\ in \B3: G8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  In DEo speravit cor meum, et adiutus sum:\\
+  et refloruit caro mea:\\
+  et ex voluntate mea confitebor illi.\\
+  Ad te Domine clamavi:\\
+  DEus meus, ne sileas:\\
+  ne discedas a me.\\
+  (\bibleverse{Ps}(28/27:7,1))
