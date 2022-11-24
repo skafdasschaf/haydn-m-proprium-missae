@@ -1,0 +1,27 @@
+title: De profundis
+id: MH 494
+genre: gradual
+festival: Pentecostes, Dominica ultima
+scoring: S, A, T, B (coro), 2 clno (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 389
+    date: 1788-11-20
+    rism: 456009408
+    url: https://daten.digitale-sammlungen.de/bsb00044051/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/35
+    rism: 455022608
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046854-3
+    license: CC BY-NC-SA 4.0
+parts:
+  clno12: Clarino I, II in D
+lyrics:
+  De profundis clamavi ad te, Domine.\\
+  Domine, exaudi orationem meam.\\
+  (\bibleverse{Ps}(130/129:1-2))
