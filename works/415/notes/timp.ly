@@ -160,7 +160,10 @@ CDXVaTimpani = {
 CDXVbTimpani = {
   \relative c {
     \clef bass
-
+    \key c \major \time 4/4 \tempoCDXVb
+      \set Score.currentBarNumber = #231
+    R1*9 %239
+    r2 r8 c\p c r\fermata \bar "||" %240 finis
   }
 }
 

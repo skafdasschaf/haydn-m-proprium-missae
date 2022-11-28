@@ -489,7 +489,16 @@ CDXVbOrgano = {
 }
 
 CDXVbBassFigures = \figuremode {
-
+  r1 %231
+  r8 <6>4 \bassFigureExtendersOn q8 r <4+ 2>4 q8 \bassFigureExtendersOff
+  r <6> <6\\> <\t>4 <6 5> <7! _+>8
+  r <_+>4 \bassFigureExtendersOn q8 r <4+ _!>4 q8
+  r <6 5>4 q8 \bassFigureExtendersOff r <9 4> <[8] 3>4 %235
+  r8 <6->4 \bassFigureExtendersOn q8 r q4 q16 \bassFigureExtendersOff <5>
+  r8 <5! _+>4 <6\\> <6 4>8 <[7] _+>4
+  r2 <3>
+  <6 _-> <6 5->
+  <9 4->16 <[8] 3>8. <7>16 <6->8. <6 4>4 <[5] 3> %240 finis
 }
 
 CDXVcOrgano = {

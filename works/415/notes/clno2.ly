@@ -176,7 +176,17 @@ CDXVaClarinoII = {
 CDXVbClarinoII = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 4/4 \tempoCDXVb
+      \set Score.currentBarNumber = #231
+    r8 e\fE e e r e e e
+    r e e e e4 r
+    R1*2
+    e2 e8 e16. e32 e8 r %235
+    R1
+    r2 e\p
+    e4 r r2
+    << { \oneVoice c1 c8 } \\ { s2\< s\> s8\! } >>
+    r r4 r8 c c r\fermata \bar "||" %240 finis
   }
 }
 

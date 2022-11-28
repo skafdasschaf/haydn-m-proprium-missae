@@ -301,13 +301,30 @@ CDXVaSopranoLyrics = \lyricmode {
 CDXVbSoprano = {
   \relative c' {
     \clef treble
-
+    \key a \minor \time 4/4 \tempoCDXVb \autoBeamOff
+      \set Score.currentBarNumber = #231
+    \mvTr c'4\fE^\tuttiE r8 c e c r e
+    e16 h h8 r4 cis4. cis8
+    d8. d16 e4 f8 h, h c16 c
+    c16. h32 h8 r4 h r8 h
+    h h h d d8. c16 c4 %235
+    b8 b b16([ d)] d([ f)] f4~ f16[ d] b a
+    gis4\p a a_( \grace c16 h4)
+    a r r2
+    R1
+    R\fermata \bar "||" %240 finis
   }
 }
 
 CDXVbSopranoLyrics = \lyricmode {
-  % Te er -- go quae -- su -- mus, tu -- is fa -- mu -- lis sub -- ve -- ni,
-  % quos pre -- ti -- o -- so san -- gui -- ne re -- de -- mi -- sti.
+  Te, te er -- go, te %231
+  quae -- su -- mus, tu -- is
+  fa -- mu -- lis, tu -- is fa -- mu -- lis
+  sub -- ve -- ni, quos, quos
+  pre -- ti -- o -- so san -- gui -- ne, %235
+  pre -- ti -- o -- so san -- gui -- ne
+  re -- de -- mi --
+  sti. %238 finis
 }
 
 CDXVcSoprano = {

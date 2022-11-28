@@ -356,12 +356,30 @@ CDXVaBassoLyrics = \lyricmode {
 CDXVbBasso = {
   \relative c {
     \clef bass
-
+    \key a \minor \time 4/4 \tempoCDXVb \autoBeamOff
+      \set Score.currentBarNumber = #231
+    \mvTr a'4\fE^\tuttiE r8 a c a r a
+    gis16 gis gis8 r4 g4. g8
+    f8. f16 e4 d8 d d dis16 dis
+    e16. e32 e8 r4 d r8 d
+    gis, gis gis gis a8. a16 a4 %235
+    d8 d d d d8. d16 d4
+    e\p f e2
+    a,4 r r2
+    R1
+    R\fermata \bar "||" %240 finis
   }
 }
 
 CDXVbBassoLyrics = \lyricmode {
-
+  Te, te er -- go, te %231
+  quae -- su -- mus, tu -- is
+  fa -- mu -- lis, tu -- is fa -- mu -- lis
+  sub -- ve -- ni, quos, quos
+  pre -- ti -- o -- so san -- gui -- ne, %235
+  pre -- ti -- o -- so san -- gui -- ne
+  re -- de -- mi --
+  sti. %238 finis
 }
 
 CDXVcBasso = {

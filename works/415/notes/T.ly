@@ -342,12 +342,30 @@ CDXVaTenoreLyrics = \lyricmode {
 CDXVbTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key a \minor \time 4/4 \tempoCDXVb \autoBeamOff
+      \set Score.currentBarNumber = #231
+    \mvTr e4\fE^\tuttiE r8 e c e r c
+    h16 h h8 r4 a4. a8
+    a8. a16 g4 a8 a a a16 a
+    a16. gis32 gis8 r4 gis r8 gis
+    d' d d h h8. a16 a4 %235
+    f8 d' d f b,4. d16 c
+    h4\p a8([ c)] c4( d8[ gis,)]
+    a4 r r2
+    R1
+    R\fermata \bar "||" %240 finis
   }
 }
 
 CDXVbTenoreLyrics = \lyricmode {
-
+  Te, te er -- go, te %231
+  quae -- su -- mus, tu -- is
+  fa -- mu -- lis, tu -- is fa -- mu -- lis
+  sub -- ve -- ni, quos, quos
+  pre -- ti -- o -- so san -- gui -- ne, %235
+  pre -- ti -- o -- so san -- gui -- ne
+  re -- de -- mi --
+  sti. %238 finis
 }
 
 CDXVcTenore = {

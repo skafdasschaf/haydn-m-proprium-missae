@@ -240,7 +240,18 @@ CDXVaViolinoII = {
 CDXVbViolinoII = {
   \relative c' {
     \clef treble
-
+    \key a \minor \time 4/4 \tempoCDXVb
+      \set Score.currentBarNumber = #231
+    r16 e'[\fE r e] r e-! a-! e-! c'( e,) r e r e-! c'-! e,-!
+    h'( e,) r e r h' e, d' cis( a) r a r cis, e cis
+    a'( a,) r a r cis e g a,( f') r a r a c, a'
+    f( e) r h r e gis e h'( gis) r gis r gis h gis
+    d'( e,) r e r e, h' d e,( d') r e, r c' e a %235
+    f( b,) r f r f b f' f( b) r b r f d f
+    gis,(\p h) r e c'( a) r dis,, e( a) r c h( gis) r d
+    c c'\pp r c r a c a e'( c) r c r a c a
+    e'( b) r b\f r b e, b' g'( c,) r g' r e,\p g b
+    g( f) r f8 f f16 f4( e8) r\fermata \bar "||" %240 finis
   }
 }
 

@@ -345,12 +345,30 @@ CDXVaAltoLyrics = \lyricmode {
 CDXVbAlto = {
   \relative c' {
     \clef treble
-
+    \key a \minor \time 4/4 \tempoCDXVb \autoBeamOff
+      \set Score.currentBarNumber = #231
+    \mvTr a'4\fE^\tuttiE r8 e a e r a
+    e16 e e8 r4 e4. e8
+    d8. d16 cis4 d8 f f fis16 fis
+    e16. e32 e8 r4 f r8 f
+    e e e e e8. e16 e4 %235
+    f8 f f b f8. f16 f4
+    e\p dis e4.( d8)
+    c4 r r2
+    R1
+    R\fermata \bar "||" %240 finis
   }
 }
 
 CDXVbAltoLyrics = \lyricmode {
-
+  Te, te er -- go, te %231
+  quae -- su -- mus, tu -- is
+  fa -- mu -- lis, tu -- is fa -- mu -- lis
+  sub -- ve -- ni, quos, quos
+  pre -- ti -- o -- so san -- gui -- ne, %235
+  pre -- ti -- o -- so san -- gui -- ne
+  re -- de -- mi --
+  sti. %238 finis
 }
 
 CDXVcAlto = {

@@ -204,7 +204,18 @@ CDXVaOboeII = {
 CDXVbOboeII = {
   \relative c' {
     \clef treble
-
+    \key a \minor \time 4/4 \tempoCDXVb
+      \set Score.currentBarNumber = #231
+    c'2\fE c
+    h cis
+    a a4 a
+    a8 gis r gis h gis r gis
+    d' h r h gis h r a %235
+    f b r f b d r d
+    gis,\p r a r a4 gis
+    a r c2\pp
+    b\f g'4 g,
+    r r8 b16\pp g' f4( e8) r\fermata \bar "||" %240 finis
   }
 }
 
