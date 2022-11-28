@@ -1,0 +1,25 @@
+title: Te Deum
+id: MH 415
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 453
+    date: 1786-01-30
+    rism: 456009473
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084985-6
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5671
+    date: 1820–1840
+    rism: 840016638
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072314v
+    license: custom (free for non-commercial purposes)
+toe: |
+  109 & A & 4th \sixteenthNote\ in \A1: \sharp d′16 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
