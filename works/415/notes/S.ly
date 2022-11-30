@@ -330,20 +330,218 @@ CDXVbSopranoLyrics = \lyricmode {
 CDXVcSoprano = {
   \relative c' {
     \clef treble
-
+    \key f \major \time 2/4 \tempoCDXVc \autoBeamOff
+      \set Score.currentBarNumber = #241
+    \mvTr a'8\pE^\solo c4 e,8
+    \appoggiatura g f4 r8 f
+    f( b4) d8
+    d c r c
+    c([ e,)] e c' %245
+    c([ f,)] f f'
+    \appoggiatura f16 e8 d16 c c8 c
+    c8.([ d16)] c8 f
+    g, d'16 c \appoggiatura c b8 a16([ g)]
+    \appoggiatura g f8 f r4 %250
+    R2
+    a4 a8 b
+    a8([ g)] g a
+    b( d4) b8
+    b8. a16 a8 r %255
+    a4 f'8 e16([ d)]
+    c4( h8) c
+    d8. f,16 f8 f
+    f e r4
+    R2 %260
+    g4 c8 e
+    f([ h,)] h4
+    g8 g c e
+    f([ h,)] h4
+    c8 c c c %265
+    c2~
+    c~
+    c
+    c4 g'~
+    g16[ a,] h([ cis)] d([ e)] f([ d)] %270
+    c4( h)
+    c r
+    r f16([ cis)] d([ f)]
+    e4( d)
+    c r %275
+    R2*5 %280
+    r4 e
+    f8. c16 c8 c
+    c([ b)] b a
+    a g r4
+    R2 %285
+    r4 c~
+    c f
+    f8([ e)] g b,
+    \appoggiatura b a4 r
+    R2 %290
+    a4. b8
+    a8([ g)] g([ a)]
+    b( d4) b8
+    b([ a)] c d
+    es4. es8 %295
+    d4 r
+    e!4. e8
+    f4 f8 f
+    h,4. h8
+    c4 r %300
+    R2
+    a8 c4 e,8
+    g8. f16 f4
+    f8( b4) d8
+    d c r c %305
+    c([ e,)] e c'
+    c([ f,)] f([ f')]
+    \appoggiatura f16 e8([ d16 c)] c8 c
+    c8.([ d16)] c8 f
+    g, d'16 c \appoggiatura c b8 a16([ g)] %310
+    \appoggiatura g f8 f r4
+    R2
+    f'4 es
+    d c
+    b a %315
+    g8. a16 b4
+    b4. b8
+    a4 a
+    as2
+    g4 r %320
+    R2
+    e8 b' b b
+    a([ c)] c4
+    e,8 b' b b
+    a c16 c c8 f %325
+    f2~
+    f~
+    f
+    f4 c~
+    c16[ b] b([ a)] a([ g)] b([ g)] %330
+    f4( g)
+    f r
+    as4. as8
+    g4 r
+    h4. h8 %335
+    c r c4~
+    c16[ b!] b([ a)] a([ g)] b([ g)]
+    f4( g)
+    a f'~
+    f16[ e] e([ d)] d([ c]) d([ b)] %340
+    a4( g)\trill
+    f r
+    R2*3 %345
+    r8 a([ f')] d
+    \appoggiatura c h4 h
+    r8 h([ d)] f,
+    \tempoCDXVcc f4.( e8)
+    e2\fermata \bar "||" %350 finis
   }
 }
 
 CDXVcSopranoLyrics = \lyricmode {
-%   Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
-%   Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
-%   et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.
-%   Et re -- ge e -- os, et ex -- tol -- le il -- los us -- que in ae -- ter -- num.
-%   Per sin -- gu -- los di -- es, be -- ne -- di -- ci -- mus te
-%   et lau -- da -- mus no -- men tu -- um in sae -- cu -- lum,
-%   et in sae -- cu -- lum sae -- cu -- li.
-%   Di -- gna -- re Do -- mi -- ne, di -- e i -- sto si -- ne pec -- ca -- to nos cu -- sto -- di -- re.
-%   Mi -- se -- re -- re no -- stri, Do -- mi -- ne, mi -- se -- re -- re no -- stri.
+  Ae -- ter -- na %241
+  fac cum
+  san -- ctis
+  tu -- is, ae --
+  ter -- na cum %245
+  san -- ctis in
+  glo -- ri -- a nu -- me --
+  ra -- ri, in
+  glo -- ri -- a nu -- me --
+  ra -- ri. %250
+
+  Sal -- vum fac
+  po -- pu -- lum
+  tu -- um
+  Do -- mi -- ne, %255
+  et be -- ne --
+  dic __ hae --
+  re -- di -- ta -- ti
+  tu -- ae.
+  %260
+  Et re -- ge
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que in ae -- %265
+  ter --
+
+  num, us -- %269
+  que in ae -- %270
+  ter --
+  num,
+  in ae --
+  ter --
+  num. %275
+
+  Per %281
+  sin -- gu -- los, per
+  sin -- gu -- los
+  di -- es
+  %285
+  be --
+  ne --
+  di -- ci -- mus
+  te
+  %290
+  et lau --
+  da -- mus
+  no -- men
+  tu -- um in
+  sae -- cu -- %295
+  lum,
+  et in
+  sae -- cu -- lum
+  sae -- cu --
+  li. %300
+
+  Di -- gna -- re
+  Do -- mi -- ne,
+  di -- e
+  i -- sto, di -- %305
+  gna -- re, di --
+  gna -- re __
+  si -- ne pec --
+  ca -- to, di --
+  gna -- re nos cu -- sto -- %310
+  di -- re.
+
+  Mi -- se --
+  re -- re
+  no -- stri, %315
+  Do -- mi -- ne,
+  mi -- se --
+  re -- re
+  no --
+  stri, %320
+
+  mi -- se -- re -- re
+  no -- stri,
+  mi -- se -- re -- re,
+  Do -- mi -- ne, mi -- se -- %325
+  re --
+
+  re, mi -- %329
+  se -- re -- re %330
+  no --
+  stri,
+  Do -- mi --
+  ne,
+  Do -- mi -- %335
+  ne, mi --
+  se -- re -- re
+  no --
+  stri, mi --
+  se -- re -- re %340
+  no --
+  stri,
+
+  mi -- se -- %346
+  re -- re,
+  mi -- se --
+  re --
+  re. %350 finis
 }
 
 CDXVdSoprano = {

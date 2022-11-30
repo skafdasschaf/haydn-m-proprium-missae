@@ -258,7 +258,118 @@ CDXVbViolinoII = {
 CDXVcViolinoII = {
   \relative c' {
     \clef treble
-
+    \twofourtime \key f \major \time 2/4 \tempoCDXVc
+      \set Score.currentBarNumber = #241
+    a4\p a8 b
+    c c16. b32 c8 f
+    d d( f) b
+    b a r c,
+    b g r b %245
+    c c r c
+    g' g\cresc g g
+    f16( e) g( f) a(\fz f) c( f)
+    d( b') b a \appoggiatura a g8 f16 e
+    \appoggiatura e f8 c'~\f \tuplet 6/4 4 { c16 d-! e-! f-! g-! a-! } %250
+    \kneeBeam b8-! c,,~ \tuplet 6/4 4 { c16 e f g a b }
+    a8 r r4
+    c,2\p
+    g'8 b4 g8
+    c,4 r8 g\f %255
+    a f'\p a g16 f
+    e4( d8) e
+    f d' r4
+    r8 g,~\f \tuplet 6/4 4 { g16 a h c d e }
+    \kneeBeam f8 g,,~ \tuplet 6/4 4 { g16 h c d e f } %260
+    e8 r r4
+    r8 g,\p \tuplet 3/2 8 { f'16[ g f] d d' h }
+    c8 r r4
+    r8 g,\p \tuplet 3/2 8 { f'16[ g f] d d' h }
+    c8 c( g) e %265
+    c g''16(\f b,!) a( f') c(\p a')
+    g( e) g(\f b,) a( f') c(\p a')
+    g( e) g(\f b,) a( f') c(\p a')
+    g8 g, g g
+    g f r a %270
+    e e f f
+    e e g g
+    g f r a
+    g16\fz c8 c16 d h8 h16
+    c8 g~\f \tuplet 6/4 4 { g16 a h c d e } %275
+    f8 g,~ \tuplet 6/4 4 { g16 h c d e f }
+    g8 g~ \tuplet 3/2 8 { g16[ a h] c g e }
+    \tuplet 3/2 8 { a[ f d] g e c } d4\trill
+    c8 c,\p g'( f)
+    b!( a) g( f) %280
+    \appoggiatura f e4 r8 g
+    f c' r c,
+    c4 r
+    r8 c g'( f)
+    b( a) g( f) %285
+    \appoggiatura f e4 r8 g
+    f c' r c,
+    c4 r
+    r8 c(\f a') f(
+    b) e,( g) g %290
+    f r r4
+    c2\p
+    g'8 b4 g8
+    f2
+    r8 a b c %295
+    f, f f f
+    g g g g
+    c, c c c
+    f16 h,8 d f d16
+    e c-!\f e-! g-! c g e g %300
+    c8 e,16( c) f( c) g'( e)
+    a4\p a,8 b
+    c c r f16 c
+    d8 d( f) b
+    b a r c, %305
+    b g r b
+    c c r c
+    g' g\cresc g g
+    f16( e) g( f) a(\fz f) c( f)
+    d( b') b a \appoggiatura a g8 f16 e %310
+    \appoggiatura e f8 c'~\f \tuplet 6/4 4 { c16 d e f g a }
+    \kneeBeam b8 c,,~ \tuplet 6/4 4 { c16 e f g f e }
+    f8 r r4
+    r8 f~\p \tuplet 6/4 4 { f16 a b c a es }
+    d8 r r4 %315
+    r8 g,~ \tuplet 6/4 4 { g16 b c d b g }
+    c8 r r4
+    r8 f'~ \tuplet 3/2 8 { f16[ c a] c a f }
+    d8\f f' f f,
+    e e' e g,, %320
+    a r r4
+    r8 c\p \tuplet 3/2 8 { c16[ e g] e g c }
+    a8 r r4
+    r8 c, \tuplet 3/2 8 { b'16[ c b] g e g }
+    f8 f'( c) a %325
+    f c'16(\f es,) d( b') f(\p d')
+    c( a) c(\f es,) d( b') f(\p d')
+    c( a) c(\f es,) d( b') f(\p d')
+    c( e, f e) f8 f
+    f d r d %330
+    c c e e
+    r16 f( e f) e'( f g f)
+    r as,( g f) e( f as f)
+    r e( g e) h'( c d c)
+    r as( g f) e( f as f) %335
+    e8 r r16 e(\fz f es)
+    d8\p d r d
+    c c e! e
+    f16-! f(\fz e f) d'4~
+    \once \slurDashed d16( c) c( b) b( a) b( g) %340
+    f a8 a16 g, e'8 e16
+    f8 c'~\f \tuplet 6/4 4 { c16 d e f g a }
+    b8 c,~ \tuplet 6/4 4 { c16 e f g a b }
+    c8 f,~ \tuplet 3/2 8 { f16 a f c[ f c] }
+    \tuplet 3/2 8 { d[ b g] c a f } g4\trill %345
+    f8 r r4
+    r8 d16( g) g( h) h( d)
+    d4. d,8\p
+    \tempoCDXVcc d4.( c8)
+    c2\fermata \bar "||" %350 finis
   }
 }
 

@@ -222,7 +222,90 @@ CDXVbOboeII = {
 CDXVcOboeII = {
   \relative c' {
     \clef treble
-
+    \twofourtime \key f \major \time 2/4 \tempoCDXVc
+      \set Score.currentBarNumber = #241
+    R2*4
+    c'2~\p %245
+    c~
+    c~
+    c4 r
+    R2
+    r4 c8\f r %250
+    b r b r
+    a r r4
+    R2*6 %258
+    r4 g8\fE r
+    f r f r %260
+    e r r4
+    r g\p
+    g2~
+    g
+    r8 c c c %265
+    c2~
+    c~
+    c
+    R2*4 %272
+    r4 d\fz
+    c h
+    c8 r g\f r %275
+    f r h r
+    c r e4
+    h8 c c h
+    c c\p g'( f)
+    b!( a) g( f) %280
+    \appoggiatura f e4 r
+    R2*2
+    r8 c g'( f)
+    b( a) g( f) %285
+    \appoggiatura f e4 r
+    R2*2
+    r4 f8\f r
+    e r g, r %290
+    f r r4
+    R2*4 %295
+    b2\p
+    g
+    f
+    f
+    e16 c\f e g c g e g %300
+    c8 r r4
+    R2*4 %305
+    c2~\p
+    c~
+    c~
+    c4 r
+    R2 %310
+    r4 c8\f r
+    b r b r
+    a r r4
+    R2*6 %319
+    r4 g\fE %320
+    f8 r r4
+    r c'\p
+    c2~
+    c
+    r8 f, f f %325
+    f2~
+    f~
+    f
+    R2*4 %332
+    f'2
+    e
+    h %335
+    c8 r r4
+    R2*2
+    r4 d~\fz
+    \once \slurDashed d16( c) c( b) b( a) b( g) %340
+    f4 e
+    f8 r c'\f r
+    b r g r
+    f r c' r
+    e, f f e %345
+    f r r4
+    r8 d4 h'8
+    h r r4
+    \tempoCDXVcc R2
+    R\fermata \bar "||" %350 finis
   }
 }
 

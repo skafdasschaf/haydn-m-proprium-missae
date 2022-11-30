@@ -371,12 +371,183 @@ CDXVbTenoreLyrics = \lyricmode {
 CDXVcTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key f \major \time 2/4 \tempoCDXVc \autoBeamOff
+      \set Score.currentBarNumber = #241
+    R2*7 %247
+    r4 r8 \mvTr c\pE^\solo
+    d b16 a \appoggiatura a g8 c16([ b)]
+    \appoggiatura b a8 a r4 %250
+    R2
+    c4 d8 d
+    c4 c8 c
+    d4 f8([ c)]
+    c8. c16 c8([ cis)] %255
+    d4 f,8 a
+    g4. g8
+    g8. g16 g8 g
+    g g r4
+    R2*2 %261
+    g8([ d')] d d
+    c([ e)] e4
+    g,8 d' d d
+    c([ e)] e4 %265
+    r8 g, a c
+    r g a c
+    r g a c
+    R2*3 %271
+    r4 g'~
+    g16[ a,] h([ cis)] d([ e)] f([ d)]
+    c4( h)
+    c r %275
+    R2*5 %280
+    r4 c
+    c c8 c
+    c2
+    c4 r
+    R2*2 %286
+    c4 c
+    b! g8 c
+    c4 r
+    R2 %290
+    c4 d
+    c c
+    d f8([ c)]
+    c([ f)] es d
+    c4. c8 %295
+    b4 r
+    g c
+    c c8 c
+    d4. g,8
+    g4 r %300
+    R2*7 %307
+    r8 e' e e
+    f c r c
+    d b16 a \appoggiatura a g8 c16([ b)] %310
+    \appoggiatura b a8 a r4
+    R2*3
+    d4 c %315
+    b d
+    c4. c8
+    c4 c
+    d2
+    g,4 r %320
+    R2
+    c4 c
+    c2~
+    c
+    c4 r %325
+    r8 es([ d)] b
+    a([ es')] d([ b)]
+    a([ es')] d([ b)]
+    a a r4
+    f8. f16 b8 d16([ b)] %330
+    a4( b)
+    a r
+    d4. d8
+    g,4 r
+    f4. f8 %335
+    g4 r
+    f8. f16 b8 d16([ b)]
+    a4( c)
+    c d~
+    d16[ c] c([ b)] b([ a)] b([ d)] %340
+    c4.( b8)
+    a4 r
+    R2*3 %345
+    r8 c4 f8
+    \appoggiatura e d4 d
+    r8 d([ h)] h
+    \tempoCDXVcc h4._( c16[ g)]
+    g2\fermata \bar "||" %350 finis
   }
 }
 
 CDXVcTenoreLyrics = \lyricmode {
+  In %248
+  glo -- ri -- a nu -- me --
+  ra -- ri. %250
 
+  Sal -- vum fac
+  po -- pu -- lum
+  tu -- um
+  Do -- mi -- ne, __ %255
+  et be -- ne --
+  dic hae --
+  re -- di -- ta -- ti
+  tu -- ae.
+
+  Et __ re -- ge %262
+  e -- os,
+  et ex -- tol -- le
+  il -- los, %265
+  et re -- ge
+  ex -- tol -- le,
+  ex -- tol -- le,
+
+  us -- %272
+  que in ae --
+  ter --
+  num. %275
+
+  Per %281
+  sin -- gu -- los
+  di --
+  es
+
+  be -- ne -- %287
+  di -- ci -- mus
+  te
+  %290
+  et lau --
+  da -- mus
+  no -- men
+  tu -- um in
+  sae -- cu -- %295
+  lum,
+  et in
+  sae -- cu -- lum
+  sae -- cu --
+  li. %300
+
+  Si -- ne pec -- %308
+  ca -- to, di --
+  gna -- re nos cu -- sto -- %310
+  di -- re.
+
+  Mi -- se -- %315
+  re -- re,
+  mi -- se --
+  re -- re
+  no --
+  stri, %320
+
+  mi -- se --
+  re --
+
+  re, %325
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re %330
+  no --
+  stri,
+  Do -- mi --
+  ne,
+  Do -- mi -- %335
+  ne,
+  mi -- se -- re -- re
+  no --
+  stri, mi --
+  se -- re -- re %340
+  no --
+  stri,
+
+  mi -- se -- %346
+  re -- re,
+  mi -- se --
+  re --
+  re. %350 finis
 }
 
 CDXVdTenore = {

@@ -374,12 +374,189 @@ CDXVbAltoLyrics = \lyricmode {
 CDXVcAlto = {
   \relative c' {
     \clef treble
-
+    \key f \major \time 2/4 \tempoCDXVc \autoBeamOff
+      \set Score.currentBarNumber = #241
+    R2*7 %247
+    r4 r8 \mvTr f\pE^\solo
+    f f16 f e8 f16([ e)]
+    \appoggiatura e f8 f r4 %250
+    R2
+    f4 f8 g
+    f([ e)] e f
+    g( b4) g8
+    g8. f16 f8 r %255
+    f4 a8 g16([ f)]
+    e4( d8) e
+    f8. d16 d8 d
+    d c r4
+    R2*2 %261
+    h8([ f')] f f
+    e[( g)] g4
+    h,8 f' f f
+    e([ g)] g4 %265
+    r8 b! a f
+    e b' a f
+    e([ b')] a([ f)]
+    e e c c'
+    a4. a16([ f)] %270
+    e4( d)
+    c r
+    r a'8 a
+    c,([ e] g4)
+    e r %275
+    R2*5 %280
+    r4 g
+    f8. f16 f8 f
+    e4 g8 f
+    f e r4
+    R2*2 %286
+    f4 f
+    b, b'8 g
+    \appoggiatura g f4 r
+    R2 %290
+    f4. g8
+    f([ e)] e([ f)]
+    g( b4) g8
+    g([ f)] a b
+    a4( b8) f %295
+    f4 r
+    c g'
+    f f8 f
+    f4. f8
+    e4 r %300
+    R2*7 %307
+    r8 g g g
+    f f r f
+    f f16 f e8 f16([ e)] %310
+    \appoggiatura e f8 f r4
+    R2*2
+    f4 es
+    d2~ %315
+    d4 g
+    g4. g8
+    f4 f
+    f2
+    e4 r %320
+    R2
+    c8 g' g g
+    f([ a)] a4
+    c,8 g' g g
+    f a a4 %325
+    r8 c,([ d)] f
+    c4 d8([ f)]
+    c4 d8([ f)]
+    c c r4
+    d8. d16 d8 d %330
+    c4( e)
+    f r
+    f4. f8
+    e4 r
+    f4. f8 %335
+    e4 r
+    d8. d16 d8 d
+    c4( e)
+    f r
+    f8. f16 f8 f %340
+    f4( e)\trill
+    f r
+    R2*3 %345
+    r8 f([ a)] a
+    g4 g
+    r8 f4 d8
+    \tempoCDXVcc d4.( c8)
+    c2\fermata \bar "||" %350 finis
   }
 }
 
 CDXVcAltoLyrics = \lyricmode {
+  In %248
+  glo -- ri -- a nu -- me --
+  ra -- ri. %250
 
+  Sal -- vum fac
+  po -- pu -- lum
+  tu -- um
+  Do -- mi -- ne, %255
+  et be -- ne --
+  dic __ hae --
+  re -- di -- ta -- ti
+  tu -- ae.
+
+  Et __ re -- ge %262
+  e -- os,
+  et ex -- tol -- le
+  il -- los, %265
+  et re -- ge
+  e -- os, et ex --
+  tol -- le __
+  il -- los, us -- que
+  in ae -- %270
+  ter --
+  num,
+  in ae --
+  ter --
+  num. %275
+
+  Per %281
+  sin -- gu -- los, per
+  sin -- gu -- los
+  di -- es
+
+  be -- ne -- %287
+  di -- ci -- mus
+  te
+  %290
+  et lau --
+  da -- mus
+  no -- men
+  tu -- um in
+  sae -- cu -- %295
+  lum,
+  et in
+  sae -- cu -- lum
+  sae -- cu --
+  li. %300
+
+  Si -- ne pec -- %308
+  ca -- to, di --
+  gna -- re nos cu -- sto -- %310
+  di -- re.
+
+  Mi -- se -- %314
+  re -- %315
+  re,
+  mi -- se --
+  re -- re
+  no --
+  stri, %320
+
+  mi -- se -- re -- re
+  no -- stri,
+  mi -- se -- re -- re,
+  Do -- mi -- ne, %325
+  mi -- se --
+  re -- re, __
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re %330
+  no --
+  stri,
+  Do -- mi --
+  ne,
+  Do -- mi -- %335
+  ne,
+  mi -- se -- re -- re
+  no --
+  stri,
+  mi -- se -- re -- re %340
+  no --
+  stri,
+
+  mi -- se -- %346
+  re -- re,
+  mi -- se --
+  re --
+  re. %350 finis
 }
 
 CDXVdAlto = {

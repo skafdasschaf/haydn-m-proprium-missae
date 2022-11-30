@@ -193,7 +193,53 @@ CDXVbClarinoII = {
 CDXVcClarinoII = {
   \relative c' {
     \clef treble
-
+    \twofourtime \key c \major \time 2/4 \tempoCDXVc
+      \set Score.currentBarNumber = #241
+    R2*6 %246
+    c2~\p
+    c
+    R
+    r4 c8\f r %250
+    c r c r
+    c\p r r4
+    R2*6 %258
+    r4 c8\f r
+    g' r g r %260
+    c, r r4
+    R2*13 %274
+    r4 c8\fE r %275
+    g' r g r
+    g r r4
+    r r8 g
+    e r c4~\p
+    c2~ %280
+    c4 r
+    R2*2
+    c2~
+    c~ %285
+    c4 r
+    R2*2
+    r4 c8\f r
+    c r c r %290
+    R2*9 %299
+    r4 e8\fE r %300
+    e r r4
+    R2*6 %307
+    c2~\p
+    c
+    R %310
+    r4 c8\f r
+    c r c r
+    R2*28 %340
+    c2\pE
+    c8 r c\f r
+    c r c r
+    c r r4
+    R2*2 %346
+    r4 g'8 r
+    g r r4
+    \tempoCDXVcc R2
+    r8 g,\p g r\fermata \bar "||" %350 finis
   }
 }
 

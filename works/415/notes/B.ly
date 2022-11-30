@@ -385,12 +385,183 @@ CDXVbBassoLyrics = \lyricmode {
 CDXVcBasso = {
   \relative c {
     \clef bass
-
+    \key f \major \time 2/4 \tempoCDXVc \autoBeamOff
+      \set Score.currentBarNumber = #241
+    R2*7 %247
+    r4 r8 \mvTr a\pE^\solo
+    b b16 b c8 c
+    f f r4 %250
+    R2
+    f4 d8 b
+    c([ c')] b a
+    g4 d8([ e)]
+    f8. f16 f8([ e)] %255
+    d4 d8 d
+    g4. g8
+    h,8. h16 h8 h
+    c c r4
+    R2*2 %261
+    g'4 g8 g
+    c4 c,
+    g'8 g g g
+    c4 c, %265
+    r8 e f a
+    c e, f a
+    c([ e,)] f([ a)]
+    c c, r4
+    R2*2 %271
+    r4 c'8 e,
+    f4. f8
+    g2
+    c,4 r %275
+    R2*5 %280
+    r4 b'!
+    a8. a16 a8 a
+    g4 e8 f
+    c' c, r4
+    R2*2 %286
+    a'4 a
+    g e8 e
+    f4 r
+    R2 %290
+    f4 d8([ b)]
+    c([ c')] b([ a)]
+    g4 d8([ e)]
+    f8.([ e16)] f4
+    r8 f g a %295
+    b4 r
+    b,4. b8
+    a4 a8 a
+    d4. d8
+    c4 r %300
+    R2*7 %307
+    r8 b' b b
+    a a r a,
+    b b16 b c8 c %310
+    f f r4
+    R2*4 %315
+    g4 f!
+    e!2
+    f
+    h,
+    c4 r %320
+    c8 c f a
+    b([ e,)] e4
+    f8 c f a
+    b e, e4
+    R2 %325
+    r8 a,([ b)] d
+    f([ a,)] b([ d)]
+    f([ a,)] b([ d)]
+    f f r4
+    b,8. b16 b8 b %330
+    c2
+    f4 r
+    h,4. h8
+    c4 r
+    des4. des8 %335
+    c4 r
+    b!8. b16 b8 b
+    c2
+    f4 r
+    f8. f16 f8 b, %340
+    c2
+    f,4 r
+    R2*3 %345
+    r8 f'4 f8
+    g4 g
+    r8 g4 g8
+    \tempoCDXVcc c,2
+    c\fermata \bar "||" %350 finis
   }
 }
 
 CDXVcBassoLyrics = \lyricmode {
+  In %248
+  glo -- ri -- a nu -- me --
+  ra -- ri. %250
 
+  Sal -- vum fac
+  po -- pu -- lum
+  tu -- um
+  Do -- mi -- ne, __ %255
+  et be -- ne --
+  dic hae --
+  re -- di -- ta -- ti
+  tu -- ae.
+
+  Et re -- ge %262
+  e -- os,
+  et ex -- tol -- le
+  il -- los, %265
+  et re -- ge
+  e -- os, et ex --
+  tol -- le __
+  il -- los,
+
+  us -- que %272
+  in ae --
+  ter --
+  num. %275
+
+  Per %281
+  sin -- gu -- los, per
+  sin -- gu -- los
+  di -- es
+
+  be -- ne -- %287
+  di -- ci -- mus
+  te
+  %290
+  et lau --
+  da -- mus
+  no -- men
+  tu -- um
+  in sae -- cu -- %295
+  lum,
+  et in
+  sae -- cu -- lum
+  sae -- cu --
+  li. %300
+
+  Si -- ne pec -- %308
+  ca -- to, di --
+  gna -- re nos cu -- sto -- %310
+  di -- re.
+
+  Mi -- se -- %316
+  re --
+  re
+  no --
+  stri, %320
+  mi -- se -- re -- re
+  no -- stri,
+  mi -- se -- re -- re,
+  Do -- mi -- ne,
+   %325
+  mi -- se --
+  re -- re, __
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- re %330
+  no --
+  stri,
+  Do -- mi --
+  ne,
+  Do -- mi -- %335
+  ne,
+  mi -- se -- re -- re
+  no --
+  stri,
+  mi -- se -- re -- re %340
+  no --
+  stri,
+
+  mi -- se -- %346
+  re -- re,
+  mi -- se --
+  re --
+  re. %350 finis
 }
 
 CDXVdBasso = {

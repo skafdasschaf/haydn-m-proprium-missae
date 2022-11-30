@@ -170,7 +170,39 @@ CDXVbTimpani = {
 CDXVcTimpani = {
   \relative c {
     \clef bass
-
+    \twofourtime \key c \major \time 2/4 \tempoCDXVc
+      \set Score.currentBarNumber = #241
+    R2*9 %249
+    r4 c8\f r %250
+    c r c r
+    R2*7 %258
+    r4 c8\fE r
+    g r g r %260
+    c r r4
+    R2*13 %274
+    r4 c8\fE r %275
+    g r g r
+    c r r4
+    r r8 g
+    c r r4
+    R2*9 %288
+    r4 c8\fE r
+    c r c r %290
+    R2*9 %299
+    r4 c8\fE r %300
+    c r r4
+    R2*9 %310
+    r4 c8\fE r
+    c r c r
+    R2*29 %341
+    r4 c8\fE r
+    c r c r
+    c r r4
+    R2*2 %346
+    r4 g8 r
+    g r r4
+    \tempoCDXVcc R2
+    r8 c\p c r\fermata \bar "||" %350 finis
   }
 }
 
