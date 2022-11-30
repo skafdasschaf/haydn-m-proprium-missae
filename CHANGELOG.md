@@ -1,5 +1,26 @@
 # Changelog
 
+## v2022.11.0
+
+### Added
+
+- works: MH 415, 494, 505f, 509–511, 513, and 519–524
+- manually curated MIDI files for all edited works in folder `midi` (created with \articulate)
+
+
+### Changed
+
+- \partCombine now automatically combines intervals up to the tenth
+
+
+### Fixed
+
+- MH 215: errors in org (bar 42, 2nd eighth: c8 -> G8) and cor 1 (bar 34, 6th eighth: e'8 -> g'8)
+- MH 488: typo in tempo indication
+- MH 497: transposition of cor
+- MH 773: transposition of cor
+
+
 ## v2022.10.0
 
 ### Added
