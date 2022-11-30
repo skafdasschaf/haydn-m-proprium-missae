@@ -5,7 +5,7 @@ CDXVaBasso = {
     \clef bass
     \key c \major \time 3/4 \tempoCDXVa \autoBeamOff
     R2.*2
-    \mvTr c'2.\fE^\tuttiE
+    \mvDl c'2.\fE^\tuttiE
     c4 h g
     h2. %5
     c4 r e,
@@ -567,10 +567,208 @@ CDXVcBassoLyrics = \lyricmode {
 CDXVdBasso = {
   \relative c {
     \clef bass
-
+    \key c \major \time 3/4 \tempoCDXVd \autoBeamOff
+      \set Score.currentBarNumber = #351
+    \mvTr c2.\p^\tutti
+    c
+    c4 c c
+    c4. c8 c4
+    c2\cresc c4 %355
+    c4. c8 c4
+    g'2\f g4
+    c, r r
+    g'2 g4
+    c, r c %360
+    d2 d4
+    d r d
+    d4. d8 d d
+    g4 r g
+    g r g %365
+    g r r
+    R2.*3
+    c4 c2 %370
+    c8. c16 h4 g
+    h2.
+    c4 c, e
+    f2 f4
+    g2 g4 %375
+    a a r
+    a\p r r
+    g2 g4
+    f2.
+    e4 r r %380
+    a r r
+    g2 g4
+    f2.
+    e4 r r
+    r f\f f %385
+    f f f8 f
+    fis2.
+    g4 r r
+    R2.*4 %392
+    g2.
+    f!
+    e4( c') a %395
+    fis( a) fis
+    g2.~
+    g
+    c,4 r r
+    r e c %400
+    f2.
+    g4 g g
+    a( c) a
+    fis( a) fis
+    g2.~ %405
+    g
+    c,4 r r
+    r g' g
+    g g r
+    r g g %410
+    g g r
+    d2 d4
+    h c2
+    g'4 r r
+    R2.*2 %416
+    c4 c2
+    c8. c16 h4 g
+    c,2.
+    g'4 g h %420
+    c4. h8 a4
+    f g2
+    c,4 r r
+    r r h\p
+    a2 r4 %425
+    r r fis'
+    g!2 r4
+    R2.*3 %430
+    c4\f c2
+    c8. c16 h4 g
+    c,2.
+    g'4 g h
+    c4. h8 a4 %435
+    f g2
+    c,4 r r
+    h r r
+    c2 c'4
+    a4. a8 a4 %440
+    f g2
+    c,4 r r
+    g'2.
+    f
+    e4( c') a %445
+    fis( a) fis
+    g2.~
+    g
+    c,4 e g
+    c g r %450
+    r e g
+    c g r
+    r c c
+    c2.~
+    c~ %455
+    c
+    c2 r4
+    R2.\fermata \bar "|." %458 finis
   }
 }
 
-CDXVBassodLyrics = \lyricmode {
+CDXVdBassoLyrics = \lyricmode {
+  Fi -- %351
+  at
+  mi -- se -- ri --
+  cor -- di -- a
+  tu -- a %355
+  Do -- mi -- ne,
+  su -- per
+  nos,
+  su -- per
+  nos, quem -- %360
+  ad -- mo --
+  dum spe --
+  ra -- vi -- mus in
+  te, in
+  te, in %365
+  te.
 
+  In te, %370
+  Do -- mi -- ne, spe --
+  ra --
+  vi, non con --
+  fun -- dar
+  in ae -- %375
+  ter -- num,
+  non,
+  non con --
+  fun --
+  dar, %380
+  non
+  in ae --
+  ter --
+  num,
+  non con -- %385
+  fun -- dar in ae --
+  ter --
+  num,
+
+  non %393
+  con --
+  fun -- dar %395
+  in __ ae --
+  ter --
+
+  num,
+  in ae -- %400
+  ter --
+  num, non con --
+  fun -- dar
+  in __ ae --
+  ter -- %405
+
+  num,
+  non con --
+  fun -- dar
+  in ae -- %410
+  ter -- num,
+  non in
+  ae -- ter --
+  num,
+
+  in te, %417
+  Do -- mi -- ne, spe --
+  ra --
+  vi, non con -- %420
+  fun -- dar in
+  ae -- ter --
+  num,
+  in
+  te, %425
+  in
+  te,
+
+  in te, %431
+  Do -- mi -- ne, spe --
+  ra --
+  vi, non con --
+  fun -- dar in %435
+  ae -- ter --
+  num,
+  non
+  non con --
+  fun -- dar in %440
+  ae -- ter --
+  num,
+  non
+  con --
+  fun -- dar %445
+  in __ ae --
+  ter --
+
+  num, non con --
+  fun -- dar %450
+  in ae --
+  ter -- num,
+  in ae --
+  ter --
+
+  num. %457 finis
 }

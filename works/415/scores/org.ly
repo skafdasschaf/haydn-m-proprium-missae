@@ -7,12 +7,43 @@
 
 \book {
   \bookpart {
-    \section "CDXV" ""
+    \section "415" "Te Deum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \CDXVOrgano }
-        \new FiguredBass { \CDXVBassFigures }
+        \new Staff { \CDXVaOrgano }
+        \new FiguredBass { \CDXVaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { systems-per-page = #3 }
+    \score {
+      <<
+        \new Staff { \CDXVbOrgano }
+        \new FiguredBass { \CDXVbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CDXVcOrgano }
+        \new FiguredBass { \CDXVcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fiat misericordia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CDXVdOrgano }
+        \new FiguredBass { \CDXVdBassFigures }
       >>
     }
   }

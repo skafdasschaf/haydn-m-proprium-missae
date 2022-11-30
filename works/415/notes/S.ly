@@ -547,13 +547,222 @@ CDXVcSopranoLyrics = \lyricmode {
 CDXVdSoprano = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 3/4 \tempoCDXVd \autoBeamOff
+      \set Score.currentBarNumber = #351
+    \mvTr e2.\p^\tutti
+    f
+    g4 g g
+    a4. a8 a4
+    b2\cresc b4 %355
+    a4. a8 a4
+    h!2\f h4
+    c r r
+    f2 h,4
+    c r e %360
+    a,2 c4
+    h r d
+    d4. h8 a c
+    h4 r d
+    g r d %365
+    g, r r
+    R2.
+    c4 c2
+    c8. c16 h4 g
+    e'2. %370
+    d4 r g,
+    f'2.
+    e4 e e
+    d2 d4
+    f( h,) d %375
+    c c r
+    f,\p r r
+    e2 e4
+    a2.
+    g4 r r %380
+    f r r
+    e2 e4
+    a2.
+    g4 c\f c
+    d,2. %385
+    d4 d d
+    c'2.
+    h4 r r
+    R2.*2 %390
+    c2.
+    c
+    h4( f'!) d
+    h( d) h
+    c g r %395
+    a( fis) a
+    g g r
+    R2.
+    c
+    b %400
+    a4( f') d
+    h!( d) h
+    c2.
+    c4 c c
+    e2. %405
+    d
+    c4 g g
+    g g r
+    r g g
+    g g r %410
+    r g g
+    g4. g8 g4
+    f' f( e)
+    d r r
+    c c2 %415
+    c8. c16 h4 g
+    e'2.
+    d4 r g,
+    g'2.
+    f4 f f %420
+    e4. e8 e4
+    f e( d)
+    c r r
+    r r e\p
+    d( c) r %425
+    r r d
+    c( h) r
+    R2.
+    c4\f c2
+    c8. c16 h4 g %430
+    e'2.
+    d4 r g,
+    g'2.
+    f4 f f
+    e4. e8 e4 %435
+    f e( d)
+    e r r
+    f r r
+    e2 e4
+    e4. e8 e4 %440
+    f e( d)
+    c r r
+    g2.
+    f
+    e4( c') a %445
+    fis( a) fis
+    g2.
+    d'
+    c4 e, g
+    c g r %450
+    r e g
+    c g r
+    r c c
+    c2.~
+    c~ %455
+    c
+    c2 r4
+    R2.\fermata \bar "|." %458 finis
   }
 }
 
-CDXVSopranodLyrics = \lyricmode {
-  % Fi -- at mi -- se -- ri -- cor -- di -- a tu -- a Do -- mi -- ne,
-  % su -- per nos, quem -- ad -- mo -- dum spe -- ra -- vi -- mus in te.
-  % In te, Do -- mi -- ne, spe -- ra -- vi:
-  % Non con -- fun -- dar in ae -- ter -- num.
+CDXVdSopranoLyrics = \lyricmode {
+  Fi -- %351
+  at
+  mi -- se -- ri --
+  cor -- di -- a
+  tu -- a %355
+  Do -- mi -- ne,
+  su -- per
+  nos,
+  su -- per
+  nos, quem -- %360
+  ad -- mo --
+  dum spe --
+  ra -- vi -- mus in
+  te, in
+  te, in %365
+  te.
+
+  In te,
+  Do -- mi -- ne, spe --
+  ra -- %370
+  vi, spe --
+  ra --
+  vi, non con --
+  fun -- dar
+  in __ ae -- %375
+  ter -- num,
+  non,
+  non con --
+  fun --
+  dar, %380
+  non
+  in ae --
+  ter --
+  num, non con --
+  fun -- %385
+  dar in ae --
+  ter --
+  num,
+
+  non %391
+  con --
+  fun -- dar
+  in __ ae --
+  ter -- num, %395
+  in __ ae --
+  ter -- num,
+
+  non
+  con -- %400
+  fun -- dar
+  in __ ae --
+  ter --
+  num, in ae --
+  ter -- %405
+  _
+  num, non con --
+  fun -- dar
+  in ae --
+  ter -- num, %410
+  non con --
+  fun -- dar in
+  ae -- ter --
+  num,
+  in te, %415
+  Do -- mi -- ne, spe --
+  ra --
+  vi, spe --
+  ra --
+  vi, non con -- %420
+  fun -- dar in
+  ae -- ter --
+  num,
+  in
+  te, __ %425
+  in
+  te, __
+
+  in te,
+  Do -- mi -- ne, spe -- %430
+  ra --
+  vi, spe --
+  ra --
+  vi, non con --
+  fun -- dar in %435
+  ae -- ter --
+  num,
+  non
+  non con --
+  fun -- dar in %440
+  ae -- ter --
+  num,
+  non
+  con --
+  fun -- dar %445
+  in __ ae --
+  ter --
+  _
+  num, non con --
+  fun -- dar %450
+  in ae --
+  ter -- num,
+  in ae --
+  ter --
+
+  num. %457 finis
 }

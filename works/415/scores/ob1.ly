@@ -7,11 +7,39 @@
 
 \book {
   \bookpart {
-    \section "CDXV" ""
+    \section "415" "Te Deum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \CDXVOboeI }
+        \new Staff { \CDXVaOboeI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { systems-per-page = #2 }
+    \score {
+      <<
+        \new Staff { \CDXVbOboeI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CDXVcOboeI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fiat misericordia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CDXVdOboeI }
       >>
     }
   }

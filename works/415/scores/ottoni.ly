@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "CDXV" ""
+    \section "415" "Te Deum"
     \addTocEntry
     \score {
       <<
@@ -19,18 +19,82 @@
             \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CDXVClarinoI
+              \CDXVaClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CDXVClarinoII
+              \CDXVaClarinoII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
-          \CDXVTimpani
+          \CDXVaTimpani
         }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { systems-per-page = #2 }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CDXVbClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CDXVbClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CDXVbTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CDXVcClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CDXVcClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CDXVcTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fiat misericordia"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CDXVdClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CDXVdClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CDXVdTimpani }
       >>
     }
   }

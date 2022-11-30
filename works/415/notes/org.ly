@@ -753,7 +753,7 @@ CDXVdOrgano = {
     g g, g' g, g' g,
     g' g, g' g, g' g, %365
     g'4 g, g
-    g8 g' g f e d
+    g8 g' g f! e d
     c4 e c
     g' g, h
     c e c %370
@@ -813,7 +813,7 @@ CDXVdOrgano = {
     \mvTr h\p-\tasto r r
     a r r %425
     d r r
-    g r r
+    g! r r
     g, r r
     c\f e c
     g' g, h %430
@@ -849,5 +849,112 @@ CDXVdOrgano = {
 }
 
 CDXVdBassFigures = \figuremode {
-
+  r2. %351
+  <7 2>
+  <7- [3]>
+  <6 4>
+  <7- [5]> %355
+  <6 4>
+  <7! 2>
+  <8 [3]>
+  <7 2>
+  <8 [3]> %360
+  <[7] _+>
+  <6 4>
+  <\t \t>2 <7 _+>4
+  r2.
+  r %365
+  r
+  r
+  r
+  <4>4 <3>2
+  r2. %370
+  <4>4 <3>2
+  <6 5>2.
+  r
+  <6 5>
+  <7> %375
+  r
+  <6>2 \bassFigureExtendersOn q8 q
+  <6\! 4>2 <6 4>8 q
+  <3>2 q8 q
+  <6>2 q8 q %380
+  <6\!>2 <6>8 q
+  <6\! 4>2 <6 4>8 q
+  <3>2 q8 q \bassFigureExtendersOff
+  <6>2.
+  r4 <6 5>2 %385
+  <\t \t>2.
+  q
+  r
+  r
+  <6>4 <\t>2 %390
+  r <6>4
+  <7 [_+]>2.
+  r
+  <6 [_!]>4 <6> <2>
+  <6>2. %395
+  <5>
+  <3>2 \once \bassFigureExtendersOn q4
+  <7!>2.
+  <8>2 \once \bassFigureExtendersOn q4
+  <7->2. %400
+  r2 <6>4
+  <[_!]>2.
+  r
+  <7>
+  <6 4> %405
+  <[5] 3>
+  r
+  <6 5>
+  r
+  <2> %410
+  <6>
+  q
+  <6 5>4 <9 4> <6>
+  r2.
+  r %415
+  <4>4 <3>2
+  r2.
+  <4>4 <3>2
+  r2.
+  <7> %420
+  r
+  <6>4 <6 4> <[5] 3>
+  r2.
+  r
+  r %425
+  r
+  r
+  r
+  <8>2 \once \bassFigureExtendersOn q4
+  <4>4 <3>2 %430
+  r2.
+  <4>4 <3>2
+  r2.
+  <7>
+  r %435
+  <6>4 <6 4> <5 [3]>
+  r2.
+  <6 5>
+  r
+  r %440
+  <6>4 <6 4> <[5] 3>
+  <8>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  r2.
+  <6>
+  r %445
+  <7>2 \once \bassFigureExtendersOn q4
+  <6 4>2.
+  <[5] 3>
+  r
+  r %450
+  r
+  r
+  r
+  r
+  r %455
+  r
+  r
+  r %458 finis
 }

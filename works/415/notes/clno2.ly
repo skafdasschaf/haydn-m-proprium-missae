@@ -246,6 +246,101 @@ CDXVcClarinoII = {
 CDXVdClarinoII = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 3/4 \tempoCDXVd
+      \set Score.currentBarNumber = #351
+    c4\p r r
+    R2.
+    r4 c c
+    c r r
+    r c\cresc c %355
+    c r r
+    r c\f c
+    c e e
+    g\ff g8 g g g
+    e4 e r %360
+    R2.*3
+    r4 g g
+    r g g %365
+    r g g
+    g r r
+    g r g
+    g r r
+    e r e %370
+    g r r
+    g g g
+    g8. g16 g4 r
+    R2.
+    r4 r g %375
+    e c' r
+    R2.*3
+    r4 c,\p c %380
+    c r r
+    R2.*2
+    r4 c\f c
+    c r r %385
+    r c c
+    c r c
+    g' g r
+    R2.*8 %396
+    g4 r r
+    r g g
+    g r r
+    r c, c %400
+    c r r
+    g' r g
+    e r r
+    e r r
+    c' c c %405
+    g g g
+    e r r
+    g r r
+    g r g
+    g r g %410
+    c, r e
+    g r r
+    R2.
+    r4 g g
+    e r e %415
+    g r g
+    e r e
+    g r r
+    g,2.~
+    g %420
+    c4 r c'
+    d c g
+    e r r
+    R2.*3 %426
+    g,2.~\p
+    g
+    e'4\f r e
+    g r g %430
+    e r e
+    g r r
+    g,2.~
+    g
+    c4 r c' %435
+    d c g
+    e e e
+    r g g
+    r e e
+    e r r %440
+    R2.
+    c'4 g e
+    c2.
+    g
+    e'4 r r %445
+    c' r r
+    c c c
+    g g g
+    e e' e
+    e2 d8 g, %450
+    e4 e' e
+    e2 d8 g,
+    e4 r r
+    r e e
+    e r r %455
+    g r r
+    e r c8. c16
+    c4 r r\fermata \bar "|." %458 finis
   }
 }

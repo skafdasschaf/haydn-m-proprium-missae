@@ -209,6 +209,95 @@ CDXVcTimpani = {
 CDXVdTimpani = {
   \relative c {
     \clef bass
-
+    \key c \major \time 3/4 \tempoCDXVd
+      \set Score.currentBarNumber = #351
+    c4\p r r
+    R2.
+    r4 c c
+    c r r
+    r c\cresc c %355
+    c r r
+    r c\f c
+    c c c
+    g\ff g8 g g g
+    c4 c r %360
+    R2.*3
+    r4 g g
+    r g g %365
+    r g g
+    g r r
+    c r c
+    g r r
+    c r c %370
+    g r r
+    g g g
+    c8. c16 c4 r
+    R2.
+    r4 r g %375
+    c c r
+    R2.*3
+    r4 c\p c %380
+    c r r
+    R2.*4 %385
+    r4 c\fE c
+    c r c
+    g g r
+    R2.*8 %396
+    g4 r r
+    r g g
+    c r r
+    r c c %400
+    c r r
+    g r g
+    c r r
+    c r r
+    g g g %405
+    g g g
+    c r r
+    g r r
+    c r c
+    g r g %410
+    c r c
+    g r r
+    R2.
+    r4 g g
+    c r c %415
+    g r g
+    c r c
+    g r r
+    R2.*2 %420
+    c4 r r
+    r r g
+    c r r
+    R2.*5 %428
+    c4\fE r c
+    g r g %430
+    c r c
+    g r r
+    R2.*2
+    c4 r r %435
+    r g g
+    c c c
+    r g g
+    r c c
+    c r r %440
+    R2.
+    r4 c c
+    c r r
+    g r r
+    c r r %445
+    R2.
+    g4 g g
+    g g g
+    c c c
+    c r g %450
+    c c c
+    c r g
+    c r r
+    r c c
+    c r r %455
+    c r r
+    c c c8. c16
+    c4 r r\fermata \bar "|." %458 finis
   }
 }

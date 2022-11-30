@@ -376,6 +376,115 @@ CDXVcViolinoI = {
 CDXVdViolinoI = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 3/4 \tempoCDXVd
+      \set Score.currentBarNumber = #351
+    e8-!\p g,-! e'-! g,-! e'-! g,-!
+    f' g, f' g, f' g,
+    g' g, g' g, g' e
+    a c, a' c, a' c,
+    b'\cresc g b g b g %355
+    a16 a c c a a c c a a c c
+    d\f d f f d d f f d d f f
+    g, g c c e e g g e e c' c
+    h\ff h d d d, d f f h, h d d
+    c c e e g, g c c e, e g g %360
+    fis8 a c fis a c,
+    h d' h d g, h
+    d, g h, d a c
+    h4 <d g, h,> q
+    r q q %365
+    <g h, d,> q q
+    q8 g, g f! e d
+    c e g c e c
+    r d, g d' g, f'
+    e g, c e g e %370
+    r d g h, d h
+    g16 a h c d e f g f a g f
+    e f g f e8 c' g e
+    r d d d d d
+    r d d f f d %375
+    c c' c c c4
+    f,,8\p c'4 f,8 e( f)
+    e c'4 e,8 dis( e)
+    a c4 a8 gis( a)
+    g e'4 g e,8 %380
+    f c'4 f,8 e( f)
+    e c'4 e,8 dis( e)
+    a c4 a8 gis( a)
+    g g'\f e c g e
+    a a' f d a d %385
+    a a' f d a d
+    d, a'' c, a d, c'
+    h4 <g' h, d,> r
+    r8 e, g c e e
+    r h, g' d' f f %390
+    r e c e a, e'
+    fis, a' d,, a'' c, a'
+    h, g' d h g g
+    r g' d h g g
+    r g e g c e %395
+    d, a' fis d' c a'
+    h, g h d g g
+    r d g, d' g g
+    r g e g c c
+    r g c, g' c c %400
+    r a, c a a' a
+    r d,, f d f' f
+    r c, e c e' e
+    r a, c a c' c
+    r c g e c e %405
+    f d h d d, h'
+    c e, g e c e'
+    \appoggiatura g16 f8 e16 f \appoggiatura g f8 e16 f \appoggiatura g f8 e16 f
+    e f g f e f g f e d e c
+    h c d c h c d c h a h g %410
+    c g a h c d e f g e d c
+    h c d e f e d c h c h a
+    g f e d c g' a h c g' f e
+    d c h c h a g a g f e f
+    e8 g c, g'' e c %415
+    r d, g d' g, f'
+    e g, c, g'' e c
+    r d, g d' g, f'
+    e c4 g e'8
+    f h4 d f,8 %420
+    e c4 e c'8
+    a f e c' d, h'
+    c,( e\p d c h a)
+    gis( h d h' gis d)
+    d( h c e c' a) %425
+    g!( fis a c, a d)
+    c( a h d f d)
+    f( d h d h f)
+    e-!\f g-! c,-! g''-! e-! c-!
+    r16 d, e f g a h c d e f d %430
+    e8 g, c, g'' e c
+    r16 d, e f g a h c d e f d
+    e8 c4 g e'8
+    f h4 d f,8
+    e c'4 e, c'8 %435
+    a f e c' d, h'
+    e, c'4 c c8
+    f, d'4 d d8
+    g, e'4 e e8~
+    e e,4 e e8 %440
+    a16 g a f e8 c' d, h'
+    c, c g g e e
+    c g' c e g g
+    r d, g d' g g
+    r e, e e' e e %445
+    e c c c' c c
+    c16 e, c' e, c' e, c' e, c' e, c' e,
+    d h' d, h' d, h' d, h' d, h' d, h'
+    c,4 r r
+    r <g' c, e,> <h d, g,> %450
+    <c e, g,> r r
+    r <g c, e,> <h d, g,>
+    <c e, g,> r r
+    r <e, c g> q
+    q <g c, e,> q %455
+    q <c e, g,> q
+    q r <c, e, g,>
+    q r r\fermata \bar "|." %458 finis
   }
 }

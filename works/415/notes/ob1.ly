@@ -312,6 +312,114 @@ CDXVcOboeI = {
 CDXVdOboeI = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 3/4 \tempoCDXVd
+      \set Score.currentBarNumber = #351
+    e2.\p
+    f
+    g
+    a
+    b\cresc %355
+    a
+    h!2\f d4
+    c2 g'4
+    f2\ff h,4
+    c g e' %360
+    a,2 c4
+    h2 d4
+    d4. h8 a c
+    h2 d4
+    d2 h'4 %365
+    h g g
+    g g,8 f! e d
+    c4 c' e
+    r f d
+    r c g' %370
+    r d g
+    r8 f4 f f8
+    e4 g c
+    d,2.
+    d4 f d %375
+    c c' c
+    c2.~\p
+    c~
+    c~
+    c~ %380
+    c~
+    c~
+    c~
+    c4 r r
+    r d,,\f d %385
+    d2 d4
+    c'2.
+    h4 g' r
+    R2.*2 %390
+    c,2.
+    c
+    h4 f'! d
+    h d h
+    c g r %395
+    a fis a
+    g r r
+    R2.
+    c
+    b %400
+    a4 f' d
+    h! d h
+    c2.
+    e
+    e %405
+    d4 f d
+    c r r
+    r d' f,
+    r e g
+    r d h' %410
+    r c g
+    r h, d
+    f f( e)
+    d r d
+    g, c e %415
+    r f d
+    r c g'
+    r f d
+    g2.
+    f %420
+    e
+    R
+    e2.~\p
+    e~
+    e2 c'4 %425
+    c2 c,4
+    c( h) h8 d
+    f2 f,4
+    e\f c' e
+    r f d %430
+    r c g'
+    r f d
+    g2.
+    f
+    e %435
+    f4 e d
+    e2.
+    f
+    e
+    e %440
+    f4 e d
+    c c c
+    g'2.
+    g
+    c, %445
+    c'
+    e,
+    f2 d4
+    c c, c
+    c r r %450
+    r c c
+    c r r
+    r c'' c
+    c2.~
+    c~ %455
+    c
+    c4 r e,
+    e r r\fermata \bar "|." %458 finis
   }
 }
