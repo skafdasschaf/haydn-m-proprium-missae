@@ -17,6 +17,9 @@ jobs:
       - name: Engrave
         run: make -B works
 
+      - name: Compress MIDI files
+        run: zip -r final/midi_collection.zip midi/.
+
       - name: Publish via rsync
         uses: burnett01/rsync-deployments@5.1
         with:
