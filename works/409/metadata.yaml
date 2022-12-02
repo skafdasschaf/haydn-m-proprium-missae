@@ -1,0 +1,40 @@
+title: Ne timeas, Maria
+id: MH 409
+genre: gradual
+festival: Rorate
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 335
+    date: 1785-11-29
+    rism: 456009449
+    url: https://www.digitale-sammlungen.de/view/bsb00084979?page=1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/12
+    rism: 455023093
+    url: http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046856-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 161
+    rism: 600038116
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/173.html
+    license: public domain
+toe: |
+  – & –    & According to \A1, clno were added in 1796. \\
+  – & coro & double caps spelling of “JEsum” (bars 10, 31, and 32) according to \A1 \\
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics:
+  Ne timeas, Maria,\\
+  invenisti enim gratiam apud Deum:\\
+  ecce concipies in utero,\\
+  et paries filium,\\
+  et vocabis nomen eius JEsum:\\
+  hic erit magnus, et filius Altissimi vocabitur.\\
+  (\bibleverse{Luk}(1:30-32))
