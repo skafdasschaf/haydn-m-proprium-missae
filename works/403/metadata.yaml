@@ -1,0 +1,36 @@
+title: Domine quis habitabit
+id: MH 403
+genre: gradual
+festival: Joannis Nepomuceni Martyris
+scoring: S, A, T, B (coro), 2 cor (E), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/7
+    rism: 455023088
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1785-05-08 according to the copyist
+  B2:
+    siglum: A-Ed
+    shelfmark: B 199
+    rism: 600038151
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/199.html
+    license: public domain
+  B3:
+    siglum: F-Pn
+    shelfmark: D-5591 (1)
+    date: 1830–1840
+    rism: 840026207
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in E
+lyrics:
+  Domine, quis habitabit in tabernaculo tuo,\\
+  aut quis requiescet in monte sancto tuo?\\
+  Qui non egit dolum in lingua sua,\\
+  nec fecit proximo suo malum.\\
+  (\bibleverse{Ps}(15/14:1-3))
