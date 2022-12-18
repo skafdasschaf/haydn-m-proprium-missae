@@ -1,0 +1,41 @@
+title: Alleluia, confitemini Domino
+id: MH 402
+genre: gradual
+festival: Pentecostes, Sabbato in Vigilia
+scoring: S, A, T, B (coro), 2 cor (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 365
+    date: 1785-05-01
+    rism: 456009384
+    url: https://daten.digitale-sammlungen.de/bsb00043160/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/10
+    rism: 455022583
+    url: https://daten.digitale-sammlungen.de/bsb00043160/image_1
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 173
+    rism: 600038126
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/180.html
+    license: public domain
+toe: |
+  –  & cor  & According to \A1, cor were added in 1796. \\
+  57 & vl 2 & bar in \A1 unison with vl 1 \\
+parts:
+  cor12: Corno I, II in D
+lyrics:
+  Alleluia.
+  Confitemini Domino, quoniam bonus,\\
+  quoniam in saeculum misericordia eius.\\[1ex]
+  Laudate Dominum, omnes gentes,\\
+  collaudate eum, omnes populi,\\
+  quoniam confirmata est super nos misericordia eius,\\
+  et veritas Domini manet in aeternum.\\
+  (\bibleverse{Ps}(106/105:1;117/116))
