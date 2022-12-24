@@ -57,6 +57,7 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >                                          -k festival genre lyrics toe \\
 >                                          -s ../tmp/{work} \\
 >                                          -l works/{work} \\
+> -q https://edition.esser-skala.at/assets/pdf/haydn-m-proprium-missae/{work} \\
 >                                          -c tag
 >latexmk -cd \\
 >        -lualatex \\
