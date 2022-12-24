@@ -1,0 +1,35 @@
+title: Stella cœli exstirpavit
+id: MH 394
+genre: gradual
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 3112
+    date: 1783–1785
+    rism: 450113711
+    url: https://daten.digitale-sammlungen.de/bsb00085270/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5673 (11)
+    date: 1820–1840
+    rism: 840026377
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+toe: |
+  – & coro & Double caps spelling of “JEsu” (bar 63) according to \A1. \\
+lyrics:
+  Stella coeli exstirpavit\\
+  quae lactavit Dominum\\
+  mortis pestem quam plantavit\\
+  primus parens hominum.\\
+  Ipsa stella nunc dignetur\\
+  sidera compescere,\\
+  quorum bella plebem caedunt\\
+  dirae mortis ulcere.\\
+  O piissima stella maris in peste succurre nobis:\\
+  Audi nos, Domina, nam Filius tuus nihil negans Te honorat.\\
+  Salva nos, JEsu, pro quibus Virgo Mater exorat.
