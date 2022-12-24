@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 CDXVaAlto = {
   \relative c' {
@@ -773,7 +773,7 @@ CDXVdAltoLyrics = \lyricmode {
   fun -- dar %445
   in __ ae --
   ter --
-  
+
   num, non con --
   fun -- dar %450
   in ae --

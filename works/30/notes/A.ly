@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 XXXAlto = {
   \relative c' {
@@ -115,7 +115,7 @@ XXXAltoLyrics = \lyricmode {
   vir --
   go Ma -- ri --
   a, %85
-  
+
   o dul -- cis %90
   vir --
   go Ma -- ri --

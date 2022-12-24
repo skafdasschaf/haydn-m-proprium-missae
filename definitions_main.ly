@@ -1,9 +1,8 @@
-\version "2.22.0"
+\version "2.24.0"
 
-% \include "articulate_ees.ly"
+% \include "ees_articulate.ly"
 % \articulate
 
 #(define option-movement-title-format "number-title")
-#(define option-init-toc #t)
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"

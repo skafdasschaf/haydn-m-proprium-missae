@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 trillWithNatural = \tweak self-alignment-X #CENTER ^\markup { \raise #1 \natural \musicglyph #'"scripts.trill" }
 
