@@ -1,0 +1,63 @@
+title: Tecum principium
+id: MH 390
+genre: gradual
+festival: Nativitas Domini
+scoring: S, A, T, B (coro), 2 ob, 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 340
+    date: 1784-12-05
+    rism: 456009359
+    url: https://mdz-nbn-resolving.de/details:bsb00084956
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 64
+    rism: 600038118
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/175.html
+    license: public domain
+  B2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-13)
+    date: 1800-1830
+    rism: 455042298
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H13
+    license: public domain
+    notes: parts for S, B, vl 1, and vl 2
+  B3:
+    siglum: D-NATk
+    shelfmark: NA/SP (A-13)
+    date: 1800-1830
+    rism: 455039720
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_A13
+    license: public domain
+    notes: parts for T, org, ob 1, cor 1, and cor 2
+  C1:
+    siglum: D-Mbs
+    shelfmark: 4 Mus.pr. 62201
+    date: 1829
+    rism: 990028924
+    url: https://mdz-nbn-resolving.de/details:bsb11151760
+    license: CC BY-NC-SA 4.0
+    notes: Anton Diabelli \& Comp., Vienna, plate number 3091
+  C2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-47)
+    date: 1829
+    rism: 455039968
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H47
+    license: public domain
+    notes: Anton Diabelli \& Comp., Vienna, plate number 3091
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Tecum principium in die virtutis tuae\\
+  in splendoribus sanctorum,\\
+  ex utero ante luciferum genui te.\\
+  Dixit Dominus Domino meo:\\
+  Sede a dextris meis, donec ponam inimicos tuos,\\
+  scabellum pedum tuorum.\\
+  (\bibleverse{Ps}(110/109:3,1))
