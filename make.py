@@ -4,7 +4,6 @@ import argparse
 import os
 import re
 import subprocess
-import yaml
 
 
 def natural_sort(s, _nsre=re.compile("([0-9]+)")):
