@@ -1,5 +1,18 @@
 # Changelog
 
+## v2022.12.0
+
+### Added
+
+- works: MH 389, 390, 394, 401–403, 408, and 409
+- creation of a ZIP archive with all MIDIs in the GitHub actions workflow
+
+
+### Changed
+
+- use EES Tools 2022.12.0 based on LilyPond 2.24.0
+
+
 ## v2022.11.0
 
 ### Added
