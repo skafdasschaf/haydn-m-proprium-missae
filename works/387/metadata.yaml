@@ -1,0 +1,49 @@
+title: Tollite portas
+id: MH 387
+genre: gradual
+festival: Missa Rorate
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/10
+    rism: 455023091
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1784-11-19 according to the copyist
+  B2:
+    siglum: A-Ed
+    shelfmark: B 159
+    rism: 600038115
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/172.html
+    license: public domain
+  B3:
+    siglum: D-NATk
+    shelfmark: SP (H-11)
+    date: 1800-1830
+    rism: 455042294
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H11/
+    license: public domain
+    notes: transposed to D major; also contains parts for two flutes
+  B4:
+    siglum: F-Pn
+    shelfmark: D-5591 (9)
+    date: 1830–1840
+    rism: 840026215
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+toe: |
+  11 & org  & 4th and last \eighthNote\ in \B1: G8 \\
+  16 & vl 1 & 4th \quarterNote\ in \B1: a′4 \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Tollite portas principes vestras,\\
+  et elevamini portae aeternales,\\
+  et introibit Rex gloriae.\\
+  Quis ascendit in montem Domini,\\
+  aut quis stabit in loco sancto eius?\\
+  Innocens manibus et mundo corde.\\
+  (\bibleverse{Ps}(24/23:7,3,4))
