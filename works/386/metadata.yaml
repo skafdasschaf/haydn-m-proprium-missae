@@ -1,0 +1,32 @@
+title: Dilectus meus
+id: MH 386
+genre: gradual
+festival: Mariae (B.V.) in Festis Minoribus
+scoring: S, A, T, B (coro), 2 cor (A), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 418
+    date: 1784-11-12
+    rism: 456009438
+    url: https://daten.digitale-sammlungen.de/bsb00045050/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 185
+    rism: 600038138
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/190.html
+    license: public domain
+toe: |
+  –  & cor & According to \A1, cor were added in 1796. \\
+parts:
+  cor12: Corno I, II in A
+lyrics:
+  Dilectus meus mihi, et ego illi,\\
+  qui pascitur inter lilia\\
+  donec aspiret dies et inclinentur umbrae.\\
+  Sicut dies verni circumdabant eam\\
+  flores rosarum et lilia convallium.\\
+  (\bibleverse{Songs}(2:16))
