@@ -1,0 +1,36 @@
+title: Iuravit Dominus
+id: MH 382
+genre: gradual
+festival: Solemnitate cuiusque S. Confessoris Pontificis
+scoring: S, A, T, B (coro), 2 ob, 2 cor (\flat E), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 395
+    date: 1784-09-04
+    rism: 456009415
+    url: http://daten.digitale-sammlungen.de/bsb00044032/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 215
+    rism: 600038165
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/214.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5591 (6)
+    date: 1830–1840
+    rism: 840026212
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+parts:
+  cor12: Corno I, II in \flat E
+lyrics:
+  Iuravit Dominus,\\
+  et non poenitebit eum:\\
+  Tu es Sacerdos in aeternum\\
+  secundum ordinem Melchisedech.\\
+  (\bibleverse{Ps}(110/109:4))
