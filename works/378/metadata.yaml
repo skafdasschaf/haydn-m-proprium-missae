@@ -1,0 +1,39 @@
+title: Probasti Domine cor meum
+id: MH 378
+genre: gradual
+festival: Laurentii Martyris, Commune Martyrum
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 409
+    date: 1784-07-30
+    rism: 456009429
+    url: https://daten.digitale-sammlungen.de/bsb00045052/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 205
+    rism: 600038157
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/206.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5591 (10)
+    date: 1830–1840
+    rism: 840026216
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+toe: |
+  –  & cor & according to \A1 added in 1796 \\
+  39 & A   & 8th \sixteenthNote\ in \A1: \sharp c′16 \\
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Probasti Domine cor meum,\\
+  et visitasti nocte.\\
+  Igne me examinasti\\
+  et non est inventa in me iniquitas.\\
+  (\bibleverse{Ps}(17/16:3))
