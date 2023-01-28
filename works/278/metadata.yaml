@@ -1,0 +1,110 @@
+title: Responsoria in Sabbato Sancto
+id: MH 278
+genre: responsory
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 474
+    date: 1778-04-04
+    rism: 456009497
+    url: https://mdz-nbn-resolving.de/details:bsb00084990
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: F 30
+    rism: 600038316
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/966.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5670
+    date: 1820–1840
+    rism: 840026366
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10074844p
+    license: custom (free for non-commercial purposes)
+lyrics:
+  \textit{Nocturni 1:mi Responsorium 1:mum}\\
+  Sicut ovis ad occisionem ductus est,\\
+  et dum male tractaretur,\\
+  non aperuit os suum:\\
+  traditus est ad mortem,\\
+  ut vivificaret populum suum.\\
+  Tradidit in mortem animam suam,\\
+  et inter sceleratos reputatus est.\\
+  (\bibleverse{Isa}(53:7))\\[\baselineskip]
+
+  \textit{Nocturni 1:mi Responsorium 2:dum}\\
+  Ierusalem surge,\\
+  et exue te vestibus iucunditatis:\\
+  induere cinere et cilicio:\\
+  quia in te occisus est Salvator Israel.\\
+  Deduc quasi torrentem lacrymas per diem et noctem,\\
+  et non taceat pupilla oculi tui.\\
+  (\bibleverse{Bar}(5:1), \bibleverse{Jer}(2:18))\\[\baselineskip]
+
+  \textit{Nocturni 1:mi Responsorium 3:tium}\\
+  Plange quasi virgo plebs mea,\\
+  ululate pastores in cinere et cilicio:\\
+  quia venit dies Domini magna, et amara valde.\\
+  Accingite vos sacerdotes,\\
+  et plangite ministri altaris,\\
+  aspergite vos cinere.\\
+  (\bibleverse{Joel}(1:8,13))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 1:mum}\\
+  Recessit pastor noster fons aquae vivae,\\
+  ad cuius transitum sol obscuratus est:\\
+  nam et ille captus est,\\
+  qui captivum tenebat primum hominem:\\
+  hodie portas mortis\\
+  et seras pariter Salvator noster disrupit.\\
+  Destruxit quidem claustra inferni,\\
+  et subvertit potentias diaboli.\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 2:dum}\\
+  O vos omnes qui transitis per viam,\\
+  attendite et videte,\\
+  si est dolor similis sicut dolor meus.\\
+  Attendite universi populi,\\
+  et videte dolorem meum:\\
+  si est dolor similis sicut dolor meus.\\
+  (\bibleverse{Jer}(1:12,18))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 3:tium}\\
+  Ecce quomodo moritur iustus,\\
+  et nemo percipit corde,\\
+  et viri iusti tolluntur\\
+  et nemo considerat:\\
+  a facie iniquitatis sublatus est iustus:\\
+  et erit in pace memoria eius.\\
+  Tamquam agnus coram tondete se obmutuit,\\
+  et non aperuit os suum:\\
+  de angustia, et de iudicio sublatus est.\\
+  (\bibleverse{Isa}(57:1,2))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 1:mum}\\
+  Astiterunt reges terrae,\\
+  et principes convenerunt in unum,\\
+  adversus Dominum, et adversus Christum eius.\\
+  Quare fremuerunt gentes,\\
+  et populi meditati sunt inania?\\
+  (\bibleverse{Acts}(4:26), \bibleverse{Ps}(2:1))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 2:dum}\\
+  Æstimatus sum cum descendentibus in lacum:\\
+  factus sum sicut homo sine adiutorio,\\
+  inter mortuos liber.\\
+  Posuerunt me in lacu inferiori,\\
+  in tenebrosis, et in umbra mortis.\\
+  (\bibleverse{Ps}(88/87:5-7))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 3:tium}\\
+  Sepulto Domino, signatum est monumentum,\\
+  volventes lapidem ad ostium monumenti:\\
+  ponentes milites, qui custodirent illum.\\
+  Accedentes principes sacerdotum ad Pilatum,\\
+  petierunt illum.\\
+  (\bibleverse{Mat}(27:60,65,66))
