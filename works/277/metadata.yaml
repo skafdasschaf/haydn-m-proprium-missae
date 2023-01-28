@@ -1,0 +1,131 @@
+title: Responsoria in Parasceve
+id: MH 277
+genre: responsory
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 473
+    date: 1778-04-04
+    rism: 456009496
+    url: https://mdz-nbn-resolving.de/details:bsb00084989
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: F 29
+    rism: 600038315
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/965.html
+    license: public domain
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5670
+    date: 1820–1840
+    rism: 840026365
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10074844p
+    license: custom (free for non-commercial purposes)
+  B3:
+    siglum: F-Pn
+    shelfmark: D-5673
+    date: 1820–1840
+    rism: 840016640
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+toe: |
+  – & coro & Double caps spelling of “JEsus” (2·1, bar 29;
+             2·2, bars 5, 12, and 32; 3·2, bar 1) and “DEus”
+             (2·2, bar 15) according to \A1 \\
+lyrics:
+  \textit{Nocturni 1:mi Responsorium 1:mum}\\
+  Omnes amici mei dereliquerunt me,\\
+  et praevaluerunt insidiantes mihi:\\
+  tradidit me, quem diligebam:\\
+  et terribilibus oculis plaga crudeli percutientes,\\
+  aceto potabant me.\\
+  Inter iniquos proiecerunt me,\\
+  et non pepercerunt animae meae.\\
+  (\bibleverse{Ps}(69/68:22))\\[\baselineskip]
+
+  \textit{Nocturni 1:mi Responsorium 2:dum}\\
+  Velum templi scissum est,\\
+  et omnis terra tremuit:\\
+  latro de cruce clamabat, dicens:\\
+  memento mei, Domine,\\
+  dum veneris in regnum tuum.\\
+  Petrae scillae sunt,\\
+  et monumenta apera sunt,\\
+  et multa corpora sanctorum,\\
+  qui dormierant, surrexerunt.\\
+  (\bibleverse{Mat}(27:51-52))\\[\baselineskip]
+
+  \textit{Nocturni 1:mi Responsorium 3:tium}\\
+  Vinea mea electa, ego te plantavi:\\
+  quomodo conversa es in amaritudinem,\\
+  ut me crucifigeres,\\
+  et Barabbam dimitteres?\\
+  Sepivi te, et lapides elegi ex te,\\
+  et aedificavi turrim.\\
+  (\bibleverse{Jer}(2:21))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 1:mum}\\
+  Tamquam ad latronem existis cum gladiis\\
+  et fustibus comprehendere me:\\
+  quotidie apud vos eram in templo docens,\\
+  et non me tenuistis:\\
+  et ecce flagellatum ducitis ad crucifigendum.\\
+  Cumque iniecissent manus in JEsum,\\
+  et tenuissent eum, dixit ad eos:\\
+  (\bibleverse{Mark}(14:49))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 2:dum}\\
+  Tenebrae factae sunt,\\
+  dum crucifixissent JEsum Judaei:\\
+  et circa horam nonam exclamavit JEsus voce magna:\\
+  DEus meus, ut quid me dereliquisti?\\
+  Et inclinato capite emisit Spiritum.\\
+  Exclamans JEsus voce magna ait:\\
+  Pater, in manus tuas commendo spiritum meum.\\
+  Et inclinato capite emisit Spiritum.\\
+  (\bibleverse{Mar}(27:45-51))\\[\baselineskip]
+
+  \textit{Nocturni 2:di Responsorium 3:tium}\\
+  Animam meam dilectam tradidi in manus iniquorum;\\
+  et facta est mihi haereditas mea sicut leo in sylva:\\
+  dedit contra me voces adversarius dicens:\\
+  congregamini, et properate ad devorandum illum:\\
+  posuerunt me in deserto solitudinis,\\
+  et luxit super me omnis terra:\\
+  quia non est inventus, qui me agnosceret,\\
+  et faceret bene.\\
+  Insurrexerunt in me viri absque misericordia,\\
+  et non pepercerunt animae meae.\\
+  (\bibleverse{Jer}(12:7-11), \bibleverse{Ps}(86/85:14))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 1:mum}\\
+  Tradiderunt me in manus impiorum,\\
+  et inter iniquos proiecerunt me,\\
+  et non pepercerunt animae meae:\\
+  congregati sunt adversum me fortes:\\
+  et sicut gigantes steterunt contra me.\\
+  Alieni insurrexerunt adversum me;\\
+  et fortes quaesierunt animam meam.\\
+  (\bibleverse{Job}(16:12), \bibleverse{Ps}(54/53:5))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 2:dum}\\
+  Iesum tradidit impius summis principibus sacerdotum,\\
+  et senioribus populi:\\
+  Petrus autem sequebatur eum a longe, ut videret finem.\\
+  Adduxerunt autem eum ad Caipham principem sacerdotum,\\
+  ubi Scribae et Pharisaei convenerant.\\
+  (\bibleverse{Mat}(26:58))\\[\baselineskip]
+
+  \textit{Nocturni 3:tii Responsorium 3:tium}\\
+  Caligaverunt oculi mei a fletu meo:\\
+  quia elongatus est a me, qui consolabatur me.\\
+  Videte omnes populi,\\
+  si est dolor similis sicut dolor meus.\\
+  O vos omnes qui transitis per viam,\\
+  attendite et videte:\\
+  si est dolor similis sicut dolor meus.\\
+  (\bibleverse{Jer}(1:2,12))
