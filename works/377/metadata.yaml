@@ -1,0 +1,32 @@
+title: Speciosus forma
+id: MH 377
+genre: gradual
+festival: Transfiguratio Domini Nostri Jesu Christi, Dominica infra Octavam Nativitas Domini
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 441
+    date: 1784-07-24
+    rism: 456009461
+    url: https://daten.digitale-sammlungen.de/bsb00045835/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 201
+    rism: 600038153
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/202.html
+    license: public domain
+toe: |
+  –  & clno & according to \A1 added in 1796 \\
+  26 & vl 1 & 1st \eighthNote\ in \A1: g′8 \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Speciosus forma prae filiis hominum:\\
+  diffusa est gratia in labiis tuis.\\
+  Eructavit cor meum verbum bonum:\\
+  dico ego opera mea Regi.\\
+  (\bibleverse{Ps}(45/44:3,2))
