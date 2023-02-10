@@ -1,0 +1,37 @@
+title: Dilexisti iustitiam
+id: MH 376
+genre: gradual
+festival: S. Mariæ Magdalenæ, S. Annæ, et S. Catharinæ
+scoring: S, A, T, B (coro), 2 cor (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 410
+    date: 1784-07-11
+    rism: 456009430
+    url: https://daten.digitale-sammlungen.de/bsb00045051/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/9
+    rism: 455023090
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00046856-3
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 200
+    rism: 600038152
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/201.html
+    license: public domain
+toe: |
+  –  & cor & according to \A1 added in 1796 \\
+parts:
+  cor12: Corno I, II in D
+lyrics:
+  Dilexisti iustitiam,\\
+  et odisti iniquitatem\\
+  propterea unxit te Deus,\\
+  Deus tuus oleo laetitiae.\\
+  (\bibleverse{Ps}(45/44:8))
