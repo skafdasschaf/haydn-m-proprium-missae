@@ -93,7 +93,14 @@ DCCCXXIXaTimpani = {
 DCCCXXIXbTimpani = {
   \relative c {
     \clef bass
-
+    \key c \major \time 4/4 \tempoDCCCXXIXb
+      \set Score.currentBarNumber = #107
+    R1*4 %110
+    r8 c\fE c r r2
+    R1*3
+    r2 c4\fE r %115
+    c r r2
+    c4\p c8 c c2\fermata \bar "||" %117 finis
   }
 }
 

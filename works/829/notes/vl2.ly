@@ -116,7 +116,19 @@ DCCCXXIXaViolinoII = {
 DCCCXXIXbViolinoII = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 4/4 \tempoDCCCXXIXb
+      \set Score.currentBarNumber = #107
+    r16 a'\fE c( a) c-! fis,( a fis) r e f( e) \slurDashed gis( h) dis( e) \slurSolid
+    r h d( h) d-\parenthesize-! gis,( h gis) r fis g( fis) ais( cis) eis?( fis)
+    ais,8[ r16 ais] cis( ais) r ais h( fis) r fis \once \slurDashed g( fis) r fis
+    \once \slurDashed g( fis) r h cis( fis,) d'( h) \once \slurDashed d( h) ais-! fis-! cis8-! r %110
+    r16 a'! a'( fis) d a fis(\p d) r cis' e( g) \kneeBeam b e,, cis( e)
+    r c' g'( e) r c a'( f) r d f,( d) c( e) d( f)
+    r c g( c) r h! d( h) c8 gis a( e')
+    d fis!16( d) \slurDashed g( d) c( a') \slurSolid a4 g\trill
+    fis16 a,(\f d fis) a-\parenthesize-! c,( h g') g8( fis16) d' a'-\parenthesize-! \once \slurDashed c,( h g') %115
+    g8( fis) r4 r2
+    r8 fis,(\p g b,) a2\fermata \bar "||" %117 finis
   }
 }
 

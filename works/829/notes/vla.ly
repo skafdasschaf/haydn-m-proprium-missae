@@ -115,8 +115,20 @@ DCCCXXIXaViola = {
 
 DCCCXXIXbViola = {
   \relative c' {
-    \clef treble
-
+    \clef alto
+    \key d \major \time 4/4 \tempoDCCCXXIXb
+      \set Score.currentBarNumber = #107
+    dis8\fE dis dis dis e e e e
+    eis eis eis eis fis fis fis fis
+    e e e e d d d d
+    cis h ais h fis' fis16( cis) cis8 r %110
+    d d d d\p g g g g
+    e c r c d h c f,
+    g g g g c c c c
+    c c h fis! r fis' g cis,
+    d16 fis,(\fE a fis) d-\parenthesize-! a'( h g) d'-! d( c a) fis-\parenthesize-! \once \slurDashed a'( h g) %115
+    d'4 r r2
+    r8 d,(\p b g) fis2\fermata \bar "||" %117 finis
   }
 }
 

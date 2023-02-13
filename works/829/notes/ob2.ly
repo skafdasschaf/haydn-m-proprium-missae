@@ -112,7 +112,19 @@ DCCCXXIXaOboeII = {
 DCCCXXIXbOboeII = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 4/4 \tempoDCCCXXIXb
+      \set Score.currentBarNumber = #107
+    a'2\fE a8 gis gis gis
+    h2 h8 ais ais ais
+    ais r ais r h r fis r
+    ais h cis h h[ ais] ais r %110
+    r4 r8 d\p cis2
+    c8 b a4 r r8 c
+    c c h h c r r4
+    r8 fis,! g a a4 g
+    fis r8 \once \slurDashed d16(\f g) g8( fis) r h16( g') %115
+    g8( fis) r4 r2
+    fis,4\p g fis2\fermata \bar "||" %117
   }
 }
 

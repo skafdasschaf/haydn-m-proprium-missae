@@ -217,12 +217,34 @@ DCCCXXIXaAltoLyrics = \lyricmode {
 DCCCXXIXbAlto = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 4/4 \tempoDCCCXXIXb \autoBeamOff
+      \set Score.currentBarNumber = #107
+    \mvTr fis4\fE^\tuttiE r8 fis e e r4 %107
+    gis r8 gis fis16. fis32 fis8 r4
+    g!4. g8 fis8. fis16 fis4
+    fis8 fis fis fis16 fis fis16. fis32 fis8 r4 %110
+    d r8 a'!\p e e e e
+    e8. e16 f4 f8([ d c)] c
+    c4( h!) c8 r r4
+    d d8 a' a4( g)
+    fis r d\f r %115
+    d r8 fis!\p g b, b([ a)]
+    a4 r r2\fermata \bar "||" %117 finis
   }
 }
 
 DCCCXXIXbAltoLyrics = \lyricmode {
-
+  Te, te er -- go, %107
+  te, te quae -- su -- mus,
+  tu -- is fa -- mu -- lis,
+  tu -- is fa -- mu -- lis sub -- ve -- ni, %110
+  quos, quos pre -- ti -- o -- so
+  san -- gui -- ne re -- de --
+  mi -- sti,
+  quos re -- de -- mi --
+  sti, quos, %115
+  quos, quos re -- de -- mi --
+  sti. %117 finis
 }
 
 DCCCXXIXcAlto = {

@@ -225,12 +225,34 @@ DCCCXXIXaBassFigures = \figuremode {
 DCCCXXIXbOrgano = {
   \relative c {
     \clef bass
-
+    \key d \major \time 4/4 \tempoDCCCXXIXb
+      \set Score.currentBarNumber = #107
+    \mvTr dis8\fE-\tuttiE dis dis dis e e e e
+    eis eis eis eis fis fis fis fis
+    e e e e d d d d
+    cis h ais h fis[ fis'] fis r %110
+    fis fis fis fis\p g g g g
+    g g f f h,! h c f,
+    g g g g c c c c
+    c c h fis! r fis' g cis,
+    d d\f d d d d d d %115
+    d[ d] \clef treble b''\pE \noBeam \clef bass d,, es[ es es es]
+    d4 d d2\fermata \bar "||" %117 finis
   }
 }
 
 DCCCXXIXbBassFigures = \figuremode {
-
+  <7!>2 <6! 4>8 <[5] _+>4. %107
+  <7 [_+]>2 <6 4>8 <[5+] _+>4.
+  <4\+ 3[!]>2 <6>
+  <6\\>4 <6 [5]> <6 4>8 <[5] _+>4. %110
+  <6 _!>2 <4\+ _->
+  <4! \t>4 <[5!]> <6 5!>4. <6 5>8
+  <7! 4[!]>4 <\t [_!]>4. <5\+>8 <6>4
+  <4\+ 2>4 <6>8 q <6 5!>4. <[7]>8
+  r4 <7!>8 <6 4> <\t \t> <5 [3]> <7[!]> <6 4> %115
+  <\t \t> <5 3>4 <6- _+>8 <6\\ 5->4 \bassFigureExtendersOn q8 <6\\ 4> \bassFigureExtendersOff
+  r4 <_ 6- 4>8 <7\\ \t \t> <[8 3]>2 %117 finis
 }
 
 DCCCXXIXcOrgano = {

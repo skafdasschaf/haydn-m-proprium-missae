@@ -213,12 +213,34 @@ DCCCXXIXaBassoLyrics = \lyricmode {
 DCCCXXIXbBasso = {
   \relative c {
     \clef bass
-
+    \key d \major \time 4/4 \tempoDCCCXXIXb \autoBeamOff
+      \set Score.currentBarNumber = #107
+    \mvTr dis4\fE^\tuttiE r8 dis e e r4
+    eis r8 eis fis16. fis32 fis8 r4
+    e4. e8 d8. d16 d4
+    cis8 h ais h16 h fis'16. fis32 fis8 r4 %110
+    fis r8 fis\p g g g g
+    g8. g16 f4 h,!( c8) f,
+    g2 c8 r r4
+    c h8 fis! fis([ fis' g cis,)]
+    d4 r d\f r %115
+    d r8 d\p es es es4
+    d r r2\fermata \bar "||" %117 finis
   }
 }
 
 DCCCXXIXbBassoLyrics = \lyricmode {
-
+  Te, te er -- go, %107
+  te, te quae -- su -- mus,
+  tu -- is fa -- mu -- lis,
+  tu -- is fa -- mu -- lis sub -- ve -- ni, %110
+  quos, quos pre -- ti -- o -- so
+  san -- gui -- ne re -- de --
+  mi -- sti,
+  quos re -- de -- mi --
+  sti, quos, %115
+  quos, quos re -- de -- mi --
+  sti. %117 finis
 }
 
 DCCCXXIXcBasso = {

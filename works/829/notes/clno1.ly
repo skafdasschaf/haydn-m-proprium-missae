@@ -110,7 +110,15 @@ DCCCXXIXaClarinoI = {
 DCCCXXIXbClarinoI = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 4/4 \tempoDCCCXXIXb
+      \set Score.currentBarNumber = #107
+    R1*3 %109
+    e4\fE e e8[ e] e r %110
+    r g g r r2
+    R1*3
+    r2 c,4\fE r %115
+    c r r2
+    c4\p c8 c c2\fermata \bar "||" %117 finis
   }
 }
 

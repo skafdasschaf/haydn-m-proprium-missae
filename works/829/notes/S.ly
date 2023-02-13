@@ -221,13 +221,34 @@ DCCCXXIXaSopranoLyrics = \lyricmode {
 DCCCXXIXbSoprano = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 4/4 \tempoDCCCXXIXb \autoBeamOff
+      \set Score.currentBarNumber = #107
+    \mvTr c'4\fE^\tuttiE r8 a \appoggiatura h16 a8 gis r4
+    d'4 r8 h h16. ais32 ais8 r4
+    cis4. cis8 fis8. h,16 h4
+    ais8 h e d16 fis d16. cis32 cis8 r4 %110
+    d r8 a\p b b b b
+    b8. b16 a4 g4. a8
+    d,4( f) e8 r16 e' d c h a
+    \appoggiatura g fis8 fis16 fis g([ h)] a([ d)] c4( h)
+    a r d,\f r %115
+    d'^\tenuto b4.\p cis,8 cis4
+    d r r2\fermata \bar "||" %117 finis
   }
 }
 
 DCCCXXIXbSopranoLyrics = \lyricmode {
-  % Te er -- go quae -- su -- mus, tu -- is fa -- mu -- lis sub -- ve -- ni,
-  % quos pre -- ti -- o -- so san -- gui -- ne re -- de -- mi -- sti.
+  Te, te er -- go, %107
+  te, te quae -- su -- mus,
+  tu -- is fa -- mu -- lis,
+  tu -- is fa -- mu -- lis sub -- ve -- ni, %110
+  quos, quos pre -- ti -- o -- so
+  san -- gui -- ne re -- de --
+  mi -- sti, quos pre -- ti -- o -- so
+  san -- gui -- ne re -- de -- mi --
+  sti, quos, %115
+  quos re -- de -- mi --
+  sti. %117 finis
 }
 
 DCCCXXIXcSoprano = {

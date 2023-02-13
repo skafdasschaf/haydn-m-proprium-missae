@@ -213,12 +213,34 @@ DCCCXXIXaTenoreLyrics = \lyricmode {
 DCCCXXIXbTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key d \major \time 4/4 \tempoDCCCXXIXb \autoBeamOff
+      \set Score.currentBarNumber = #107
+    \mvTr a4\fE^\tuttiE r8 c c h r4
+    h r8 d d16. cis32 cis8 r4
+    ais4. ais8 h8. h16 h4
+    e8 d cis h16 d h16. ais32 ais8 r4 %110
+    a r8 d\p cis cis cis cis
+    c8. c16 c4 d8([ f, e)] d
+    f4( d8[ g)] g r r4
+    a h8 d d4.( e8)
+    a,4 r d,\f r %115
+    d r8 d'\p b g g4
+    fis r r2\fermata \bar "||" %117 finis
   }
 }
 
 DCCCXXIXbTenoreLyrics = \lyricmode {
-
+  Te, te er -- go, %107
+  te, te quae -- su -- mus,
+  tu -- is fa -- mu -- lis,
+  tu -- is fa -- mu -- lis sub -- ve -- ni, %110
+  quos, quos pre -- ti -- o -- so
+  san -- gui -- ne re -- de --
+  mi -- sti,
+  quos re -- de -- mi --
+  sti, quos, %115
+  quos, quos re -- de -- mi --
+  sti. %117 finis
 }
 
 DCCCXXIXcTenore = {
