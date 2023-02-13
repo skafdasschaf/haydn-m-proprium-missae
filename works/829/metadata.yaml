@@ -1,0 +1,20 @@
+title: Te Deum
+id: MH 829
+genre: hymn
+scoring: S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5984 (1)
+    date: 1803–1810
+    rism: 840016802
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072546r
+    license: custom (free for non-commercial purposes)
+    principal: true
+    notes: composed on 1803-09-20 according to the copyist
+toe: |
+  & 26 & clno 2 & 2nd \halfNote\ missing in \B1 \\
+  & 58 & vl 1   & last \eighthNote\ in \B1: e′8 \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
