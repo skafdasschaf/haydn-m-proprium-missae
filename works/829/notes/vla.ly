@@ -134,8 +134,115 @@ DCCCXXIXbViola = {
 
 DCCCXXIXcViola = {
   \relative c' {
-    \clef treble
-
+    \clef alto
+    \key g \major \time 3/4 \tempoDCCCXXIXc
+      \set Score.currentBarNumber = #118
+    g4\fE g' fis
+    e, e' d
+    c, c' a %120
+    d d8 fis a fis
+    d4 a' g
+    fis fis e
+    d fis d
+    g g8 h d h %125
+    g4 d h
+    g r g'
+    fis fis g
+    d d8 fis e g
+    fis4 d fis %130
+    fis( g8) g fis e
+    dis4 h h
+    h e8 d cis h
+    a4 a a
+    a r d %135
+    g, g' fis
+    e a g
+    fis e d
+    cis a d
+    g, a a %140
+    a d e
+    fis8 d fis a fis d
+    cis a cis a' e cis
+    a cis a cis d fis
+    g e a4 a, %145
+    d d r
+    cis cis r
+    d d2
+    g,4 a a
+    a d2~ %150
+    d4 a a
+    a d2~
+    d4 d d
+    d g,2~
+    g4 g' r %155
+    d d, r
+    g d' g
+    d d2
+    d4 d8 c h a
+    g4 g' fis %160
+    e, e' d
+    c, c' a
+    d d8 fis a fis
+    d4 a' g
+    fis fis e %165
+    d r d
+    d g8 d h d
+    g,4 d'' h
+    g d h
+    gis r4 gis' %170
+    a a, g
+    fis r fis
+    g g' e
+    h d d
+    r d d %175
+    r g c,
+    e d d
+    d g d
+    g,8 g' h d h g
+    fis d fis d' a fis %180
+    d fis d fis d fis
+    g4 g, r
+    cis d d,
+    d' d r
+    fis fis r %185
+    g g2
+    c,4 d d8 c\trill \noBreak
+    h \parOn h'-\parenthesize-! g-! d-! h-! \parOff d-\parenthesize-! \bar "||"
+    \key d \major g4 r d \noBreak
+    fis fis, r %190
+    ais8 fis' ais, fis' ais, fis'
+    h, h16 ais h8 fis' d fis
+    h4 h, h'
+    a! a, r
+    cis8 a' cis, a' cis, a' %195
+    d, d16 cis d8 d' cis( d)
+    d,4\p r r
+    d r r
+    d r r
+    d r r %200
+    a2.
+    a
+    cis4( d) gis,
+    a8 a\f cis e a cis
+    a,4 a' a, %205
+    g! g' g,
+    fis fis' d
+    a8 a' a e cis a
+    g4 g' g,
+    fis fis' e %210
+    d g h
+    a8 a, a cis e a
+    a,4 cis a
+    d fis d
+    r g g, %215
+    r d'' d,
+    r e d
+    cis a d
+    g a a,
+    b8 b'16 a b8 b, b b %220
+    b b'16 a b8 b, b b
+    a a' e a cis, a'
+    a,4 r r\fermata \bar "||" %223 finis
   }
 }
 

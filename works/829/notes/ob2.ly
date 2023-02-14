@@ -131,7 +131,114 @@ DCCCXXIXbOboeII = {
 DCCCXXIXcOboeII = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 3/4 \tempoDCCCXXIXc
+      \set Score.currentBarNumber = #118
+    g'2.\fE
+    g2 g4
+    gis( a) c %120
+    g( fis) d
+    d r r
+    a'2.
+    a2 a4
+    \once \slurDashed a8( fis) g4 g %125
+    g r8 d d g
+    h4 h2
+    h4( a) g
+    g fis g8 e
+    a4 fis a %130
+    \once \slurDashed a( g8) h a g
+    fis2 fis4
+    fis e g
+    g8 e e2
+    d4 r fis %135
+    g r h
+    g r e
+    a cis d
+    e r d
+    e d( cis) %140
+    d a a
+    a2.~
+    a
+    r4 e' d
+    h fis e %145
+    d fis' r
+    e, e' r
+    d, fis'2
+    e8 g \once \slurDashed d4( cis)
+    d d, e %150
+    \once \slurDashed g8( fis) a4 cis
+    d fis, g
+    h8( a) a4 fis'
+    g g,8( h) a( c)
+    h4 d r %155
+    a c r
+    g h8 d c h
+    h4( a) g
+    g fis fis
+    g2. %160
+    g2 g4
+    gis a8 gis a c
+    g( fis) fis4 d
+    d r r
+    a'2. %165
+    a2 a4
+    \once \slurDashed fis8([ a)] g g4 g8
+    d'2.
+    d
+    d4 h h %170
+    h a c~
+    c a a
+    a( g) g
+    g d2
+    c'4 a2 %175
+    g4 h g~
+    g g fis
+    g8( d') d4 d
+    d2.~
+    d %180
+    r4 a a
+    g8 a h a g4~
+    g g fis
+    g g' r
+    a, a' r %185
+    g, h'2
+    a4 g fis \noBreak
+    g h, d \bar "||"
+    \key d \major g, r h \noBreak
+    fis r r %190
+    fis2 cis'4
+    cis h r
+    fis g gis
+    a( g) fis
+    g2 e'4 %195
+    e d r
+    g,2.\p
+    fis
+    g'
+    fis %200
+    r4 g, g
+    g2 e'4
+    e2( d4)
+    cis r cis\f
+    cis r r %205
+    a2.
+    a4 r a8 fis
+    fis4 e r
+    cis'2.
+    d2 cis4 %210
+    d8 a g4 g
+    fis( e) a8 cis
+    g e e4 e
+    d r a'
+    a( g) h %215
+    g( fis) fis
+    g cis! d
+    e2 a,4
+    h fis( g)
+    f f' f %220
+    f2 d4
+    cis2.
+    cis4 r r\fermata \bar "||" %223 finis
   }
 }
 

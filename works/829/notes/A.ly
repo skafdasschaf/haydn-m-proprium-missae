@@ -250,12 +250,213 @@ DCCCXXIXbAltoLyrics = \lyricmode {
 DCCCXXIXcAlto = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 3/4 \tempoDCCCXXIXc \autoBeamOff
+      \set Score.currentBarNumber = #118
+    \mvTr g'2.\fE^\tuttiE
+    g4 g g
+    gis( a) e %120
+    d2 r4
+    fis fis g
+    a2 g4
+    fis( d) a'
+    a g r %125
+    g r g
+    g2 h8 h
+    h4( a) g
+    g fis r
+    r fis a %130
+    a( g) r
+    fis dis fis8 fis
+    fis4 e r
+    g4. e8 e4
+    d8. d16 d4 r %135
+    g2.
+    g4( e) e
+    d( g) fis
+    e4. e8 d4
+    e d( cis) %140
+    d r r
+    a'8. a16 a4 r
+    e8. e16 e4 r8 e
+    e4. a8 a4
+    g fis( g) %145
+    fis r r
+    R2.*3
+    d4 d e %150
+    g8([ fis)] d4( e)
+    fis8 fis fis4 g
+    h8([ a)] a4( fis)
+    g8 g g([ h)] a([ c)]
+    h2 g4 %155
+    fis2 fis4
+    g( h8[ d)] c([ h)]
+    h4( a) g
+    g fis r
+    g2. %160
+    g4. g8 g4
+    gis( a8[ gis)] a e
+    d4 d r
+    fis2 g4
+    a8. a16 a4 g8 g %165
+    fis4( d) fis8 a
+    a4( g) r
+    h2.
+    h
+    h4( e,) e %170
+    e e c'~
+    c a a
+    a8. g16 g4 r
+    g2.
+    a %175
+    g4. d8 e4(
+    c) d fis
+    g r r8 fis
+    g4 g r8 d
+    d8. d16 d4 r %180
+    fis2 a4
+    g8([ a h)] a g4(
+    e) d( fis8.) g16
+    g4 r r
+    R2.*4 \bar "||" %188
+    \key d \major d4 e eis \noBeam
+    fis4. e8 d4 %190
+    e2 cis4
+    cis h r
+    fis' g gis
+    a!( g) fis
+    g g4. e8 %195
+    e4 d r
+    g2\p g4
+    fis2 fis4
+    g2 g4
+    fis4. fis8 fis4 %200
+    a( e) g
+    g( cis,) e
+    e2( d4)
+    cis r r
+    e\f e e %205
+    e2 e4
+    a2 fis8 fis
+    fis4 e r
+    e2 e4
+    fis4. a8 a4 %210
+    a( g) g
+    fis( e) r8 g
+    g4. e8 e e
+    d8. d16 d4 r8 a'
+    a4( g) r8 h %215
+    g4( fis) r8 fis
+    g8. g16 g4 fis
+    e( a) a
+    h a4.( g8)
+    f4 r f %220
+    d r d
+    e r r
+    R2.\fermata \bar "||" %223 finis
   }
 }
 
 DCCCXXIXcAltoLyrics = \lyricmode {
+  Ae -- %118
+  ter -- na, ae --
+  ter -- na %120
+  fac,
+  ae -- ter -- na
+  fac cum
+  san -- ctis
+  tu -- is, %125
+  fac in
+  glo -- ri -- a
+  nu -- me --
+  ra -- ri.
+  Sal -- vum %130
+  fac, __
+  fac po -- pu -- lum
+  tu -- um
+  Do -- mi -- ne,
+  Do -- mi -- ne, %135
+  et
+  be -- ne --
+  dic __ hae --
+  re -- di -- ta --
+  ti tu -- %140
+  ae,
+  be -- ne -- dic,
+  be -- ne -- dic hae --
+  re -- di -- ta --
+  ti tu -- %145
+  ae.
 
+  Et re -- ge %150
+  e -- os, __
+  et ex -- tol -- le
+  il -- los __
+  us -- que in __ ae --
+  ter -- num, %155
+  in ae --
+  ter -- num,
+  in __ ae --
+  ter -- num.
+  Per %160
+  sin -- gu -- los,
+  sin -- gu -- los
+  di -- es
+  be -- ne --
+  di -- ci -- mus, be -- ne -- %165
+  di -- ci -- mus
+  te __
+  et
+  lau --
+  da -- mus %170
+  no -- men tu --
+  um in
+  sae -- cu -- lum,
+  et
+  in %175
+  sae -- cu -- lum __
+  sae -- cu --
+  li, lau --
+  da -- mus in
+  sae -- cu -- lum, %180
+  et in
+  sae -- cu -- lum __
+  sae -- cu --
+  li.
+
+  Di -- gna -- re %189
+  Do -- mi -- ne, %190
+  di -- e
+  i -- sto
+  si -- ne pec --
+  ca -- to
+  nos cu -- sto -- %195
+  di -- re.
+  Mi -- se --
+  re -- re
+  no -- stri,
+  Do -- mi -- ne, %200
+  mi -- se --
+  re -- re
+  no --
+  stri.
+  Fi -- at mi -- %205
+  se -- ri --
+  cor -- di -- a
+  tu -- a,
+  fi -- at,
+  Do -- mi -- ne, %210
+  su -- per
+  nos, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus in
+  te, __ in %215
+  te, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi --
+  mus in __
+  te, in %220
+  te, in
+  te. %222 finis
 }
 
 DCCCXXIXdAlto = {

@@ -91,8 +91,93 @@
   %     \midi { \tempo 4 = 105 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Te ergo quæsumus"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DCCCXXIXbOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DCCCXXIXbOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \DCCCXXIXbClarinoI \DCCCXXIXbClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         % \transpose c d
+  %         \DCCCXXIXbTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DCCCXXIXbViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DCCCXXIXbViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DCCCXXIXbViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DCCCXXIXbSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DCCCXXIXbSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DCCCXXIXbAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DCCCXXIXbAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DCCCXXIXbTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DCCCXXIXbTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "V"
+  %           \new Voice = "Basso" { \dynamicUp \DCCCXXIXbBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DCCCXXIXbBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DCCCXXIXbOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DCCCXXIXbBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 40 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Te ergo quæsumus"
+    \subsection "Æeterna fac"
     \addTocEntry
     \score {
       <<
@@ -101,11 +186,11 @@
             \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DCCCXXIXbOboeI
+              \DCCCXXIXcOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DCCCXXIXbOboeII
+              \DCCCXXIXcOboeII
             }
           >>
         >>
@@ -113,67 +198,67 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c d
-            \partCombine #'(0 . 10) \DCCCXXIXbClarinoI \DCCCXXIXbClarinoII
+            \partCombine #'(0 . 10) \DCCCXXIXcClarinoI \DCCCXXIXcClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
           % \transpose c d
-          \DCCCXXIXbTimpani
+          \DCCCXXIXcTimpani
         }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DCCCXXIXbViolinoI
+              \DCCCXXIXcViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DCCCXXIXbViolinoII
+              \DCCCXXIXcViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DCCCXXIXbViola
+            \DCCCXXIXcViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DCCCXXIXbSoprano }
+            \new Voice = "Soprano" { \dynamicUp \DCCCXXIXcSoprano }
           }
-          \new Lyrics \lyricsto Soprano \DCCCXXIXbSopranoLyrics
+          \new Lyrics \lyricsto Soprano \DCCCXXIXcSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DCCCXXIXbAlto }
+            \new Voice = "Alto" { \dynamicUp \DCCCXXIXcAlto }
           }
-          \new Lyrics \lyricsto Alto \DCCCXXIXbAltoLyrics
+          \new Lyrics \lyricsto Alto \DCCCXXIXcAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DCCCXXIXbTenore }
+            \new Voice = "Tenore" { \dynamicUp \DCCCXXIXcTenore }
           }
-          \new Lyrics \lyricsto Tenore \DCCCXXIXbTenoreLyrics
+          \new Lyrics \lyricsto Tenore \DCCCXXIXcTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "V"
-            \new Voice = "Basso" { \dynamicUp \DCCCXXIXbBasso }
+            \new Voice = "Basso" { \dynamicUp \DCCCXXIXcBasso }
           }
-          \new Lyrics \lyricsto Basso \DCCCXXIXbBassoLyrics
+          \new Lyrics \lyricsto Basso \DCCCXXIXcBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DCCCXXIXbOrgano
+            \DCCCXXIXcOrgano
           }
         >>
-        \new FiguredBass { \DCCCXXIXbBassFigures }
+        \new FiguredBass { \DCCCXXIXcBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 40 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

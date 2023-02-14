@@ -107,7 +107,53 @@ DCCCXXIXbTimpani = {
 DCCCXXIXcTimpani = {
   \relative c {
     \clef bass
-
+    \key c \major \time 3/4 \tempoDCCCXXIXc
+      \set Score.currentBarNumber = #118
+    R2.*28 %145
+    r4 r c\fE
+    g r g
+    c r r
+    r g g
+    c c c %150
+    c r g
+    c c c
+    c r r
+    R2.*2 %155
+    c4 r r
+    R2.*2
+    c4 c r
+    R2.*29 \bar "||" %188
+    R2.*5 %193
+    r8 g g g g g
+    g4 r g %195
+    c c r
+    c\p r r
+    r c c
+    c r r
+    r c c %200
+    g r g
+    g g r
+    R2.
+    r4 g\f g
+    g r r %205
+    g r r
+    c r r
+    r g g
+    g r g
+    c r g %210
+    c r r
+    r g g
+    g r r
+    r c c
+    c r r %215
+    c r c
+    g r r
+    g r r
+    r r g
+    c c8 c c c %220
+    c4 r c
+    g g g
+    g r r\fermata \bar "||" %223 finis
   }
 }
 

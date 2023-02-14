@@ -258,12 +258,224 @@ DCCCXXIXbBassFigures = \figuremode {
 DCCCXXIXcOrgano = {
   \relative c {
     \clef bass
-
+    \key g \major \time 3/4 \tempoDCCCXXIXc
+      \set Score.currentBarNumber = #118
+    \mvTr g4\fE-\tuttiE g' fis
+    e, e' d
+    c, c' a %120
+    d d8 fis a fis
+    d4 a' g
+    fis fis e
+    d fis d
+    g g8 h d h %125
+    g4 d h
+    g r g'
+    fis fis g
+    d d8 fis e g
+    fis4 d fis %130
+    g g,8 g' fis e
+    dis4 h dis
+    e e8 d cis h
+    a4 a' cis,
+    d fis d %135
+    g, g' fis
+    e a g
+    fis e d
+    cis a d
+    g, a a %140
+    d d e
+    fis8 d fis a fis d
+    cis a cis a' e cis
+    a cis a cis d fis
+    g e a4 a, %145
+    d r d-\soloE
+    a r a
+    d r d
+    g a a,
+    d-\tuttiE d, r %150
+    d' fis a
+    d d, r
+    d fis d
+    g g, r
+    g' r g %155
+    d r d
+    g, r g'
+    fis fis g
+    d d8 c h a
+    g4 g' fis %160
+    e, e' d
+    c, c' a
+    d d8 fis a fis
+    d4 a' g
+    fis fis e %165
+    d fis d
+    g g8 d h d
+    g,4 d'' h
+    g d h
+    gis r gis' %170
+    a a, g
+    fis r fis
+    g g' e
+    h h' h
+    r fis fis %175
+    r g c,
+    e d d
+    g, g' a
+    h8 g h d h g
+    fis d fis d' a fis %180
+    d fis d fis d fis
+    g4 g, r
+    cis d d,
+    g r g-\soloE
+    d' r d %185
+    g r g
+    c d d, \noBreak
+    g8 h-! g-! d-! h-! d-! \bar "||"
+    \key d \major g4-\tuttiE g, g' \noBreak
+    fis fis, r %190
+    ais8 fis' ais, fis' ais, fis'
+    h, h16 ais h8 fis' d fis
+    h4 h, h'
+    a! a, r
+    cis8 a' cis, a' cis, a' %195
+    d, d16 cis d8 d' cis d
+    d,4\p r r
+    d r r
+    d r r
+    d r r %200
+    cis r r
+    a r r
+    cis( d) gis,
+    a8 a\fE  cis e a cis
+    a,4a' a, %205
+    g! g' g,
+    fis fis' d
+    a8 a' a e cis a
+    g4 g' g,
+    fis fis' e %210
+    d g h
+    a8 a, a cis e a
+    a,4 cis a
+    d fis d
+    r g g, %215
+    r d'' d,
+    r e d
+    cis a d
+    g a a,
+    b8 b'16 a b8 b, b b %220
+    b b'16 a b8 b, b b
+    a a' e a cis, a'
+    a,4 a' r\fermata \bar "||" %223 finis
   }
 }
 
 DCCCXXIXcBassFigures = \figuremode {
-
+  <3>2 \bassFigureExtendersOn q4 %118
+  <5>2 q4 \bassFigureExtendersOff
+  <7 5\+> <6>2 %120
+  <6 4[!]>4 \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8
+  <7>4 <\t> <6 4>
+  <6 5>2 <6 [4 3]>4
+  <7> <6> <7>
+  <9 4> \bo <[8] 3>4. \bassFigureExtendersOn <8 3>8 %125
+  q2.
+  \bc <[8] 3>4 \bassFigureExtendersOff r <6>8 <5>
+  <6 4>4 <5 [3]>2
+  <6 4>4 <5 [3]> <6\\>
+  <[6]>2 <5!>4 %130
+  <9 4> <[8] 3>2
+  <6>2 <5>4
+  <9 4> <[8] 3>2
+  \bo <7 [_+]>2 \once \bassFigureExtendersOn \bc q4
+  r2. %135
+  r2 <\t>4
+  <6\\> <_+> <\t>
+  <6> <6\\>2
+  <6>4 <[_+]>2
+  <6>4 <6 4> <[57 _+> %140
+  r2 <6\\>4
+  <6>2 \bassFigureExtendersOn q8 q
+  <6\!>2 <6>8 q \bassFigureExtendersOff
+  <7 [_+]>2.
+  <6>4 <6 4> <[7] _+> %145
+  r2.
+  <_+>
+  r
+  <6>4 <6 4> <[5] _+>
+  r <3> <4 2> %150
+  <6 4>8 \bo <5 [3]> \bc <\t [\t]>4 <_+>
+  r2 <6 4>4
+  <8 6>8 <7! 5> <\t \t>2
+  r4 <3> <4 2>
+  <5 3>2. %155
+  <7>
+  r2 <6 4>8 <5 [3]>
+  <6 4>4 <5 [3]>2
+  <6 4>4 \bo <5 [3]>8 \bc <\t [\t]> <5 3> <\t 3>
+  <3>2 \bassFigureExtendersOn q4 %160
+  <5>2 q4 \bassFigureExtendersOff
+  <7 5\+>4 <6>2
+  <6 4[!]>8 \bo <[5] 3>2 \once \bassFigureExtendersOn \bc q8
+  <7>4 <\t> <6 4>
+  <6 5>2 <6 [4 3]>4 %165
+  <7> <5>8 <5\+> <8> <7!>
+  <9 4>4 \bo <8 [3]>4. \once \bassFigureExtendersOn \bc q8
+  <7!>2. \bassFigureExtendersOn
+  q2.
+  q4 \bassFigureExtendersOff <6> <5> %170
+  <9 4> \bo <[8] 3> \bc <[\t] \t>
+  <7>4 <5> <\t>
+  <9 4> <[8] 3> <6>
+  q2.
+  r4 <6 5>2 %175
+  r2.
+  <6>4 <6 4> <[7] 5>
+  r2 <6>4
+  <6>2 \bassFigureExtendersOn q8 q
+  <6\!>2 <6>8 q %180
+  <7>2 q8 q \bassFigureExtendersOff
+  r2.
+  <7>4 <6 4> <[7] 5>
+  r2.
+  <7> %185
+  r
+  <6>4 <6 4> <5 [3]>
+  r2.
+  r4 <6> <6\\>
+  <6 4> <[5] _+> <6 4> %190
+  <5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <9 4>4 \bo <[8] 3>4. \once \bassFigureExtendersOn \bc q8
+  r4 <6> <6\\>
+  <6 4> <[7!] 3> <6 4>
+  <5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %195
+  <9 4>4 \bo <[8] 3>4. \once \bassFigureExtendersOn \bc q8
+  <6 4>2.
+  <5 [3]>
+  <6 4>
+  <5 [3]> %200
+  <6 5>
+  <7>
+  <6 5>4 <\t \t> <7>
+  r8 <\l>2 \once \bassFigureExtendersOn q8
+  r2. %205
+  <2>
+  <6>
+  <6 4>4 \bo <[5 3]>4. \once \bassFigureExtendersOn \bc q8
+  <2>2.
+  <6>2 q4 %210
+  r q q
+  <6 4>4 \bo <[5] 3>4. \once \bassFigureExtendersOn \bc q8
+  <7>2.
+  r
+  <9 4!>4 <[8] 3>2 %215
+  <6 4>4 <5 [3]>2
+  r4 <6>2
+  <5>4 <\t>2
+  <6>4 <6 4> <7 [5]>
+  <5!>2. %220
+  <6\\ [5!]>
+  <5>2. \bassFigureExtendersOn
+  q4 q \bassFigureExtendersOff r %223 finis
 }
 
 DCCCXXIXdOrgano = {

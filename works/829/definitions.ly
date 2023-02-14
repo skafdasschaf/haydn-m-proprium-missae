@@ -2,6 +2,7 @@
 
 tempoDCCCXXIXa = \tempoMarkup "Vivace"
 tempoDCCCXXIXb = \tempoMarkup "Largo"
+tempoDCCCXXIXc = \tempoMarkup "Allegretto"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

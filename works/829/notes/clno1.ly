@@ -125,7 +125,59 @@ DCCCXXIXbClarinoI = {
 DCCCXXIXcClarinoI = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 3/4 \tempoDCCCXXIXc
+      \set Score.currentBarNumber = #118
+    R2.*28 %145
+    r4 r c'\fE
+    d r d
+    e r r
+    r e d
+    c c c %150
+    c r d
+    c \pa c, c
+    c \pd r c'
+    c r r
+    R2. %155
+    c4 r r
+    R2.
+    r4 c c
+    c c r
+    R2.*29 \bar "||" %188
+    R2. \noBreak
+    r8 \pa e, e e e e %190
+    e4 \pd r r
+    r e e
+    e r r
+    r8 \pa g g g g g
+    g4 \pd r d' %195
+    d e r
+    c2.~\p
+    c~
+    c~
+    c %200
+    d4 r d
+    d d r
+    R2.
+    r4 d\f d
+    d r r %205
+    d r r
+    c r r
+    r d d
+    d r d
+    c r d %210
+    e r r
+    r d d
+    d r r
+    r c c
+    c r r %215
+    c r g
+    \pao g r r
+    g r r
+    r r d'
+    c c8 c c c %220
+    c4 r c
+    d g, g
+    g r r\fermata \bar "||" %223 finis
   }
 }
 

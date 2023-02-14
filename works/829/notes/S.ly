@@ -254,22 +254,213 @@ DCCCXXIXbSopranoLyrics = \lyricmode {
 DCCCXXIXcSoprano = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 3/4 \tempoDCCCXXIXc \autoBeamOff
+      \set Score.currentBarNumber = #118
+    \mvTr h'2.\fE^\tuttiE
+    h~
+    h4 a c %120
+    g( fis) r
+    c'2.
+    c~
+    c4 d c
+    c h r %125
+    d2.
+    d4( g8[ fis]) e d
+    d4( c) h
+    h a r
+    r d c! %130
+    c( h) r
+    h4. h8 a4
+    a g r
+    e'4. g,8 g4
+    fis8. g16 a4 r %135
+    h2.
+    cis2 cis4
+    d( e) fis
+    a,4. g8 fis4
+    g fis( e) %140
+    d r r
+    d'8. a16 a4 r
+    e'8. a,16 a4 r8 a
+    g'4. g8 fis4
+    e d( cis) %145
+    d r r
+    R2.*3
+    fis,4 fis g %150
+    h8([ a)] a4 r
+    a8 a a4 h
+    d8([ c!)] c4 r
+    h8 h h([ d)] c([ e)]
+    d2.~ %155
+    d~
+    d4 g8[ fis] e([ d)]
+    d4( c) h
+    h a r
+    h2. %160
+    h~
+    h4 a8[ h] c a
+    g([ fis)] fis4 r
+    c'2.
+    c %165
+    c4.( cis8) d c
+    c4( h) r
+    f'2.
+    f
+    f4( e) d %170
+    d c e~
+    e c c
+    c( h8) d c([ e)]
+    d2.
+    d %175
+    d4. h8 e([ g,)]
+    g2( \grace h16 a8.) g16
+    g4 r r8 d'
+    d4 g, r8 d'
+    d8. a16 a4 r %180
+    c2 c4
+    h8([ c d e)] fis g
+    g,2( \grace h16 a8.)^\critnote g16
+    g4 r r
+    R2.*4 \bar "||" %188
+    \key d \major h4 h h \noBeam
+    h( ais8.) ais16 h4 %190
+    cis2 e,4
+    e d r
+    d' d d
+    d( cis) d
+    e e4. g,8 %195
+    g4 fis r
+    h2\p d4
+    d( a) a
+    h2 d4
+    d4. a8 a4 %200
+    g'2 e4
+    cis( e) g,
+    g2( fis4)
+    e r r
+    a\f a a %205
+    a2 a4
+    a4.( h8) cis d
+    d4 cis r
+    a2 a4
+    a4. a8 g'4 %210
+    fis( e) d
+    d( cis) r8 e
+    e4. g,8 g g
+    fis8. g16 a4 r8 d
+    c4( h) r8 d %215
+    h4( a) r8 a
+    cis!8. cis16 cis4 d
+    e( g) fis
+    e d( cis)
+    d r d %220
+    f r gis,
+    a r r
+    R2.\fermata \bar "||" %223 finis
   }
 }
 
 DCCCXXIXcSopranoLyrics = \lyricmode {
-  % Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
-  % Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
-  % et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.
-  % Et re -- ge e -- os, et ex -- tol -- le il -- los us -- que in ae -- ter -- num.
-  % Per sin -- gu -- los di -- es, be -- ne -- di -- ci -- mus te
-  % et lau -- da -- mus no -- men tu -- um in sae -- cu -- lum,
-  % et in sae -- cu -- lum sae -- cu -- li.
-  % Di -- gna -- re Do -- mi -- ne, di -- e i -- sto si -- ne pec -- ca -- to nos cu -- sto -- di -- re.
-  % Mi -- se -- re -- re no -- stri, Do -- mi -- ne, mi -- se -- re -- re no -- stri.
-  % Fi -- at mi -- se -- ri -- cor -- di -- a tu -- a Do -- mi -- ne,
-  % su -- per nos, quem -- ad -- mo -- dum spe -- ra -- vi -- mus in te.
+  Ae -- %118
+  ter --
+  _ na %120
+  fac __
+  cum
+  san --
+  _ ctis
+  tu -- is %125
+  in
+  glo -- ri -- a
+  nu -- me --
+  ra -- ri.
+  Sal -- vum %130
+  fac __
+  po -- pu -- lum
+  tu -- um
+  Do -- mi -- ne,
+  Do -- mi -- ne, %135
+  et
+  be -- ne --
+  dic __ hae --
+  re -- di -- ta --
+  ti tu -- %140
+  ae,
+  be -- ne -- dic,
+  be -- ne -- dic hae --
+  re -- di -- ta --
+  ti tu -- %145
+  ae.
+
+  Et re -- ge %150
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que in __ ae --
+  ter -- %155
+
+  _ num,
+  in __ ae --
+  ter -- num.
+  Per %160
+  sin --
+  _ gu -- los
+  di -- es
+  be --
+  ne -- %165
+  di -- ci -- mus
+  te __
+  et
+  lau --
+  da -- mus %170
+  no -- men tu --
+  um in
+  sae -- cu -- lum,
+  et
+  in %175
+  sae -- cu -- lum
+  sae -- cu --
+  li, lau --
+  da -- mus in
+  sae -- cu -- lum, %180
+  et in
+  sae -- cu -- lum
+  sae -- cu --
+  li.
+
+  Di -- gna -- re %189
+  Do -- mi -- ne, %190
+  di -- e
+  i -- sto
+  si -- ne pec --
+  ca -- to
+  nos cu -- sto -- %195
+  di -- re.
+  Mi -- se --
+  re -- re
+  no -- stri,
+  Do -- mi -- ne, %200
+  mi -- se --
+  re -- re
+  no --
+  stri.
+  Fi -- at mi -- %205
+  se -- ri --
+  cor -- di -- a
+  tu -- a,
+  fi -- at,
+  Do -- mi -- ne, %210
+  su -- per
+  nos, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus in
+  te, __ in %215
+  te, __ quem --
+  ad -- mo -- dum spe --
+  ra -- vi --
+  mus in __
+  te, in %220
+  te, in
+  te. %222 finis
 }
 
 DCCCXXIXdSoprano = {

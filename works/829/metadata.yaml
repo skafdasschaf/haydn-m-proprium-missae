@@ -14,7 +14,9 @@ sources:
     principal: true
     notes: composed on 1803-09-20 according to the copyist
 toe: |
-  & 26 & clno 2 & 2nd \halfNote\ missing in \B1 \\
-  & 58 & vl 1   & last \eighthNote\ in \B1: e′8 \\
+  & 26  & clno 2 & 2nd \halfNote\ missing in \B1 \\
+  & 58  & vl 1   & last \eighthNote\ in \B1: e′8 \\
+  & 183 & S      & grace note missing in \B1 \\
+  & 187 & vl 2   & 2nd \quarterNote\ in \B1: 4 × d″16 \\
 parts:
   ottoni: Clarino I, II in D\\Timpani in D–A

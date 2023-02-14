@@ -135,7 +135,114 @@ DCCCXXIXbViolinoI = {
 DCCCXXIXcViolinoI = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 3/4 \tempoDCCCXXIXc
+      \set Score.currentBarNumber = #118
+    g'8(\f d) h( d) g( h)
+    g( e) h( e) g( h)
+    e,( gis) a( e') c( a) %120
+    g4( fis8) d16 e fis g a h
+    c8( a) fis( a) c( e)
+    c( a) c( a') c,( g')
+    c,( fis) a( c) a( c,)
+    a( c) h d16 c h d g h %125
+    d8( h) h( g) g( d)
+    h'( a) g( fis) e( d)
+    d,( d') a'( c,) h16 d e d
+    d8( h) a16 fis' e d cis e d cis
+    d8( a) fis( a) d,( c') %130
+    c4( h8) h' h h
+    h( fis) dis( fis) fis,( a)
+    a( fis) g a16 h cis d e fis
+    g fis g a g8-! e e( g,)
+    fis16 g a g a8-! a' fis( d) %135
+    h-! h, d( g) h( d)
+    cis-! a' g( e) a( cis,)
+    d( a) e'( a,) fis'( a,)
+    g'( a,) e'( g,) fis( a)
+    h,( g') a,( fis') a,( e') %140
+    d fis fis16 a g fis g a h cis
+    d e fis e d e fis e d cis h a
+    e' d cis d e d cis d cis h a h
+    a g' fis g fis g a g fis d cis d
+    h8 h' fis, d'16 fis, e8 cis' %145
+    d, a'16 g fis a fis' e d cis h a
+    g8 g16 fis e g e' d cis h a g
+    fis8 fis'16 e d fis a g fis e d cis
+    h a h g fis a d a e'4\trill
+    d8-! a fis( d') g,( d') %150
+    h( a) a16 fis' e d cis h' a g
+    fis8-! d a( d,) h'( d,)
+    d'( c!) c16 a' g a fis a d c
+    h8-! d, h( d) c( e)
+    d d16 c h d h' a g fis e d %155
+    c8 c16 h a c a' g fis e d c
+    h d e d g8( fis) e( d)
+    d,( d') a'( c,) h16 d e d
+    d8( h) a-! a-! d( fis,)
+    g( d) h( d) g( h) %160
+    g( e) h( e) g( h)
+    e,( gis) a( e') c( a)
+    g!( fis) fis d16 e fis g a h
+    c8( a) fis( a) c( e)
+    c( a) c( a') c,( g') %165
+    c,( fis) c( cis) d-! c-!
+    c( a) h16 c h c d e f e
+    f8( d) h( g) f'( d')
+    d( h) h( f) f( d)
+    d( h) h'( e,) h'( d,) %170
+    d16 h d c c8( e) e( a)
+    a( c) c( a) a( c,)
+    c16 a c h h8( d) c( e)
+    d-! g fis16( g) h g d8 d
+    d-! a' gis16( a) c a d,8 d %175
+    d h' \appoggiatura a16 g8 fis16 g \appoggiatura fis e8 dis16 e
+    g fis g c, h8( d) fis,( a)
+    g h h16 d c h c d e fis
+    g a h a g a h a g fis e d
+    a' g fis g a g fis g fis e d e %180
+    fis a h a fis c d c a' c, d c
+    h8 d' d2
+    e,16 g a g d8( h) d( fis,)
+    g d'16 c h d h' a g fis e d
+    c8 c16 h a c a' g fis e d c %185
+    h8 h'16 a g h d c h a g fis
+    e d e c h d d d a'4\trill \noBreak
+    g8 h,-! g-! d-! h-! d-! \bar "||"
+    \key d \major g-! d e( h') eis,( h') \noBreak
+    fis( h) ais16 h cis ais h cis d h %190
+    cis8[ fis,] e' e4 e,8
+    e4 d8-! fis-! d-! fis-!
+    h-! fis-! g( d') gis,( d')
+    a!( d) cis16 d e cis d e fis d
+    e fis g fis g8 g4 g,8 %195
+    g4 fis8 d' cis( d)
+    h16\p a g fis g d e fis g a h cis
+    d cis e d fis e d cis d cis h a
+    h d cis d h d, e fis g a h cis
+    d e fis g \appoggiatura h a8 g16 fis e d cis d %200
+    e fis g fis g a h a g fis e d
+    cis d e fis e fis g a g8( e)
+    a,,( g') g4( fis)
+    e8 a,\f cis e a cis
+    a( e) cis( e) a( cis) %205
+    a( e) cis( e) a,( cis)
+    d( fis) a( h) \once \slurDashed cis( d)
+    a, a' a e cis a
+    e''( cis) a( cis) e( a)
+    d,,( fis) a( d) a( g') %210
+    a,( fis') h,( h') \appoggiatura a16 g8 fis16 e
+    d4( cis8) a16 h cis d e fis
+    e fis g a g8 g, e' g,
+    fis16 a h a a8 d fis a
+    d,,( c') h-! g h d %215
+    d( h) a fis16 g a h a d
+    cis! d e d cis a' e cis d a' fis d
+    a h cis d e fis g e fis g a fis
+    h fis g e d8( fis) a cis,
+    d d'4 d d8~ %220
+    d gis,, gis gis gis gis
+    a4-! cis-! e-!
+    <a cis, e,> a, r\fermata \bar "||" %223 finis
   }
 }
 

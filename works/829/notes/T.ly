@@ -246,12 +246,213 @@ DCCCXXIXbTenoreLyrics = \lyricmode {
 DCCCXXIXcTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key g \major \time 3/4 \tempoDCCCXXIXc \autoBeamOff
+      \set Score.currentBarNumber = #118
+    \mvTr d2.\fE^\tuttiE
+    e4 e e
+    e2 c4 %120
+    h( a) r
+    a d e
+    d2 a4
+    a2 a8([ d)]
+    d4 d r %125
+    h r h
+    h2 g8 g
+    d'2 d4
+    d d r
+    r a d %130
+    d2 r4
+    h fis h8 h
+    h2 e,4
+    cis4. a'8 a4
+    a8. a16 a4 r %135
+    d2.
+    e4( a,) a
+    a( cis) d8([ a)]
+    a4. a8 a4
+    h a( g) %140
+    fis r r
+    d'8. d16 d4 r
+    a8. a16 a4 r8 a
+    a4. e'8 d4
+    h a2 %145
+    a4 r r
+    R2.*3
+    a4 r r %150
+    d a cis
+    d d r
+    fis,8 fis d'4 a
+    h8([ d)] d4 r
+    d2 h4 %155
+    a2 a4
+    \once \stemUp h( g8[ h)] g([ h)]
+    d2 d4
+    d d, r
+    d'2. %160
+    e4. e,8 e4
+    e'2 e8 c
+    h([ a)] a4 r
+    a( d) e
+    d8. d16 d4 a8 a %165
+    a2 a8 d
+    d2 r4
+    d2.
+    d
+    d4( h) h %170
+    h a2
+    a4 d d
+    d8. d16 d4 r
+    d2.
+    c %175
+    h4. g8 g4~
+    g h( c8.) h16
+    h4 r r8 c
+    d4 d r8 h
+    a8. a16 a4 r %180
+    a2 d4
+    d4. c8 h4~
+    h h( c8.) h16
+    h4 r r
+    R2.*4 \bar "||" %188
+    \key d \major h4 h h \noBreak
+    d( cis8.) cis16 h4 %190
+    fis2 fis4
+    fis fis r
+    d' d d
+    fis( e!) d
+    a a4. a8 %195
+    a4 a r
+    d2\p h4
+    a( d) d
+    d2 h4
+    a4. d8 d4 %200
+    e( a,) a
+    e'( a,) a
+    a2( h4)
+    e, r r
+    cis'\f cis cis %205
+    cis2 cis4
+    d2 a8 a
+    a4 a r
+    cis2 cis4
+    d4. d8 cis4 %210
+    d( h) d
+    a2 r8 cis
+    cis8. a16 a4 a
+    a8. a16 a4 r8 d
+    d2 r8 d %215
+    d2 r8 a
+    a8. a16 a4 a
+    a( e') fis
+    g fis( e)
+    d r d %220
+    gis, r d'
+    cis r r
+    R2.\fermata \bar "||" %223 finis
   }
 }
 
 DCCCXXIXcTenoreLyrics = \lyricmode {
+  Ae -- %118
+  ter -- na, ae --
+  ter -- na %120
+  fac, __
+  ae -- ter -- na
+  fac cum
+  san -- ctis
+  tu -- is, %125
+  fac in
+  glo -- ri -- a
+  nu -- me --
+  ra -- ri.
+  Sal -- vum %130
+  fac,
+  fac po -- pu -- lum
+  tu -- um
+  Do -- mi -- ne,
+  Do -- mi -- ne, %135
+  et
+  be -- ne --
+  dic __ hae --
+  re -- di -- ta --
+  ti tu -- %140
+  ae,
+  be -- ne -- dic,
+  be -- ne -- dic hae --
+  re -- di -- ta --
+  ti tu -- %145
+  ae.
 
+  Et, %150
+  et re -- ge
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que %155
+  in ae --
+  ter -- num,
+  in ae --
+  ter -- num.
+  Per %160
+  sin -- gu -- los,
+  sin -- gu -- los
+  di -- es
+  be -- ne --
+  di -- ci -- mus, be -- ne -- %165
+  di -- ci -- mus
+  te
+  et
+  lau --
+  da -- mus %170
+  no -- men
+  tu -- um in
+  sae -- cu -- lum,
+  et
+  in %175
+  sae -- cu -- lum __
+  sae -- cu --
+  li, lau --
+  da -- mus in
+  sae -- cu -- lum, %180
+  et in
+  sae -- cu -- lum __
+  sae -- cu --
+  li.
+
+  Di -- gna -- re %189
+  Do -- mi -- ne, %190
+  di -- e
+  i -- sto
+  si -- ne pec --
+  ca -- to
+  nos cu -- sto -- %195
+  di -- re.
+  Mi -- se --
+  re -- re
+  no -- stri,
+  Do -- mi -- ne, %200
+  mi -- se --
+  re -- re
+  no --
+  stri.
+  Fi -- at mi -- %205
+  se -- ri --
+  cor -- di -- a
+  tu -- a,
+  fi -- at,
+  Do -- mi -- ne, %210
+  su -- per
+  nos, quem --
+  ad -- mo -- dum spe --
+  ra -- vi -- mus in
+  te, in %215
+  te, quem --
+  ad -- mo -- dum spe --
+  ra -- vi --
+  mus in __
+  te, in %220
+  te, in
+  te. %222 finis
 }
 
 DCCCXXIXdTenore = {
