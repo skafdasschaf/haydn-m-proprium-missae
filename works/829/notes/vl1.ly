@@ -249,6 +249,106 @@ DCCCXXIXcViolinoI = {
 DCCCXXIXdViolinoI = {
   \relative c' {
     \clef treble
-
+    \twotwotime \key d \major \time 2/2 \tempoDCCCXXIXd
+      \set Score.currentBarNumber = #224
+    R1*15 %238
+    d'1\fE
+    cis %240
+    d4 e fis d
+    h cis d h
+    e1
+    a,2 r
+    r4 d d c %245
+    h a g2
+    g'4 fis e d
+    cis! h a g
+    fis2 a
+    d, h'~ %250
+    h4 h4 cis2~
+    cis4 cis fis2~
+    fis4 d h cis8 h
+    ais2 fis
+    cis'2. cis4 %255
+    d e fis2~
+    fis h,
+    g' e
+    cis r
+    r4 fis fis e %260
+    d cis h2
+    h h4 a
+    g h h2~
+    h4 h a2
+    fis dis'4 dis %265
+    e2 h
+    r e4 c
+    a h c a
+    fis2 dis'
+    e4 e fis2 %270
+    h, r
+    r4 e e d!
+    c d e2
+    a, r
+    d1 %275
+    h
+    c4 d e c
+    a h c a
+    d1
+    g,4 a h2~ %280
+    h a
+    r4 g' g fis
+    e d c2
+    r4 c c h
+    a g fis a %285
+    h c d h
+    a h c a
+    h h g' e
+    dis e fis a,
+    g g' e d %290
+    cis! d e g,
+    fis a d fis
+    e fis g2
+    fis a,
+    d1 %295
+    cis2 cis
+    e1
+    a,2 cis
+    e1
+    a,8 e' a g fis e fis d %300
+    cis e a g fis e fis d
+    <a' cis, e,>2 <a d, fis,>
+    <a cis, e,> r
+    R1*5 %308
+    d,1
+    cis %310
+    d4 e fis d
+    h cis d h
+    e1
+    a,4 a'2 a4~
+    a a,2 a4 %315
+    a1
+    r4 e' e d
+    cis h a2
+    r4 g' g fis
+    e d cis h %320
+    a a2 g4
+    fis2 a4 d
+    e, d' e, cis'
+    d,8 a' g a fis d fis a
+    g d g a h d e d %325
+    cis h a h cis d e fis
+    g a g fis g e a g
+    fis a h a d a fis a
+    e g h g a, e' g e
+    d4-! a'-! fis-! d-! %330
+    cis e g cis,
+    d8 fis e d cis h a g
+    fis2 r
+    R1
+    <d d'>2 <d a' fis'>
+    <fis d' a'> r %335
+    <a e' cis'> r
+    <a fis' d'> r
+    <fis d' a'> <d a' fis'>
+    <a fis' d'> r\fermata \bar "|." %340 finis
   }
 }

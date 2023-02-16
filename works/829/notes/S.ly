@@ -466,11 +466,196 @@ DCCCXXIXcSopranoLyrics = \lyricmode {
 DCCCXXIXdSoprano = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 2/2 \tempoDCCCXXIXd \autoBeamOff
+      \set Score.currentBarNumber = #224
+    R1*15 %238
+    \mvTr d'1\fE^\tuttiE
+    cis %240
+    d4( e) fis( d)
+    h cis d h
+    e1
+    a,2 r
+    r4 d d c %245
+    h( a) g2
+    g'4( fis) e( d)
+    cis! h a g
+    fis2( a)
+    d, h'~ %250
+    h4 h4 cis2~
+    cis4 cis fis2~
+    fis4 d h( cis8[ h)]
+    ais2 fis
+    cis'2. cis4 %255
+    d e fis2~
+    fis h,
+    g' e
+    cis r
+    r4 fis fis e %260
+    d( cis) h2
+    h h4 a
+    g h h2~
+    h4 h a2
+    fis dis'4 dis %265
+    e2 h
+    r e4( c)
+    a( h) c( a)
+    fis2 dis'
+    e4 e fis2 %270
+    h, r
+    r4 e e d!
+    c( d) e2(
+    a,) r
+    d1 %275
+    h
+    c4( d) e( c)
+    a h c a
+    d1
+    g,4 a h2~ %280
+    h a
+    r4 g' g fis
+    e( d) c2
+    r4 c c h
+    a( g) fis( a) %285
+    h( c) d( h)
+    a( h c a)
+    h h( g') e
+    dis( e fis a,)
+    g g'( e) d %290
+    cis!( d e g,)
+    fis a( d) fis
+    e( fis g2)
+    fis a,
+    d1 %295
+    cis2 cis
+    e1
+    a,2 cis
+    e1
+    a,2 r %300
+    R1*8 %308
+    d1
+    cis %310
+    d4( e) fis( d)
+    h cis d h
+    e1
+    a,~
+    a~ %315
+    a
+    r4 e' e d
+    cis( h) a2
+    r4 g' g fis
+    e( d) cis( h) %320
+    a2. g4
+    fis1
+    e2 g
+    fis r
+    d' d %325
+    cis1
+    g'
+    fis2 fis
+    e1
+    d2 r %330
+    e r
+    fis r
+    d, fis
+    a1~
+    a~ %335
+    a~
+    a
+    d,
+    R
+    R\fermata \bar "|." %340 finis
   }
 }
 
 DCCCXXIXdSopranoLyrics = \lyricmode {
-  % In te, Do -- mi -- ne, spe -- ra -- vi:
-  % Non con -- fun -- dar in ae -- ter -- num.
+  In %239
+  te, %240
+  Do -- mi --
+  ne, in te spe --
+  ra --
+  vi,
+  non, non con -- %245
+  fun -- dar,
+  non con --
+  fun -- dar in ae --
+  ter --
+  num, non __ %250
+  con -- fun --
+  dar in __
+  _ ae --
+  ter -- num,
+  in ae -- %255
+  ter -- _ _
+  _
+  _ _
+  num,
+  non, non con -- %260
+  fun -- dar,
+  non, non con --
+  fun -- dar in __
+  ae -- ter --
+  num, in ae -- %265
+  ter -- num,
+  non,
+  non con --
+  fun -- dar
+  in ae -- ter -- %270
+  num,
+  non, non con --
+  fun -- dar, __
+
+  in %275
+  te,
+  Do -- mi --
+  ne, in te spe --
+  ra --
+  vi, spe -- ra -- %280
+  vi,
+  non, non con --
+  fun -- dar,
+  non, non con --
+  fun -- dar __ %285
+  in __ ae --
+  ter --
+  num, non con --
+  fun --
+  dar in __ ae -- %290
+  ter --
+  num, non con --
+  fun --
+  dar, spe --
+  ra -- %295
+  vi, spe --
+  ra --
+  vi, spe --
+  ra --
+  vi, %300
+
+  in %309
+  te, %310
+  Do -- mi --
+  ne, in te spe --
+  ra --
+  vi, __
+
+  non, non con -- %317
+  fun -- dar,
+  non, non con --
+  fun -- dar %320
+  in ae --
+  ter --
+  _ _
+  num,
+  non con -- %325
+  fun --
+  dar
+  in ae --
+  ter --
+  num, %330
+  non,
+  non
+  in ae --
+  ter --
+
+  num. %338 finis
 }

@@ -481,10 +481,259 @@ DCCCXXIXcBassFigures = \figuremode {
 DCCCXXIXdOrgano = {
   \relative c {
     \clef bass
-
+    \twotwotime \key d \major \time 2/2 \tempoDCCCXXIXd
+      \set Score.currentBarNumber = #224
+    \mvTr a'1\fE-\tuttiE
+    fis %225
+    g4 a h g
+    e fis g e
+    a1
+    << {
+      d
+      cis %230
+      d4 e fis d
+      h cis d h
+      e1
+      a,2
+    } \\ {
+      d,2 r
+      r4 a' a g %230
+      fis e d2
+      d'4 cis h a
+      gis fis e d
+      cis g'
+    } >> fis e
+    d c' h a %235
+    g fis e d
+    cis! d cis h
+    a2 cis
+    d4 h e2
+    a, \clef "treble_8" fis''4 e %240
+    d cis h a
+    gis a gis fis
+    e2 gis
+    \clef bass a1
+    fis %245
+    g!4 a h g
+    e fis g e
+    a1
+    d,4 e fis d
+    g2 h, %250
+    cis4 d e cis
+    fis2 ais,
+    h d'
+    cis4 h ais gis
+    fis e d cis %255
+    h a! g! fis
+    e2 r
+    e' cis
+    ais4 fis' fis e
+    d cis h2 %260
+    h' h4 a!
+    g fis e2
+    r4 e g e
+    c'1
+    h4 a g fis %265
+    e e e d!
+    c h a2
+    a'4 g fis e
+    dis cis! h a
+    g g' dis2 %270
+    e4 e e d
+    c2 h
+    a4 h c cis
+    d \clef "treble_8" d' d c
+    h2 fis %275
+    g4 e' e d
+    \clef bass a2 a4 g
+    fis fis fis e
+    d2 \clef "treble_8" d4 fis
+    g fis g h %280
+    \clef bass d,1
+    h
+    c4 d e c
+    a h c a
+    d1 %285
+    g,2 \clef "treble_8" g'
+    d'1
+    g,2 \clef bass e
+    h'1
+    e,2 e %290
+    a1
+    d,2 \clef treble d'
+    a' \clef bass cis,,
+    d d4 cis
+    h cis d e %295
+    a, a' a, a'
+    a, a' a, a'
+    a, a' a, a'
+    a, a' a, a'
+    a,2 d-\soloE %300
+    a d
+    a'4 a, d' d,
+    a'2 r
+    \clef "treble_8" << {
+      a'1
+      fis %305
+      g4 a h g
+      e fis g e
+      a1
+    } \\ {
+      R1_\tuttiE
+      d, %305
+      h
+      cis4 d e cis
+      a h cis a
+    } >>
+    d2 h
+    \clef bass a1 %310
+    fis
+    g4 a h g
+    e fis g e
+    a1
+    d,2 cis %315
+    d1
+    a1~-\tasto
+    a~
+    a~
+    a~ %320
+    a~
+    a~
+    a
+    d4 d' d c
+    h a g2 %325
+    g,4 g' g fis
+    e d cis!2
+    d4 d fis d
+    g e a a,
+    d2 d' %330
+    a, a'
+    d, r
+    R1*2
+    fis2 d %335
+    a r
+    a r
+    d r
+    d d
+    d1\fermata \bar "|." %340 finis
   }
 }
 
 DCCCXXIXdBassFigures = \figuremode {
-
+  <1>1 %224
+  q %225
+  q4 q q q
+  q q q q
+  q1
+  r
+  r %230
+  r
+  r
+  r
+  r2 <5>4 <\t>
+  r q <5 3> <\t _!> %235
+  r1
+  <5 3\!>4 \bassFigureExtendersOn q q q \bassFigureExtendersOff
+  r2 <6>4 <5>
+  r2 <7 4>4 <\t _+>
+  r2 <5 3>4 <\t 3> %240
+  r1
+  <5 3\!>4 \bassFigureExtendersOn q q q \bassFigureExtendersOff
+  <_+>2 <6>4 <5>
+  <8> <7!> <6 4> <5 3>
+  <6>2 <6 4>4 <5! 3> %245
+  r1
+  r2 <6>4 <7>
+  <[_+]>1
+  r2 <6>4 <7>
+  r2 <6> %250
+  <7> <6>4 <7>
+  <_+>2 \bo <[6]>4 \bc <[5]>
+  r2 <6>
+  <6\\> <6>
+  <_+>2. \once \bassFigureExtendersOn q4 %255
+  r2 <7 3>4 <\t 3[!]>
+  <9>2 <8>
+  <6>1
+  <6>4 <_+>2 \bo <[\t]>4
+  \bc <[6]>2 <5 3>4 <4 2> %260
+  <3>2. <\t>4
+  <6>2 <5 3>4 <4 2>
+  <3>2 <6>
+  <7> <6>
+  <_+>2. \once \bassFigureExtendersOn q4 %265
+  r1
+  <6>2 <[_!]>
+  <6 _!>2. \once \bassFigureExtendersOn q4
+  <6>2 <_+>
+  <6> q %270
+  <5 3>4 <4 2> <3> <4\+>
+  <6>2 <6\\>
+  <_!>4 <7> <6> <5[!]>
+  r2. <\t>4
+  <6>2 q %275
+  r2. <6>4
+  <[_!]> <4 2> <_!> <\t>
+  <5! 3>2 \bassFigureExtendersOn q4 <5! 3\!>
+  <7!>2. q4 \bassFigureExtendersOff
+  r <6>2. %280
+  <6 4>2 <5 [3]>
+  <6>1
+  r
+  <_!>
+  r %285
+  r
+  r
+  r
+  <[7] _+>
+  r %290
+  <[7] _+>
+  r
+  <5 [3]>4 <6 4> <5>2
+  r2. <[6]>4
+  <7>2 \once \bassFigureExtendersOn q4 <_+> %295
+  r1
+  <7+ 2>
+  <8 [3]>
+  <7+ 2>
+  <8 [3]> %300
+  r
+  r
+  r
+  r
+  r %305
+  r
+  r
+  r
+  r2 <6\\>
+  r1 %310
+  <6>
+  r
+  r
+  r
+  r2 <6 5> %315
+  <9 4> <[8] 3>
+  r1
+  r
+  r
+  r %320
+  r
+  <6 5>2 <\t 4>
+  <5 4> <\t 3>
+  r2. <\t>4
+  <6>1 %325
+  <4\+ 2>2. \once \bassFigureExtendersOn q4
+  <6>2 <5>
+  <9>4 <8>2.
+  <6 5>1
+  r %330
+  r
+  r
+  r1*2
+  <6>1 %335
+  <6 4>
+  <[5] 3>
+  r
+  r
+  r %340 finis
 }

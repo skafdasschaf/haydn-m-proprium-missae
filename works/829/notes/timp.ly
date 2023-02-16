@@ -160,6 +160,67 @@ DCCCXXIXcTimpani = {
 DCCCXXIXdTimpani = {
   \relative c {
     \clef bass
-
+    \twotwotime \key c \major \time 2/2 \tempoDCCCXXIXd
+      \set Score.currentBarNumber = #224
+    R1*20 %243
+    r2 g\fE
+    c c4 c %245
+    c2 r
+    R1
+    g2 g4 g
+    c2 r
+    R1*28 %277
+    c2 r
+    c r
+    R1 %280
+    r2 c
+    c r
+    R1*2
+    c2 r %285
+    R1
+    c2 r
+    R1*3 %290
+    g2 g4 g
+    c2 r
+    R1*3 %295
+    g2 r
+    R1
+    g2 r
+    R1
+    g2 c %300
+    g c
+    g4 g c2
+    g r
+    R1*6 %309
+    r2 g %310
+    c r
+    c r
+    R1
+    r2 g4 g
+    c2 g %315
+    r c
+    g r
+    R1
+    g2 r
+    R1 %320
+    g2 r
+    r g
+    g g4 g
+    c2 r
+    c r %325
+    g r
+    g r
+    c r
+    r g
+    c c4 c %330
+    g g8 g g4 g
+    c2 r
+    R1*2
+    c2 c %335
+    g g4 g
+    g2 g4 g
+    c2 r
+    c c
+    c r\fermata \bar "|." %340 finis
   }
 }

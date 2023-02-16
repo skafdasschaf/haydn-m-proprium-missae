@@ -245,6 +245,112 @@ DCCCXXIXcOboeII = {
 DCCCXXIXdOboeII = {
   \relative c' {
     \clef treble
-
+    \twotwotime \key d \major \time 2/2 \tempoDCCCXXIXd
+      \set Score.currentBarNumber = #224
+    R1*10 %233
+    a'1\fE
+    fis %235
+    g4 a h g
+    e fis g e
+    a1
+    d,2 r
+    r4 a' a g %240
+    fis e d2
+    d'4 cis h a
+    gis fis e2~
+    e4 g fis e
+    d c' h a %245
+    g2 d
+    r e'~
+    e4 a, h cis!
+    d2 r
+    r d %250
+    cis1
+    ais2 fis
+    r fis
+    e r
+    r ais %255
+    h r
+    R1
+    r2 cis~
+    cis ais
+    r d4 cis %260
+    h cis d d
+    e fis g2
+    r e,
+    e1
+    fis2 h %265
+    h r
+    r c4 a
+    fis g a fis
+    h2 r
+    R1 %270
+    r2 e,
+    a e
+    r a
+    a fis
+    r a %275
+    g h
+    a4 h c a
+    d,2 a'
+    r a
+    h4 a g2~ %280
+    g fis
+    r g
+    e'4 d c2~
+    c a4 g
+    fis2 d' %285
+    d1~
+    d
+    h2 r
+    h1
+    g2 r %290
+    a1~
+    a~
+    a2 e'
+    d d,4 e
+    fis2. e4 %295
+    e2 r
+    e'1
+    e~
+    e
+    e4 a, a d %300
+    cis2 d
+    cis4 cis d2
+    cis r
+    R1*4 %307
+    e1
+    d
+    cis2 r %310
+    r d
+    h r
+    e1~
+    e2 cis
+    d e %315
+    e( d)
+    cis r
+    a r
+    R1
+    a2 r %320
+    R1
+    r2 d~
+    d cis
+    d fis,
+    g1 %325
+    a2 cis
+    e1~
+    e4 a, d2~
+    d4 d cis2
+    d r %330
+    cis r
+    d r
+    d fis
+    a1~
+    a~ %335
+    a~
+    a
+    d,2 r
+    fis a
+    fis r\fermata \bar "|." %340 finis
   }
 }

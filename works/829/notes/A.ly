@@ -462,10 +462,217 @@ DCCCXXIXcAltoLyrics = \lyricmode {
 DCCCXXIXdAlto = {
   \relative c' {
     \clef treble
-
+    \key d \major \time 2/2 \tempoDCCCXXIXd \autoBeamOff
+      \set Score.currentBarNumber = #224
+    R1*10 %233
+    \mvTr a'1\fE^\tuttiE
+    fis %235
+    g4( a) h( g)
+    e fis g e
+    a1
+    d,2 r
+    r4 a' a g %240
+    fis( e) d2
+    d'4( cis) h( a)
+    gis fis e d
+    cis g' fis e
+    d c' h a %245
+    g2 d
+    r h'4 h
+    e,2 cis!
+    a' r
+    h r %250
+    e4( d) cis( h)
+    ais gis fis e
+    d2 fis
+    e4 d cis h
+    ais2 ais'4 ais %255
+    h2.( a4)
+    g1
+    r2 g4 g
+    fis( ais cis ais)
+    fis d' d cis %260
+    h( cis) d2
+    h4( a!) g fis
+    e2 h
+    R1
+    h' %265
+    g
+    a4( h) c( a)
+    fis g a fis
+    h1
+    e,4 h' h a %270
+    g( fis) e2
+    R1
+    r4 a a g!
+    fis2 a4( fis)
+    g g c( a) %275
+    g2 g4 fis
+    e2( c4 e)
+    d a' a g
+    fis( e) d( c)
+    h d g2~ %280
+    g fis
+    g d
+    e r
+    c4( e) a g
+    fis( e) d( fis) %285
+    g( a) h( g)
+    fis( g a fis)
+    g g( h) g
+    a( g a fis)
+    g h2 h4 %290
+    g( fis g e)
+    fis2 d
+    a'1
+    d,2 d4 e^\critnote
+    fis2.( e4) %295
+    e2 a
+    h2.( e,4)
+    e2 e
+    h'2.( e,4)
+    e2 r %300
+    R1*3
+    a1
+    fis %305
+    g4( a) h( g)
+    e fis g e
+    a1
+    fis2 gis
+    a4 e e e %310
+    fis( g!) a2
+    h4( a) g2
+    g4( fis e d)
+    cis2 e
+    fis4( d) e( g) %315
+    g2( fis)
+    e4 g g fis
+    e( d cis d)
+    e e' e d
+    cis( h) a r %320
+    e( fis) g( e)
+    e2 d~
+    d cis
+    d r
+    g h %325
+    a1
+    a
+    a2 a
+    h( a)
+    a r %330
+    a r
+    a r
+    d, fis
+    a1~
+    a~ %335
+    a~
+    a
+    d,
+    R
+    R\fermata \bar "|." %340 finis
   }
 }
 
 DCCCXXIXdAltoLyrics = \lyricmode {
+  In %234
+  te, %235
+  Do -- mi --
+  ne, in te spe --
+  ra --
+  vi,
+  non, non con -- %240
+  fun -- dar,
+  non con --
+  fun -- dar in ae --
+  ter -- _ _ _
+  _ _ _ _ %245
+  _ num,
+  non con --
+  fun -- dar,
+  non,
+  non, %250
+  non con --
+  fun -- dar in ae --
+  ter -- _
+  _ _ _ _
+  num, in ae -- %255
+  ter --
+  num,
+  in ae --
+  ter --
+  num, non, non con -- %260
+  fun -- dar,
+  non, non con --
+  fun -- dar,
 
+  in %265
+  te,
+  Do -- mi --
+  ne, in te spe --
+  ra --
+  vi, non, non con -- %270
+  fun -- dar,
+
+  non, non con --
+  fun -- dar
+  in ae -- ter -- %275
+  num, in ae --
+  ter --
+  num, non, non con --
+  fun -- dar
+  in ae -- ter -- %280
+  _
+  _ num,
+  non,
+  non, non con --
+  fun -- dar __ %285
+  in __ ae --
+  ter --
+  num, non con --
+  fun --
+  dar in ae -- %290
+  ter --
+  num, spe --
+  ra --
+  vi, non con --
+  fun -- %295
+  dar, spe --
+  ra --
+  vi, spe --
+  ra --
+  vi, %300
+
+  in %304
+  te, %305
+  Do -- mi --
+  ne, in te spe --
+  ra --
+  _ _
+  vi, non, non con -- %310
+  fun -- dar,
+  non con --
+  fun --
+  dar, in
+  te __ spe -- %315
+  ra --
+  vi, non, non con --
+  fun --
+  dar, non, non con --
+  fun -- dar %320
+  in __ ae --
+  ter -- _
+  _
+  num,
+  non con -- %325
+  fun --
+  dar
+  in ae --
+  ter --
+  num, %330
+  non,
+  non
+  in ae --
+  ter --
+
+  num. %338 finis
 }
