@@ -7,11 +7,39 @@
 
 \book {
   \bookpart {
-    \section "DCCCXXIX" ""
+    \section "829" "Te Deum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \DCCCXXIXViolinoII }
+        \new Staff { \DCCCXXIXaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { systems-per-page = #5 }
+    \score {
+      <<
+        \new Staff { \DCCCXXIXbViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æeterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DCCCXXIXcViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "In te, Domine, speravi"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DCCCXXIXdViolinoII }
       >>
     }
   }

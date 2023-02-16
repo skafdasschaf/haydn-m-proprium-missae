@@ -7,12 +7,43 @@
 
 \book {
   \bookpart {
-    \section "DCCCXXIX" ""
+    \section "829" "Te Deum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \DCCCXXIXOrgano }
-        \new FiguredBass { \DCCCXXIXBassFigures }
+        \new Staff { \DCCCXXIXaOrgano }
+        \new FiguredBass { \DCCCXXIXaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { systems-per-page = #3 }
+    \score {
+      <<
+        \new Staff { \DCCCXXIXbOrgano }
+        \new FiguredBass { \DCCCXXIXbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æeterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DCCCXXIXcOrgano }
+        \new FiguredBass { \DCCCXXIXcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "In te, Domine, speravi"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \DCCCXXIXdOrgano }
+        \new FiguredBass { \DCCCXXIXdBassFigures }
       >>
     }
   }
