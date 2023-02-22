@@ -1,0 +1,33 @@
+title: Benedicta et venerabilis
+id: MH 374
+genre: gradual
+festival: Mariae (B.V.)
+scoring: S, A, T, B (coro), 2 ob, 2 cor (\flat E), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 417
+    date: 1784-06-28
+    rism: 456009437
+    url: https://mdz-nbn-resolving.de/details:bsb00084976
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-49)
+    date: 1810-1840
+    rism: 455039970
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H49/
+    license: public domain
+    notes: oboes replaced by clarinets
+toe: |
+  69 & cor 1 & 2nd \halfNote\ in \A1: g′2 \\
+parts:
+  cor12: Corno I, II in \flat E
+lyrics:
+  Benedicta et venerabilis es, Virgo Maria,\\
+  quae sine tactu pudoris inventa es mater Salvatoris.\\
+  Virgo Dei genitrix quem totus non capit orbis,\\
+  in tua se clausit viscera factus homo.\\
+  (\bibleverse{Luk}(1:28,34))
