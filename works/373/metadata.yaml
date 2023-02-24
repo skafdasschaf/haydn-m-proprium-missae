@@ -1,0 +1,55 @@
+title: Constitues eos principes
+id: MH 373
+genre: gradual
+festival: De Apostolis
+scoring: S, A, T, B (coro), 2 cor (A), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 394
+    date: 1784-06-24
+    rism: 456009414
+    url: https://daten.digitale-sammlungen.de/bsb00044054/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 211
+    rism: 600038161
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/210.html
+    license: public domain
+    notes: lacks cor
+  B2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-64)
+    date: 1810-1840
+    rism: 455039986
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H64/
+    license: public domain
+    notes: also contains parts for 2 oboes
+  B3:
+    siglum: F-Pn
+    shelfmark: D-5591 (10)
+    date: 1830–1840
+    rism: 840026213
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+toe: |
+  61–66 & – & The original bar 61 was cancelled by Haydn and replaced
+          by bars 61–66, which are written onto a separate sheet.
+          Most likely, Haydn made this correction some time after
+          he wrote the original version, since he quoted a total
+          length of 126 bars (instead of 131) beneath the final
+          staff, which represents the number of bars in the original
+          version. Moreover, it seems that Haydn replaced part of
+          the title (“in festo SS. Apostolorum Petri et Pauli”)
+          by “de Apostolis” at the same time.  \\
+parts:
+  cor12: Corno I, II in A
+lyrics:
+  Constitues eos principes super omnem terram,\\
+  memores erunt nominis tui, Domine.\\
+  Pro patribus tuis nati sunt tibi filii,\\
+  propterea populi confitebuntur tibi.\\
+  (\bibleverse{Ps}(45/44:18,17))
