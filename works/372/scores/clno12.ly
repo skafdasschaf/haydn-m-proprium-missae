@@ -1,0 +1,32 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "clno")
+\include "score_settings/two-staves.ly"
+
+\paper { indent = 1.5\cm }
+
+\book {
+  \bookpart {
+    \section "371" "Priusquam te formarem"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CCCLXXIIClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CCCLXXIIClarinoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+}

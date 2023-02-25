@@ -1,0 +1,42 @@
+title: Priusquam te formarem
+id: MH 371
+genre: gradual
+festival: S. Joannis Baptistae
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/8
+    rism: 455023089
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1784-06-21 according to the copyist
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5591 (7)
+    date: 1830–1840
+    rism: 840026214
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+toe: |
+  21 & vl 1   & 6th \eighthNote\ in \B1: a′8; in \B2: c″8 \\
+  21 & vl 2   & 6th \eighthNote\ in \B1: a′8 \\
+  23 & org    & 3rd \eighthNote\ in \B1 and \B2: d8 \\
+  40 & vl 1   & 1st \eighthNote\ in \B1: g′8 \\
+  44 & S      & 16th \thirtysecondNote\ in \B1: e″32 \\
+  48 & org    & 8th \sixteenthNote\ in \B1: g16 \\
+  51 & org    & 4th \sixteenthNote\ in \B1: g16 \\
+  52 & clno 2 & 4th \eighthNote\ in \B1: g′8 \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Priusquam te formarem in utero, novi te:\\
+  et antequam exires de ventre, sanctificavi te.\\
+  Misit Dominus manum suam,\\
+  et tetigit os meum, et dixit mihi:\\
+  Alleluia.\\
+  Tu puer propheta altissimi vocaberis,\\
+  praeibis ante Dominum parare vias eius.\\
+  (\bibleverse{Jer}(1:5,9), \bibleverse{Luk}(1:76))
