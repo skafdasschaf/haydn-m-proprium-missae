@@ -1,0 +1,30 @@
+title: Trauerode
+id: MH 371
+genre: sacred song
+scoring: S, A (solo), 2 fl, 2 cor (\flat E), b, org solo
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: F-Pn
+    shelfmark: W-6 (48)
+    date: 1784-06-17
+    rism: 840016200
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10862900t
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  – & org & All small notes have been added by the editor. \\
+parts:
+  cor12: Corno I, II in \flat E
+  org_solo: Organo solo
+lyrics:
+  Weint auch ihr in meine Trauertöne, Freunde,\\
+  denn auch euch hat er geliebt:\\
+  er, der hier, zu früh der Welt entriſſen,\\
+  in dem ſchlangenreichen Grabe morſcht.\\
+  Ach, er war ſo gut, ſo fromm,\\
+  ſo gefällig, und ſo jung,\\
+  doch hat ihn des Todes kalte Senſe hingeſtreckt,\\
+  und nimmer wacht er auf\\
+  von dem Schlafe, wenn ſchon lautes Jammern\\
+  ſtäts um ſeine Ruheſtätte tönt.
