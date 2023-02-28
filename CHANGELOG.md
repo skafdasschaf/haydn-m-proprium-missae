@@ -1,5 +1,17 @@
 # Changelog
 
+## v2023.02.0
+
+### Added
+
+- works: MH 370–377, and 829
+
+
+### Changed
+
+- full score template now includes \articulate
+
+
 ## v2023.01.0
 
 ### Added
