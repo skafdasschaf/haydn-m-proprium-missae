@@ -1,0 +1,30 @@
+title: Alleluia ascendit Deus
+id: MH 365
+genre: gradual
+festival: Ascensio Domini
+scoring: S, A, T, B (coro), 2 ob, 2 cor (A), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/8
+    rism: 455022581
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1784-05-09 according to the copyist
+  B2:
+    siglum: A-Ed
+    shelfmark: B 172
+    rism: 600038125
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/179.html
+    license: public domain
+parts:
+  cor12: Corno I, II in A
+lyrics:
+  Ascendit Deus in iubilatione,\\
+  et Dominus in voce tubae.\\
+  Dominus in Sina in sancto,\\
+  ascendens in altum,\\
+  captivam duxit captivitatem.\\
+  (\bibleverse{Ps}(47/46:6), \bibleverse{Ps}(68/67:18-19))
