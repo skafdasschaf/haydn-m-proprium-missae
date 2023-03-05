@@ -1,0 +1,52 @@
+title: Benedictus es Domine
+id: MH 369
+genre: gradual
+festival: Trinitatis
+scoring: S, A, T, B (coro), 2 ob, 2 clno (\flat B), timp (\flat B–F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 367
+    date: 1784-06-03
+    rism: 456009386
+    url: https://daten.digitale-sammlungen.de/bsb00043157/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/13
+    rism: 455022586
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: A-Ed
+    shelfmark: B 175
+    rism: 600038128
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/182.html
+    license: public domain
+    notes: lacks ob parts
+  B3:
+    siglum: A-SPD
+    shelfmark: SP (H-12)
+    date: 1800-1830
+    rism: 455042296
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H12/
+    license: public domain
+    notes: parts for vl 1, 2, and T
+toe: |
+  – & ob & according to \A1 added in 1798 \\
+  – & clno, timp & according to \A1 added in 1796 \\
+parts:
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+lyrics:
+  Benedictus es Domine\\
+  qui intueris abyssos\\
+  et sedes super Cherubim.\\
+  Benedictus es Domine\\
+  in firmamento coeli,\\
+  et laudabilis in saecula.\\
+  Benedictus es Domine\\
+  Deus patrum nostrorum\\
+  et laudabilis in saecula.\\
+  (\bibleverse{Dan}(3:55,56,52))
