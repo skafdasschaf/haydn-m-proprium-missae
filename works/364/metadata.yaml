@@ -1,0 +1,41 @@
+title: Dicite in gentibus
+id: MH 364
+genre: gradual
+festival: Inventio et Exaltatio S. Crucis
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 399
+    date: 1784-04-22
+    rism: 456009419
+    url: https://daten.digitale-sammlungen.de/bsb00045054/image_1
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 170
+    rism: 600038123
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/177.html
+    license: public domain
+    notes: lacks clno, contains 2 trombones (colla parte with A and T, respectively)
+  B2:
+    siglum: F-Pn
+    shelfmark: D-5591 (5)
+    date: 1830–1840
+    rism: 840026208
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+toe: |
+  – & clno & according to \A1 added in 1797 \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Dicite in gentibus,\\
+  quia Dominus regnavit a ligno.\\
+  Dulce lignum dulces clavos,\\
+  dulcia ferens pondera,\\
+  quae sola fuisti digna sustinere\\
+  Regem coelorum et Dominum.\\
+  (\bibleverse{Ps}(96/95:10))
