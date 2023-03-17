@@ -1,0 +1,47 @@
+title: Confitebuntur cœli
+id: MH 363
+genre: gradual
+festival: Georgii Martyris et SS. Apostolorum Philippi et Jacobi, vel de Communi Martyrum tempore Paschali
+scoring: S, A, T, B (coro), 2 cor (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/16
+    rism: 455022952
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1784-04-16 according to the copyist
+  B2:
+    siglum: A-Ed
+    shelfmark: B 213
+    rism: 600038163
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/212.html
+    license: public domain
+    notes: lacks cor parts, includes a vla part (unison with A)
+toe: |
+  8  & vl 1 & 13th \sixteenthNote\ in \B2: \sharp f′16 \\
+  9  & vl 2 & last \eighthNote\ in \B1: sharp f′8 \\
+  24 & T    & 4th \quarterNote\ in \B2: d′4 \\
+  32 & vl 1 & 14th \sixteenthNote\ in \B2: g′16 \\
+  34 & A    & rhythtm of 2nd \halfNote\ in \B2:
+              \quarterNoteDotted–\sixteenthNote–\sixteenthNote \\
+  40 & vl 1 & 8th \sixteenthNote\ in \B1: e′16 \\
+  42 & vl   & 8th \sixteenthNote\ in \B1 and \B2: g″16 \\
+  44 & vl 2 & 2nd \sixteenthNote\ in \B2: a″16;
+              13th \sixteenthNote: e″16 \\
+  44 & T    & 3rd \eighthNote\ in \B1 and \B2: e′8 \\
+  45 & vl 1 & 8th \sixteenthNote\ in \B1: d″16 \\
+  47 & vl 1 & 14th to last \sixteenthNote\ in \B1: g″16–e″16–\sharp c″16 \\
+  54 & A    & 4th \eighthNote\ in \B2: d′8 \\
+  55 & vl 1 & 3rd \eighthNote\ in \B2: \sharp f″8 \\
+  55 & T    & rhythm of 2nd \quarterNote\ in \B1:
+              \eighthNoteDotted–\sixteenthNote \\
+  55 & org  & 2nd \eighthNote\ in \B2: d′8 \\
+parts:
+  cor12: Corno I, II in D
+lyrics:
+  Confitebuntur coeli mirabilia tua Domine,\\
+  et enim veritatem tuam in Ecclesia Sanctorum.\\
+  (\bibleverse{Ps}(89/88:6))
