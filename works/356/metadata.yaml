@@ -1,0 +1,44 @@
+title: Ab ortu solis
+id: MH 356
+genre: gradual
+festival: SS. Altaris Sacramento
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/14
+    rism: 455022587
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1784-02-05 according to the copyist
+  B2:
+    siglum: A-Ed
+    shelfmark: B 177
+    rism: 600038130
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/183.html
+    license: public domain
+toe: |
+  1    & vl 2 & last \eighthNote\ in \B2: d″ \\
+  2    & vl 2 & last \eighthNote\ in \B2: d″ \\
+  25   & T    & last \eighthNote\ in \B1: c′8 \\
+  28   & vl 2 & last \eighthNote\ in \B2: d″ \\
+  29   & vl 2 & last \eighthNote\ in \B2: d″ \\
+  69ff & vl   & 3rd \quarterNote\ of bar 69 to 1st \eighthNote\
+                of bar 76 in \B2 unison with org \\
+  83ff & vl   & 3rd \quarterNote\ of bar 83 to end
+                of bar 91 in \B2 unison with org
+                (with two \sixteenthNote\ per \eighthNote) \\
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics:
+  Ab ortu solis usque ad occasum\\
+  magnum est nomen meum in gentibus,\\
+  et in omni loco sacrificatur,\\
+  et offertur nomini meo oblatio munda,\\
+  quia magnum est nomen meum in gentibus.\\
+  (\bibleverse{Mal}(1:11))\\[1ex]
+  Venite, comedite panem meum,\\
+  et bibite vinum, quod miscui vobis.\\
+  (\bibleverse{Pro}(9:5))
