@@ -1,0 +1,28 @@
+title: Dolorosa et lacrymabilis es
+id: MH 360
+genre: gradual
+festival: Septem Dolorum B. V. Mariæ
+scoring: S, A, T, B (coro), 2 cor (\flat E), 3 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 183
+    rism: 600038136
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/188.html
+    license: public domain
+    principal: true
+toe:
+  – & trb & \B1 lacks separate parts for trb. Instead,
+            A and T contain notes in bars 9f that are labelled
+            as “Tromboni”. \\
+parts:
+  cor12: Corno I, II in \flat E
+lyrics:
+  Dolorosa et lacrymabilis es, virgo Maria,\\
+  stans iuxta crucem Domini Iesu,\\
+  filii tui Redemptoris.\\[1ex]
+  O vos omnes qui transitis per viam,\\
+  attendite et videte,\\
+  si est dolor sicut dolor meus.\\
+  (\bibleverse{Jer}(1:12))
