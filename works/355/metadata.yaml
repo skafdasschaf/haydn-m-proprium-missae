@@ -1,0 +1,46 @@
+title: Nunc dimittis
+id: MH 355
+genre: gradual
+festival: Purificatio Mariæ (B.V.)
+scoring: S, A, T, B (coro), 2 cor (D), [3 trb], 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 416
+    date: 1784-01-29
+    rism: 456009436
+    url: https://mdz-nbn-resolving.de/details:bsb00084975
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 181
+    rism: 600038134
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/759.html
+    license: public domain
+  B2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-63)
+    date: 1810-1840
+    rism: 455039985
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H63/
+    license: public domain
+    notes: also contains parts for two oboes
+toe: |
+  – & cor & according to \A1 added in 1796 \\
+  – & trb & There are no separate trb staves in \A1.
+            However, the directives “senza Trombone” (bar 67) and
+            “NB. col Trombone” (bar 81) above the A staff indicate
+            that trombones should play colla parte with A
+            (and, most likely, also T and B). \\
+parts:
+  cor12: Corno I, II in D
+lyrics:
+  Nunc dimittis servum tuum, Domine,\\
+  secundum verbum tuum in pace.\\
+  Quia viderunt oculi mei salutare tuum,\\
+  quod parasti ante faciem omnium populorum.\\
+  Lumen ad revelationem gentium\\
+  et gloriam plebis tuae Israel.\\
+  (\bibleverse{Luk}(2:29-32))
