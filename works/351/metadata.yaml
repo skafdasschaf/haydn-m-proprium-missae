@@ -1,0 +1,40 @@
+title: Salvos fac nos
+id: MH 351
+genre: gradual
+festival: Sanctissimi Nominis Jesu, et de Venerabili Sacramento
+scoring: S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 402
+    date: 1784-01-08
+    rism: 456009422
+    url: https://mdz-nbn-resolving.de/details:bsb00084973
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/9
+    rism: 455022582
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
+  B2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-150)
+    date: 1839
+    rism: 455039971
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H50/
+    license: public domain
+toe: |
+  – & clno & according to \A1 added in 1796 \\
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics:
+  Salvos fac nos, Domine Deus noster,\\
+  et congrega nos de nationibus,\\
+  ut confiteamur nomini sancto tuo,\\
+  et gloriemur in gloria tua.\\
+  Tu, Domine, pater noster et redemptor noster,\\
+  a saeculo nomen tuum.\\
+  (\bibleverse{Ps}(106/105:47), \bibleverse{Isa}(63:16))
