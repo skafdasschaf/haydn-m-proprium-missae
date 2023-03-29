@@ -1,0 +1,49 @@
+title: Gloriosus Deus
+id: MH 352
+genre: gradual
+festival: Vincentii et Anastasii, Fabiani et Sebastiani
+scoring: S, A, T, B (coro), 2 clno (C), [timp (C–G)], 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4291/3
+    rism: 455023084
+    url: https://mdz-nbn-resolving.de/details:bsb00046856
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1784-01-12 according to the copyist
+  B2:
+    siglum: A-Ed
+    shelfmark: B 192
+    rism: 600038144
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/195.html
+    license: public domain
+    notes: also contains parts for timp
+toe: |
+  –    & clno & according to \B2 added in 1797 \\
+  –    & timp & The timp part is not available in any autograph or authentic
+                source. Due to several errors in compositional technique
+                (see below), it most likely has been added by later hand.
+                Thus, the following bars were emended by the editor:
+                8~(1st~\quarterNote),
+                15~(2nd~\quarterNote),
+                73~(4th and 5th~\eighthNote),
+                82~(4th and 5th~\eighthNote),
+                88~(3rd and 4th~\eighthNote),
+                99~(2nd~\quarterNote),
+                105~(5th~\eighthNote), and
+                107~(5th~\eighthNote). \\
+  10ff & vl   & Bars 10, 12, 96, 98, and 102 differ between
+                \B1 (upper voice) and \B2 (lower voice). \\
+  35   & T    & rhythm of 1st \quarterNote\ in \B2: 2 × \eighthNote \\
+  50   & A    & grace note missing in \B1 \\
+  106  & vl 2 & 1st \sixteenthNote\ in \B1: e″16 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Gloriosus Deus in sanctis suis,\\
+  mirabilis in maiestate, faciens prodigia.\\
+  Dextera tua, Domine, glorificata est in virtute,\\
+  dextera manus tua confregit inimicos.\\
+  (\bibleverse{Ex}(15:11,6))
