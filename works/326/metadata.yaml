@@ -1,0 +1,84 @@
+title: Veni creator Spiritus
+id: MH 326
+genre: sequence
+festival: Pentecostes
+scoring: S, A, T, B (coro), 2 ob, 2 cor (C), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4150/12
+    date: 1787-08-26
+    rism: 455022585
+    url: https://mdz-nbn-resolving.de/details:bsb00046854
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: B 276
+    rism: 600038210
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/981.html
+    license: public domain
+    notes: parts for ob 1+2, cor 1+2, clno 1+2, timp, vl 1+2, S, A, T, B, and org
+  B3:
+    siglum: A-Ed
+    shelfmark: B 226
+    rism: 600038210
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/819.html
+    license: public domain
+    notes: title page and vlne part
+  D1:
+    siglum: F-Pn
+    shelfmark: D-5673 (17)
+    date: 1820–1840
+    rism: 840026383
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+toe: |
+  2  & vl 2   & 5th \eighthNote\ in \B1: g+e′8 \\
+  4  & ob 1   & 4th \quarterNote\ in \B1: \quaverRest–g″8 \\
+  7  & vl 2   & 6th \eighthNote\ in \B1: g8 \\
+  7  & A      & 3rd \eighthNote\ in \B1: d′8\\
+  9  & clno 2 & bar missing in \B1 \\
+  23 & ob 2   & grace note missing in \B1 \\
+  28 & vl 2   & 4th \eighthNote\ in \B1: c″16.–a′32 \\
+  33 & A      & 4th \eighthNote\ in \B1: c′8 \\
+  40 & A      & 5th to 7th \eighthNote\ in \B1: \flat e′4–g′8 \\
+  44 & vl 2   & 2nd \quarterNote\ in \B2: d″16–f″16–f″16–d″16 \\
+  45 & T      & 3rd \quarterNote\ in \B1 and \B2: d′4 \\
+  46 & vl 2   & 1st \eighthNote\ in \B2: g8 \\
+  51 & A      & 1st \quarterNote\ in \B1: a′4 \\
+  64 & B      & 2nd \quarterNote\ in \B2: c4 \\
+parts:
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Veni creator Spiritus,\\
+  mentes tuorum visita:\\
+  Imple superna gratia,\\
+  quae tu creasti pectora.\\[1ex]
+  Qui Paraclitus diceris,\\
+  donum Dei altissimi,\\
+  fons vivus, ignis, charitas\\
+  et spiritalis unctio.\\[1ex]
+  Tu septiformis munere,\\
+  dextrae Dei tu digitus,\\
+  tu rite promissum Patris\\
+  sermone ditans guttura.\\[1ex]
+  Accende lumen sensibus,\\
+  infunde amorem cordibus,\\
+  infirma nostri corporis\\
+  virtute firmans perpeti.\\[1ex]
+  Hostem repellas longius\\
+  pacemque dones protinus;\\
+  ductore sic te praevio\\
+  vitemus omne noxium.\\[1ex]
+  Per te sciamus da Patrem\\
+  noscamus atque Filium,\\
+  te utriusque Spiritum\\
+  credamus omni tempore.\\[1ex]
+  Gloria Patri Domino,\\
+  natoque, qui a mortuis\\
+  surrexit ac Paraclito\\
+  in saeculorum saecula.\\[1ex]
+  Amen.
