@@ -1,0 +1,43 @@
+title: Omnes de Saba venient
+id: MH 350
+genre: gradual
+festival: Epiphania Domini
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 343
+    date: 1784-01-02
+    rism: 456009362
+    url: https://mdz-nbn-resolving.de/details:bsb00084958
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-45)
+    date: 1839
+    rism: 455039966
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H45/
+    license: public domain
+    notes: parts
+  C1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-45)
+    date: 1829
+    rism: 455039966
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H45/
+    license: public domain
+    notes: full score (without oboes); Diabelli, Wien, plate number 3098
+toe: |
+  66 & T & 1st \quarterNote\ missing in \A1 \\
+  68 & T & 1st \quarterNote\ missing in \A1 \\
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Omnes de Saba venient,\\
+  aurum et thus deferentes,\\
+  et laudem Domino annuntiantes.\\
+  Surge et illuminare Ierusalem,\\
+  quia gloria Domini super te orta est.\\
+  (\bibleverse{Isa}(60:6,1))
