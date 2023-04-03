@@ -1,0 +1,48 @@
+title: Sederunt principes
+id: MH 343
+genre: gradual
+festival: Stephani Protomartyris
+scoring: S, A, T, B (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 438
+    date: 1783-12-17
+    rism: 456009458
+    url: https://mdz-nbn-resolving.de/details:bsb00084980
+    license: CC BY-NC-SA 4.0
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: B 208
+    rism: 600038158
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/207.html
+    license: public domain
+  B2:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-48)
+    date: 1839
+    rism: 455039969
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H48/
+    license: public domain
+    notes: parts
+  C1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-48)
+    date: 1839
+    rism: 455039966
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H48/
+    license: public domain
+    notes: full score; Diabelli, Wien, plate number 3094
+toe: |
+  – & cor & according to \A1 added in 1796 \\
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Sederunt principes,\\
+  et adversum me loquebantur:\\
+  et iniqui persecuti sunt me.\\
+  Adiuva me, Domine Deus meus,\\
+  salvum me fac propter misericordiam tuam.\\
+  (\bibleverse{Ps}(119/118:23,86;109/108:26))
