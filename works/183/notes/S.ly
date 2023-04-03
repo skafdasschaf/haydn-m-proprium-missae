@@ -13,9 +13,9 @@ CLXXXIIISoprano = {
     e d r g e d r4 %25
     \mvTr d2\pE^\solo g,4 r
     R1*6 %32
-    r4 \mvTr d\fE^\tutti d2
-    r4 d d2
-    r4 d'8 d g,2~ %35
+    r4 \mvTr d8\fE^\tutti d d4 d
+    r d8 d d4 d
+    r d'8 d g,2~ %35
     g8[ c] h a \appoggiatura a h4 g'8 d
     h2~ h8[ c] h a
     g4 r r2
@@ -40,10 +40,10 @@ CLXXXIIISoprano = {
     e8 d r4 r2 %60
     g c,4 r
     R1*6 %67
-    r4 \mvTr g\fE^\tuttiE g2
-    r4 g g2
-    r4 g8 g c2~ %70
-    c8[ f] e d \appoggiatura d e4 g8([ e)]
+    r4 \mvTr g8\fE^\tuttiE g g4 g
+    r g8 g g4 g
+    r g8 g c2~ %70
+    c8[ f] e d \appoggiatura d e4 g8 e
     c2~ c8[ f] e d
     c4 r r2
     R1*2 %75
@@ -68,7 +68,7 @@ CLXXXIIISoprano = {
     c4 r r2
     e4 e d4. d8 %95
     c4 c8 c c4 c,
-    r a'8 c \tempoCLXXXIIIFinis a4. a8
+    r a'8 c \tempoCLXXXIIIb a4. a8
     g1\fermata \bar "|." %98 finis
   }
 }
@@ -80,10 +80,10 @@ CLXXXIIISopranoLyrics = \lyricmode {
   mo -- ni -- um dant, qui te -- sti --
   mo -- ni -- um dant in coe -- lo, in
   coe -- lo, in coe -- lo: %25
-  \xE Pa -- ter, \x
+  Pa -- ter,
 
-  u -- num, %33
-  u -- num,
+  u -- num, u -- num, %33
+  u -- num, u -- num,
   et hi tres __ %35
   u -- num sunt, et hi
   tres __ u -- num
@@ -109,10 +109,10 @@ CLXXXIIISopranoLyrics = \lyricmode {
   San -- ctus, %60
   Pa -- ter,
 
-  u -- num, %68
-  u -- num,
+  u -- num, u -- num, %68
+  u -- num, u -- num,
   et hi tres __ %70
-  u -- num sunt, hi
+  u -- num sunt, et hi
   tres __ u -- num
   sunt.
 

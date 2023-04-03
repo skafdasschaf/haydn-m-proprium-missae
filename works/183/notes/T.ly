@@ -19,9 +19,9 @@ CLXXXIIITenore = {
     r2 r4 r8 \mvTr g\pE^\solo
     a4. h16 c c8 h r4
     R1*4 %32
-    r4 \mvTr d,\fE^\tutti d2
-    r4 d d2
-    r r4 h'8 h %35
+    r4 \mvTr d,8\fE^\tutti d d4 d
+    r d8 d d4 d
+    r2 r4 h'8 h %35
     c([ e)] d d d4 r
     r d8 d e4 d8 d
     d4 r r2
@@ -46,19 +46,19 @@ CLXXXIIITenore = {
     r2 r4 r8 c
     d4. e16 f f8 e r4
     R1*4 %67
-    r4 \mvTr g,\fE^\tutti g2
-    r4 g g2
-    r r4 g8 g %70
+    r4 \mvTr g,8\fE^\tutti g g4 g
+    r g8 g g4 g
+    r2 r4 g8 g %70
     a8([ d)] c h \appoggiatura h c4 r
     r e8 c a([ d)] c h
     c4 r r2
     R1*2 %75
     r2 h
-    a g8([ d')] d4~
+    a g8 d' d4~
     d2 d4 r
     r2 r8 c c c
     h16([ c)] d e f8 f f4 e8 e %80
-    e d r4 r \mvTr h8\pE^\soloE h
+    e d r4 r \mvTr h8\pE^\solo h
     h2 r4 c8 c
     c2 r4 \mvTr h8\fE^\tutti h
     h1\fermata
@@ -73,8 +73,8 @@ CLXXXIIITenore = {
     c4. c8 c4 h
     c r r2
     c4 c c h %95
-    c c2 c4
-    c2. c4
+    c c8 c c4. c8
+    \after 2 \tempoCLXXXIIIb c2. c4
     c1\fermata \bar "|." %98 finis
   }
 }
@@ -94,8 +94,8 @@ CLXXXIIITenoreLyrics = \lyricmode {
   et
   Spi -- ri -- tus San -- ctus,
 
-  u -- num, %33
-  u -- num,
+  u -- num, u -- num, %33
+  u -- num, u -- num,
   et hi %35
   tres u -- num sunt,
   et hi tres u -- num
@@ -121,15 +121,15 @@ CLXXXIIITenoreLyrics = \lyricmode {
   et
   Spi -- ri -- tus San -- ctus,
 
-  u -- num, %68
-  u -- num,
+  u -- num, u -- num, %68
+  u -- num, u -- num,
   et hi %70
   tres u -- num sunt,
   et hi tres u -- num
   sunt.
 
   Tres %76
-  sunt in coe --
+  sunt, sunt in coe --
   lo,
   qui te -- sti --
   mo -- ni -- um dant in coe -- lo, in %80
@@ -148,7 +148,7 @@ CLXXXIIITenoreLyrics = \lyricmode {
   u -- num, u -- num
   sunt,
   hi tres u -- num %95
-  sunt, u -- num,
+  sunt, u -- num, u -- num,
   u -- num
   sunt. %98 finis
 }

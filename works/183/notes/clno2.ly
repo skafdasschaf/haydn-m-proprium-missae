@@ -66,7 +66,7 @@ CLXXXIIIClarinoII = {
     c,4 r r2
     c'2 g %95
     e4 r r c8 c
-    c4 r \tempoCLXXXIIIFinis c4. c8
+    c4 r \tempoCLXXXIIIb c4. c8
     e1\fermata \bar "|." %98 finis
   }
 }

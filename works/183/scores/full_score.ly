@@ -13,14 +13,8 @@
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = "Oboe I, II"
-            \partCombine \CLXXXIIIOboeI \CLXXXIIIOboeII
-          >>
-        >>
-        \new StaffGroup <<
-          \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            \partCombine \CLXXXIIIClarinoI \CLXXXIIIClarinoII
+            \partCombine #'(0 . 10) \CLXXXIIIClarinoI \CLXXXIIIClarinoII
           >>
         >>
         \new Staff {
@@ -79,7 +73,7 @@
         \new FiguredBass { \CLXXXIIIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 105 }
     }
   }
 }

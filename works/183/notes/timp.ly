@@ -5,7 +5,9 @@ CLXXXIIITimpani = {
     \clef bass
     \key c \major \time 4/4 \tempoCLXXXIII
     c4\fE r r2
-    R1*4 %5
+    c4 r c r
+    c r c r
+    R1*2 %5
     r2 r8 g g g
     g4 r r2
     r r8 g g g
@@ -24,7 +26,7 @@ CLXXXIIITimpani = {
     r2 r4 g8\fE g
     g4 r r2
     R1*16 %53
-    g4\fE c r r8 c
+    g4\fE c8 c c4 r8 c
     g4 r r2 %55
     r g4 g8 g
     g4 r r2
@@ -50,7 +52,7 @@ CLXXXIIITimpani = {
     c r r2
     g4 r r g %95
     c r r2
-    r \tempoCLXXXIIIFinis c4 c8 c
+    r \tempoCLXXXIIIb c4 c8 c
     c1\fermata \bar "|." %98 finis
   }
 }

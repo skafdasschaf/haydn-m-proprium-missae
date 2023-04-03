@@ -2,17 +2,22 @@ title: Tres sunt qui testimonium dant
 id: MH 183
 genre: offertorium
 festival: Trinitatis
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: PL-Kj
+    shelfmark: Mus. ms. autogr. Haydn, J. Mich. 6
+    date: 1772-06-07
+    url: https://jbc.bj.uj.edu.pl/publication/201719
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: B 111
-    type: manuscript copy
     rism: 600038071
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/807.html
     license: public domain
-    principal: true
   B2:
     siglum: A-SPD
     shelfmark: SP (H-18)
@@ -20,6 +25,7 @@ sources:
     rism: 455042303
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
     license: public domain
+    notes: also contains a part for ob 1
   D1:
     siglum: CZ-Pu
     shelfmark: 59 rm 10
@@ -35,24 +41,7 @@ sources:
     url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-65-2
     license: CC BY-SA 4.0
 toe: |
-  –  & –    & ob 1 only appears in \B2. ob 2 is missing in all sources and thus was reconstructed by the editor. \\
-  3  & vl 1 & last \eighthNote\ in \B1: e″8 \\
-  21 & org  & 4th \quarterNote\: lower voice missing in \B1 \\
-  27 & vl 1 & grace note missing in \B1 \\
-  36 & ob 1 & grace note missing in \B2 \\
-  40 & ob 1 & 2nd \halfNote\ in \B2: a″4–g″4 \\
-  42 & vl 2 & 1st \eighthNote\ in \B1: d′16.–a′32 \\
-  56 & ob 1 & 1st to 3rd \quarterNote\ in \B2: e″2–d″4 \\
-  59 & vl 1 & 2nd \halfNote\ in \B1: \quaverRest–f″8–\quaverRest–e″8 \\
-  70 & ob 1 & last \eighthNote\ in \B2: g″8 \\
-  71 & ob 1 & grace note missing in \B2 \\
-  89 & ob 1 & last \eighthNote\ in \B2: g″8 \\
-  89 & vla  & 7th \eighthNote\ in \B1: a′8 \\
-  90 & ob 1 & grace note missing in \B2 \\
-  90 & vl 2 & grace note missing in \B1 \\
-  94 & B    & 1st \quarterNote\ in \B1: g4 \\
-  96 & ob 1 & 7th \eighthNote\ in \B2: f″8 \\
-  97 & ob 1 & 1st \quarterNote\ in \B2: f″4 \\
+  21 & org & 4th \quarterNote: lower voice missing in \A1 \\
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
 lyrics:

@@ -16,9 +16,9 @@ CLXXXIIIAlto = {
     R1
     \mvTr fis2\pE^\solo g4 r
     R1*5 %32
-    r4 \mvTr d\fE^\tuttiE d2
-    r4 d d2
-    r r4 d8 d %35
+    r4 \mvTr d8\fE^\tuttiE d d4 d
+    r d8 d d4 d
+    r2 r4 d8 d %35
     e([ a)] g fis \appoggiatura fis g4 r
     r g8 g g([ a)] g fis
     g4 r r2
@@ -37,14 +37,14 @@ CLXXXIIIAlto = {
     g4( a) d, r
     r2 \mvTr e\pE^\solo
     d4 r d2
-    c4 r8 g' g4. g16 g
-    g8 g r4 r2 %60
+    c4 r8 g' g4 g8 g
+    g g r4 r2 %60
     R1
     h2 c4 r
     R1*5 %67
-    r4 \mvTr g\fE^\tutti g2
-    r4 g g2
-    r r4 e8 e %70
+    r4 \mvTr g8\fE^\tutti g g4 g
+    r g8 g g4 g
+    r2 r4 e8 e %70
     a4 e8 g g4 r
     r e8 e a4 e8 g
     g4 r r2
@@ -70,7 +70,7 @@ CLXXXIIIAlto = {
     g r r2
     g4 g g4. g8 %95
     e c'4 c8 c4 c,
-    r c8 g' \tempoCLXXXIIIFinis f4. f8
+    r c8 g' \tempoCLXXXIIIb f4. f8
     e1\fermata \bar "|." %98 finis
   }
 }
@@ -87,8 +87,8 @@ CLXXXIIIAltoLyrics = \lyricmode {
 
   Ver -- bum,
 
-  u -- num, %33
-  u -- num,
+  u -- num, u -- num, %33
+  u -- num, u -- num,
   et hi %35
   tres u -- num sunt,
   et hi tres u -- num
@@ -113,8 +113,8 @@ CLXXXIIIAltoLyrics = \lyricmode {
 
   Ver -- bum,
 
-  u -- num, %68
-  u -- num,
+  u -- num, u -- num, %68
+  u -- num, u -- num,
   et hi %70
   tres u -- num sunt,
   et hi tres u -- num

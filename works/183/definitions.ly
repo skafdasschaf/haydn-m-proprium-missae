@@ -1,10 +1,8 @@
 \version "2.24.0"
 
 tempoCLXXXIII = \tempoMarkup "Allegro moderato"
-tempoCLXXXIIIFinis = \tempoMarkup "Adagio"
+tempoCLXXXIIIb = \tempoMarkup "Adagio"
 
-\include "notes/ob1.ly"
-\include "notes/ob2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
 \include "notes/timp.ly"
