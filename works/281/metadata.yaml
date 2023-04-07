@@ -1,0 +1,27 @@
+title: Diffusa est gratia
+id: MH 281
+genre: gradual
+festival: Festo cuiusque S. Virginis et Martyris
+scoring: 2 S (solo), 2 S (coro), 2 clno (C), timp (C–G), 2 vl, b, org solo
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4133/2
+    date: 1787-08-26
+    rism: 455022524
+    url: https://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00051610-0
+    license: CC BY-NC-SA 4.0
+    principal: true
+    notes: composed on 1778-11-16 according to the copyist
+toe: |
+  –  & org & All small notes have been added by the editor. \\
+  38 & org & last \eighthNote\ in \B1: G8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  org_solo: Organo solo
+lyrics:
+  Diffusa est gratia in labiis tuis,\\
+  propterea benedixit te Deus in aeternum\\
+  et in saeculum saeculi.\\
+  (\bibleverse{Ps}(45/44:3))
