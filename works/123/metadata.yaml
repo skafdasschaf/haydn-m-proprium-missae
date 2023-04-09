@@ -1,0 +1,33 @@
+title: Non me a te avertet
+id: MH 123
+genre: offertorium
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-33)
+    date: 1800-1830
+    rism:
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H33/
+    license: public domain
+    principal: true
+    notes: lacks cor parts
+toe: |
+  –   & S    & Grace notes on the 1st \quarterNote\ in bars 52,
+               56, 60, 74, 92, 96, \newline 98, and 100 have been removed. \\
+  19  & org  & 2nd/3rd \quarterNote\ in \B1: \flat a4–\flat b4 \\
+  28  & org  & last \eighthNote\ in \B1: f8 \\
+  64  & vl 2 & 4th to 6th \eighthNote\ in \B1: g′8–\flat a′8–f′8 \\
+  66  & org  & last \eighthNote\ in \B1: \flat e8 \\
+  70  & A    & bar in \B1: d′2–\crotchetRest \\
+  100 & vl 2 & last \eighthNote\ in \B1: \flat a8 \\
+lyrics:
+  Non me a te avertet amor,\\
+  o Jesu mi dulcissime,\\
+  non me a te repellet furor,\\
+  o Jesu me suavissime,\\
+  dulcis amor, chara vita, bone Deus,\\
+  dulcis salvator, non me a te avertet,\\
+  o bone Deus, o amor meus,\\
+  o dulcis Jesu, amor mi.
