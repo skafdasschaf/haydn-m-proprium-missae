@@ -1,0 +1,46 @@
+title: Cantate Domino
+id: MH 97
+genre: aria
+scoring: B (solo), 2 clno (D), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-32)
+    date: 1780–1799
+    rism: 455039951
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H32/
+    license: public domain
+    principal: true
+toe: |
+  –   & org    & All bass figures have been added by the editor. \\
+  15  & vl 2   & last \eighthNote\ in \B1: e′8 \\
+  17  & clno 2 & 1st \quarterNote\ in \B1: g′4 \\
+  26  & vl 2   & 4th \sixteenthNote\ in \B1: a′16 \\
+  28  & vl 2   & 4th \sixteenthNote\ in \B1: a′16 \\
+  43  & vla    & 2nd \eighthNote\ in \B1: a′8 \\
+  56  & B      & 1st \quarterNoteDotted\ in \B1: d4–\crotchetRest \\
+  60  & vla    & 3rd \eighthNote\ in \B1: \sharp f′8 \\
+  60  & org    & 3rd \eighthNote\ in \B1: \sharp f8 \\
+  68  & vl 1   & 1st \quarterNote\ in \B1: \sharp f″4 \\
+  75  & clno 1 & bar in \B1: 6 × g″8 \\
+  75  & clno 2 & bar in \B1: 6 × g′8 \\
+  96  & vl 1   & 2nd/3rd \quarterNote\ in \B1: 8 × a″16 \\
+  102 & vl 2   & 2nd \quarterNote\ in \B1: 4 × \sharp c″16 \\
+  104 & vl 2   & 3rd \eighthNote\ in \B1: a′8 \\
+  121 & B      & 1st \quarterNote\ in \B1: b4 \\
+  129 & vl 1   & 1st \quarterNote\ in \B1: a+a′4 \\
+  145 & vla    & 1st \eighthNote\ in \B1: a8 \\
+  154 & vl 1   & rhythm of 1st \quarterNote\ in \B1:
+                 \sixteenthNote–\sixteenthNote–\eighthNote \\
+  159 & vl 1   & rhythm of 1st \quarterNote\ in \B1:
+                 \eighthNote–\eighthNote \\
+parts:
+  clno12: Clarino I, II in D
+  B_solo: Basso solo
+lyrics:
+  Cantate Domino canticum novum:\\
+  laus eius in ecclesia sanctorum.\\
+  Quia placitum est Domino in populo,\\
+  gloria haec est sanctis eius.\\
+  (\bibleverse{Ps}(149:1,4,9))
