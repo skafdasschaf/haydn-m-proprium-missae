@@ -1,0 +1,63 @@
+title: Ut tibi dulces
+id: MH 47
+genre: motet
+scoring: S (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-18)
+    date: 1800-1830
+    rism: 455042303
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H18/
+    principal: true
+    license: public domain
+    notes: compared to the entry in the Göttweig Abbey catalog, this copy lacks the recitativo and uses a different text
+toe: |
+  –  & –       & staccatos have been tacitly added \\*
+  –  & org     & In \B1, bass figures only appear in bars 59, 63,
+                 113, and 178–183.\newline The remaining bass figures
+                 have been added by the editor. \\
+  10  & vl 2   & 1st \eighthNote\ in \B1: c″8 \\
+  41  & vl 2   & 2nd \halfNote\ in \B1: 4 × g′8 \\
+  42  & vl 1   & In \B1, bar 41 is repeated. \\
+  52  & vl 2   & In \B1, bar 51 is repeated. \\
+  45  & vl 1   & 2nd \quarterNote\ in \B1: e″8–e″8 \\
+  64  & vl 2   & 5th \eighthNote\ in \B1: g′8 \\
+  73  & S      & 1st \sixteenthNote\ in \B1: e″16 \\
+  75  & vl 2   & 2nd \halfNote\ in \B1: 4 × g′8 \\
+  78  & vl 2   & 2nd \halfNote\ in \B1: 4 × b′8 \\
+  99  & S      & The candenza is reproduced from \B1. \\
+  124 & clno 2 & bar missing in \B1 \\
+  125 & clno 2 & 1st \quarterNote\ in \B1: c′8–e′8 \\
+  127 & clno 1 & 3rd \quarterNote\ in \B1: g′4 \\
+  128 & clno 2 & 1st \quarterNote\ in \B1: c′8–e′8 \\
+  133 & clno 2 & 1st \quarterNote\ in \B1: e′4 \\
+  136 & vl 1   & bar in \B1: 6 × c″16–b″16 \\
+  137 & org    & 2nd/3rd \quarterNote\ in \B1: d4–g4 \\
+  142 & clno 1 & 2nd \eighthNote\ in \B1: g″8 \\
+  142 & vl 2   & 2nd \quarterNote\ in \B1: e′8–d′8 \\
+  145 & clno 1 & 2nd \eighthNote\ in \B1: g″8 \\
+  153 & vl 1   & 5th \eighthNote\ in \B1: e″8 \\
+  158 & vl 2   & last \eighthNote\ in \B1: f″8 \\
+  158 & S      & 2nd/3rd \quarterNote\ in \B1: c″4–c″4 \\
+  158 & B      & 2nd \quarterNote\ in \B1: e4 \\
+  160 & S      & 3rd \quarterNote\ in \B1: c″4 \\
+  160 & org    & 2nd \quarterNote\ in \B1: B4 \\
+  164 & org    & 2nd \eighthNote\ in \B1: B8 \\
+  166 & clno 2 & bar in \B1: e′4–e′4–\crotchetRest \\
+  170 & vl 1   & 1st \eighthNote\ in \B1: f′8 \\
+  128 & S      & 5th \eighthNote\ in \B1: a′8 \\
+  182 & vl 1   & 3rd \sixteenthNote\ in \B1: a′16 \\
+  182 & S      & 3rd \quarterNote\ in \B1: f″4 \\
+  185 & clno 2 & bar in \B1: c″8–c′8–e′8–g′8–e′8–c′8 \\
+  185 & org    & 3rd \quarterNote\ in \B1: c4 \\
+  187 & T      & bar in \B1: g4–\quaverRest–g8–g8–g8 \\
+  190 & vl 1   & 1st \quarterNote\ in \B1: 4 × b′16 \\
+  203 & clno 2 & 1st \quarterNote\ in \B1: c′8–e′8 \\
+  206 & clno 2 & 1st \quarterNote\ in \B1: c′8–e′8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Ut tibi dulces fuerunt lapides\\
+  palma gloriae testes.
