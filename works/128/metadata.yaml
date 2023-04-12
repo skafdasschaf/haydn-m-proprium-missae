@@ -1,0 +1,56 @@
+title: Regina cœli
+id: MH 128
+genre: antiphon
+scoring: T (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-72)
+    date: 1810-1840
+    rism: 455039995
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H72/
+    license: public domain
+    principal: true
+toe: |
+  –   & –      & Although included in the Thematic Catalogue of Haydn’s works,
+                 current research indicates that this antiphon has rather
+                 been written by Joseph Krottendorfer.
+                 \B1 is highly inconsistent regarding the rhythm
+                 \eighthNote–\sixteenthNote–\sixteenthNote\ vs
+                 \eighthNoteDotted–\thirtysecondNote–\thirtysecondNote\
+                 on the 3rd \quarterNote\ of a bar. In this edition,
+                 these inconsistencies have been emended to the former variant
+                 in bars 19 (A), 20 (A), 21 (T, B, org), 22 (T, B, org), 32 (T),
+                 33 (B), 34 (B), 53 (A), 85 (S), 106 (S), and 107 (A). \\
+  2   & org    & 3rd \quarterNote\ in \B1: e8–g8 \\
+  15  & vl 1   & 2nd \quarterNote\ in \B1: e″4 \\
+  19  & org    & 2nd \quarterNote\ in \B1: D4 \\
+  21  & vl 2   & 2nd \eighthNote\ in \B1: e′8 \\
+  26  & T      & 4th/5th \eighthNote\ in \B1: d8–a8 \\
+  34  & clno 2 & 2nd \quarterNote\ in \B1: g′4 \\
+  36  & clno 2 & 2nd/3rd \quarterNote\ in \B1: c″4–c″4 \\
+  45  & ob 1   & 1st \quarterNote\ in \B1: d″4 \\
+  45  & vl 2   & 1st \quarterNote\ in \B1: g+d′4 \\
+  49  & ob     & bar missing in \B1 \\
+  50  & ob 2   & 5th \eighthNote\ in \B1: b′8 \\
+  71  & A      & 2nd \eighthNote\ in \B1: a8 \\
+  73  & T      & 2nd \eighthNote\ in \B1: d′8 \\
+  75  & vl 1   & 1st \quarterNoteDotted\ in \B1: e″8–e″4 \\
+  76  & vl 2   & 1st \eighthNote\ in \B1: c′8 \\
+  88  & vl 2   & 1st \eighthNote\ in \B1: c′+a′8 \\
+  89  & vl 2   & grace note missing in \B1 \\
+  91  & vl 1   & grace note missing in \B1 \\
+  92  & vl 1   & grace note missing in \B1 \\
+  109 & clno 1 & 3rd \quarterNote\ in \B1: d″4 \\
+  139 & ob 1   & 5th \eighthNote\ in \B1: e″8 \\
+  139 & vl 1   & 3rd \sixteenthNote\ in \B1: b′16 \\
+  139 & vl 2   & 2nd \sixteenthNote\ in \B1: a′16 \\
+  143 & clno 2 & 3rd \quarterNote\ in \B1: \crotchetRest \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Regina coeli, laetare, alleluia.\\
+  Quia quem meruisti portare, alleluia,\\
+  resurrexit, sicut dixit, alleluia.\\
+  Ora pro nobis Deum, alleluia.
