@@ -1,0 +1,48 @@
+title: Inveni David
+id: MH 224
+genre: offertorium
+scoring: B (solo), S, A, T, B (coro), 2 cor (G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-SPD
+    shelfmark: SP (H-17)
+    date: 1800-1830
+    rism: 455042302
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H17/
+    license: public domain
+    principal: true
+    notes: lacks org part
+toe: |
+  –   & org   & All bass figures have been added by the editor. \\
+  21  & cor 1 & bar in \B1: c″4–c″8–c″8–c″4 \\
+  22  & vla   & bar missing in \B1 \\
+  33  & vl 1  & 4th to 6th \eighthNote\ in \B1: \sharp f′8–g′8–a′8 \\
+  43  & vl 2  & 5th \eighthNote\ in \B1: \sharp f′8 \\
+  70  & vl 2  & 5th \eighthNote\ in \B1: a8 \\
+  111 & vl 1  & 6th \eighthNote\ in \B1: e″16–d″16 \\
+  129 & vla   & 6th \eighthNote\ in \B1: b8 \\
+  139 & S     & 3rd \quarterNote\ in \B1: c″8–b′8 \\
+  141 & vla   & 5th \eighthNote\ in \B1: g′8 \\
+  144 & vl 2  & 1st \eighthNote\ in \B1: \sharp f′16–\sharp f′16 \\
+  146 & vl 1  & 1st \eighthNote\ in \B1: a′8 \\
+  147 & vl 1  & 4th \sixteenthNote\ in \B1: g″16 \\
+  148 & vla   & 2nd/3rd \quarterNote\ in \B1: a8–a8–a4 \\
+  148 & S     & 2nd \quarterNote\ in \B1: d′4 \\
+  152 & vl 2, vla & 7th \eighthNote\ in \B1: g′8 \\
+  156 & org   & 11th \sixteenthNote\ in \B1: e16 \\
+  157 & vla   & 7th \eighthNote\ in \B1: b8 \\
+  163 & T     & 2nd (or 3rd) \eighthNote\ missing in \B1 \\
+  165 & vl 2  & grace note missing in \B1 \\
+  165 & B     & 4th \quarterNote\ in \B1: d4 \\
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Inveni David servum meum,\\
+  oleo sancto meo unxi eum.\\
+  Manus enim mea auxiliabitur ei,\\
+  et brachium meum confortabit eum.\\
+  Veritas mea et misericordia mea\\
+  cum ipso et in nomine meo\\
+  exaltabitur cornu eius.\\
+  (\bibleverse{Ps}(89/88:21,22,25))
