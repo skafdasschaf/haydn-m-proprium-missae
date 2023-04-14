@@ -1,0 +1,54 @@
+title: Regina cœli
+id: MH 263
+genre: antiphon
+scoring: S (solo), S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-71)
+    date: 1810-1840
+    rism: 455039994
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H71/
+    license: public domain
+    principal: true
+    notes: lacks clno 2 part
+toe: |
+  –  & ob     & The ob parts are not mentioned in the Göttweig Abbey
+                catalogue.\newline Due to numerous errors, they have
+                likely been written by later hand. \\
+  –  & clno 2 & This part has been reconstructed by the editor. \\
+  –  & org    & All small notes have been added by the editor. \\
+  4  & ob 1   & 2nd \halfNote\ in \B1: g″4–\sharp f″4 \\
+  12 & ob 2   & 1st \halfNote\ in \B1: e″8–c″8–b′4 \\
+  15 & vl 1   & 4th \quarterNote\ in \B1: e″16.–c″32–g″16.–e″32 \\
+  16 & org    & 4th \eighthNote\ in \B1: d′8 \\
+  20 & vl 2   & 4th \sixteenthNote\ in \B1: d′16 \\
+  22 & ob 1   & 2nd \halfNote\ in \B1: g″4–\sharp f″4 \\
+  22 & org    & 2nd \eighthNote\ in \B1: B8 \\
+  24 & S      & grace note missing in \B1 \\
+  25 & vl 1, S & 1st \quarterNote\ in \B1: e″4 \\
+  26 & org    & 3rd \eighthNote\ in \B1: d′8 \\
+  30 & vl 2   & 7th \eighthNote\ in \B1: d″8 \\
+  31 & S      & 6th to last \eighthNote\ in \B1: c″8–c″8–b′8 \\
+  32 & ob 1   & 1st \halfNote\ in \B1: c′′′4–b″4 \\
+  33 & S      & grace note missing in \B1 \\
+  33 & vl 1   & grace note missing in \B1 \\
+  34 & ob 1   & 1st \eighthNote\ in \B1: e″8 \\
+  34 & ob 2   & 1st \eighthNote\ in \B1: c″8 \\
+  34 & S      & 4th \eighthNote\ in \B1: e″8 \\
+  35 & vl 2   & 3rd \quarterNote\ in \B1: d′4 \\
+  40 & vl 2   & 2nd \eighthNote\ in \B1: g′16–f′16 \\
+  42 & ob 1   & 1st \halfNote\ in \B1: a″4–\sharp g″4 \\
+  58 & ob 1   & 1st \halfNote\ in \B1: c′′′4–b″4 \\
+  58 & vl 1   & 4th \eighthNote\ in \B1: c′′′8 \\
+  63 & vl 2   & 3rd \eighthNote\ in \B1: d″8 \\
+  64 & vl 1   & 4th \eighthNote\ in \B1: c″8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  org_solo: Organo solo
+lyrics:
+  Regina coeli, laetare, alleluia.\\
+  Quia quem meruisti portare, alleluia.\\
+  Resurrexit, sicut dixit, alleluia.\\
+  Ora pro nobis Deum, alleluia.
