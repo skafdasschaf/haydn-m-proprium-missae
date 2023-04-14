@@ -1,0 +1,37 @@
+title: Alma Redemptoris mater
+id: MH 270
+genre: antiphon
+scoring: B (solo), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-31)
+    date: 1800-1830
+    rism: 455039950
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H31/
+    license: public domain
+    principal: true
+toe: |
+  4  & vl 2 & 4th/5th \eighthNote\ in \B1: d′4 \\
+  6  & vl 2 & grace note missing in \B1 \\
+  21 & vl 2 & grace note missing in \B1 \\
+  38 & vl 1 & last \eighthNote\ in \B1: g″8 \\
+  48 & vl 1 & grace note missing in \B1 \\
+  51 & B    & 4th \eighthNote\ in \B1: \flat c′8 \\
+  61 & vl 1 & grace note missing in \B1 \\
+  62 & vl 1 & grace note missing in \B1 \\*
+  97 & vl 2 & 3rd \eighthNote\ in \B1: \flat b8 \\
+parts:
+  B_solo: Basso solo
+lyrics:
+  Alma Redemptoris mater,\\
+  quae pervia coeli porta manes\\
+  et stella maris:\\
+  Succurre cadenti,\\
+  surgere qui curat populo.\\
+  Tu quae genuisti, natura mirante,\\
+  tuum sanctum Genitorem,\\
+  Virgo prius ac posterius,\\
+  Gabrielis ab ore sumens illud ave,\\
+  peccatorum miserere.
