@@ -1,0 +1,62 @@
+title: Salve Regina
+id: MH 283
+genre: antiphon
+scoring: B (solo), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-NATk
+    shelfmark: NA/SP (H-78)
+    date: 1800-1830
+    rism: 455040181
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H78/
+    license: public domain
+    principal: true
+  B2:
+    siglum: CZ-Pu
+    shelfmark: 59 R 34
+    date: 1797-02-17
+    rism: 550503039
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_R_34_____1U8YMXA-cs
+    license: CC BY-NC-SA 4.0
+toe: |
+  –  & –    & tempo indication in \B2: “Andante grazioso” \\
+  –  & org  & The org part of \B2 is labeled “Organo concerto”.
+              It contains realized chords and solo sections,
+              which largely derive from vl 1, while lacking bass figures.
+              By contrast, the org part of \B1 comprises only the
+              left-hand staff and includes bass figures.
+              It is included in the full score of this edition,
+              while the org part of \B2 is reproduced separately. \\
+  16 & org  & 5th \eighthNote\ in \B2: d8 \\
+  24 & vl 2 & 2nd \eighthNote\ in \B1: \flat d′8;
+              4th \eighthNote: \flat b8 \\
+  24 & vla  & 4th \eighthNote\ in \B1: c′8 \\
+  25 & vl 2 & 4th \eighthNote\ in \B1: \flat b8 \\
+  25 & vla  & 4th \eighthNote\ in \B1: c′8 \\
+  26 & org  & 1st \halfNote\ in \B2:
+              \quaverRest–\flat d8–\quaverRest–B8 \\
+  27 & vl 2 & last \eighthNote\ in \B1: f′8 \\
+  40 & vl 2 & 5th \eighthNote\ in \B1: a8 \\
+  44 & org  & 5th \eighthNote\ in \B2: a+d′+g′8 \\
+  51 & vl 2 & 4th to 6th \eighthNote\ in \B1 unison with vl 1 \\
+  54 & vl 2 & grace note missing in \B1 \\
+  55 & vla  & 2nd \halfNote\ in \B1: g′8–\quaverRest–\sharp f′8–\quaverRest \\
+  57 & vla  & 4th \eighthNote\ in \B1: a8 \\
+  61 & vl 2 & last \eighthNote\ in \B1: \flat b′8 \\
+  74 & vl 2 & 2nd \halfNote\ in \B1: \flat b′8–\quaverRest–a′8–\quaverRest \\
+  82 & org  & 7th \eighthNote\ in \B1: f8 \\
+parts:
+  B_solo: Basso solo
+  org_solo: Organo solo
+lyrics:
+  Salve Regina, mater misericordiae,\\
+  vita, dulcedo et spes nostra, salve.\\
+  Ad te clamamus, exules filii Evae.\\
+  Ad te suspiramus, gementes et flentes\\
+  in hac lachrimarum valle.\\
+  Eia ergo, advocata nostra,\\
+  illos tuos misericordes oculos ad nos converte.\\
+  Et Jesum, benedictum fructum ventris tui,\\
+  nobis post hoc exilium ostende.\\
+  O clemens, o pia, o dulcis virgo Maria.
