@@ -1,0 +1,35 @@
+title: Audi filia
+id: MH 357
+genre: gradual
+festival: Cunegundis Virginis, Mariæ B.V. Annuntiatio
+scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 204
+    rism: 600038156
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/205.html
+    license: public domain
+    principal: true
+  D1:
+    siglum: A-SPD
+    shelfmark: SP (H-12)
+    date: 1800-1830
+    rism: 455042297
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_H12/
+    license: public domain
+    notes: only parts for T and vl 2
+toe: |
+  57  & A    & 3rd \quarterNote\ in \B1: f′4 \\
+  96  & vl 2 & 3rd \eighthNote\ in \B1: f″8 \\
+  103 & A    & 1st \halfNote\ in \B1: f′2 \\
+parts:
+  cor12: Corno I, II in F
+lyrics:
+  Audi filia et vide\\
+  et inclina aurem tuam,\\
+  quia concupivit Rex speciem tuam.\\
+  Vultum tuum deprecabuntur omnes divites plebis,\\
+  filiae regum in honore tuo.\\
+  (\bibleverse{Ps}(45/44:11–13,10))
