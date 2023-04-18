@@ -1,0 +1,38 @@
+title: Iste confessor
+id: MH 40
+genre: hymn
+festival: De Confessore
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5673 (14)
+    date: 1830–1840
+    rism: 840026380
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  3  & T       & grace note missing in \B1 \\
+  9  & S, T    & grace note missing in \B1 \\
+  9  & org     & 4th \eighthNote\ in \B1: A8 \\
+  33 & vl 1    & 1st \eighthNote\ in \B1: b′16–\sharp g′16 \\
+  36 & vl 2, A & bar in \B1: e′4–\sharp d′4 \\
+  63 & S       & 4th \sixteenthNote\ in \B1: b′16 \\
+  64 & A       & 1st \quarterNote\ in \B1: e′4 \\
+  69 & T       & bar in \B1: a4–a4 \\
+  75 & vl 2, A & 1st \quarterNote\ in \B1: a′4 \\
+lyrics:
+  Iste Confessor Domini colentes,\\
+  quem pie laudant populi per orbem:\\
+  Hac die laetus meruit beatas\\
+  scandere sedes.\\[1ex]
+  Qui pius, prudens, humilis, pudicus,\\
+  sobriam duxit sine labe vitam.\\
+  Donec humanos animavit aures\\
+  spiritus artus.\\[1ex]
+  Sit salus illi, decus, atque virtus,\\
+  qui super coeli solio coruscans,\\
+  totius mundi seriem gubernat,\\
+  trinus et unus, amen.
