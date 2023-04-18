@@ -1,0 +1,47 @@
+title: Urbs Ierusalem beata
+id: MH 75
+genre: hymn
+festival: Dedicationis Ecclesiae et Sanctissimi Corporis Christi
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5673 (15)
+    date: 1820–1840
+    rism: 840026381
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  –  & vl   & \B1 does not contain staves for vl. However, the Thematic
+              Catalogue states that the authentic copy in A-Ssp (Hay 1615.1)
+              contains vl parts. Hence, in this edition, vl 1 and 2 play
+              unison with S and A, respectively. \\
+  –  & coro & \B1 indicates that the hymn may also be sung for the
+              Feast of Corpus Christi by using the lyrics \textit{Pange lingua}
+              (“Hymnus de festo SSmi Corporis Christi ut supra. No 1 Pange
+              lingua gloriosi corporis mysterium 2. 3. 4.”).
+              These alternative lyrics are not reproduced in this edition. \\
+  2  & S    & 2nd \quarterNote\ in \B1: c″4 \\
+  13 & org  & 2nd \halfNote\ in \B1: G2 \\
+lyrics:
+  Urbs Ierusalem beata\\
+  dicta pacis visio,\\
+  quae construitur in coelis\\
+  vivis ex lapidibus,\\
+  angelisque coronata\\
+  ut sponsata comite.\\[1ex]
+  Portae nitent margaritis,\\
+  fores patent omnibus,\\
+  et virtute meritorum\\
+  illuc introducitur,\\
+  omnis qui ob Christi nomen\\
+  hic in mundo premitur.\\[1ex]
+  Gloria et honor Deo\\
+  summa rerum Domino\\
+  una Patri Filioque\\
+  inclyto Paraclito,\\
+  cui laus est et potestas\\
+  per aeterna saecula.\\[1ex]
+  Amen.
