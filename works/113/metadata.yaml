@@ -1,0 +1,26 @@
+title: Tenebræ factæ sunt
+id: MH 113
+genre: responsory
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5673 (13)
+    date: 1830–1840
+    rism: 840026249
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  46 & org & bar in \B1: \flat e1 \\
+lyrics:
+  Tenebrae factae sunt,\\
+  cum crucifixissent Jesum Judaei:\\
+  et circa horam nonam exclamavit Jesus voce magna:\\
+  Deus meus, ut quid me dereliquisti?\\
+  Et inclinato capite emisit spiritum.\\
+  Exclamans Jesus voce magna ait:\\
+  Pater! in manus tuas commendo spiritum meum.\\
+  Et inclinato capite emisit spiritum.\\
+  (\bibleverse{Mat}(27:45–51))
