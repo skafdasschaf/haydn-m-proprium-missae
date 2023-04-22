@@ -1,0 +1,22 @@
+title: Asperges me
+id: MH 572
+genre: antiphon
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5673 (9)
+    date: 1820–1840
+    rism: 840026375
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+    principal: true
+lyrics:
+  Asperges me, Domine, hyssopo, et mundabor,\\
+  lavabis me, et super nivem dealbabor.\\
+  Miserere mei, Deus, secundum magnam misericordiam tuam.\\
+  Gloria Patri et Filio et Spiritui Sancto,\\
+  sicut erat in principio et nunc et semper\\
+  et in saecula saeculorum, amen.\\
+  (\bibleverse{Ps}(51/50:9))
