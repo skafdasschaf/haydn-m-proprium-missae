@@ -1,0 +1,44 @@
+title: Pange lingua
+id: MH 395
+genre: hymn
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B3:
+    siglum: F-Pn
+    shelfmark: D-5673 (5)
+    date: 1820–1840
+    rism: 840026371
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  –  & – & \B1 does not contain staves for vl 1, 2, and org.
+           However, the Thematic Catalogue states that several copies
+           contain these parts. Hence, in this edition, vl 1, 2, and org play
+            unison with S, A, and B, respectively. \\
+lyrics:
+  Pange, lingua, gloriosi\\
+  corporis mysterium,\\
+  sanguinisque pretiosi,\\
+  quem in mundi pretium\\
+  fructus ventris generosi\\
+  rex effudit gentium.\\[1ex]
+  Nobis datus, nobis natus\\
+  ex intacta Virgine,\\
+  et in mundo conversatus,\\
+  sparso verbi semine,\\
+  sui moras incolatus\\
+  miro clausit ordine.\\[1ex]
+  In supremae nocte coenae\\
+  recumbens cum fratribus\\
+  observata lege plene\\
+  cibis in legalibus,\\
+  cibum turbae duodenae\\
+  se dat suis manibus.\\[1ex]
+  Verbum caro, panem verum\\
+  verbo carnem efficit,\\
+  fitque sanguis Christi merum,\\
+  et si sensus deficit,\\
+  ad firmandum cor sincerum\\
+  sola fides sufficit.
