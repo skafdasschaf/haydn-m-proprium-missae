@@ -1,0 +1,33 @@
+title: Antiphonæ ad Stationes pro tribus diebus Rogationum
+id: MH 201
+genre: antiphon
+scoring: S, A, T, B (coro), [org]
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5673 (8)
+    date: 1820–1840
+    rism: 840026374
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  – & org & This part has been added by the editor. \\
+lyrics: |
+  Crucem sanctam subiit,\\
+  qui infernum confregit,\\
+  accinctus est potentia,\\
+  surrexit die tertia.\\
+  \textit{V: Dicite in nationibus, alleluia.\\
+  R: Quia Dominus regnavit a ligno, alleluia.}\\[1ex]
+  Sacerdos et pontifex\\
+  et virtutum opifex!\\
+  Pastor bone in populo,\\
+  ora pro nobis Dominum.\\
+  \textit{V: Amavit eum Dominus et tornavit eum, alleluia.\\
+  R: Stolam gloriam induit eum, alleluia.}\\[1ex]
+  Lux perpetua lucebit sanctis tuis Domine, alleluia,\\
+  et aeternitas temporum.\\
+  \textit{V: Sancti et iusti in Domino gaudete, alleluia.\\
+  R: Vos elegit Deus in haereditatem, alleluia.}
