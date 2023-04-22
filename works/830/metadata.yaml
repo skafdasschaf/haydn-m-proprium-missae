@@ -1,0 +1,30 @@
+title: Stella cœli exstirpavit
+id: MH 830
+genre: sacred song
+scoring: S, A, T, B (coro), b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5673 (12)
+    date: 1820–1840
+    rism: 840026378
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  9  & org & 3rd \quarterNote\ in \B1: d4 \\
+  47 & T   & 3rd \quarterNote\ in \B1: c′4 \\
+  48 & A   & 3rd \quarterNote\ in \B1: d′4 \\
+lyrics:
+  Stella coeli exstirpavit,\\
+  quae lactavit Dominum\\
+  mortis pestem quam plantavit\\
+  primus parens hominum.\\
+  Ipsa stella nunc dignetur\\
+  sidera compescere,\\
+  quorum bella plebem caedunt\\
+  dirae mortis ulcere.\\
+  O piissima stella maris in peste succurre nobis:\\
+  Audi nos, Domina, nam Filius tuus nihil negans te honorat.\\
+  Salva nos, Jesu, pro quibus Virgo Mater exorat.
