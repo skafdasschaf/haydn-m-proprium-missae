@@ -1,0 +1,63 @@
+title: Deus pius
+id: MH deest, Hob. XXIIIa:D3
+genre: offertorium
+festival: De Tempore
+scoring: S, A, T, B (coro), fl, 2 ob, 2 cor (D), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5983 (5)
+    date: 1795–1810
+    rism: 840016796
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100732175
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  –   & –     & Missing grace notes have been tacitly added in bars
+                3 (T), 11 (ob 2, S, T), 15 (fl, ob~1), 89 (fl, vla, S, T),
+                97 (ob 1, vla, S, T), 101 (fl, ob 1), 176 (vla, T),
+                184 (ob 1, vla, S, T), and 188 (fl, ob 1, S). \\
+  7   & A     & 1st \quarterNote\ in \B1: \sharp c′4 \\
+  24  & cor 1 & 2nd \quarterNote\ in \B1: c″4 \\
+  24  & cor 2 & 1st \quarterNote\ in \B1: g′4 \\
+  26  & T     & 1st \halfNote\ in \B1: \sharp c′4–d′8–\sharp c′4\\
+  45  & S     & 2nd \quarterNote\ in \B1: e″4 \\
+  58  & A     & 3rd \quarterNote\ in \B1: \sharp c′4 \\
+  66f & B     & bars in \B1: A2–a4 and a4–a4–a4 \\
+  93  & A     & 1st \quarterNote\ in \B1: \sharp c′4 \\
+  105 & vl 2  & 1st \halfNote\ in \B1: a2 \\
+  109 & cor 2 & 1st \quarterNote\ missing in \B1 \\
+  144 & B     & bar in \B1: \sharp a2 \\
+  162 & vl 2  & 3rd \quarterNote\ in \B1: b′4 \\
+  163 & S, T  & rhythm of 1st \quarterNote\ in \B1: \eighthNote–\eighthNote \\
+  165 & T     & rhythm of 1st \quarterNote\ in \B1: \eighthNote–\eighthNote \\
+  169 & vl 2  & bar in \B1: 12 × d′+d″16 \\
+  171 & ob 2  & 2nd \eighthNote\ in \B1: d′8 \\
+  172 & A     & 1st \halfNote\ in \B1: \sharp a4 \\
+  180 & A     & 1st \quarterNote\ in \B1: \sharp c′4 \\
+  198 & A     & bar in \B1: d′2. \\
+parts:
+  fl: Flauto travers
+  cor12: Corno I, II in D
+lyrics:
+  Deus pius, Deus laudabilis,\\
+  totus, totus mirabilis,\\
+  ter sanctus illud aemulis,\\
+  carmen perenant vocibus.\\[1ex]
+  Manda Deus virtuti tuae,\\
+  confirma hoc quod operatus es in nobis.\\
+  Dans tempus acceptabile,\\
+  da lacrymarum rivulis.\\
+  Ah, lavare cordis victimam,\\
+  quam pia adurat charitas.\\
+  Tu cuncta solus efficis,\\
+  cunctisque solus sufficis.\\[1ex]
+  Repleatur os meum laudeunt cantem,\\
+  ut cantem gloriam tuam.\\
+  Piis adauge gratiam,\\
+  reisque dele crimina.\\
+  Dies venit, dies tua,\\
+  in quare florent omnia,\\
+  laetamur et nos in viam tua reducti dextera,\\
+  ad nos benigne et mortis hora suscipe.
