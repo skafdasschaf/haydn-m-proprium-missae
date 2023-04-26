@@ -1,0 +1,38 @@
+title: Sub vestrum præsidium
+id: MH 275
+genre: offertorium
+festival: Josephi, Petri et Pauli Apostolorum
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5569 (8)
+    date: 1830–1840
+    rism: 840026250
+    url: https://gallica.bnf.fr/ark:/12148/cb409440402
+    license: custom (free for non-commercial purposes)
+    principal: true
+    notes: composed on 1776-03-15 according to the copyist
+toe: |
+  11 & vl 1 & grace note missing in \B1 \\
+  30 & vl 2 & last \eighthNote\ in \B1: g′8 \\
+  36 & T    & 4th \quarterNote\ in \B1: c′8–\flat b8 \\
+  49 & A    & 4th \quarterNote\ in \B1: f′4 \\
+lyrics:
+  Sub vestrum praesidium confugimus,\\
+  Jesu, Maria, Joseph.\\
+  Nostras deprecationes ne despicite in necessitatibus nostris,\\
+  sed a periculis cunctis defendite nos semper,\\
+  Patroni gloriosi et benedicti.\\
+  Tu amantissime Jesu,\\
+  sparge in nos plena manu coelestes gratias,\\
+  quas vita morteque tua promeritus es.\\
+  Tu virginea Mater,\\
+  communica nobis dulcedinem benedicti fructus ventris tui.\\
+  Tu virgineae Pater,\\
+  largire famulis tuis omnem benedictionem corporis et animae.\\
+  Sub vestrum ergo praesidium confugimus,\\
+  Patroni clementissimi.\\
+  Jesu vulnera, Mariae utera, Josephi merita\\
+  dabunt regna coelestia.
