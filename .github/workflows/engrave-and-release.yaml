@@ -19,6 +19,14 @@ jobs:
 
       - name: Compress MIDI files
         run: zip -j final/midi_collection.zip midi/*
+        
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            final/*.pdf
+            final/midi_collection.zip
+          fail_on_unmatched_files: false
 
       - name: Publish via rsync
         uses: burnett01/rsync-deployments@5.2
