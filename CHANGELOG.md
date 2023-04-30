@@ -1,5 +1,16 @@
 # Changelog
 
+## v2023.04.0
+
+### Added
+
+- works: MH 22, 40, 47, 75, 97, 113, 123, 126, 128, 201, 224, 263, 270, 275, 281, 283, 341, 343, 350, 357, 395, 572, 573, 595, 830, and D1 (F-Pn D-5983 (5))
+
+### Changed
+
+- MH 183 is now based upon the autograph manuscript
+
+
 ## v2023.03.0
 
 ### Added
