@@ -1,0 +1,30 @@
+title: Domine prævenisti eum
+id: MH 359
+genre: gradual
+festival: Josephi, Commune Confessoris, De Abbatibus
+scoring: S, A, T, B (coro), 2 clno (C), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5569 (5)
+    date: 1830–1840
+    rism: 840026247
+    url: https://catalogue.bnf.fr/ark:/12148/cb409440402
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  18 & org  & last \eighthNote\ in \B1: c8 \\
+  28 & vl 2 & 15th \sixteenthNote\ in \B1: f′16 \\
+  41 & vl 1 & 14th \sixteenthNote\ in \B1: a′16 \\
+parts:
+  clno12: Clarino I, II in C
+lyrics:
+  Domine praevenisti eum\\
+  in benedictionibus dulcedinis,\\
+  posuisti in capite eius\\
+  coronam de lapide pretioso.\\
+  Domine vitam petiit a te\\
+  et tribuisti ei longitudinem dierum\\
+  in saeculum saeculi.\\
+  (\bibleverse{Ps}(21/20:4-5))
