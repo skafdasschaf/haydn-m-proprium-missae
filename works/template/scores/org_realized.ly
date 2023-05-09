@@ -8,11 +8,9 @@
   \bookpart {
     \section "xxx" ""
     \addTocEntry
-    \paper { indent = 2\cm }
     \score {
       <<
         \new PianoStaff <<
-          \set PianoStaff.instrumentName = "Organo"
           \new Staff { \xxxChords }
           \new Staff { \xxxOrgano }
         >>
