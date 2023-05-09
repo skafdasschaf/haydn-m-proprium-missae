@@ -52,19 +52,19 @@
           \new Lyrics \lyricsto Soprano \CCCLXVSopranoLyrics
 
           \new Staff {
-            \incipitAlto
+            \incipit \markup \center-column { "Alto" "Trombone I" } "alto" #-20.5 #-1.8
             \new Voice = "Alto" { \dynamicUp \CCCLXVAlto }
           }
           \new Lyrics \lyricsto Alto \CCCLXVAltoLyrics
 
           \new Staff {
-            \incipitTenore
+            \incipit \markup \center-column { "Tenore" "Trombone II" } "tenor" #-20.9 #-1.8
             \new Voice = "Tenore" { \dynamicUp \CCCLXVTenore }
           }
           \new Lyrics \lyricsto Tenore \CCCLXVTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
+            \set Staff.instrumentName = \markup \center-column { "Basso" "Trombone III" }
             \new Voice = "Basso" { \dynamicUp \CCCLXVBasso }
           }
           \new Lyrics \lyricsto Basso \CCCLXVBassoLyrics

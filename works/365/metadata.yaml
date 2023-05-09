@@ -2,7 +2,7 @@ title: Alleluia ascendit Deus
 id: MH 365
 genre: gradual
 festival: Ascensio Domini
-scoring: S, A, T, B (coro), 2 ob, 2 cor (A), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 ob, 2 cor (A), 3 trb, 2 vl, b, org
 license: cc-by-nc-sa-4.0
 sources:
   B1:
@@ -21,6 +21,11 @@ sources:
     license: public domain
 parts:
   cor12: Corno I, II in A
+toe: |
+  – & – & Neither \B1 nor \B2 contains parts for trb 1–3. However, the Thematic
+  Catalogue states that the autograph manuscript (H-Bn Ms.mus. II.15;
+  RISM~530001702) includes these parts. Hence, in this edition,
+  trb 1, 2, and 3 play unison with A, T, and B, respectively. \\
 lyrics:
   Ascendit Deus in iubilatione,\\
   et Dominus in voce tubae.\\
