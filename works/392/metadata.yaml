@@ -1,0 +1,28 @@
+title: Effuderunt sanguinem
+id: MH 392
+genre: gradual
+festival: Innocentium Martyrum, extra Dominicam
+scoring: 2 S, A (coro), 2 cor (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5569 (2)
+    date: 1830–1840
+    rism: 840026244
+    url: https://catalogue.bnf.fr/ark:/12148/cb409440402
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  28 & vl 2 & last \eighthNote\ in \B1: b′8 \\
+  61 & A    & 12th \sixteenthNote\ in \B1: \sharp f′16 \\
+parts:
+  cor12: Corno I, II in D
+lyrics:
+  Effuderunt sanguinem sanctorum\\
+  velut aquam in circuitu Ierusalem,\\
+  et non erat qui sepeliret.\\
+  (\bibleverse{Ps}(79/78:3))\\[1ex]
+  Vindica, Domine, sanguinem Sanctorum tuorum,\\
+  qui effusus est super terram.\\
+  (\bibleverse{Rev}(6:10))
