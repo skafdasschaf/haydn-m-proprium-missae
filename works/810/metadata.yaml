@@ -1,0 +1,34 @@
+title: Alleluia confitebuntur cœli
+id: MH 810
+genre: gradual
+festival: De Communi Martyrum tempore Paschali
+scoring: S, A, T, B (coro), 2 clno (D), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5591 (3)
+    date: 1830–1840
+    rism: 840026209
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+    principal: true
+toe: |
+  – & – & MH 810 represents an alternative version of MH 363:
+          The work has been extended by four bars (1–2 and 21–22)
+          containing \textit{Alleluia} exclamations. In addition,
+          horns have been replaced by trumpets which have been newly composed.
+          In the remaining, voices, minor differences to MH 363 occur in bars
+          11~(vl~2, 11th~\sixteenthNote),
+          18~(vl, 8th~\sixteenthNote; org, 1st~\eighthNote),
+          37~(A, 3rd to 5th~\eighthNote),
+          48~(vl~1, 4th~\sixteenthNote),
+          49~(org, 2nd~\quarterNote), and
+          51~(A, 15th~\sixteenthNote). \\
+parts:
+  clno12: Clarino I, II in D
+lyrics:
+  Alleluia,\\
+  confitebuntur coeli mirabilia tua Domine,\\
+  et enim veritatem tuam in Ecclesia Sanctorum.\\
+  (\bibleverse{Ps}(89/88:6))
