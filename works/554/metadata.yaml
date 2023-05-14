@@ -1,0 +1,49 @@
+title: Vos estis
+id: MH 554
+genre: gradual
+festival: De Apostolis
+scoring: S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 212
+    rism: 600038162
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/211.html
+    license: public domain
+    principal: true
+  D1:
+    siglum: F-Pn
+    shelfmark: D-5591 (11)
+    date: 1830–1840
+    rism: 840026217
+    url: https://gallica.bnf.fr/ark:/12148/btv1b10072271m
+    license: custom (free for non-commercial purposes)
+    notes: full score, lacks ob
+toe: |
+  2   & timp   & 3rd \quarterNote\ in \B1: \quaverRest–G8 \\
+  7   & clno 2 & bar in \B1: g′2–c″2 \\
+  9   & A      & last \eighthNote\ in \B1: d″8 \\
+  10  & timp   & 2nd \halfNote\ in \B1: \crotchetRest–c4 \\
+  24  & clno 2 & 3rd \quarterNote\ in \B1: e′4 \\
+  28  & ob 1   & 24th \thirtysecondNote\ in \B1: a″32 \\
+  30  & ob 2   & 4th \quarterNote\ in \B1: d″4 \\
+  40  & timp   & 2nd \halfNote\ in \B1: G4-\quaverRest–c8 \\
+  41  & ob 2   & 4th \eighthNote\ in \B1: f′8 \\
+  41  & A      & 2nd \eighthNote\ in \B1: d′8 \\
+  58  & ob 1   & 1st \quarterNote\ in \B1: d″4 \\
+  58  & T      & 2nd \halfNote\ in \B1: c′8–c′8–\crotchetRest \\
+  68f & S      & 2nd \halfNote\ of bar 68 in \B1: c″4–e″4;
+                 1st \halfNote\ of bar 69: f″4–e″8–d″8 \\
+  70  & clno 1 & last \eighthNote\ in \B1: d″8 \\
+  85  & B      & last \eighthNote\ in \B1: d8 \\
+  86  & B      & last \eighthNote\ in \B1: d8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Vos estis qui permansistis mecum\\
+  in tentationibus meis,\\
+  et ego dispono vobis regnum\\
+  ut sedeatis super thronos iudicantes\\
+  duodecim tribus Israel.\\
+  (\bibleverse{Luk}(22:28-30))
