@@ -1,0 +1,23 @@
+title: Hodie completi sunt
+id: MH deest (A-Ed F 25)
+genre: antiphon
+festival: Pentecostes
+scoring: S, A, T, B (coro)
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 25
+    rism:  600038311
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/961.html
+    license: public domain
+    principal: true
+toe:
+  – & – & Bass figures have been added by the editor. \\
+lyrics:
+  Hodie completi sunt dies Pentecostes, alleluia.\\
+  Hodie Spiritus Sanctus in igne discipulis apparuit,\\
+  et tribuit eis charismatum dona,\\
+  misit eos in universum mundum praedicare et testificari.\\
+  Qui crediderit et baptizatus fuerit, salvus erit.\\
+  (\bibleverse{Acts}(2:1); \bibleverse{Mark}(16:15-16))
