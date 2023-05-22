@@ -1,0 +1,24 @@
+title: Vidi aquam
+id: MH 99
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 27
+    rism: 600038313
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/963.html
+    license: public domain
+    principal: true
+lyrics:
+  Vidi aquam egredientem de templo\\
+  a latere dextro, alleluia.\\
+  Et omnes, ad quos perveniet aqua ista,\\
+  salvi facti sunt et dicent alleluia.\\
+  Confitemini Domino, quoniam bonus:\\
+  Quoniam in saeculum misericordia eius.\\
+  Gloria Patri et Filio et Spiritui Sancto:\\
+  Sicut erat in principio et nunc et semper\\
+  et in saecula saeculorum, amen.\\
+  (\bibleverse{Eze}(47:1,9), \bibleverse{Ps}(106/105:1))
