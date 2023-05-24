@@ -1,0 +1,32 @@
+title: Ihr Himmel thaut herab
+id: MH 131
+genre: sacred song
+festival: Adventus
+scoring: S (solo), 2 vl, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: E 69
+    rism: 600038296
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/114.html
+    license: public domain
+    principal: true
+toe: |
+  –     & org  & All small notes have been added by the editor. \\
+  19    & S    & 2nd \halfNote\ in \B1: a′4.–\flat b′8 \\
+  23    & vl 2 & rhythm of bar in \B1: \halfNote–\halfNote \\
+  60–63 & vl 2 & in \B1 \sixteenthNote\ instead of \eighthNote \\
+  65    & vl 1 & 4th \eighthNote\ in \B1: \flat b′8 \\
+parts:
+  S_solo: Soprano solo
+  org_solo: Organo solo
+lyrics:
+  Ihr Himmel thaut herab,\\
+  ihr Wolken bringet Regen,\\
+  laßt euch durch das Gethön\\
+  der Seufzenden bewegen.\\
+  erhöre unſer Flehn,\\
+  Eröffne dich, o Erde,\\
+  mach, daß erfüllet werde,\\
+  daß wir Meſſiam ſehn.
