@@ -1,0 +1,26 @@
+title: Cantate Domino
+id: MH 828
+genre: gradual
+festival: Pro omni tempore
+scoring: S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 180
+    rism: 600038133
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/186.html
+    license: public domain
+    principal: true
+toe: |
+  46  & vl 2 & 3rd \eighthNote\ in \B1: b′8 \\
+  62  & vl 2 & 4th/5th \eighthNote\ in \B1: d′8–d′8 \\
+  91  & vl 1 & 9th \sixteenthNote\ in \B1: e″16 \\
+  101 & ob 1 & 3rd \quarterNote\ in \B1: a′8–a′8 \\
+  138 & T    & 2nd/3rd \quarterNote\ in B1: \sharp c′4–b4 \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
+lyrics:
+  Cantate Domino canticum novum,\\
+  quia mirabilia fecit Dominus.\\
+  (\bibleverse{Ps}(98/97:1))
