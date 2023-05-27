@@ -1,0 +1,30 @@
+title: Domine Deus salutis meæ
+id: MH 827
+genre: offertorium
+festival: De Tempore
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob,\\2 cor (G), 2 clno (D), timp (D–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 224
+    rism: 600038174
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/817.html
+    license: public domain
+    principal: true
+    notes: composed on 1803-08-23 according to the copyist
+toe: |
+  97  & vl   & grace notes in \B1: \sharp c″16–e″16 \\
+  106 & vl 2 & 5th \sixteenthNote\ in \B1: a″16 \\
+  107 & vla  & 2nd \eighthNote\ in \B1: g′8 \\
+  110 & vla  & 3rd \eighthNote\ in \B1: c′8 \\
+parts:
+  fl_ob1: Flauto I\\Oboe I
+  fl_ob2: Flauto II\\Oboe II
+  cor12: Corno I, II in G
+  ottoni: Clarino I, II in D\\Timpani in D–G
+lyrics:
+  Domine Deus salutis meae,\\
+  in die clamavi et nocte coram te:\\
+  Intret oratio mea in conspectu tuo, Domine.\\
+  (\bibleverse{Ps}(88/87:2-3))
