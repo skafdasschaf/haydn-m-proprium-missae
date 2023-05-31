@@ -18,7 +18,7 @@ jobs:
         run: make -B works
 
       - name: Compress scores
-        run: zip -j final/score_collection.zip final/*
+        run: cd final && zip -r score_collection.zip *
 
       - name: Compress MIDI files
         run: zip -j final/midi_collection.zip midi/*
