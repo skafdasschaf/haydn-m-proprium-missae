@@ -1,0 +1,29 @@
+title: Petite et accipietis
+id: MH 798
+genre: gradual
+festival: De omni tempore
+scoring: S, A, T, B (coro), 2 ob, 2 clno (\flat B), timp (\flat B–F), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 222
+    rism: 600038172
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/221.html
+    license: public domain
+    principal: true
+toe: |
+  3   & vl 1 & 11th \sixteenthNote\ in \B1: a′16 \\
+  24  & vl 2 & last \sixteenthNote\ in \B1: a′16 \\
+  106 & vl 2 & 5th \sixteenthNote\ in \B1: a16 \\
+  107 & A    & 3rd \quarterNote\ in \B1: g′4 \\
+parts:
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+lyrics:
+  Petite et accipietis,\\
+  quaerite et invenietis,\\
+  pulsate et aperietur vobis.\\
+  Omnis enim qui petit accipit,\\
+  et qui quaerit invenit,\\
+  et pulsanti aperietur.\\
+  (\bibleverse{Luk}(11:9-10))
