@@ -17,14 +17,17 @@ jobs:
       - name: Engrave
         run: make -B works
 
+      - name: Compress scores
+        run: zip -j final/score_collection.zip final/*
+
       - name: Compress MIDI files
         run: zip -j final/midi_collection.zip midi/*
-        
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            final/*.pdf
+            final/score_collection.zip
             final/midi_collection.zip
           fail_on_unmatched_files: false
 
