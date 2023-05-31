@@ -23,7 +23,7 @@
           }
           \new Lyrics \lyricsto Soprano \CXXXISopranoLyrics
         >>
-        \new Staff { \CXXXIOrgano }
+        \new Staff { \CXXXIOrganoL }
         \new FiguredBass { \CXXXIBassFigures }
       >>
     }
