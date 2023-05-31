@@ -1,5 +1,18 @@
 # Changelog
 
+## v2023.05.0
+
+### Added
+
+- works: MH 98, 99, 131, 342, 359, 392, 554, 798, 810, 827, 828, D2 (A-Ed E 68), and D3 (A-Ed F 25)
+- a cross reference from MH 363 to MH 810
+- parts for trb 1–3 and org realized to MH 365
+
+### Fixed
+
+- removed long instrument name from template for org realized
+
+
 ## v2023.04.0
 
 ### Added
