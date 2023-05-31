@@ -17,19 +17,8 @@ jobs:
       - name: Engrave
         run: make -B works
 
-      - name: Compress scores
-        run: cd final && zip -r score_collection.zip *
-
       - name: Compress MIDI files
         run: zip -j final/midi_collection.zip midi/*
-
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            final/score_collection.zip
-            final/midi_collection.zip
-          fail_on_unmatched_files: false
 
       - name: Publish via rsync
         uses: burnett01/rsync-deployments@5.2
