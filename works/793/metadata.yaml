@@ -1,0 +1,34 @@
+title: Debitam morti
+id: MH 793
+genre: offertorium
+festival: Mariae (B.V.)
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 225
+    rism: 600038175
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/818.html
+    license: public domain
+    principal: true
+    notes: composed on 1801-01-29 according to the copyist
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics: |
+  Debitam morti sobolem crearat\\
+  Eva peccatrix: Nova destinatur,\\
+  quae sacro partu scelus atque mortem\\
+  destruat, Eva.\\[1ex]
+  Victa serpentis fuit illa fraude,\\
+  intimis virus recipit medullis:\\
+  Vulnus haec sanat, tumidique colla\\
+  conterit anguis.\\[1ex]
+  Sic lucro cedunt, Domino volente,\\
+  damna, dum grata vice per Mariam\\
+  delet antiquam nova vita mortem,\\
+  gratia culpam.\\[1ex]
+  Diceris mater quoque nostra, Virgo.\\
+  Te proba nostram, pia Virgo, matrem,\\
+  efficax blandis precibus beantem\\
+  reddere pacem, fiat pacem.
