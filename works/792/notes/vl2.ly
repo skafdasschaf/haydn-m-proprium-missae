@@ -51,7 +51,7 @@ DCCXCIIViolinoII = {
     fis fis fis fis fis fis %45
     d d d d gis, gis
     gis( h) a4 r
-    cis'16 d cis h a gis fis e cis e d cis
+    cis'16 d cis h a fis-\critnote e d cis e d cis
     h8.\fz d16 cis8\p cis( e a)
     gis8.\fz h16 a4\p r %50
     gis8\fz gis4 gis gis8

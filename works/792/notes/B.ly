@@ -204,7 +204,7 @@ DCCXCIIBassoLyrics = \lyricmode {
   Re -- gnum %83
   tu -- um,
   re -- gnum %85
-  o -- mni -- um
+  o -- mni -- um __
   sae -- cu --
   lo -- rum,
   re -- gnum

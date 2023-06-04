@@ -354,7 +354,7 @@ DCCXCIIBassFigures = \figuremode {
   <6 4>4 <5 [3]> <6>8 q %115
   <4>4 <3> <5 [3]>8 <6 4>
   <7!>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-  <9 4>4 \bo <[8] 3>4. \once \bassFigureExtendersOn \bc q8
+  <9 4[!]>4 \bo <[8] 3>4. \once \bassFigureExtendersOn \bc q8
   <5>2. \bassFigureExtendersOn
   q8 q \bassFigureExtendersOff <8 6> <5 [3]>4. %120
   <7 [5]>8 <8 6> <6 4>4 <5 [3]>

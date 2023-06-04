@@ -14,7 +14,8 @@ sources:
     principal: true
 toe: |
   19  & vl 2 & last \sixteenthNote\ in \B1: \sharp f′16 \\
-  124 & vl 2 & 5th \sixteenthNote\ in \B1: g″16 \\
+  48  & vl 2 & 6th to 8th \sixteenthNote\ in \B1: g′16–\sharp f′16–e′16 \\
+  124 & vl 2 & 5th \sixteenthNote\ in \B1: g″16 \\*
   156 & vl 2 & last \sixteenthNote\ in \B1: \sharp c″16 \\
 parts:
   clno12: Clarino I, II in D
