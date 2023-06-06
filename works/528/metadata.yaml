@@ -1,0 +1,20 @@
+title: Post partum virgo
+id: MH 528
+genre: gradual
+festival: Mariae (B.V.)
+scoring: S, A, T, B (coro), 2 cor (G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 188
+    rism: 600038140
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/192.html
+    license: public domain
+    principal: true
+    notes: composed on 1791-01-25 according to the copyist
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Post partum virgo inviolata permansisti:\\
+  Dei genitrix, intercede pro nobis.
