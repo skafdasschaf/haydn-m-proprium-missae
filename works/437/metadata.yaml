@@ -1,0 +1,89 @@
+title: Emicat meridies / Veni Sancte Spiritus
+id: MH 437
+genre: sequence
+festival: Scholasticæ Abbatissæ Virginis et Pentecostes
+scoring: S, A, T, B (coro), 2 ob, 2 cor (F), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 194
+    rism: 600038146
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/978.html
+    license: public domain
+    principal: true
+    notes: composed on 1787-01-04 according to the copyist
+toe: |
+  – & coro & \B1 contains two sets of vocal parts
+             with lyrics \textit{Emicat meridies} (for St Scholastica) and
+             \textit{Veni Sancte Spiritus} (for Pentecost), respectively. \\
+parts:
+  cor12: Corno I, II in F
+  coro_Veni: Coro (Veni Sancte Spiritus)
+  coro_Emicat: Coro (Emicat meridies)
+lyrics: |
+  \begin{multicols}{2}
+  Emicat meridies,\\
+  et beata requies\\
+  Virgini Scholasticae.\\[1ex]
+  Intrat in cubicula,\\
+  Sponsi petit oscula,\\
+  quem amavit unice.\\[1ex]
+  Quantis cum gemitibus,\\
+  cordis et ardoribus\\
+  haec dilectum quaesiit.\\[1ex]
+  Movit coelos lachrymis,\\
+  imbribusque plurimis\\
+  pectus fratris molliit.\\[1ex]
+  O grata colloquia,\\
+  cum coelorum gaudia\\
+  Benedictus explicat!\\[1ex]
+  Ardent desideria,\\
+  mentis et suspiria,\\
+  virgo, Sponsus excitat.\\[1ex]
+  Veni formosissima,\\
+  Sponsa dilectissima,\\
+  veni, coronaberis.\\[1ex]
+  Dormies in liliis,\\
+  afflues deliciis,\\
+  et inebriaberis.\\[1ex]
+  O Columba Virginum,\\
+  quae de ripis fluminum\\
+  adis aulam gloriae.\\[1ex]
+  Trahe nos odoribus,\\
+  pasce et uberibus\\
+  immortalis gratiae.\\[1ex]
+  Amen.
+  \par\columnbreak
+  Veni, Sancte Spiritus,\\
+  et emitte coelitus\\
+  lucis tuae radium.\\[1ex]
+  Veni, Pater pauperum,\\
+  veni, dator munerum,\\
+  veni, lumen cordium.\\[1ex]
+  Consolator optime,\\
+  dulcis hospes animae,\\
+  dulce refrigerium.\\[1ex]
+  In labore requies,\\
+  in aestu temperies\\
+  in fletu solatium.\\[1ex]
+  O lux beatissima,\\
+  reple cordis intima\\
+  tuorum fidelium.\\[1ex]
+  Sine tuo numine,\\
+  nihil est in homine,\\
+  nihil est innoxium.\\[1ex]
+  Lava quod est sordidum,\\
+  riga quod est aridum,\\
+  sana quod est saucium.\\[1ex]
+  Flecte quod est rigidum,\\
+  fove quod est frigidum,\\
+  rege quod est devium.\\[1ex]
+  Da tuis fidelibus,\\
+  in te confidentibus,\\
+  sacrum septenarium.\\[1ex]
+  Da virtutis meritum,\\
+  da salutis exitum,\\
+  da perenne gaudium.\\[1ex]
+  Amen, alleluia.
+  \end{multicols}
