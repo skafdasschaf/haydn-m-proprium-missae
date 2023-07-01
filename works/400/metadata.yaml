@@ -1,0 +1,45 @@
+title: Læta quies magni Ducis
+id: MH 400
+genre: sequence
+festival: Benedicti Abbatis
+scoring: S, A, T, B (coro), 2 ob, 2 clno (\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 197
+    rism: 600038149
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/980.html
+    license: public domain
+    principal: true
+toe: |
+  133 & T    & last \sixteenthNote\ in \B1: \flat a16 \\
+  189 & ob 2 & 1st \quarterNote\ in \B1: c″4 \\
+parts:
+  clno12: Clarino I, II in \flat B
+lyrics: |
+  Laeta quies magni Ducis,\\
+  dona ferens novae lucis,\\
+  hodie recolitur.\\[1ex]
+  Caris datur piae menti,\\
+  corde sonet in ardenti,\\
+  quidquid foris promitur.\\[1ex]
+  Hunc per callem orientis\\
+  admiremur ascendentis\\
+  Patriarchae speciem.\\[1ex]
+  Amplum semen magnae prolis\\
+  illum fecit instar solis\\
+  Abrahae persimilem.\\[1ex]
+  Corvum cernis ministrantem,\\
+  hinc Eliam latitantem\\
+  specu nosce parvulo.\\[1ex]
+  Elisaeus dignoscatur,\\
+  cum securis revocatur\\
+  de torrentis alveo.\\[1ex]
+  Illum Ioseph candor morum,\\
+  illum Iacob futurorum\\
+  mens effecit conscia.\\[1ex]
+  Ipse memor suae gentis,\\
+  nos perducat in manentis\\
+  semper Christi gaudia.\\[1ex]
+  Amen, alleluia.
