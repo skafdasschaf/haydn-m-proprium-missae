@@ -1,0 +1,21 @@
+title: Felix es sacra
+id: MH 379
+genre: gradual
+festival: Mariæ (B.V.)
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 187
+    rism: 600038139
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/191.html
+    license: public domain
+    principal: true
+    notes: lacks oboe and horn parts
+lyrics:
+  Felix es, sacra Virgo Maria,\\
+  et omni laude dignissima,\\
+  quia ex te ortus est sol iustitiae,\\
+  Christus Deus noster.\\
+  (\bibleverse{Mal}(4:2))
