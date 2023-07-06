@@ -1,0 +1,44 @@
+title: Læta quies magni Ducis
+id: MH 253
+genre: sequence
+festival: Benedicti Abbatis
+scoring: S, A, T, B (coro), 2 cl (\flat B), 2 cor (F), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 196
+    rism: 600038148
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/979.html
+    license: public domain
+    principal: true
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in F
+lyrics: |
+  Laeta quies magni Ducis,\\
+  dona ferens novae lucis,\\
+  hodie recolitur.\\[1ex]
+  Caris datur piae menti,\\
+  corde sonet in ardenti,\\
+  quidquid foris promitur.\\[1ex]
+  Hunc per callem orientis\\
+  admiremur ascendentis\\
+  Patriarchae speciem.\\[1ex]
+  Amplum semen magnae prolis\\
+  illum fecit instar solis\\
+  Abrahae persimilem.\\[1ex]
+  Corvum cernis ministrantem,\\
+  hinc Eliam latitantem\\
+  specu nosce parvulo.\\[1ex]
+  Elisaeus dignoscatur,\\
+  cum securis revocatur\\
+  de torrentis alveo.\\[1ex]
+  Illum Ioseph candor morum,\\
+  illum Iacob futurorum\\
+  mens effecit conscia.\\[1ex]
+  Ipse memor suae gentis,\\
+  nos perducat in manentis\\
+  semper Christi gaudia.\\[1ex]
+  Amen, alleluia.
