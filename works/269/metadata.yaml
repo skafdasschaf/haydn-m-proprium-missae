@@ -1,0 +1,33 @@
+title: Canta Ierusalem
+id: MH 269
+genre: offertorium
+festival: Dedicatio Ecclesiæ
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 227
+    rism: 600038177
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/82.html
+    license: public domain
+    principal: true
+toe: |
+  42 & S & grace note missing in \B1 \\
+  55 & T & 2nd \sixteenthNote\ in \B1: \sharp c′16 \\
+  62 & S & grace note missing in \B1 \\
+parts:
+  cor12: Corno I, II in A
+lyrics:
+  Canta Ierusalem regia civitas,\\
+  et grato Dominum carmine praedica\\
+  priscis eripientem templa ruinis.\\[1ex]
+  Supplevit Dominus germinibus novis,\\
+  quotquot de veteri stemata vitium\\
+  mors astuta gementes messuit uvas.\\[1ex]
+  Ad vocem Domini magnificentius\\
+  et priscus reterum ex ruderibus nova\\
+  templum condecoratum arte resurgit.\\[1ex]
+  Quam pulchro radiant atria lumine\\
+  picturis renitent multimodis fora\\
+  et sanctus venientes occupat horror.
