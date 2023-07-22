@@ -5,6 +5,7 @@
 ### Added
 
 - works: MH 253, 269, 379, and 400
+- realized bass figures to MH 29
 
 
 ## v2023.06.0
