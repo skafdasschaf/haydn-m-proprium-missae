@@ -2,10 +2,11 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "clno")
-\include "score_settings/two-staves.ly"
+#(define option-instrument-name-upper "clno")
+#(define option-instrument-name-lower "timp")
+\include "score_settings/three-staves.ly"
 
-\paper { systems-per-page = #5 indent = 1.5\cm }
+\paper { indent = 1.5\cm }
 
 \book {
   \bookpart {
@@ -26,6 +27,10 @@
             }
           >>
         >>
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+          \XXIXTimpani
+        }
       >>
     }
   }
