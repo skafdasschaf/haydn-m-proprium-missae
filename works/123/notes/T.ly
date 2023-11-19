@@ -5,51 +5,51 @@ CXXIIITenore = {
     \clef "treble_8"
     \key es \major \time 3/4 \tempoCXXIII \autoBeamOff
     R2.*32 %32
-    \mvTr f,2\pE^\solo d'8([ b)]
+    \mvTr f,2\pE^\soloE d'8([ b)]
     b([ a)] a4 r
     R2.*6 %40
-    \mvTr b4\fE^\tuttiE a g
+    \mvDl b4\fE^\tutti a g
     f( es) d
     c8([ d)] es([ f)] g([ a)]
     b4 f r
-    f f f %45
+    f\p f f %45
     f2 f4
     f f f
     f2 f4
     R2.*4 %52
-    f4 f f
+    f4\fE f f
     f2 f4
     es8([ g] f4) es %55
     d r r
     R2.*10 %66
-    \mvTr b'4\fE^\tuttiE b b
+    \mvTr b'4\p^\tuttiE b b
     b2 b4
     b b b
     b2. %70
     R2.*2
-    g8([ as] b4) as
+    g8([\fE as]) b4 as
     g r r
-    b b b %75
+    b\p b b %75
     b2 b4
     b b b
     b2.
     R2.*2 %80
-    g8([ as] b4) as
+    \mvTr g8([\fE^\critnote as]) b4 as
     g r r
-    b2 b4
+    b2\pE b4
     b2 b4
     b2 b4 %85
     b2 b4
     f8([ g)] as([ b)] c([ d)]
     es4 b r
-    es, es b'
+    es es b
     c2 c4 %90
     g8([ as] b4) as
     g r r
-    es es b'
+    es'\fE es b
     c2 c4
     g8([ as] b4) as %95
-    g r b
+    g r b\pE
     as as as
     g r b
     as as as
@@ -82,14 +82,14 @@ CXXIIITenoreLyrics = \lyricmode {
   o a -- mor
   mi, %70
 
-  a -- mor %73
+  o __ a -- mor %73
   mi,
   o dul -- cis %75
   Je -- su,
   o a -- mor
   mi,
 
-  a -- mor %81
+  o __ a -- mor %81
   mi,
   non a --
   ver -- tet,

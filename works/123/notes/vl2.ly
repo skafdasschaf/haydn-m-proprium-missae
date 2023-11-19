@@ -18,7 +18,7 @@ CXXIIIViolinoII = {
     b b4 b b8
     c f f as as c
     b es es b g' b,
-    as g16 f es4 <d b> %15
+    as g16 f es4 d %15
     <es g,> r r
     es\p g as
     b g es'
@@ -35,11 +35,11 @@ CXXIIIViolinoII = {
     r b b
     r es es %30
     r d es
-    d8 b\fE d b d f
-    r d\pE d d d d
+    d8 b\f d b d f
+    r d\p d d d d
     r es es es es es
     r c c c f f %35
-    r b,\fE d f b d
+    r b,\f d f b d
     r d,\pE d d d d
     r es es es es es
     r c c c f f
@@ -47,8 +47,8 @@ CXXIIIViolinoII = {
     b b' a, a' g, g'
     f, f' es, es' d, d'
     c, d es f g a
-    b4 d r
-    f,8 f4 f f8 %45
+    b4^\critnote d r
+    f,8\pE f4 f f8 %45
     f f4 f f8
     f f4 f f8
     f f4 f f8
@@ -56,54 +56,54 @@ CXXIIIViolinoII = {
     b d b d b d %50
     g, es d4 c
     d2 r4
-    b'8 a b c b c
+    b'8\f a b c b c
     d d4 d d8
     es c b4 a %55
-    d, g es
-    d g es
+    d,( g) es
+    d( g) es
     d r r
     g\pE r r
-    r8 c b g as f %60
+    r8 c( b g as! f) %60
     e4 r c
-    r8 f as g f es
+    r8 f( as g f es!)
     d4 r r
-    r8 b' as f-\critnote g es
+    r8 b'( as f g es)
     d4 r d %65
-    es8 es g es b d
-    <es g,>8\fE q4 q q8
-    q q4 q q8
+    r8 es g( es) b( d)
+    es es4 es es8
+    es es4 es es8
     <d as> q4 q q8
     q q4 q q8 %70
-    es g g b b as
+    es( g) g( b) b( as)
     as2 as4
-    g8 f es4 d
+    g8\fE f es4 d
     es r r
-    <es g,>8 q4 q q8 %75
-    q q4 q q8
+    es8\pE es4 es es8 %75
+    es es4 es es8
     <d as> q4 q q8
     q q4 q q8
-    es g g b b as
+    es( g) g( b) b( as)
     as2 as4 %80
-    g8 f es4 d
+    g8\fE f es4 d
     es r r
     r8 b-!-\pizz d-! f-! b-! d-!
-    r \parOn es,-\parenthesize-! g-! b-! es-! \parOff g-\parenthesize-!
-    r b,, d f b d %85
-    r es, g b es g
+    r es,-! g-! b-! es-! g-!
+    r b,,-! d-! f-! b-! d-! %85
+    r es,-! g-! b-! es-! g-!
     f, g as b c d
     es4 r r
     es,-\arco es es
     es2 as4 %90
     g8 f es4 d
     es r r
-    es es es
+    es\fE es es
     es2 as4
     g8 f es4 d %95
-    es r es
+    es r es\pE
     <d as> q q
     <es g,> q q
     <d as> q q
-    es8 b4 b b8-\critnote %100
+    es8 b4 b b8 %100
     b b4 b b8
     b4 b b
     b2 r4\fermata \bar "|." %103 finis

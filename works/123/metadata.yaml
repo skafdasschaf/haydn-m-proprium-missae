@@ -1,27 +1,33 @@
 title: Non me a te avertet
 id: MH 123
 genre: offertorium
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cor (\flat E), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
+    siglum: A-RB
+    shelfmark: R 188 (Kasten IV, fasc. 84)
+    date: 1798
+    rism: 600033566
+    license: public domain
+    principal: true
+  D1:
     siglum: D-NATk
     shelfmark: NA/SP (H-33)
     date: 1790-1810
     rism: 455039952
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H33/
     license: public domain
-    principal: true
     notes: lacks cor parts
 toe: |
-  –   & S    & Grace notes on the 1st \quarterNote\ in bars 52,
-               56, 60, 74, 92, 96, \newline 98, and 100 have been removed. \\
-  19  & org  & 2nd/3rd \quarterNote\ in \B1: \flat a4–\flat b4 \\
-  28  & org  & last \eighthNote\ in \B1: f8 \\
-  64  & vl 2 & 4th to 6th \eighthNote\ in \B1: g′8–\flat a′8–f′8 \\
-  66  & org  & last \eighthNote\ in \B1: \flat e8 \\
-  70  & A    & bar in \B1: d′2–\crotchetRest \\
-  100 & vl 2 & last \eighthNote\ in \B1: \flat a8 \\
+  22 & vl 1 & 2nd/3rd \quarterNote\ in \B1: c″4.–\flat b′8 \\
+  28 & org  & last \eighthNote\ in \B1: f8 \\
+  44 & vl 2 & bar missing in \B1 \\
+  59 & vl 1 & 2nd \quarterNote\ in \B1: \flat b′4 \\
+  66 & org  & 5th \eighthNote\ in \B1: c8 \\
+  81 & T    & 1st \eighthNote\ in \B1: f8 \\
+parts:
+  cor12: Corno I, II in \flat E
 lyrics:
   Non me a te avertet amor,\\
   o Jesu mi dulcissime,\\

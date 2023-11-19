@@ -12,15 +12,15 @@ CXXIIIAlto = {
     f as g
     f( c') b %30
     b( as) g
-    \appoggiatura g8 f4 r r
+    f r r
     R2.*6 %38
-    c'2 es,4
-    es d r %40
-    \mvTr b'\fE^\tutti a? g
+    c'2 es8([ es,)]
+    es4 d r %40
+    \mvDl b'\fE^\tuttiE a g
     f( es) d
     c8([ d)] es([ f)] g([ a)]
-    b4 d r
-    f, f f %45
+    b4 f r
+    f\p f f %45
     f2 f4
     f f f
     f2 f4
@@ -28,32 +28,32 @@ CXXIIIAlto = {
     b2 b4 %50
     g8([ es] d4) c
     d r r
-    b'8([ a)] b([ c)] b([ c)]
+    b'8([\fE a)] b([ c)] b([ c)]
     d2 d4
-    c( b) a %55
+    es8([ c] b4) a %55
     b r r
     R2.*6 %62
-    \mvTr as4\pE^\solo b c
+    \mvTr as!4\pE^\solo b c
     d,2 es!4
     f( g) as %65
     g es r
-    \mvTr es\fE^\tutti es es
+    \mvTr es\p^\tuttiE es es
     es2 es4
     d d d
-    d2.^\critnote %70
+    d2. %70
     es8([ g)] g([ b)] b([ as)]
     as2 as4
-    g8([ f] es4) d
+    g8([\fE f]) es4 d
     es r r
-    es es es %75
+    es\p es es %75
     es2 es4
     d d d
     d2.
     es8([ g)] g([ b)] b([ as)]
     as2 as4 %80
-    g8([ f] es4) d
+    g8([\fE f]) es4 d
     es r r
-    f2 d4
+    f2\p d4
     es2 g4
     f2 d4 %85
     es2 g4
@@ -63,10 +63,10 @@ CXXIIIAlto = {
     es2 as4 %90
     g8([ f] es4) d
     es r r
-    es es es
+    es\fE es es
     es2 as4
     g8([ f] es4) d %95
-    es r es
+    es r es\pE
     d d d
     es r es
     d d d
@@ -86,8 +86,8 @@ CXXIIIAltoLyrics = \lyricmode {
   vis -- si --
   me,
 
-  bo -- ne %39
-  De -- us, %40
+  a -- mor %39
+  me -- us, %40
   dul -- cis sal --
   va -- tor,
   non me a --
@@ -115,7 +115,7 @@ CXXIIIAltoLyrics = \lyricmode {
   mi, %70
   o __ dul -- cis
   Je -- su,
-  a -- mor
+  o __ a -- mor
   mi,
   o dul -- cis %75
   Je -- su,
@@ -123,7 +123,7 @@ CXXIIIAltoLyrics = \lyricmode {
   mi,
   o __ dul -- cis
   Je -- su, %80
-  a -- mor
+  o __ a -- mor
   mi,
   non a --
   ver -- tet,
@@ -133,11 +133,11 @@ CXXIIIAltoLyrics = \lyricmode {
   fu -- ror,
   o dul -- cis
   Je -- su, %90
-  a -- mor
+  \xE a -- \x mor
   mi,
   o dul -- cis
   Je -- su,
-  a -- mor %95
+  \xE a -- \x mor %95
   mi, a --
   ver -- tet a
   te, re --

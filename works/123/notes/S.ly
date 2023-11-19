@@ -5,57 +5,57 @@ CXXIIISoprano = {
     \clef treble
     \key es \major \time 3/4 \tempoCXXIII \autoBeamOff
     R2.*16 %16
-    \mvTr es4\pE^\solo g as
-    b( g) es'
+    \mvTr es4\pE^\soloE g as
+    b g es'
     h8([ c b as)] g([ f)]
     es4( d) es %20
     f as g
     f( c') b
     b( as) g
-    \appoggiatura g8 f4 r r
+    f r r
     R2.*12 %36
     f2 d'8([ b)]
     \appoggiatura b a4 a r
     R2.*2 %40
-    \mvTr b4\fE^\tutti a g
+    \mvDl b4\fE^\tutti a g
     f( es) d
     c8([ d)] es([ f)] g([ a)]
-    b4 d r
-    d es c %45
+    b4 f r
+    d'\p es c %45
     d2 b4
-    d es c
+    d( es) c
     d2 b4
     d d d
     d2 d4 %50
     es8([ c] b4) a
     b r r
-    b8([ c)] d([ es)] d([ es)]
+    b8([\fE c)] d([ es)] d([ es)]
     f2 f4
     g8([ es] d4) c %55
     b r r
     R2.*2
-    \mvTr b4\pE^\solo b des
+    \mvTr b4\pE^\solo c des
     e,2 f4 %60
-    g( as) b
+    g( as!) b
     as f r
     R2.*4 %66
-    \mvTr g4\fE^\tutti g g
+    \mvTr g4\p^\tutti g g
     g2 g4
     as as as
     as2. %70
-    g8([ b)] b([ des)] des([ c)]
+    g8([ b)] b([ des)] des4
     c2 c4
-    b8([ as] g4) f
+    b8([\fE as]) g4 f
     es r r
-    g g g %75
+    g\p g g %75
     g2 g4
     as as as
     as2.
     g8([ b)] b([ des)] des([ c)]
     c2 c4 %80
-    b8([ as] g4) f
+    b8([\fE as]) g4 f
     es r r
-    as2 f4
+    as2\p f4
     g2 es4
     as2 f4 %85
     g2 es4
@@ -65,10 +65,10 @@ CXXIIISoprano = {
     c2 c4 %90
     b8([ as] g4) f
     es r r
-    b' c des
+    b'\fE c des
     c2 c4
     b8([ as] g4) f %95
-    es r g
+    es r g\p
     f f8([ es)] f([ g)]
     es4 r g
     f f8([ es)] f([ g)]
@@ -80,7 +80,7 @@ CXXIIISoprano = {
 
 CXXIIISopranoLyrics = \lyricmode {
   Non me a %17
-  te __ a --
+  ver -- tet, a --
   ver -- tet
   a -- mor, %20
   o Je -- su
@@ -97,7 +97,7 @@ CXXIIISopranoLyrics = \lyricmode {
   ver -- tet,
   o bo -- ne %45
   De -- us,
-  o a -- mor
+  a -- mor
   me -- us,
   o dul -- cis
   Je -- su, %50
@@ -119,7 +119,7 @@ CXXIIISopranoLyrics = \lyricmode {
   mi, %70
   o __ dul -- cis
   Je -- su,
-  a -- mor
+  \xE o __ \x a -- mor
   mi,
   o dul -- cis %75
   Je -- su,
@@ -127,7 +127,7 @@ CXXIIISopranoLyrics = \lyricmode {
   mi,
   o __ dul -- cis
   Je -- su, %80
-  a -- mor
+  \xE o __ \x a -- mor
   mi,
   non a --
   ver -- tet,
