@@ -27,6 +27,12 @@ sources:
     rism: 840026339
     license: custom (free for non-commercial purposes)
     url: https://gallica.bnf.fr/ark:/12148/btv1b100729500
+  D2:
+    siglum: A-RB
+    shelfmark: R 193 (Kasten IV, fasc. 123)
+    rism: 600033571
+    license: public domain
+    notes: contains different cor parts
 toe: |
   –   & –       & cor 1, 2 only in \B1; clno 1, 2 and timp only in \C1 \\
   9   & vl 1    & 8th note in \B1: f′32 \\
