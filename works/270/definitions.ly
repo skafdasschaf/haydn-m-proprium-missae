@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoCCLXX = \tempoMarkup "Andante"
+tempoCCLXX = \tempoMarkup "Allegretto moderato"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
