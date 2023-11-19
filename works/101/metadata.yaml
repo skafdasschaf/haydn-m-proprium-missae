@@ -1,0 +1,32 @@
+title: O salutaris hostia
+id: MH 101
+genre: hymn
+festival: Corpus Christi
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: R 175 (Kasten IV, fasc. 115)
+    rism: 600033553
+    license: public domain
+    principal: true
+toe: |
+  –  & org & This part has been added by the editor. \\
+  20 & A   & bar in \B1: a′2.–e′8–\sharp f′8 \\
+  24 & A   & bar in \B1: e′2.–\sharp f′8–a′8 \\
+  33 & A   & 1st \halfNoteDotted\ in \B1: g′2. \\
+  58 & A   & 1st \halfNote\ in \B1: d′ \\
+  90 & A   & bar in \B1: \sharp f′2–\sharp f′2 \\
+  92 & A   & 4th \quarterNote\ in \B1: \sharp f′4 \\
+  97 & S   & 2nd \halfNote\ in \B1: \sharp f′2 \\
+  97 & A   & bar in \B1: d′1–d′1 \\
+lyrics:
+  O salutaris hostia,\\
+  quae coeli pandis ostium:\\
+  bella premunt hostilia,\\
+  da robur, fer auxilium.\\[1ex]
+  Uni trinoque Domino\\
+  sit sempiterna gloria,\\
+  qui vitam sine termino\\
+  nobis donet in patria.
