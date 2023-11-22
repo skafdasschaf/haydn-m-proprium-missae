@@ -5,14 +5,19 @@ scoring: B (solo), 2 vl, vla, b, org
 license: cc-by-nc-sa-4.0
 sources:
   B1:
+    siglum: A-RB
+    shelfmark: R 172 (Kasten IV, fasc. 118)
+    rism: 600033550
+    license: public domain
+    principal: true
+  B2:
     siglum: D-NATk
     shelfmark: NA/SP (H-78)
     date: 1800-1830
     rism: 455040181
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_H78/
     license: public domain
-    principal: true
-  B2:
+  D1:
     siglum: CZ-Pu
     shelfmark: 59 R 34
     date: 1797-02-17
@@ -20,43 +25,34 @@ sources:
     url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_R_34_____1U8YMXA-cs
     license: CC BY-NC-SA 4.0
 toe: |
-  –  & –    & tempo indication in \B2: “Andante grazioso” \\
-  –  & org  & The org part of \B2 is labeled “Organo concerto”.
-              It contains realized chords and solo sections,
-              which largely derive from vl 1, while lacking bass figures.
-              By contrast, the org part of \B1 comprises only the
-              left-hand staff and includes bass figures.
-              It is included in the full score of this edition,
-              while the org part of \B2 is reproduced separately. \\
-  16 & org  & 5th \eighthNote\ in \B2: d8 \\
-  24 & vl 2 & 2nd \eighthNote\ in \B1: \flat d′8;
-              4th \eighthNote: \flat b8 \\
-  24 & vla  & 4th \eighthNote\ in \B1: c′8 \\
-  25 & vl 2 & 4th \eighthNote\ in \B1: \flat b8 \\
-  25 & vla  & 4th \eighthNote\ in \B1: c′8 \\
-  26 & org  & 1st \halfNote\ in \B2:
-              \quaverRest–\flat d8–\quaverRest–B8 \\
-  27 & vl 2 & last \eighthNote\ in \B1: f′8 \\
-  40 & vl 2 & 5th \eighthNote\ in \B1: a8 \\
-  44 & org  & 5th \eighthNote\ in \B2: a+d′+g′8 \\
-  51 & vl 2 & 4th to 6th \eighthNote\ in \B1 unison with vl 1 \\
-  54 & vl 2 & grace note missing in \B1 \\
-  55 & vla  & 2nd \halfNote\ in \B1: g′8–\quaverRest–\sharp f′8–\quaverRest \\
-  57 & vla  & 4th \eighthNote\ in \B1: a8 \\
-  61 & vl 2 & last \eighthNote\ in \B1: \flat b′8 \\
-  74 & vl 2 & 2nd \halfNote\ in \B1: \flat b′8–\quaverRest–a′8–\quaverRest \\
-  82 & org  & 7th \eighthNote\ in \B1: f8 \\
+  –  & –    & tempo indication in \B2: “Andante” \\
+  1  & vl 1 & 1st \quarterNote\ in \B2: d′+\flat b′4 \\
+  1f & vl 2 & in \B2 the same as in bars 10f \\
+  1f & vla  & bars in \B2: \quaverRest–f′8–f′8–a8–%
+              \quaverRest–\flat b8–g′8–f′8 and
+              \quaverRest–\flat e′8–\flat e′8–g′8–%
+              \quaverRest–g′8–g′8–g′8 \\
+  21 & B    & 4th \eighthNote\ in \B2: a16–a16 \\
+  24 & vl 2 & 2nd \eighthNote\ in \B1 and \B2: \flat d′8 \\
+  25 & vl 2 & 2nd \halfNote\ in \B2: \quaverRest–\flat a8–\quaverRest–e′8 \\
+  27 & vl 2 & last \eighthNote\ in \B2: f′8 \\
+  43 & B    & grace note missing in \B1 \\
+  51 & vl 2 & 4th to 6th \eighthNote\ in \B1 and \B2 unison with vl 1 \\
+  51 & org  & 1st \quarterNote\ in \B2: d8–d8 \\
+  52 & vl 2 & 13th to 15th \sixteenthNote\ in \B1: \sharp f′16–a′16–a′16 \\
+  54 & vl 2 & grace note missing in \B2 \\
+  55 & vl 1 & 2nd to 4th \quarterNote\ in \B2: \quaverRest–g″8–%
+              \quaverRest–\flat b′8–\quaverRest–a′8 \\
+  55 & vl 2 & 4th to last \eighthNote\ in \B2:
+              \flat b′8–\quaverRest–g′8–\quaverRest–\sharp f′8 \\
+  55 & vla  & 4th \eighthNote\ in \B1: a′8 \\
+  57 & vla  & 4th/last \eighthNote\ in \B2: a8/d′8 \\
+  61 & vl 2 & last \eighthNote\ in \B2: \flat b′8 \\
+  62 & vl 1 & 4th \quarterNote\ in \B1: a′16–\sharp f′16–d′16\sharp f′16 \\
+  69 & org  & 4th \quarterNote\ in \B2: F8–\quaverRest \\
+  72 & vla  & 1st \quarterNote\ in \B2: \crotchetRest \\
+  82 & org  & 7th \eighthNote\ in \B2: f8 \\
+  90 & vla  & 2nd/3rd \eighthNote\ in \B2: d′8–d′8 \\
 parts:
   B_solo: Basso solo
   org_solo: Organo solo
-lyrics:
-  Salve Regina, mater misericordiae,\\
-  vita, dulcedo et spes nostra, salve.\\
-  Ad te clamamus, exules filii Evae.\\
-  Ad te suspiramus, gementes et flentes\\
-  in hac lachrimarum valle.\\
-  Eia ergo, advocata nostra,\\
-  illos tuos misericordes oculos ad nos converte.\\
-  Et Jesum, benedictum fructum ventris tui,\\
-  nobis post hoc exilium ostende.\\
-  O clemens, o pia, o dulcis virgo Maria.
