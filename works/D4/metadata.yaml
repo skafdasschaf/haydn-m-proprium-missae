@@ -1,0 +1,27 @@
+title: Terra tremuit
+id: MH deest (A-RB R 222)
+genre: offertorium
+festival: Resurrectio Domini
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-RB
+    shelfmark: R 222 (Kasten IV, fasc. 84)
+    rism: 600033600
+    license: public domain
+    principal: true
+toe: |
+  4  & vla  & last \sixteenthNote\ of 7th tuplet in \B1: d′16 \\
+  9  & vl 1 & 9th \sixteenthNote\ in \B1: c″16 \\
+  12 & org  & 4th \eighthNote\ in \B1: A8 \\
+  13 & B    & 1st \halfNote\ in \B1: \crotchetRest–c8–c8 \\
+  16 & fl 2 & 1st \eighthNote\ in \B1: a″8 \\
+  24 & fl 2 & grace note added by editor \\
+  25 & fl   & grace notes added by editor \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Terra tremuit, et quievit,\\
+  dum resurgeret in iudicio Deus.\\
+  (\bibleverse{Ps}(76/75:9,10))
