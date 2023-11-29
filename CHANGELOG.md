@@ -1,5 +1,18 @@
 # Changelog
 
+## v2023.11.0
+
+### Added
+
+- works: MH 101, 643, and D1 (A-RB R 222)
+- source D2 (A-RB) for MH 259
+
+### Changed
+
+- MH 123, 270, and 283 use the copies in A-RB as principal source
+- use EES Tools 2023.10.0 based on LilyPond 2.24.2
+
+
 ## v2023.07.0
 
 ### Added
