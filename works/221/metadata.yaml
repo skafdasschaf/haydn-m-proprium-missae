@@ -1,0 +1,41 @@
+title: Alma Dei creatoris
+id: MH 221
+genre: offertorium
+festival: Mariae (B.V.)
+scoring: B (solo), S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: R 195 (Kasten IV, fasc. 85)
+    rism: 600033573
+    license: public domain
+    principal: true
+toe: |
+  13   & vl 2 & 3rd \eighthNote\ in \B1: \flat b16.–\flat b32 \\
+  13   & vla  & bar in \B1: \quaverRest–\flat b8–\flat b8 \\
+  16   & vl 2 & 3rd \eighthNote\ in \B1: \flat b16.–\flat b32 \\
+  20   & vla  & 1st \sixteenthNote\ in \B1: \flat a16 \\
+  49   & vl 2 & bar in \B1: \flat b′16.–\flat b′32–c″8–a′8 \\
+  54   & A    & 2nd/3rd \eighthNote\ in \B1: a′8–\quaverRest \\
+  63   & B    & 1st \quarterNote\ in \B1: \flat B4 \\
+  81   & vl 1 & 1st \quarterNote\ in \B1: g′8–\quaverRest \\
+  83   & vl 1 & 3rd \eighthNote\ in \B1: \flat d″16–\flat d″16 \\
+  91   & A    & bar in \B1: f′8.–f′16–\flat b′8 \\
+  137  & vla  & bar in \B1: \flat b16–c′16–d′8–\flat e′8 \\
+  139  & A    & 1st \eighthNote\ in \B1: \flat e′8 \\
+  140  & vl 2 & grace note added by editor \\
+  144  & vl 2 & 2rd \eighthNote\ in \B1: f′8 \\
+  151  & vl 2 & 1st \eighthNote\ in \B1: g+\flat e′8 \\
+  154  & org  & bar in \B1: g4–g8 \\
+  157  & vlne & bar in \B1: g16–c′16–\flat a16–f16–\flat b8–\flat B8 \\
+  158f & org, vlne & bars in \B1: \flat e8–\semiquaverRest–G16–%
+                \flat A16–\flat B16 \\
+extra_abbreviations:
+  vlne:
+lyrics:
+  Alma Dei creatoris\\
+  sedet rei peccatoris\\
+  mater clementissima.\\
+  Tu fac, clemens, quod rogamus,\\
+  fortes ad certamina.
