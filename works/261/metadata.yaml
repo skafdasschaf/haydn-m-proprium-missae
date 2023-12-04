@@ -1,0 +1,51 @@
+title: Cœlitum Joseph
+id: MH 261
+genre: offertorium
+scoring: B (solo), S, A, T, B (coro), 2 ob, 2 cor (C/F), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: R 228 (Kasten IV, fasc. 84)
+    rism: 600033606
+    license: public domain
+    principal: true
+toe: |
+  –   & –    & Due to its poor compositional technique,
+               this work is most likely not by Haydn. \\
+  –   & coro & Alternative lyrics “Gloria tibi” are not reproduced
+               in this edition. \\
+  4   & ob 1 & grace note added by editor \\
+  18  & ob 1 & grace note added by editor \\
+  24  & vl 2 & 3rd \quarterNote\ in \B1: g′4 \\
+  36  & vl 2 & 4th \eighthNote\ in \B1: b′8 \\
+  41  & vl 1 & 4th \eighthNote\ in \B1: g′16.–a′32 \\
+  44  & vl 2 & 2nd to last \eighthNote\ in \B1: 5×a′8 \\
+  49  & vl 1 & grace note added by editor \\
+  57  & vla  & 4th \eighthNote\ in \B1: c′8 \\
+  57  & org  & 4th \eighthNote\ in \B1: c′8 \\
+  67  & vl 1 & 3rd \quarterNote\ in \B1: f′8–e′8 \\
+  96f & vl 2 & bars in \B1: a′2. and g′2. \\
+  98  & org  & 2nd \quarterNote\ in \B1: a8–a8 \\
+  108 & vla  & 1st \eighthNote\ in \B1: \flat b8 \\
+  111 & vla  & bar in \B1 duplicate of bar 110 \\
+  141ff & coro & The rhythms \eighthNote–\eighthNote\ vs
+               \eighthNoteDotted–\sixteenthNote\ in this part are highly
+               inconsistent. Thus, they have been emended in the following
+               bars: 152 (B), 154 (S, B), 156 (T, B), 160 (S), 176 (B),
+               178 (B), 194 (B), 196 (A), 198 (S, A, T), and 224 (S). \\
+  160 & A    & 1st \halfNote\ in \B1: g′8.–g′16–g′4 \\
+  200 & cor 1 & 1st \quarterNote\ in \B1: d″4 \\
+  210 & T    & bar in \B1: a8–a8–a2 \\
+  225 & S    & bar in \B1: a″4–a″4–a″8–a″8 \\
+  226 & vl 2 & 3rd \eighthNote\ in \B1: e″8 \\
+  228 & cor 1 & 2nd/3rd \quarterNote\ in \B1: c″2 \\
+parts:
+  cor12: Corno I, II in C/F
+lyrics:
+  Coelitum Ioseph, decus columen mundi,\\
+  atque nostrae vitae certa spes,\\
+  suscipe benignus laudes\\
+  quas tibi laeti canimus.\\[\baselineskip]
+  Te Joseph agmina coelitum celebrent,\\
+  te cuncti christiadum chori resonent.
