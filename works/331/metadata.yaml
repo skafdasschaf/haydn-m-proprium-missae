@@ -1,0 +1,20 @@
+title: Ex ore infantium
+id: MH 331
+genre: introitus
+festival: Innocentium Martyrum
+scoring: 2 S, A (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: Kasten IV, fasc. 70
+    license: CC BY-SA 4.0
+    principal: true
+lyrics:
+  Ex ore infantium, Deus,\\
+  et lactentium perfecisti\\
+  laudem propter inimicos tuos.\\
+  Domine Dominus noster,\\
+  quam admirabile est nomen tuum\\
+  in universa terra.\\
+  (\bibleverse{Ps}(8:2,3))
