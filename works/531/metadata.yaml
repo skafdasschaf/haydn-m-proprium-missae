@@ -1,0 +1,36 @@
+title: Ad te, Domine
+id: MH 531
+genre: offertorium
+festival: Pro omni tempore
+scoring: B (solo), S, A, T, B (coro), 2 cor (G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-RB
+    shelfmark: Kasten IV, fasc. 123
+    license: CC BY-SA 4.0
+    principal: true
+toe: |
+  32  & vla   & 4th \eighthNote\ in \B1: d′8 \\
+  41  & vl 2  & 1st \eighthNote\ in \B1: g′8 \\
+  45  & vl 1  & 5th \sixteenthNote\ in \B1: b′16 \\
+  59  & vl 1  & grace note added by editor \\
+  67, 71 & vl 1 & 1st and 3rd \eighthNote\ in \B1:
+                d′′′32–\sharp c′32–b″32–a″32 \\
+  92  & vl 2  & 4th \eighthNote\ in \B1 g″16–\sharp c″16 \\
+  111 & org   & 3rd \eighthNote\ in \B1: B8 \\
+  117 & vla   & 3rd \eighthNote\ in \B1: \sharp a8 \\
+  117 & org   & bar in \B1: e4–\quaverRest–\sharp c8 \\
+  160 & S     & 3rd \eighthNote\ in \B1: c″8 \\
+  177 & vl 1  & 2nd \eighthNote\ in \B1: e″16–e″16 \\
+  255 & cor 1 & 2nd \quarterNote\ in \B1: c″4 \\
+parts:
+  cor12: Corno I, II in G
+lyrics:
+  Ad te, Domine, levavi animam meam:\\
+  Deus meus, in te confido,\\
+  non erubescam.\\
+  Neque irrideant me inimici mei:\\
+  et enim universi qui te exspectant,\\
+  non confundentur.\\
+  (\bibleverse{Ps}(25/24:1-3))
