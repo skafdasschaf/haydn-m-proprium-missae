@@ -1,43 +1,49 @@
-#!/usr/bin/python
+#!/bin/python
+
+"""Generate makefile."""
 
 import argparse
 import os
 import re
 import subprocess
-
-
-def natural_sort(s, _nsre=re.compile("([0-9]+)")):
-    return [int(text) if text.isdigit() else text.lower()
-            for text in _nsre.split(s)]
-
+from typing import Final, Union
 
 
 # Parameters --------------------------------------------------------------
 
-IGNORED_WORKS = ["template"]
-
+IGNORED_WORKS: Final = ["template"]
 
 
 # Templates ---------------------------------------------------------------
 
-make_header = """
+MAKE_HEADER: Final = """
 .RECIPEPREFIX = >
 .DEFAULT_GOAL := info
-LILYPOND = lilypond -ddelete-intermediate-files -dno-point-and-click --include=$(EES_TOOLS_PATH)/
+LILYPOND = lilypond \
+    -ddelete-intermediate-files \
+    -dno-point-and-click \
+    --include=$(EES_TOOLS_PATH)/
 """
 
-make_info = """
-Specify one of the following {color}targets{reset}, \
-where [id] is the catalogue of works number of a work:
-* {color}[id]/[score]{reset}: individual scores for a work (e.g. 46/org) (LilyPond output only)
-* {color}[id]/scores{reset}: all scores for a work (e.g. 46/scores) (LilyPond output only)
-* {color}final/[id]/[score]{reset}: individual final scores for a work (e.g. final/46/org) (LilyPond output + front matter)
-* {color}final/[id]/scores{reset}: all final scores for a work (e.g. final/scores)
-* {color}works{reset}: all final scores for all works
-* {color}info{reset}: prints this message
+MAKE_INFO: Final = """\
+Specify one of the following {color}targets{reset},\nwhere [id] is the catalogue of works number of a work:
+
+- {color}[id]/[score]{reset}:\n  individual scores for a work (e.g. 46/org)
+
+- {color}[id]/scores{reset}:\n  all scores for a work (e.g. 46/scores)
+
+- {color}final/[id]/[score]{reset}:\n  individual scores with front matter for a work (e.g. final/46/org)
+
+- {color}final/[id]/scores{reset}:\n  all scores with front matter for a work (e.g. final/scores)
+
+- {color}midi{reset}:\n  MIDI archive
+
+- {color}works{reset}:\n  all final scores for all works
+
+- {color}info{reset}:\n  prints this message\
 """.format(color="\033[94m", reset="\033[0m")
 
-rule_work_score = """
+RULE_WORK_SCORE: Final = """
 {work}/{score}: tmp/{work}/{score}.pdf
 tmp/{work}/{score}.pdf: works/{work}/scores/{score}.ly \
                         works/{work}/notes/*.ly \
@@ -55,7 +61,6 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >                                          -t {score} \\
 >                                          -k festival genre lyrics toe \\
 >                                          -s ../tmp/{work} \\
->                                          -l works/{work} \\
 > -q https://edition.esser-skala.at/assets/pdf/haydn-m-proprium-missae/{work} \\
 >                                          -c tag
 >latexmk -cd \\
@@ -71,7 +76,7 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >        front_matter/critical_report.tex
 """
 
-rule_work_scores = """
+RULE_WORK_SCORES: Final = """
 .PHONY: {work}/scores
 {work}/scores: {deps}
 
@@ -79,50 +84,65 @@ rule_work_scores = """
 final/{work}/scores: {deps_final}
 """
 
-rule_works = """
+RULE_WORKS: Final = """
+.PHONY: midi
+midi:
+>mkdir -p final
+>if [ -d midi ]; then zip -j final/midi_collection.zip midi/*; fi
+
 .PHONY: works
-works: {all_works}
+works: midi {all_works}
 """
 
 
+# Main workflow -----------------------------------------------------------
 
-# Generate makefile -------------------------------------------------------
+def natural_sort(
+    s: str, _nsre: re.Pattern = re.compile("([0-9]+)")
+) -> list[Union[int, str]]:
+    """Simple natural sorting."""
+    return [int(text) if text.isdigit() else text.lower()
+            for text in _nsre.split(s)]
 
-included_works = [w for w in sorted(os.listdir("works"), key=natural_sort)
-                  if w not in IGNORED_WORKS]
+def generate_makefile() -> str:
+    """Generate the contents of the makefile."""
+    included_works = [w for w in sorted(os.listdir("works"), key=natural_sort)
+                      if w not in IGNORED_WORKS]
 
-makefile = [make_header]
+    makefile = [MAKE_HEADER]
 
-for work in included_works:
-    notes = os.listdir(os.path.join("works", work, "notes"))
-    scores = [os.path.splitext(os.path.basename(s))[0]
-              for s in os.listdir(os.path.join("works", work, "scores"))]
+    for work in included_works:
+        scores = [os.path.splitext(os.path.basename(s))[0]
+                  for s in os.listdir(os.path.join("works", work, "scores"))]
 
-    # rule for a single (final) score
-    for score in scores:
-        makefile.append(rule_work_score.format(work=work, score=score))
+        # rule for a single (final) score
+        for score in scores:
+            makefile.append(RULE_WORK_SCORE.format(work=work, score=score))
 
-    # rule for all (final) scores
-    deps = " ".join(["{}/{}".format(work, s) for s in scores])
-    deps_final = " ".join(["final/{}/{}".format(work, s) for s in scores])
-    makefile.append(
-        rule_work_scores.format(work=work, deps=deps, deps_final=deps_final)
-    )
+        # rule for all (final) scores
+        deps = " ".join([f"{work}/{s}" for s in scores])
+        deps_final = " ".join([f"final/{work}/{s}" for s in scores])
+        makefile.append(
+            RULE_WORK_SCORES.format(work=work, deps=deps, deps_final=deps_final)
+        )
 
-# rule for all final works
-all_works = " ".join(["final/{}/scores".format(w)
-                      for w in included_works])
-makefile.append(rule_works.format(all_works=all_works))
+    # rule for all final works
+    all_works = " ".join([f"final/{w}/scores" for w in included_works])
+    makefile.append(RULE_WORKS.format(all_works=all_works))
+
+    return "\n".join(makefile)
 
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(add_help=False)
+    _, make_args = parser.parse_known_args()
 
-# Invoke make -------------------------------------------------------------
-
-parser = argparse.ArgumentParser(add_help=False)
-_, make_args = parser.parse_known_args()
-
-if "info" in make_args:
-    print(make_info)
-else:
-    makefile = "\n".join(makefile)
-    subprocess.run(["make", "--file=-"] + make_args, input=makefile, text=True)
+    if "info" in make_args:
+        print(MAKE_INFO)
+    else:
+        subprocess.run(
+            ["make", "--file=-"] + make_args,
+            input=generate_makefile(),
+            text=True,
+            check=False
+        )
