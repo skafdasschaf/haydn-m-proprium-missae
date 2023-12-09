@@ -1,0 +1,30 @@
+title: Perfice gressus meos
+id: MH 557
+genre: offertorium
+festival: De Tempore
+scoring: S (solo), 2 clno (\flat B), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: Mus.ms. 335
+    rism: 600033607
+    license: public domain
+    principal: true
+toe: |
+  63  & vl 2 & last \eighthNote\ in \B1: d″16–d″16 \\
+  66  & vla  & 2nd \quarterNote\ in \B1: f16–a16–f16–a16 \\
+  105 & vl 2 & 1st \quarterNote\ in \B1: a′8–\flat b′16–\flat b′16 \\
+  143 & S    & grace notes in \B1: a′16–g′16–f′16–g′16 \\
+  146 & S    & 10th \thirtysecondNote\ in \B1: c″32 \\
+parts:
+  clno12: Clarino I, II in \flat B
+  S_solo: Soprano solo
+lyrics:
+  Perfice gressus meos in semitis tuis,\\
+  ut non moveantur vestigia mea:\\
+  inclina aurem tuam,\\
+  et exaudi verba mea:\\
+  mirifica misericordias tuas,\\
+  qui salvos facis sperantes in te, Domine.\\
+  (\bibleverse{Ps}(17/16:5-7))
