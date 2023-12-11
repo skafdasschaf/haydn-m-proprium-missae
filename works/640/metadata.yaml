@@ -1,0 +1,26 @@
+title: Te colimus Principem coeli
+id: MH 640
+genre: ofertorium
+festival: De uno Apostolo
+scoring: T, B (solo), 2 ob, 2 cor (\flat B), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-RB
+    shelfmark: R 187 (Kasten IV, fasc. 84)
+    rism: 600033565
+    license: public domain
+    principal: true
+toe: |
+  104 & ob & grace note added by editor \\
+parts:
+  cor12: Corno I, II in \flat B
+lyrics:
+  Te colimus Principem coeli,\\
+  te Principem colimus terrae,\\
+  tu mundi clarissima lux,\\
+  ad ianuam coeli es dux.\\
+  Es amator Christi sincerus,\\
+  omnes te precamur ardenter,\\
+  noster patronus, ut nunc\\
+  et coeli ad limina sis.
