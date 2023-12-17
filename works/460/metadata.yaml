@@ -2,7 +2,7 @@ title: Tantum ergo
 id: MH 460
 genre: hymn
 scoring: S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
-license: cc-by-nc-sa-4.0
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: F-Pn
@@ -17,7 +17,7 @@ sources:
     shelfmark: D-5673
     date: 1820–1840
     rism: 840026370
-    url: https://gallica.bnf.fr/ark:/12148/cb409883531 
+    url: https://gallica.bnf.fr/ark:/12148/cb409883531
     license: custom (free for non-commercial purposes)
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
