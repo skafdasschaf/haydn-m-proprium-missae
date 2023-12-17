@@ -1,5 +1,21 @@
 # Changelog
 
+## v2023.12.0
+
+### Added
+
+- works: MH 221, 261, 264, 331, 531, 557, and 640
+
+### Changed
+
+- All works are now available under a CC BY-SA 4.0 license.
+
+
+### Fixed
+
+- generation of MIDI archive
+
+
 ## v2023.11.0
 
 ### Added
