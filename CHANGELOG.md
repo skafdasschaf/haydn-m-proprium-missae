@@ -1,5 +1,12 @@
 # Changelog
 
+## v2024.02.0
+
+### Removed
+
+- some works for which an editio princeps claim has been registered (see *ignored_works*)
+
+
 ## v2023.12.0
 
 ### Added
