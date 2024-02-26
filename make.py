@@ -104,7 +104,8 @@ def generate_makefile() -> str:
     """Generate the contents of the makefile."""
     try:
         with open("ignored_works", encoding="utf8") as f:
-            ignored_works = f.read().splitlines()
+            ignored_works = [w.strip() for w in f.read().splitlines()
+                             if not w.startswith("#")]
     except FileNotFoundError:
         ignored_works = []
     included_works = [w for w in sorted(os.listdir("works"), key=natural_sort)
