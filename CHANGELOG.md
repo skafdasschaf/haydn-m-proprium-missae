@@ -2,6 +2,10 @@
 
 ## v2024.02.0
 
+### Changed
+
+- GitHub workflow now uses checkout@4.1.1 and rsync-deployments@6.0.0
+
 ### Removed
 
 - some works for which an editio princeps claim has been registered (see *ignored_works*)
