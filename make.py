@@ -90,6 +90,11 @@ midi:
 works: midi {all_works}
 """
 
+RULE_WORKS_BATCH: Final = """
+.PHONY: works_{batch}
+works: {batch_works}
+"""
+
 
 # Main workflow -----------------------------------------------------------
 
@@ -100,7 +105,7 @@ def natural_sort(
     return [int(text) if text.isdigit() else text.lower()
             for text in _nsre.split(s)]
 
-def generate_makefile() -> str:
+def generate_makefile(n_jobs: int = 1) -> str:
     """Generate the contents of the makefile."""
     try:
         with open("ignored_works", encoding="utf8") as f:
@@ -128,9 +133,21 @@ def generate_makefile() -> str:
             RULE_WORK_SCORES.format(work=work, deps=deps, deps_final=deps_final)
         )
 
-    # rule for all final works
-    all_works = " ".join([f"final/{w}/scores" for w in included_works])
-    makefile.append(RULE_WORKS.format(all_works=all_works))
+    # rule for all final works, possibly using parallel jobs
+    batch_size = len(included_works) // n_jobs
+    midi_included = False
+    for i in range(n_jobs):
+        batch_works = " ".join(
+            [f"final/{w}/scores"
+             for w in included_works[batch_size*i : batch_size*(i+1)]]
+        )
+        if midi_included:
+            makefile.append(
+                RULE_WORKS_BATCH.format(batch=i, batch_works=batch_works)
+            )
+        else:
+            makefile.append(RULE_WORKS.format(all_works=batch_works))
+            midi_included = True
 
     return "\n".join(makefile)
 
