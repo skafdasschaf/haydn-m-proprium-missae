@@ -5,6 +5,7 @@
 ### Changed
 
 - GitHub workflow now uses checkout@4.1.1 and rsync-deployments@6.0.0
+- GitHub workflow now contains five parallel jobs to reduce execution time
 
 ### Removed
 
