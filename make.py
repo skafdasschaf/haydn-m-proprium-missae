@@ -92,7 +92,7 @@ works: midi {all_works}
 
 RULE_WORKS_BATCH: Final = """
 .PHONY: works_{batch}
-works: {batch_works}
+works_{batch}: {batch_works}
 """
 
 
@@ -161,7 +161,7 @@ if __name__ == "__main__":
     else:
         subprocess.run(
             ["make", "--file=-"] + make_args,
-            input=generate_makefile(),
+            input=generate_makefile(5),
             text=True,
             check=False
         )
