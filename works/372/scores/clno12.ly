@@ -9,7 +9,7 @@
 
 \book {
   \bookpart {
-    \section "371" "Priusquam te formarem"
+    \section "372" "Priusquam te formarem"
     \addTocEntry
     \score {
       <<
