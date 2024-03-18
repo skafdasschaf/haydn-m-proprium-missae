@@ -1,0 +1,58 @@
+title: Ave maris stella
+id: MH 49
+genre: gradual
+festival: Mariae (B.V.)
+scoring: S, A, T, B (coro), 2 clno (G), timp (G–D), 2 vl, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: F24.St.Peter.D154
+    url: https://data.onb.ac.at/rec/AC14272536
+    license: public domain
+    principal: true
+    notes: 17 parts (clno 1, clno 2, timp, vl 1 (2×), vl 2 (2×), S (2×), A (2×), T (2×), B (2×), vlne, and org solo)
+toe: |
+  –  & clno, timp & Due to poor compositional technique,
+              these parts are likely not by Haydn. \\
+  –  & org  & All small notes have been added by the editor. \\
+  16 & vl 2 & 1st \quarterNote\ in \B1: d′4 \\
+  40 & vl 1 & 1st \quarterNote\ in \B1: g′4 \\
+  49 & vl 2 & 6th \eighthNote\ in \B1: g′8 \\
+  49 & T    & 3rd to 5th \eighthNote\ in \B1: e8–f8–g8 \\
+  51 & T    & 4th \eighthNote\ in \B1: c′8 \\
+  57 & org, vlne & 3rd \eighthNote\ in \B1: e8 \\
+  97 & S    & 1st \halfNote\ in \B1: d″2 \\
+parts:
+  ottoni: Clarino I, II in G\\Timpani in G–D
+  org_solo: Organo solo
+lyrics:
+  Ave maris stella,\\
+  Dei mater alma,\\
+  atque semper virgo,\\
+  felix caeli porta.\\[1ex]
+  Sumens illud Ave\\
+  Gabrielis ore,\\
+  funda nos in pace,\\
+  mutans Evae nomen.\\[1ex]
+  Solve vincla reis,\\
+  profer lumen caecis,\\
+  mala nostra pelle,\\
+  bona cuncta pace.\\[1ex]
+  Monstra te esse matrem,\\
+  sumat per te preces\\
+  qui pro nobis natus\\
+  tulit esse tuus.\\[1ex]
+  Virgo singularis,\\
+  inter omnes mitis,\\
+  nos culpis solutos\\
+  mites fac et castos.\\[1ex]
+  Vitam praesta puram,\\
+  iter para tutem,\\
+  ut videntes Jesum\\
+  semper collaetemur.\\[1ex]
+  Sit laus Deo Patri,\\
+  summo Christo decus,\\
+  Spiritui Sancto\\
+  tribus honor unus.\\[1ex]
+  (Liber Hymnarius 1983, p. 258)
