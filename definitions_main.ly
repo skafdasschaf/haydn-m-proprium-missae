@@ -6,3 +6,5 @@
 #(define option-movement-title-format "number-title")
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
+
+hA = \once \override Accidental.stencil = ##f
