@@ -1,0 +1,83 @@
+title: Freut euch, Hirten, allzugleich
+id: MH 217
+genre: offertorium
+festival: Nativitas Domini
+scoring: S (solo), S, A, T, B (coro), 2 cor (\flat E/\flat B), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.21624
+    url: https://data.onb.ac.at/rec/AC14273063
+    license: public domain
+    notes: 18 parts (S, A (2×), T, B, fl, cl 1, cl 2, cor 1, cor 2, clno 1, clno 2, clno principale, timp, vl 1, vl 2, org, b)
+    principal: true
+toe: |
+  –   & –     & Lyrics in \B1 are different from those in the A-Ssp source
+                (shelfmark 1675.1). Since they sometimes disagree with the
+                rhythm of the notes, they likely represent a later addition.
+                Moreover, \B1 also contains parts for fl, 2 cl, 2 clno,
+                clno principale, and timp. However, these parts are likely
+                not by Haydn and thus have not been included in this edition. \\
+  –   & vl    & Slurs in \B1 are not reproduced in this edition,
+                since they are inconsistent and most likely not original. \\
+  16  & S, T  & grace note missing in \B1 \\
+  23  & T     & 1st \halfNote\ in \B1: \flat b8–a8–f8 \\
+  29  & cor 1 & 1st \halfNote\ in \B1: g′2 \\
+  35  & A     & 2nd \halfNote\ in \B1: b′4.–c″8 \\
+  40  & org   & 1st \halfNote\ in \B1: f2 \\
+  47  & vl 1, T & grace note missing in \B1 \\
+  48  & cor 2 & 6th \eighthNote\ in \B1: c″8 \\
+  51  & cor 2 & 3rd \quarterNote\ in \B1: c″8–c″8 \\
+  51  & vl    & 4th \eighthNote\ in \B1: c″8 \\
+  53  & vl    & 4th \eighthNote\ in \B1: \flat e″8 \\
+  54  & A     & 1st \halfNote\ in \B1: f′2 \\
+  56  & cor 2 & 4th \quarterNote\ in \B1: \crotchetRest \\
+  72  & cor 2 & bar in \B1: c′2 \\
+  86  & vl 2  & 5th \sixteenthNote\ in \B1: \flat a16 \\
+  129 & cor 1 & 2nd/3rd \quarterNote\ in \B1: c″4 \\
+  140 & vl 2  & bar in \B1: f′2 \\
+  142 & org   & bar in \B1: 4 × f8 \\
+  143 & vl 2  & grace note added by editor \\
+  171 & vl 2  & bar in \B1: c′2 \\
+  188 & vl 2  & 5th \sixteenthNote\ in \B1: \flat a16 \\
+  189 & vl 2  & 5th \sixteenthNote\ in \B1: \flat a16 \\
+  211 & vl 1  & 1st \quarterNote\ in \B1: f″8–e″8 \\
+  212 & vl 1  & 1st \quarterNote\ in \B1: f″8–e″8 \\
+  214 & T     & bar in \B1: \quaverRest–c′8–c′4–\flat b4 \\
+  217 & A     & 1st \halfNote\ in \B1: f′4–\crotchetRest \\
+  222 & B     & 1st \halfNote\ in \B1: f2 \\
+  223 & T     & 1st \halfNote\ in \B1: \flat b2 \\
+  235 & cor 1 & 1st \halfNote\ in \B1: e″2 \\
+  262 & vl 1  & 2nd \quarterNote\ in \B1: 4×\flat a′16 \\
+parts:
+  cor12: Corno I, II in \flat E/\flat B
+lyrics:
+  Freut euch, Hirten, allzugleich,\\
+  ein Wunder iſt geſchehen,\\
+  die heut’ge Nacht iſt gnadenreich,\\
+  den Heiland ſollt ihr ſehen.\\
+  Im Stalle dort geboren\\
+  liegt Gottes wahrer Sohn,\\
+  zu ſuchen, was verloren,\\
+  ſtieg er vom Himmelsthron.\\
+  So eilet, eilet hin,\\
+  es iſt für euch Gewinn,\\
+  zu ſuchen, was verloren,\\
+  iſt er als Menſch geboren.\\[1ex]
+  O glücklich Volk im niedern Stand,\\
+  wenn du entfernt vom Neide\\
+  dein Herz bewahrſt, dieß Gottespfand,\\
+  dir glänzt die erſte Freude.\\[1ex]
+  So ſingt dem Herrn im Jubelton,\\
+  der Friede iſt erſchienen,\\
+  er iſt fürwahr der beſte Lohn\\
+  der Guten, die Gott dienen.\\[1ex]
+  O göttlich Kind, dein Angeſicht\\
+  ſo voll von Huld und Liebe,\\
+  des heilgen Auges Gnadenlicht\\
+  ſei uns zum Tugendtriebe.\\
+  Blick uns dereinſt mit Milde an,\\
+  wenn wir nach dieſem Leben\\
+  vor deinem Richterthrone dann\\
+  zu dir um Gnade flehn.
