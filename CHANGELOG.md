@@ -1,5 +1,19 @@
 # Changelog
 
+## v2024.03.0
+
+### Added
+
+- works: MH 49 and 217
+- realized bass figures and ottoni for MH 482
+- global macro \hA
+
+
+### Fixed
+
+- MH 372 now has the correct catalogue of works number (previously, it was 371).
+
+
 ## v2024.02.0
 
 ### Changed
