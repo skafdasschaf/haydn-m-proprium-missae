@@ -1,0 +1,42 @@
+title: Laudate Dominum
+id: MH 260
+genre: offertorium
+festival: de tempore
+scoring: S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.22452
+    rism: 600116563
+    url: https://data.onb.ac.at/rec/AC14272783
+    license: public domain
+    principal: true
+toe: |
+  33  & vl 2   & 4th \eighthNote\ in \B1: d′8 \\
+  41  & clno 1 & 2nd \eighthNote\ in \B1: d″8 \\
+  46  & clno 2 & 1st \quarterNote\ in \B1: e′4 \\
+  72  & clno 1 & 1st \eighthNote\ in \B1: g′8 \\
+  85  & vl     & 4th \eighthNote\ in \B1: g+e′8 \\
+  88  & vl 1   & 8th \thirtysecondNote\ in \B1: c″32 \\
+  106 & ob 2   & 5th \sixteenthNote\ in \B1: d″16 \\
+  119 & vl 2   & grace note added by editor \\
+  140 & vl 2   & 6th \sixteenthNote\ in \B1: e″16 \\
+  149 & ob 2   & 1st \quarterNote\ in \B1: b′4 \\
+  163 & clno 2 & 1st \quarterNote\ in \B1: c″4 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  org_solo: Organo solo
+lyrics:
+  Laudate Dominum in sanctis eius,\\
+  laudate eum in firmamento virtutis eius.\\
+  Laudate eum in virtutibus eius,\\
+  laudate eum secundum multitudinem magnitudinis eius.\\
+  Laudate eum in sono tubae,\\
+  laudate eum in psalterio et cithara.\\
+  Laudate eum in tympano et choro,\\
+  laudate eum in cordis et organo.\\
+  Laudate eum in cymbalis bene sonantibus,\\
+  laudate eum in cymbalis iubilationis,\\
+  omnis spiritus laudet Dominum.\\
+  (\bibleverse{Ps}(150:))
