@@ -1,5 +1,12 @@
 # Changelog
 
+## v2024.05.0
+
+### Added
+
+- works: MH 260
+
+
 ## v2024.03.0
 
 ### Added
