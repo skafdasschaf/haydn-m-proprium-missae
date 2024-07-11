@@ -1,0 +1,34 @@
+title: Exaltabo te Domine
+id: MH 547
+genre: offertorium
+festival: de omni tempore
+scoring: S (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: 1382
+    rism: 603002663
+    license: public domain
+    principal: true
+toe: |
+  20  & org    & bar in \B1: g8–\quaverRest–\crotchetRest–g4 \\
+  25  & clno 2 & 2nd \quarterNote\ in \B1: \crotchetRest \\
+  110 & vl 2   & grace note added by editor \\*
+  220 & clno 2 & 2nd/3rd \quarterNote\ in \B1: e′4–e′4 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Exaltabo te Domine,\\
+  quoniam suscepisti me,\\
+  nec delectasti inimicos meos super me.\\
+  Domine Deus meus, clamavi ad te, et sanasti me.\\
+  Domine, eduxisti ab inferno animam meam,\\
+  salvasti me a descendentibus in lacum.\\[1ex]
+  Psallite Domino sancti eius,\\
+  et confitemini memoriae sanctitatis eius.\\
+  Quoniam ira in indignatione eius,\\
+  et vita in voluntate eius.\\
+  Ad vesperum demorabitur flectus,\\
+  et ad matutinum laetitia.\\
+  (\bibleverse{Ps}(30/29:2-6))
