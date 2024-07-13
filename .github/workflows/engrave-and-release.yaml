@@ -22,7 +22,7 @@ jobs:
           args: make -B works
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@6.0.0
+        uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr
           path: final/
@@ -45,7 +45,7 @@ jobs:
           args: make -B works_1
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@6.0.0
+        uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr
           path: final/
@@ -68,7 +68,7 @@ jobs:
           args: make -B works_2
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@6.0.0
+        uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr
           path: final/
@@ -91,7 +91,7 @@ jobs:
           args: make -B works_3
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@6.0.0
+        uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr
           path: final/
@@ -114,7 +114,7 @@ jobs:
           args: make -B works_4
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@6.0.0
+        uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -avzr
           path: final/
