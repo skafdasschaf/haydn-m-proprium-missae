@@ -1,5 +1,12 @@
 # Changelog
 
+## v2024.07.0
+
+### Added
+
+- works: MH 547
+
+
 ## v2024.05.0
 
 ### Added
