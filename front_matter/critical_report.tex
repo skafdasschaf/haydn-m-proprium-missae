@@ -1,4 +1,4 @@
-\documentclass[changelog=false,tocdir=\tocdir,tocstyle=none]{ees}
+\documentclass[changelog=false,tocdir=\tocdir]{ees}
 
 \usepackage{mfirstuc}
 \usepackage{multicol}
@@ -8,46 +8,54 @@
 \shortname{Haydn}
 \shorttitle{Proprium missæ}
 
-\providecommand\MetadataToestyle{short}
-
 \ifthenelse{\isundefined{\MetadataFestival}}{%
   \subtitle{%
-    \xmakefirstuc{\MetadataGenre}\\%
-    \MetadataSubtitle%
+    \MetadataSubtitle\\[\baselineskip]%
+    \xmakefirstuc{\MetadataGenre}%
   }%
 }{%
   \subtitle{%
-    \xmakefirstuc{\MetadataGenre}~(\MetadataFestival)\\%
-    \MetadataSubtitle%
+    \MetadataSubtitle\\[\baselineskip]%
+    \xmakefirstuc{\MetadataGenre}~(\MetadataFestival)%
   }%
-}%
+}
+
+\makeatletter
+\providecommand\MetadataTocstyle{none}
+\ifthenelse{\equal{\MetadataTocstyle}{none}}{%
+  \let\ees@tocstyle\ees@tocstyle@none%
+  \renewcommand\newtocentry[6]{%
+    \bookmark[level=#2,dest=score.#6]{#5}%
+  }%
+}{}
+
+\ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}
+
+\providecommand\MetadataCommentary{}
+
+\providecommand\MetadataLyrics{}
+\ifthenelse{\equal{\MetadataLyrics}{\@empty}}{%
+  \def\lyrics{}%
+}{%
+  \def\lyrics{\section{Lyrics}\MetadataLyrics}%
+}
+
+\providecommand\MetadataAcknowledgements{}
+\ifthenelse{\equal{\MetadataAcknowledgements}{\@empty}}{%
+  \def\acknowledgements{}%
+}{%
+  \def\acknowledgements{\section{Acknowledgements}\MetadataAcknowledgements}%
+}
+
+\def\eesCommentaryAfterToe{\MetadataCommentary\lyrics\acknowledgements}%
+\makeatother
 
 
 \begin{document}
 
 \eesTitlePage
 
-\ifthenelse{\isundefined{\MetadataCommentary}}{}{%
-\def\eesCommentaryAfterToe{\MetadataCommentary}%
-}
-
-\makeatletter%
-  \ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
-  \ifthenelse{\equal{\MetadataToestyle}{movement}}%
-    {\let\ees@tocstyle\ees@tocstyle@default}{}%
-\makeatother%
 \eesCriticalReport{\csname MetadataToe\endcsname}
-\makeatletter%
-  \ees@toetrue%
-  \let\ees@tocstyle\ees@tocstyle@none%
-\makeatother
-
-\ifthenelse{\isundefined{\MetadataLyrics}}{}{%
-  \ifPrintFrontMatter%
-    \section{Lyrics}%
-    \MetadataLyrics%
-  \fi%
-}
 
 \eesToc{}
 
