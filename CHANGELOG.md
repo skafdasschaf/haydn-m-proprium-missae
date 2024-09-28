@@ -1,5 +1,24 @@
 # Changelog
 
+## v2024.09.0
+
+### Added
+
+- general preface, containing a short introduction and the changelog
+
+
+### Changed
+
+- build workflow; notably, MIDI files are now provided in separate archives
+
+
+### Fixed
+
+- MH 557: shelfmark
+- MH 496: capitalization in title
+- MH 643: shelfmark
+
+
 ## v2024.07.0
 
 ### Added
